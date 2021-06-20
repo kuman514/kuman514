@@ -40,8 +40,8 @@
 # Toy Projects To Practice
 - [OurBabyKoishi](https://github.com/kuman514/BabyKoishiHTML): `jQuery` Koishi Komeiji Introduction ([Visit](https://kuman514.github.io/BabyKoishiHTML/))
 - [Windows10Calculator](https://github.com/kuman514/CalculatorPage): `VanillaJS` Implementation Of A Standard Calculator In Microsoft Windows 10 ([Visit](https://kuman514.github.io/CalculatorPage/))
-- [AJAXShopping](https://github.com/kuman514/AJAXShopping): `VanillaJS` A Simple Virtual Shopping Page ([Visit](https://kuman514.github.io/AJAXShopping/))
-- [ApexGunShop](https://github.com/kuman514/ApexGunshop): `VanillaJS` A Virtual Purchase Page ([Visit](https://kuman514.github.io/ApexGunshop/))
+- [AJAXShopping](https://github.com/kuman514/AJAXShopping): `VanillaJS` A Simple Virtual Shopping Page Using AJAX ([Visit](https://kuman514.github.io/AJAXShopping/))
+- [ApexGunShop](https://github.com/kuman514/ApexGunshop): `VanillaJS` A Virtual Gun Purchase Page ([Visit](https://kuman514.github.io/ApexGunshop/))
 - [ModalMessage](https://github.com/kuman514/ModalMessage): `VanillaJS` A Text Area Input That Sends The Content To A Modal ([Visit](https://kuman514.github.io/ModalMessage/))
 - [PseudoSignUp](https://github.com/kuman514/PseudoSignUp): `VanillaJS` A Fake Signup Page ([Visit](https://kuman514.github.io/PseudoSignUp/))
 
