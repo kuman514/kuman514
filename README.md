@@ -30,12 +30,12 @@
 
 # Projects In Operation (Receiving Feedbacks And Bug Reports)
 - [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` Single-Page Quick Google Search Filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
-- [PaintJS](https://github.com/kuman514/PaintJS): `VanillaJS` A Simple Draw And Erase Paint App ([Try it](https://kuman514.github.io/PaintJS/))
+- [PaintJS](https://github.com/kuman514/PaintJS): `VanillaJS` `HTML5` A Simple Draw And Erase Paint App ([Try it](https://kuman514.github.io/PaintJS/))
 - [ReactTicTacToe](https://github.com/kuman514/tictactoe-react): `React` `TypeScript` A Simple Tic-Tac-Toe Game ([Try it](https://kuman514.github.io/tictactoe-react/))
-- [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` A Movie Player That Plays Local/YouTube Video And Supports Repeat/Mirror  ([Try it](https://kuman514.github.io/MovieJS/))
+- [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` `HTML5` A Movie Player That Plays Local/YouTube Video And Supports Repeat/Mirror ([Try it](https://kuman514.github.io/MovieJS/))
 
 # Projects Closed
-- [ReactNotepad](https://github.com/kuman514/ReactNotepad): `React.js` A Simple Notepad App That Supports CSV File Backup
+- [ReactNotepad](https://github.com/kuman514/ReactNotepad): `React` A Simple Notepad App That Supports CSV File Backup
 
 # Toy Projects To Practice
 - [OurBabyKoishi](https://github.com/kuman514/BabyKoishiHTML): `jQuery` Koishi Komeiji Introduction ([Visit](https://kuman514.github.io/BabyKoishiHTML/))
