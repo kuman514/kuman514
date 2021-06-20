@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+.icon {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.icon > img {
+  width: 100%;
+  height: 100%;
+}
+
+.icon-hover-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: ease 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon:hover > .icon-hover-overlay {
+  opacity: 0.75;
+}
+
+.feature-icon > .icon-hover-overlay {
+  background-color: red;
+}
+
+.project-icon > .icon-hover-overlay {
+  background-color: blue;
+}
