@@ -102,9 +102,9 @@ function setModalProjectContent(prjName, stacks, desc, repo, rel) {
 }
 
 function showModal() {
-  document.querySelector('.modal').classList.remove('.modal-hidden');
+  document.querySelector('.modal').classList.remove('modal-hidden');
 }
 
 function closeModal() {
-  document.querySelector('.modal').classList.add('.modal-hidden');
+  document.querySelector('.modal').classList.add('modal-hidden');
 }
