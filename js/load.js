@@ -58,8 +58,7 @@ function loadProjects(targetId, csvFileName) {
 
     TODO: Add onclick event as well - COMPLETE
   */
-  console.log(`loading ${csvFileName}`);
-  
+
   const target = document.getElementById(targetId);
   if (target) {
     fetch(`project_data/${csvFileName}`)
@@ -67,7 +66,6 @@ function loadProjects(targetId, csvFileName) {
       .then((data) => {
         const lines = data.split(/\n|\r\n/);
         lines.forEach((item) => {
-          console.log(item);
           const [prjName, stacks, desc, rpsLink, prjLink, imgSrc] = item.split(',');
           const newChild = document.createElement('div');
           newChild.className = 'icon project-icon';
