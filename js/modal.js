@@ -5,6 +5,36 @@ function setModalProjectContent(prjName, stacks, desc, repo, rel) {
   // repo [string]: Project name
   // rel [falsey | string]: Project name
 
+  /*
+    Structure of modal project content
+
+    <h2>Project Name</h2>
+    <div class="stacks">
+      <span>TypeScript</span>
+      <span>JavaScript</span>
+      <span>Koishi</span>
+    </div>
+
+    <h3>Description</h3>
+    <p>
+      Lorem ipsum.
+    </p>
+
+    <h3>Repository</h3>
+    <p>
+      <a href="https://twitter.com/kumankoishi" target="_blank">
+        Repository Link
+      </a>
+    </p>
+
+    <h3>Release</h3>
+    <p>
+      <a href="https://twitter.com/kumankoishi" target="_blank">
+        Try it
+      </a>
+    </p>
+  */
+
   // Initialize
   const target = document.querySelector('.modal-content');
   while (target.firstChild) {
