@@ -2,6 +2,10 @@
   margin: 0;
 }
 
+main {
+  text-align: center;
+}
+
 .icon {
   position: relative;
   display: inline-block;
@@ -35,11 +39,11 @@
 }
 
 .feature-icon > .icon-hover-overlay {
-  background-color: red;
+  background-color: #FFCC77;
 }
 
 .project-icon > .icon-hover-overlay {
-  background-color: blue;
+  background-color: #77CCFF;
 }
 
 .project-icon:hover {
