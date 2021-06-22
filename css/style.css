@@ -6,11 +6,32 @@ main {
   text-align: center;
 }
 
+header {
+  background-color: teal;
+}
+
 .summary {
   text-align: left;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.middle-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: thistle;
+}
+
+.middle-content > article {
+  max-width: 1000px;
+  justify-content: center;
+  align-items: center;
+
+  background-color: tomato;
 }
 
 .icon {
@@ -56,6 +77,10 @@ main {
 
 .project-icon:hover {
   cursor: pointer;
+}
+
+footer {
+  background-color: turquoise;
 }
 
 .modal {
