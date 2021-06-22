@@ -6,12 +6,20 @@ main {
   text-align: center;
 }
 
+.summary {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .icon {
   position: relative;
   display: inline-block;
   width: 150px;
   height: 150px;
   border: none;
+  margin: 2px;
 }
 
 .icon > img {
