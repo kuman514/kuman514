@@ -18,6 +18,14 @@ header {
   background-color: teal;
 }
 
+h1 {
+  font-size: 10vw;
+}
+
+h2 {
+  font-size: 5vw;
+}
+
 .summary {
   text-align: left;
   display: flex;
