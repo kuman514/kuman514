@@ -12,10 +12,8 @@ header, .middle-content, footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-
-header {
-  background-color: teal;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: aliceblue;
 }
 
 h1 {
@@ -33,16 +31,10 @@ h2 {
   align-items: center;
 }
 
-.middle-content {
-  background-color: thistle;
-}
-
 .middle-content > article {
   max-width: 1000px;
   justify-content: center;
   align-items: center;
-
-  background-color: tomato;
 }
 
 .icon {
@@ -52,6 +44,7 @@ h2 {
   height: 150px;
   border: none;
   margin: 2px;
+  color: black;
 }
 
 .icon > img {
@@ -91,7 +84,6 @@ h2 {
 }
 
 footer {
-  background-color: turquoise;
   position: sticky;
   padding: 1rem;
   padding-bottom: calc(1rem + env(safe-area-inset-bottom));
