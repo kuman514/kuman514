@@ -4,7 +4,6 @@
 
 main {
   text-align: center;
-  background-image: url('../backgrounds/samplebg.png');
 }
 
 header, .middle-content, footer {
@@ -15,6 +14,34 @@ header, .middle-content, footer {
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.6);
   color: aliceblue;
+}
+
+#bg-mains {
+  background-color: green;
+}
+
+#bg-training {
+  background-color: greenyellow;
+}
+
+#bg-at-least-once {
+  background-color: gold;
+}
+
+#bg-projects-in-operation {
+  background-color: springgreen;
+}
+
+#bg-projects-closed {
+  background-color: seagreen;
+}
+
+#bg-toy-projects {
+  background-color: darkgreen;
+}
+
+#bg-other-projects {
+  background-color: skyblue;
 }
 
 h1 {
