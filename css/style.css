@@ -16,32 +16,37 @@ header, .middle-content, footer {
   color: aliceblue;
 }
 
+.background-available {
+  background-size: cover;
+  background-position: center;
+}
+
 #bg-mains {
-  background-color: green;
+  background-image: url('../backgrounds/mains.jpg');
 }
 
 #bg-training {
-  background-color: greenyellow;
+  background-image: url('../backgrounds/training.jpg');
 }
 
 #bg-at-least-once {
-  background-color: gold;
+  background-image: url('../backgrounds/at_least_once.jpg');
 }
 
 #bg-projects-in-operation {
-  background-color: springgreen;
+  background-image: url('../backgrounds/projects_in_operation.jpg');
 }
 
 #bg-projects-closed {
-  background-color: seagreen;
+  background-image: url('../backgrounds/projects_closed.jpg');
 }
 
 #bg-toy-projects {
-  background-color: darkgreen;
+  background-image: url('../backgrounds/toy_projects.jpg');
 }
 
 #bg-other-projects {
-  background-color: skyblue;
+  background-image: url('../backgrounds/other_projects.jpg');
 }
 
 h1 {
