@@ -21,31 +21,31 @@ header, .middle-content, footer {
   background-position: center;
 }
 
-#bg-mains {
+#mains {
   background-image: url('../backgrounds/mains.jpg');
 }
 
-#bg-training {
+#training {
   background-image: url('../backgrounds/training.jpg');
 }
 
-#bg-at-least-once {
+#atleastonce {
   background-image: url('../backgrounds/at_least_once.jpg');
 }
 
-#bg-projects-in-operation {
+#projectsinoperation {
   background-image: url('../backgrounds/projects_in_operation.jpg');
 }
 
-#bg-projects-closed {
+#projectsclosed {
   background-image: url('../backgrounds/projects_closed.jpg');
 }
 
-#bg-toy-projects {
+#toyprojects {
   background-image: url('../backgrounds/toy_projects.jpg');
 }
 
-#bg-other-projects {
+#otherprojects {
   background-image: url('../backgrounds/other_projects.jpg');
 }
 
