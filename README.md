@@ -4,7 +4,7 @@
 - Loves and Cares Koishi Komeiji
 
 # Mains
-- `JavaScript ES6`, `VanillaJS`, `React` + `TypeScript`
+- `JavaScript ES6`, `VanillaJS`, `React` + `TypeScript`, `PHP`
 
 # Training
 - At Least One Effective Commit Per Day
