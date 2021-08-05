@@ -19,6 +19,4 @@ document.addEventListener('DOMContentLoaded', () => {
   loadProjects('article-projects-closed', 'projects_closed.csv');
   loadProjects('article-toy-projects', 'toy_projects.csv');
   loadProjects('article-other-projects', 'other_projects.csv');
-
-  loadFeatures('article-contact-me', 'contact.csv');
 });

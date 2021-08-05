@@ -37,6 +37,3 @@
 - [ChatBotOurBabyKoishi](https://github.com/kuman514/ChatBotOurBabyKoishi) `Android` `Kotlin` `Firebase` `DialogFlow`
 - [Seouler2020](https://github.com/usbin/PACMAN) `Android` `Kotlin` `Firebase` `DialogFlow`
 - [TimeTagger](https://github.com/2017-capstone/AndroidProject) `Android` `Java`
-
-# Contact
-- 7iggif@naver.com
