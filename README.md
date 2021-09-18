@@ -30,7 +30,7 @@
 - [ModalMessage](https://github.com/kuman514/ModalMessage): `VanillaJS` A Text Area Input That Sends The Content To A Modal ([Visit](https://kuman514.github.io/ModalMessage/))
 - [PseudoSignUp](https://github.com/kuman514/PseudoSignUp): `VanillaJS` A Fake Signup Page ([Visit](https://kuman514.github.io/PseudoSignUp/))
 - [LoginPracticeReact](https://github.com/kuman514/login-practice-react): `React` `TypeScript` `Firebase` A Project For Appropriate Signup Method ([Visit](https://kuman514.github.io/login-practice-react/,img/LoginPracticeReact.png))
-- [kuman514](https://github.com/kuman514): `VanillaJS` This Profile Page ([Visit](https://solved.ac/profile/kuman514))
+- [kuman514](https://github.com/kuman514): `VanillaJS` This Profile Page ([Visit](https://kuman514.github.io/kuman514))
 - [PseudoMomentumJS](https://github.com/kuman514/PseudoMomentumJS/): `VanillaJS` A Fake Momentum Using localStorage ([Visit](https://kuman514.github.io/PseudoMomentumJS/))
 - [FakeMessengerJS](https://github.com/kuman514/FakeMessengerJS/): `VanillaJS` A Fake Chat App That Makes Fake Users And Fake Chats Using localStorage ([Visit](https://kuman514.github.io/FakeMessengerJS/))
 
