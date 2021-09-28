@@ -4,14 +4,14 @@
 - Loves and Cares Koishi Komeiji
 
 # Mains
-- `JavaScript ES6`, `VanillaJS`, `React` + `TypeScript`, `PHP`
+- `JavaScript ES6`, `VanillaJS`, `React` + `TypeScript`
 
 # Training
 - At Least One Effective Commit Per Day
 - Solving Algorithm Problems at [solved.ac](https://solved.ac/)
 
 # Used At Least Once
-- `C`, `C++`, `Java`, `Python3`, `R`, `Kotlin`, `Unity`, `Android`, `Vue.js (CDN)`, `Node.js`, `jQuery`, `Markdown`, `Firebase (Spark)`, `DialogFlow`
+- `C`, `C++`, `Java`, `Python3`, `R`, `Kotlin`, `Unity`, `Android`, `Vue.js (CDN)`, `Node.js`, `jQuery`, `Markdown`, `Firebase (Spark)`, `DialogFlow`, `PHP`
 
 # Projects In Operation (Receiving Feedbacks And Bug Reports)
 - [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` Single-Page Quick Google Search Filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
