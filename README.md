@@ -1,38 +1,38 @@
-# [kuman514](https://kuman514.github.io/kuman514/)
-- Wanting to be a Web Frontend Developer
+# kuman514
+- Wanting to be a web frontend developer
 - [solved.ac](https://solved.ac/) Class 4+ and Gold I ([Profile](https://solved.ac/profile/kuman514))
-- Loves and Cares Koishi Komeiji
+- Loves and cares Koishi Komeiji
 
 # Mains
 - `JavaScript ES6`, `VanillaJS`, `React` + `TypeScript`
 
 # Training
-- At Least One Effective Commit Per Day
-- Solving Algorithm Problems at [solved.ac](https://solved.ac/)
+- At least one effective commit per day
+- Solving algorithm problems at [solved.ac](https://solved.ac/)
+- [Studying Core Concepts Of JavaScript](https://github.com/kuman514/JavaScriptCores#javascriptcores)
 
 # Used At Least Once
 - `C`, `C++`, `Java`, `Python3`, `R`, `Kotlin`, `Unity`, `Android`, `Vue.js (CDN)`, `Node.js`, `jQuery`, `Markdown`, `Firebase (Spark)`, `DialogFlow`, `PHP`
 
 # Projects In Operation (Receiving Feedbacks And Bug Reports)
-- [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` Single-Page Quick Google Search Filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
-- [PaintJS](https://github.com/kuman514/PaintJS): `VanillaJS` `HTML5` A Simple Draw And Erase Paint App ([Try it](https://kuman514.github.io/PaintJS/))
-- [ReactTicTacToe](https://github.com/kuman514/tictactoe-react): `React` `TypeScript` A Simple Tic-Tac-Toe Game ([Try it](https://kuman514.github.io/tictactoe-react/))
-- [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` `HTML5` A Movie Player That Plays Local/YouTube Video And Supports Repeat/Mirror ([Try it](https://kuman514.github.io/MovieJS/))
+- [ReactTicTacToe](https://github.com/kuman514/tictactoe-react): `React` `TypeScript` A simple Tic-Tac-Toe game ([Try it](https://kuman514.github.io/tictactoe-react/))
+- [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` Single-page quick Google search filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
+- [PaintJS](https://github.com/kuman514/PaintJS): `VanillaJS` `HTML5` A simple draw and erase app ([Try it](https://kuman514.github.io/PaintJS/))
+- [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` `HTML5` A movie player that plays local/YouTube video and supports Repeat/Mirror ([Try it](https://kuman514.github.io/MovieJS/))
 
 # Projects Closed
-- [ReactNotepad](https://github.com/kuman514/ReactNotepad): `React` A Simple Notepad App That Supports CSV File Backup
+- [ReactNotepad](https://github.com/kuman514/ReactNotepad): `React` A simple notepad app that supports CSV file backup
 
 # Toy Projects To Practice
-- [OurBabyKoishi](https://github.com/kuman514/BabyKoishiHTML): `jQuery` Koishi Komeiji Introduction ([Visit](https://kuman514.github.io/BabyKoishiHTML/))
-- [Windows10Calculator](https://github.com/kuman514/CalculatorPage): `VanillaJS` Implementation Of A Standard Calculator In Microsoft Windows 10 ([Visit](https://kuman514.github.io/CalculatorPage/))
-- [AJAXShopping](https://github.com/kuman514/AJAXShopping): `VanillaJS` A Simple Virtual Shopping Page Using AJAX ([Visit](https://kuman514.github.io/AJAXShopping/))
-- [ApexGunShop](https://github.com/kuman514/ApexGunshop): `VanillaJS` A Virtual Gun Purchase Page ([Visit](https://kuman514.github.io/ApexGunshop/))
-- [ModalMessage](https://github.com/kuman514/ModalMessage): `VanillaJS` A Text Area Input That Sends The Content To A Modal ([Visit](https://kuman514.github.io/ModalMessage/))
-- [PseudoSignUp](https://github.com/kuman514/PseudoSignUp): `VanillaJS` A Fake Signup Page ([Visit](https://kuman514.github.io/PseudoSignUp/))
-- [LoginPracticeReact](https://github.com/kuman514/login-practice-react): `React` `TypeScript` `Firebase` A Project For Appropriate Signup Method ([Visit](https://kuman514.github.io/login-practice-react/,img/LoginPracticeReact.png))
-- [kuman514](https://github.com/kuman514): `VanillaJS` This Profile Page ([Visit](https://kuman514.github.io/kuman514))
-- [PseudoMomentumJS](https://github.com/kuman514/PseudoMomentumJS/): `VanillaJS` A Fake Momentum Using localStorage ([Visit](https://kuman514.github.io/PseudoMomentumJS/))
-- [FakeMessengerJS](https://github.com/kuman514/FakeMessengerJS/): `VanillaJS` A Fake Chat App That Makes Fake Users And Fake Chats Using localStorage ([Visit](https://kuman514.github.io/FakeMessengerJS/))
+- [OurBabyKoishi](https://github.com/kuman514/BabyKoishiHTML): `jQuery` Koishi Komeiji introduction ([Visit](https://kuman514.github.io/BabyKoishiHTML/))
+- [Windows10Calculator](https://github.com/kuman514/CalculatorPage): `VanillaJS` Implementation of a standard calculator in Microsoft Windows 10 ([Visit](https://kuman514.github.io/CalculatorPage/))
+- [AJAXShopping](https://github.com/kuman514/AJAXShopping): `VanillaJS` A simple virtual shopping page using AJAX ([Visit](https://kuman514.github.io/AJAXShopping/))
+- [ApexGunShop](https://github.com/kuman514/ApexGunshop): `VanillaJS` A virtual gun purchase page ([Visit](https://kuman514.github.io/ApexGunshop/))
+- [ModalMessage](https://github.com/kuman514/ModalMessage): `VanillaJS` A text area input that sends the content to a modal ([Visit](https://kuman514.github.io/ModalMessage/))
+- [PseudoSignUp](https://github.com/kuman514/PseudoSignUp): `VanillaJS` A fake signup page ([Visit](https://kuman514.github.io/PseudoSignUp/))
+- [LoginPracticeReact](https://github.com/kuman514/login-practice-react): `React` `TypeScript` `Firebase` A project for appropriate signup method ([Visit](https://kuman514.github.io/login-practice-react/))
+- [PseudoMomentumJS](https://github.com/kuman514/PseudoMomentumJS/): `VanillaJS` A fake momentum using localStorage ([Visit](https://kuman514.github.io/PseudoMomentumJS/))
+- [FakeMessengerJS](https://github.com/kuman514/FakeMessengerJS/): `VanillaJS` A fake chat app that makes fake users and fake chats using localStorage ([Visit](https://kuman514.github.io/FakeMessengerJS/))
 
 # Other Projects
 - [CUITetris](https://github.com/kuman514/CUITetris) `C++`
