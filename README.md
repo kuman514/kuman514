@@ -1,6 +1,6 @@
 # kuman514
 - Wanting to be a web frontend developer
-- [solved.ac](https://solved.ac/) Class 1++ ~ 4++ and Gold I ([Profile](https://solved.ac/profile/kuman514))
+- [solved.ac](https://solved.ac/) Class 5 (+ 1++ ~ 4++) and Gold I ([Profile](https://solved.ac/profile/kuman514))
 - Loves and cares Koishi Komeiji
 
 # Mains
