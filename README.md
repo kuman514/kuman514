@@ -4,7 +4,7 @@
 - Loves and cares Koishi Komeiji
 
 # Mains
-- `JavaScript ES6`, `VanillaJS`, `React` + `TypeScript`
+- `JavaScript ES6`, `VanillaJS`, `React` + `TypeScript`, `Vue`
 
 # Training
 - At least one effective commit per day
@@ -12,7 +12,7 @@
 - [Studying Core Concepts Of JavaScript](https://github.com/kuman514/JavaScriptCores#javascriptcores)
 
 # Used At Least Once
-- `C`, `C++`, `Java`, `Python3`, `R`, `Kotlin`, `Unity`, `Android`, `Vue.js (CDN)`, `Node.js`, `jQuery`, `Markdown`, `Firebase (Spark)`, `DialogFlow`, `PHP`
+- `C`, `C++`, `Java`, `Python3`, `R`, `Kotlin`, `Unity`, `Android`, `Node.js`, `jQuery`, `Markdown`, `Firebase (Spark)`, `DialogFlow`, `PHP`
 
 # Projects In Operation (Receiving Feedbacks And Bug Reports)
 - [ReactTicTacToe](https://github.com/kuman514/tictactoe-react): `React` `TypeScript` A simple Tic-Tac-Toe game ([Try it](https://kuman514.github.io/tictactoe-react/))
@@ -35,6 +35,7 @@
 - [PseudoMomentumJS](https://github.com/kuman514/PseudoMomentumJS/): `VanillaJS` A fake momentum using localStorage ([Visit](https://kuman514.github.io/PseudoMomentumJS/))
 - [FakeMessengerJS](https://github.com/kuman514/FakeMessengerJS/): `VanillaJS` A fake chat app that makes fake users and fake chats using localStorage ([Visit](https://kuman514.github.io/FakeMessengerJS/))
 - [WebpackTimer](https://github.com/kuman514/WebpackTimer): `VanillaJS` `Webpack` A simple timer app that supports clock, stopwatch, and countdown ([Visit](https://kuman514.github.io/WebpackTimer/))
+- [VueMyShmupRecords](https://github.com/kuman514/VueMyShmupRecords): `Vue` Containing my shmup records, using hash routing ([Visit](https://kuman514.github.io/VueMyShmupRecords))
 
 # Other Projects
 - [CUITetris](https://github.com/kuman514/CUITetris) `C++`
