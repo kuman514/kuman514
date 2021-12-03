@@ -1,6 +1,6 @@
 # kuman514
 - Wanting to be a web frontend developer
-- [solved.ac](https://solved.ac/) Class 5 (+ 1++ ~ 4++) and Gold I ([Profile](https://solved.ac/profile/kuman514))
+- [solved.ac](https://solved.ac/) Class 5 (+ 1++ ~ 4++) and Platinum V ([Profile](https://solved.ac/profile/kuman514))
 - Loves and cares Koishi Komeiji
 
 # Mains
@@ -36,6 +36,7 @@
 - [FakeMessengerJS](https://github.com/kuman514/FakeMessengerJS/): `VanillaJS` A fake chat app that makes fake users and fake chats using localStorage ([Visit](https://kuman514.github.io/FakeMessengerJS/))
 - [WebpackTimer](https://github.com/kuman514/WebpackTimer): `VanillaJS` `Webpack` A simple timer app that supports clock, stopwatch, and countdown ([Visit](https://kuman514.github.io/WebpackTimer/))
 - [VueMyShmupRecords](https://github.com/kuman514/VueMyShmupRecords): `Vue` Containing my shmup records, using hash routing ([Visit](https://kuman514.github.io/VueMyShmupRecords))
+- [ReduxClock](https://github.com/kuman514/ReduxClock): `React` `Redux` An analog clock using Redux ([Visit](https://kuman514.github.io/ReduxClock/))
 
 # Other Projects
 - [CUITetris](https://github.com/kuman514/CUITetris) `C++`
