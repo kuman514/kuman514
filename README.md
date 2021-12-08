@@ -11,9 +11,6 @@
 - Solving algorithm problems at [solved.ac](https://solved.ac/)
 - [Studying Core Concepts Of JavaScript](https://github.com/kuman514/JavaScriptCores#javascriptcores)
 
-# Used At Least Once
-- `C`, `C++`, `Java`, `Python3`, `R`, `Kotlin`, `Unity`, `Android`, `Node.js`, `jQuery`, `Markdown`, `Firebase (Spark)`, `DialogFlow`, `PHP`
-
 # Projects In Operation (Receiving Feedbacks And Bug Reports)
 - [ReactTicTacToe](https://github.com/kuman514/tictactoe-react): `React` `TypeScript` A simple Tic-Tac-Toe game ([Try it](https://kuman514.github.io/tictactoe-react/))
 - [ReactGomoku](https://github.com/kuman514/ReactGomoku): `React` `TypeScript` A Gomoku-rule gomoku game ([Try it](https://kuman514.github.io/ReactGomoku/))
@@ -37,9 +34,3 @@
 - [WebpackTimer](https://github.com/kuman514/WebpackTimer): `VanillaJS` `Webpack` A simple timer app that supports clock, stopwatch, and countdown ([Visit](https://kuman514.github.io/WebpackTimer/))
 - [VueMyShmupRecords](https://github.com/kuman514/VueMyShmupRecords): `Vue` Containing my shmup records, using hash routing ([Visit](https://kuman514.github.io/VueMyShmupRecords))
 - [ReduxClock](https://github.com/kuman514/ReduxClock): `React` `Redux` An analog clock using Redux ([Visit](https://kuman514.github.io/ReduxClock/))
-
-# Other Projects
-- [CUITetris](https://github.com/kuman514/CUITetris) `C++`
-- [ChatBotOurBabyKoishi](https://github.com/kuman514/ChatBotOurBabyKoishi) `Android` `Kotlin` `Firebase` `DialogFlow`
-- [Seouler2020](https://github.com/usbin/PACMAN) `Android` `Kotlin` `Firebase` `DialogFlow`
-- [TimeTagger](https://github.com/2017-capstone/AndroidProject) `Android` `Java`
