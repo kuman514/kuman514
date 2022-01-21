@@ -1,6 +1,6 @@
 # kuman514
 - Wanting to be a web frontend developer
-- [solved.ac](https://solved.ac/) Class 5 (+ 1++ ~ 4++) and Platinum V ([Profile](https://solved.ac/profile/kuman514))
+- [solved.ac](https://solved.ac/) Class 5 (+ 1++ ~ 4++) and Platinum IV ([Profile](https://solved.ac/profile/kuman514))
 - Loves and cares Koishi Komeiji
 
 # Mains
@@ -36,3 +36,4 @@
 - [ReduxClock](https://github.com/kuman514/ReduxClock): `React` `Redux` An analog clock using Redux ([Visit](https://kuman514.github.io/ReduxClock/))
 - [ReactNativeToDo](https://github.com/kuman514/ReactNativeToDo): `ReactNative` A simple to do list app that supports CRUD ([QR Code](https://expo.dev/@kuman514/ReactNativeToDo))
 - [ReactNativePseudo1on1Chat](https://github.com/kuman514/ReactNativePseudo1on1Chat): `ReactNative` A psuedo 1-on-1 chat app using React Native ([QR Code](https://expo.dev/@kuman514/ReactNativePseudo1on1Chat))
+- [PianoJS](https://github.com/kuman514/PianoJS): `VanillaJS` A simple 17-key piano using VanillaJS ([Visit](https://kuman514.github.io/PianoJS/))
