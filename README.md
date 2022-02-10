@@ -4,7 +4,7 @@
 - Loves and cares Koishi Komeiji
 
 # Mains
-- `JavaScript ES6`, `VanillaJS`, `React` + `TypeScript`, `Vue`
+- Web Frontend Programming: `JavaScript ES6`, `VanillaJS`, `React` + `TypeScript`, `Vue`
 
 # Training
 - At least one effective commit per day
@@ -23,18 +23,22 @@
 - [PaintJS](https://github.com/kuman514/PaintJS): `VanillaJS` `HTML5` A simple draw and erase app
 
 # Toy Projects To Practice
-- [OurBabyKoishi](https://github.com/kuman514/BabyKoishiHTML): `jQuery` Koishi Komeiji introduction ([Visit](https://kuman514.github.io/BabyKoishiHTML/))
-- [Windows10Calculator](https://github.com/kuman514/CalculatorPage): `VanillaJS` Implementation of a standard calculator in Microsoft Windows 10 ([Visit](https://kuman514.github.io/CalculatorPage/))
-- [AJAXShopping](https://github.com/kuman514/AJAXShopping): `VanillaJS` A simple virtual shopping page using AJAX ([Visit](https://kuman514.github.io/AJAXShopping/))
-- [ApexGunShop](https://github.com/kuman514/ApexGunshop): `VanillaJS` A virtual gun purchase page ([Visit](https://kuman514.github.io/ApexGunshop/))
-- [ModalMessage](https://github.com/kuman514/ModalMessage): `VanillaJS` A text area input that sends the content to a modal ([Visit](https://kuman514.github.io/ModalMessage/))
-- [PseudoSignUp](https://github.com/kuman514/PseudoSignUp): `VanillaJS` A fake signup page ([Visit](https://kuman514.github.io/PseudoSignUp/))
-- [LoginPracticeReact](https://github.com/kuman514/login-practice-react): `React` `TypeScript` `Firebase` A project for appropriate signup method ([Visit](https://kuman514.github.io/login-practice-react/))
-- [PseudoMomentumJS](https://github.com/kuman514/PseudoMomentumJS/): `VanillaJS` A fake momentum using localStorage ([Visit](https://kuman514.github.io/PseudoMomentumJS/))
-- [FakeMessengerJS](https://github.com/kuman514/FakeMessengerJS/): `VanillaJS` A fake chat app that makes fake users and fake chats using localStorage ([Visit](https://kuman514.github.io/FakeMessengerJS/))
-- [WebpackTimer](https://github.com/kuman514/WebpackTimer): `VanillaJS` `Webpack` A simple timer app that supports clock, stopwatch, and countdown ([Visit](https://kuman514.github.io/WebpackTimer/))
-- [VueMyShmupRecords](https://github.com/kuman514/VueMyShmupRecords): `Vue` Containing my shmup records, using hash routing ([Visit](https://kuman514.github.io/VueMyShmupRecords))
-- [ReduxClock](https://github.com/kuman514/ReduxClock): `React` `Redux` An analog clock using Redux ([Visit](https://kuman514.github.io/ReduxClock/))
-- [ReactNativeToDo](https://github.com/kuman514/ReactNativeToDo): `ReactNative` A simple to do list app that supports CRUD ([QR Code](https://expo.dev/@kuman514/ReactNativeToDo))
-- [ReactNativePseudo1on1Chat](https://github.com/kuman514/ReactNativePseudo1on1Chat): `ReactNative` A psuedo 1-on-1 chat app using React Native ([QR Code](https://expo.dev/@kuman514/ReactNativePseudo1on1Chat))
-- [PianoJS](https://github.com/kuman514/PianoJS): `VanillaJS` `Webpack` A simple 17-key piano using VanillaJS ([Visit](https://kuman514.github.io/PianoJS/))
+- `VanillaJS`
+  - [Windows10Calculator](https://github.com/kuman514/CalculatorPage): `VanillaJS` Implementation of a standard calculator in Microsoft Windows 10 ([Visit](https://kuman514.github.io/CalculatorPage/))
+  - [AJAXShopping](https://github.com/kuman514/AJAXShopping): `VanillaJS` A simple virtual shopping page using AJAX ([Visit](https://kuman514.github.io/AJAXShopping/))
+  - [ApexGunShop](https://github.com/kuman514/ApexGunshop): `VanillaJS` A virtual gun purchase page ([Visit](https://kuman514.github.io/ApexGunshop/))
+  - [ModalMessage](https://github.com/kuman514/ModalMessage): `VanillaJS` A text area input that sends the content to a modal ([Visit](https://kuman514.github.io/ModalMessage/))
+  - [PseudoSignUp](https://github.com/kuman514/PseudoSignUp): `VanillaJS` A fake signup page ([Visit](https://kuman514.github.io/PseudoSignUp/))
+  - [PseudoMomentumJS](https://github.com/kuman514/PseudoMomentumJS/): `VanillaJS` A fake momentum using localStorage ([Visit](https://kuman514.github.io/PseudoMomentumJS/))
+  - [FakeMessengerJS](https://github.com/kuman514/FakeMessengerJS/): `VanillaJS` A fake chat app that makes fake users and fake chats using localStorage ([Visit](https://kuman514.github.io/FakeMessengerJS/))
+  - [WebpackTimer](https://github.com/kuman514/WebpackTimer): `VanillaJS` `Webpack` A simple timer app that supports clock, stopwatch, and countdown ([Visit](https://kuman514.github.io/WebpackTimer/))
+  - [PianoJS](https://github.com/kuman514/PianoJS): `VanillaJS` `Webpack` A simple 17-key piano using VanillaJS ([Visit](https://kuman514.github.io/PianoJS/))
+- `React` `Vue` `TypeScript` `Redux`
+  - [LoginPracticeReact](https://github.com/kuman514/login-practice-react): `React` `TypeScript` `Firebase` A project for appropriate signup method ([Visit](https://kuman514.github.io/login-practice-react/))
+  - [VueMyShmupRecords](https://github.com/kuman514/VueMyShmupRecords): `Vue` Containing my shmup records, using hash routing ([Visit](https://kuman514.github.io/VueMyShmupRecords))
+  - [ReduxClock](https://github.com/kuman514/ReduxClock): `React` `Redux` An analog clock using Redux ([Visit](https://kuman514.github.io/ReduxClock/))
+- `React Native`
+  - [ReactNativeToDo](https://github.com/kuman514/ReactNativeToDo): `ReactNative` A simple to do list app that supports CRUD ([QR Code](https://expo.dev/@kuman514/ReactNativeToDo))
+  - [ReactNativePseudo1on1Chat](https://github.com/kuman514/ReactNativePseudo1on1Chat): `ReactNative` A psuedo 1-on-1 chat app using React Native ([QR Code](https://expo.dev/@kuman514/ReactNativePseudo1on1Chat))
+- `Others`
+  - [OurBabyKoishi](https://github.com/kuman514/BabyKoishiHTML): `jQuery` Koishi Komeiji introduction ([Visit](https://kuman514.github.io/BabyKoishiHTML/))
