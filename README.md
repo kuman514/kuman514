@@ -16,6 +16,7 @@
 - [ReactGomoku](https://github.com/kuman514/ReactGomoku): `React` `TypeScript` A Gomoku-rule gomoku game ([Try it](https://kuman514.github.io/ReactGomoku/))
 - [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` Single-page quick Google search filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
 - [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` `HTML5` A movie player that plays local/YouTube video and supports Repeat/Mirror ([Try it](https://kuman514.github.io/MovieJS/))
+- [ReactWordle](https://github.com/kuman514/ReactWordle): `React` A Wordle game implemented on my own ([Visit](https://kuman514.github.io/ReactWordle/))
 
 # Projects Closed
 - [ReactNotepad](https://github.com/kuman514/ReactNotepad): `React` A simple notepad app that supports CSV file backup
@@ -37,4 +38,3 @@
 - [ReactNativeToDo](https://github.com/kuman514/ReactNativeToDo): `ReactNative` A simple to do list app that supports CRUD ([QR Code](https://expo.dev/@kuman514/ReactNativeToDo))
 - [ReactNativePseudo1on1Chat](https://github.com/kuman514/ReactNativePseudo1on1Chat): `ReactNative` A psuedo 1-on-1 chat app using React Native ([QR Code](https://expo.dev/@kuman514/ReactNativePseudo1on1Chat))
 - [PianoJS](https://github.com/kuman514/PianoJS): `VanillaJS` `Webpack` A simple 17-key piano using VanillaJS ([Visit](https://kuman514.github.io/PianoJS/))
-- [ReactWordle](https://github.com/kuman514/ReactWordle): `React` A Wordle game implemented on my own ([Visit](https://kuman514.github.io/ReactWordle/))
