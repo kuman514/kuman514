@@ -3,8 +3,15 @@
 - [solved.ac](https://solved.ac/) Class 5+ (+ 1++ ~ 4++) and Platinum IV ([Profile](https://solved.ac/profile/kuman514))
 - Loves and cares Koishi Komeiji
 
-# Mains
-- Web Frontend Programming: `JavaScript ES6`, `VanillaJS`, `React` + `TypeScript`, `Vue`
+# Introduction
+- 안녕하세요. 웹프론트엔드 개발자를 꿈꾸고 있는 kuman514라고 합니다.
+`JavaScript`와 웹프론트엔드 프로그래밍, 특히 `VanillaJS`, `React`를 주로 공부하고 있으며, 최근 `TypeScript`와 `Vue.js`도 공부하기 시작했습니다.
+`가독성이 높고 유지보수하기 좋은 코드`를 작성하는 개발자가 되고 싶습니다.
+`목적과 쓰임새를 한 번에 알아보기 쉬운 변수명` 작성, `코드 중복 최소화` 등등에 신경을 쓰고 있습니다.
+- Hello, this is kuman514 wanting to be a web frontend developer.
+I'm practicing `JavaScript` and Web Frontend Programming, especially `VanillaJS` and `React`, recently `TypeScript` and `Vue` as well.
+I want to be a developer who writes `codes that are highly readable and good for maintenance`.
+I pay attention to creating `variable names that are easy to recognize at once` and `minimizing code duplication`.
 
 # Training
 - At least one effective commit per day
@@ -16,7 +23,7 @@
 - [ReactGomoku](https://github.com/kuman514/ReactGomoku): `React` `TypeScript` A Gomoku-rule gomoku game ([Try it](https://kuman514.github.io/ReactGomoku/))
 - [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` Single-page quick Google search filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
 - [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` `HTML5` A movie player that plays local/YouTube video and supports Repeat/Mirror ([Try it](https://kuman514.github.io/MovieJS/))
-- [ReactWordle](https://github.com/kuman514/ReactWordle): `React` A Wordle game implemented on my own ([Visit](https://kuman514.github.io/ReactWordle/))
+- [ReactWordle](https://github.com/kuman514/ReactWordle): `React` A Wordle game implemented on my own ([Try it](https://kuman514.github.io/ReactWordle/))
 
 # Projects Closed
 - [ReactNotepad](https://github.com/kuman514/ReactNotepad): `React` A simple notepad app that supports CSV file backup
