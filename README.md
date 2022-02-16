@@ -22,12 +22,12 @@ I pay attention to creating `variable names that are easy to recognize at once` 
 - [ReactTicTacToe](https://github.com/kuman514/tictactoe-react): `React` `TypeScript` A simple Tic-Tac-Toe game ([Try it](https://kuman514.github.io/tictactoe-react/))
 - [ReactGomoku](https://github.com/kuman514/ReactGomoku): `React` `TypeScript` A Gomoku-rule gomoku game ([Try it](https://kuman514.github.io/ReactGomoku/))
 - [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` Single-page quick Google search filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
-- [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` `HTML5` A movie player that plays local/YouTube video and supports Repeat/Mirror ([Try it](https://kuman514.github.io/MovieJS/))
 - [ReactWordle](https://github.com/kuman514/ReactWordle): `React` A Wordle game implemented on my own ([Try it](https://kuman514.github.io/ReactWordle/))
 
 # Projects Closed
 - [ReactNotepad](https://github.com/kuman514/ReactNotepad): `React` A simple notepad app that supports CSV file backup
 - [PaintJS](https://github.com/kuman514/PaintJS): `VanillaJS` `HTML5` A simple draw and erase app
+- [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` `HTML5` A movie player that plays local/YouTube video and supports Repeat/Mirror ([Try it](https://kuman514.github.io/MovieJS/))
 
 # Toy Projects To Practice
 - `VanillaJS`
