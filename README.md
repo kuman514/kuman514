@@ -27,7 +27,7 @@ I pay attention to creating `variable names that are easy to recognize at once` 
 # Projects Closed
 - [ReactNotepad](https://github.com/kuman514/ReactNotepad): `React` A simple notepad app that supports CSV file backup
 - [PaintJS](https://github.com/kuman514/PaintJS): `VanillaJS` `HTML5` A simple draw and erase app
-- [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` `HTML5` A movie player that plays local/YouTube video and supports Repeat/Mirror ([Try it](https://kuman514.github.io/MovieJS/))
+- [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` `HTML5` A movie player that plays local/YouTube video and supports Repeat/Mirror
 
 # Toy Projects To Practice
 - `VanillaJS`
