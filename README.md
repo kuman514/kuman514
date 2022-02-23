@@ -20,9 +20,9 @@ I pay attention to creating `variable names that are easy to recognize at once` 
 
 # Projects In Operation (Receiving Feedbacks And Bug Reports)
 - [ReactTicTacToe](https://github.com/kuman514/tictactoe-react): `React` `TypeScript` A simple Tic-Tac-Toe game ([Try it](https://kuman514.github.io/tictactoe-react/))
-- [ReactGomoku](https://github.com/kuman514/ReactGomoku): `React` `TypeScript` A Gomoku-rule gomoku game ([Try it](https://kuman514.github.io/ReactGomoku/))
-- [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` Single-page quick Google search filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
-- [ReactWordle](https://github.com/kuman514/ReactWordle): `React` A Wordle game implemented on my own ([Try it](https://kuman514.github.io/ReactWordle/))
+- [ReactGomoku](https://github.com/kuman514/ReactGomoku): `React` `TypeScript` `Redux` A Gomoku-rule gomoku game ([Try it](https://kuman514.github.io/ReactGomoku/))
+- [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` `Redux` Single-page quick Google search filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
+- [ReactWordle](https://github.com/kuman514/ReactWordle): `React` `Redux` A Wordle game implemented on my own ([Try it](https://kuman514.github.io/ReactWordle/))
 
 # Projects Closed
 - [ReactNotepad](https://github.com/kuman514/ReactNotepad): `React` A simple notepad app that supports CSV file backup
