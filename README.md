@@ -1,6 +1,6 @@
 # kuman514
 - Wanting to be a web frontend developer
-- [solved.ac](https://solved.ac/) Class 5+ (+ 1++ ~ 4++) and Platinum IV ([Profile](https://solved.ac/profile/kuman514))
+- [solved.ac](https://solved.ac/) Class 5+ (+ 1++ ~ 4++) and Platinum III ([Profile](https://solved.ac/profile/kuman514))
 - Loves and cares Koishi Komeiji
 
 # Introduction
@@ -40,6 +40,7 @@ I pay attention to creating `variable names that are easy to recognize at once` 
   - [FakeMessengerJS](https://github.com/kuman514/FakeMessengerJS/): `VanillaJS` A fake chat app that makes fake users and fake chats using localStorage ([Visit](https://kuman514.github.io/FakeMessengerJS/))
   - [WebpackTimer](https://github.com/kuman514/WebpackTimer): `VanillaJS` `Webpack` A simple timer app that supports clock, stopwatch, and countdown ([Visit](https://kuman514.github.io/WebpackTimer/))
   - [PianoJS](https://github.com/kuman514/PianoJS): `VanillaJS` `Webpack` A simple 17-key piano using VanillaJS ([Visit](https://kuman514.github.io/PianoJS/))
+  - [MobileKeyboardJS](https://github.com/kuman514/MobileKeyboardJS): `VanillaJS` `Webpack` Simulated mobile keyboard in VanillaJS ([Visit](https://kuman514.github.io/MobileKeyboardJS/))
 - `React` `Vue` `TypeScript` `Redux`
   - [LoginPracticeReact](https://github.com/kuman514/login-practice-react): `React` `TypeScript` `Firebase` A project for appropriate signup method ([Visit](https://kuman514.github.io/login-practice-react/))
   - [VueMyShmupRecords](https://github.com/kuman514/VueMyShmupRecords): `Vue` Containing my shmup records, using hash routing ([Visit](https://kuman514.github.io/VueMyShmupRecords))
