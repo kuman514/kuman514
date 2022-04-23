@@ -23,6 +23,7 @@ I pay attention to creating `variable names that are easy to recognize at once` 
 - [ReactGomoku](https://github.com/kuman514/ReactGomoku): `React` `TypeScript` `Redux` A Gomoku-rule gomoku game ([Try it](https://kuman514.github.io/ReactGomoku/))
 - [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` `Redux` Single-page quick Google search filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
 - [ReactWordle](https://github.com/kuman514/ReactWordle): `React` `Redux` A Wordle game implemented on my own ([Try it](https://kuman514.github.io/ReactWordle/))
+- [SvelteSudoku](https://github.com/kuman514/SvelteSudoku): `Svelte` A simple 9*9 Sudoku app ([Visit](https://kuman514.github.io/SvelteSudoku/))
 
 # Projects Closed
 - [ReactNotepad](https://github.com/kuman514/ReactNotepad): `React` A simple notepad app that supports CSV file backup
@@ -41,10 +42,11 @@ I pay attention to creating `variable names that are easy to recognize at once` 
   - [WebpackTimer](https://github.com/kuman514/WebpackTimer): `VanillaJS` `Webpack` A simple timer app that supports clock, stopwatch, and countdown ([Visit](https://kuman514.github.io/WebpackTimer/))
   - [PianoJS](https://github.com/kuman514/PianoJS): `VanillaJS` `Webpack` A simple 17-key piano using VanillaJS ([Visit](https://kuman514.github.io/PianoJS/))
   - [MobileKeyboardJS](https://github.com/kuman514/MobileKeyboardJS): `VanillaJS` `Webpack` Simulated mobile keyboard in VanillaJS ([Visit](https://kuman514.github.io/MobileKeyboardJS/))
-- `React` `Vue` `TypeScript` `Redux`
+- `React` `Vue` `TypeScript` `Redux` `Svelte`
   - [LoginPracticeReact](https://github.com/kuman514/login-practice-react): `React` `TypeScript` `Firebase` A project for appropriate signup method ([Visit](https://kuman514.github.io/login-practice-react/))
   - [VueMyShmupRecords](https://github.com/kuman514/VueMyShmupRecords): `Vue` Containing my shmup records, using hash routing ([Visit](https://kuman514.github.io/VueMyShmupRecords))
   - [ReduxClock](https://github.com/kuman514/ReduxClock): `React` `Redux` An analog clock using Redux ([Visit](https://kuman514.github.io/ReduxClock/))
+  - [SvelteTodo](https://github.com/kuman514/SvelteTodo): `Svelte` A simple to do list app that supports CRUD ([Visit](https://kuman514.github.io/SvelteTodo/))
 - `React Native`
   - [ReactNativeToDo](https://github.com/kuman514/ReactNativeToDo): `ReactNative` A simple to do list app that supports CRUD ([QR Code](https://expo.dev/@kuman514/ReactNativeToDo))
   - [ReactNativePseudo1on1Chat](https://github.com/kuman514/ReactNativePseudo1on1Chat): `ReactNative` A psuedo 1-on-1 chat app using React Native ([QR Code](https://expo.dev/@kuman514/ReactNativePseudo1on1Chat))
