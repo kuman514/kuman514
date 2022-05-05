@@ -4,14 +4,10 @@
 - Loves and cares Koishi Komeiji
 
 # Introduction
-- 안녕하세요. 웹프론트엔드 개발자를 꿈꾸고 있는 kuman514라고 합니다.
-`JavaScript`와 웹프론트엔드 프로그래밍, 특히 `VanillaJS`, `React`를 주로 공부하고 있으며, 최근 `TypeScript`와 `Vue.js`도 공부하기 시작했습니다.
-`가독성이 높고 유지보수하기 좋은 코드`를 작성하는 개발자가 되고 싶습니다.
-`목적과 쓰임새를 한 번에 알아보기 쉬운 변수명` 작성, `코드 중복 최소화` 등등에 신경을 쓰고 있습니다.
-- Hello, this is kuman514 wanting to be a web frontend developer.
-I'm practicing `JavaScript` and Web Frontend Programming, especially `VanillaJS` and `React`, recently `TypeScript` and `Vue` as well.
-I want to be a developer who writes `codes that are highly readable and good for maintenance`.
-I pay attention to creating `variable names that are easy to recognize at once` and `minimizing code duplication`.
+- 안녕하십니까. 웹프론트엔드 개발자를 꿈꾸고 있는 kuman514라고 합니다. 저는 목표를 세우고 성취하기 위해 노력하는 사람입니다.
+- 현재 VanillaJS, React, TypeScript를 비롯한 웹프론트엔드를 배우고 있습니다. 이에 그치지 않고, 리액트 오목같은 웹 앱을 직접 만들기도 하였습니다. 많은 어려움이 있었지만, 수많은 시행착오 끝에 웹 앱 개발을 무사히 완수할 수 있었습니다.
+- 또한, 2021년부터 프로그래머스에서 주최하는 웹프론트엔드 챌린지에도 참여하고 있습니다. 이를 통해, 요구사항을 정확하게 파악하고 구현하는 능력뿐만 아니라, 이를 효율적으로 처리하기 위해 컴포넌트 템플릿을 직접 만들어 활용하는 능력까지 키울 수 있었습니다.
+- 이러한 경험을 바탕으로, 항상 도전하는 자세로 안정성과 사용성에 기여하는 웹프론트엔드 개발자가 되겠습니다. 감사합니다.
 
 # Training
 - At least one effective commit per day
