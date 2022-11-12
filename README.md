@@ -1,10 +1,10 @@
 # kuman514
-- Wanting to be a web frontend developer
+- A web frontend developer
 - [solved.ac](https://solved.ac/) Class 5++ (1++ ~ 5++) and Platinum III ([Profile](https://solved.ac/profile/kuman514))
 - Loves and cares Koishi Komeiji
 
 # Introduction
-- 안녕하십니까. 웹프론트엔드 개발자를 꿈꾸고 있는 kuman514라고 합니다. 저는 목표를 세우고 성취하기 위해 노력하는 사람입니다.
+- 안녕하십니까. 웹프론트엔드 개발자가 되어 배워나가는 kuman514라고 합니다. 저는 목표를 세우고 성취하기 위해 노력하는 사람입니다.
 - 현재 VanillaJS, React, TypeScript를 비롯한 웹프론트엔드를 배우고 있습니다. 이에 그치지 않고, 리액트 오목같은 웹 앱을 직접 만들기도 하였습니다. 많은 어려움이 있었지만, 수많은 시행착오 끝에 웹 앱 개발을 무사히 완수할 수 있었습니다.
 - 또한, 2021년부터 프로그래머스에서 주최하는 웹프론트엔드 챌린지에도 참여하고 있습니다. 이를 통해, 요구사항을 정확하게 파악하고 구현하는 능력뿐만 아니라, 이를 효율적으로 처리하기 위해 컴포넌트 템플릿을 직접 만들어 활용하는 능력까지 키울 수 있었습니다.
 - 이러한 경험을 바탕으로, 항상 도전하는 자세로 안정성과 사용성에 기여하는 웹프론트엔드 개발자가 되겠습니다. 감사합니다.
@@ -16,7 +16,7 @@
 
 # Projects In Operation (Receiving Feedbacks And Bug Reports)
 - [ReactTicTacToe](https://github.com/kuman514/tictactoe-react): `React` `TypeScript` A simple Tic-Tac-Toe game ([Try it](https://kuman514.github.io/tictactoe-react/))
-- [ReactGomoku](https://github.com/kuman514/ReactGomoku): `React` `TypeScript` `Redux` A Gomoku-rule gomoku game ([Try it](https://kuman514.github.io/ReactGomoku/))
+- [ReactGomoku](https://github.com/kuman514/ReactGomoku): `React` `TypeScript` `Redux` `Vercel` A Gomoku-rule gomoku game ([Try it](https://react-gomoku-kuman514.vercel.app/))
 - [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` `Redux` Single-page quick Google search filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
 - [ReactWordle](https://github.com/kuman514/ReactWordle): `React` `Redux` A Wordle game implemented on my own ([Try it](https://kuman514.github.io/ReactWordle/))
 - [SvelteSudoku](https://github.com/kuman514/SvelteSudoku): `Svelte` A simple 9*9 Sudoku app ([Visit](https://kuman514.github.io/SvelteSudoku/))
