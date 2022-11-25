@@ -26,7 +26,9 @@
 - [PaintJS](https://github.com/kuman514/PaintJS): `VanillaJS` `HTML5` A simple draw and erase app
 - [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` `HTML5` A movie player that plays local/YouTube video and supports Repeat/Mirror
 
-# Toy Projects To Practice
+<details>
+<summary><h1>Toy Projects To Practice</h1></summary>
+
 - `VanillaJS`
   - [Windows10Calculator](https://github.com/kuman514/CalculatorPage): `VanillaJS` Implementation of a standard calculator in Microsoft Windows 10 ([Visit](https://kuman514.github.io/CalculatorPage/))
   - [AJAXShopping](https://github.com/kuman514/AJAXShopping): `VanillaJS` A simple virtual shopping page using AJAX ([Visit](https://kuman514.github.io/AJAXShopping/))
@@ -48,3 +50,4 @@
   - [ReactNativePseudo1on1Chat](https://github.com/kuman514/ReactNativePseudo1on1Chat): `ReactNative` A psuedo 1-on-1 chat app using React Native ([QR Code](https://expo.dev/@kuman514/ReactNativePseudo1on1Chat))
 - `Others`
   - [OurBabyKoishi](https://github.com/kuman514/BabyKoishiHTML): `jQuery` Koishi Komeiji introduction ([Visit](https://kuman514.github.io/BabyKoishiHTML/))
+</details>
