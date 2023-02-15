@@ -1,6 +1,5 @@
 # kuman514
 - A web frontend developer
-- [solved.ac](https://solved.ac/) Class 5++ (1++ ~ 5++) and Platinum III ([Profile](https://solved.ac/profile/kuman514))
 - Loves and cares Koishi Komeiji
 
 # Introduction
@@ -9,12 +8,8 @@
 - 또한, 2021년부터 프로그래머스에서 주최하는 웹프론트엔드 챌린지에도 참여하고 있습니다. 이를 통해, 요구사항을 정확하게 파악하고 구현하는 능력뿐만 아니라, 이를 효율적으로 처리하기 위해 컴포넌트 템플릿을 직접 만들어 활용하는 능력까지 키울 수 있었습니다.
 - 이러한 경험을 바탕으로, 항상 도전하는 자세로 안정성과 사용성에 기여하는 웹프론트엔드 개발자가 되겠습니다. 감사합니다.
 
-# Training
-- At least one effective commit per day
-- Solving algorithm problems at [solved.ac](https://solved.ac/)
-- [Studying Core Concepts Of JavaScript](https://github.com/kuman514/JavaScriptCores#javascriptcores)
-
 # Projects In Operation (Receiving Feedbacks And Bug Reports)
+- [ViteReversi](https://github.com/kuman514/ViteReversi): `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` A local Reversi game ([Try it](https://vite-reversi.vercel.app/))
 - [ReactTicTacToe](https://github.com/kuman514/tictactoe-react): `React` `TypeScript` A simple Tic-Tac-Toe game ([Try it](https://kuman514.github.io/tictactoe-react/))
 - [ReactGomoku](https://github.com/kuman514/ReactGomoku): `React` `TypeScript` `Redux` `Vercel` A Gomoku-rule gomoku game ([Try it](https://react-gomoku-kuman514.vercel.app/))
 - [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` `Redux` Single-page quick Google search filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
