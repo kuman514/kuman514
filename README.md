@@ -6,9 +6,6 @@
 - [ReactGomoku](https://github.com/kuman514/ReactGomoku): `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel` A Gomoku-rule gomoku game ([Try it](https://react-gomoku-kuman514.vercel.app/))
 - [ViteReversi](https://github.com/kuman514/ViteReversi): `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel` `ChakraUI` A local Reversi game ([Try it](https://vite-reversi.vercel.app/))
 - [ReactWordle](https://github.com/kuman514/ReactWordle): `React` `Redux` A Wordle game implemented on my own ([Try it](https://kuman514.github.io/ReactWordle/))
-- [ReactTicTacToe](https://github.com/kuman514/tictactoe-react): `React` `TypeScript` A simple Tic-Tac-Toe game ([Try it](https://kuman514.github.io/tictactoe-react/))
-- [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` `Redux` Single-page quick Google search filter ([Try it](https://kuman514.github.io/ReactGoogleFilter/))
-- [SvelteSudoku](https://github.com/kuman514/SvelteSudoku): `Svelte` A simple 9*9 Sudoku app ([Visit](https://kuman514.github.io/SvelteSudoku/))
 
 <details>
 <summary><h1>Projects Closed</h1></summary>
@@ -16,6 +13,9 @@
 - [ReactNotepad](https://github.com/kuman514/ReactNotepad): `React` A simple notepad app that supports CSV file backup
 - [PaintJS](https://github.com/kuman514/PaintJS): `VanillaJS` `HTML5` A simple draw and erase app
 - [MovieJS](https://github.com/kuman514/MovieJS): `VanillaJS` `HTML5` A movie player that plays local/YouTube video and supports Repeat/Mirror
+- [ReactTicTacToe](https://github.com/kuman514/tictactoe-react): `React` `TypeScript` A simple Tic-Tac-Toe game
+- [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter): `React` `TypeScript` `Firebase` `Redux` Single-page quick Google search filter
+- [SvelteSudoku](https://github.com/kuman514/SvelteSudoku): `Svelte` A simple 9*9 Sudoku app
 </details>
 
 <details>
