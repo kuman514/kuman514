@@ -3,6 +3,9 @@
 - Loves and cares Koishi Komeiji
 
 # Projects In Operation (Receiving Feedbacks And Bug Reports)
+- [ViteMinesweeper](https://github.com/kuman514/ViteMinesweeper)
+  - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel` `ChakraUI`
+  - A Minesweeper game implemented on my own ([Try it](https://vite-minesweeper.vercel.app/))
 - [ReactGomoku](https://github.com/kuman514/ReactGomoku)
   - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel`
   - A Gomoku-rule gomoku game ([Try it](https://react-gomoku-kuman514.vercel.app/))
@@ -11,7 +14,7 @@
   - A local 2-player Reversi game ([Try it](https://vite-reversi.vercel.app/))
 - [ReactWordle](https://github.com/kuman514/ReactWordle)
   - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel` `Axios`
-  - A Wordle game implemented on my own ([Try it](https://kuman514.github.io/ReactWordle/))
+  - A Wordle game implemented on my own ([Try it](https://react-wordle-kuman514.vercel.app/))
 
 <details>
 <summary><h1>Projects Closed</h1></summary>
