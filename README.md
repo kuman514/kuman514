@@ -1,66 +1,42 @@
 # kuman514
-- A web frontend developer
-- Loves and cares Koishi Komeiji
+- 안녕하세요. 프론트엔드 개발자로 활동하고 있는 kuman514라고 합니다.
+- 저는 React와 TypeScript를 가장 주력으로 다루고 있으며, 이를 기반으로 드론 데이터 기반 건설 현장 관리 B2B 플랫폼의 고객인 건설 현장 종사자들이 겪고 있는 문제의 해결을 위해 각종 기능을 구현하고 유지보수 및 개선까지 진행해왔습니다.
+- 가장 대표적으로, 지도상 위치를 기반으로 하는 작업 지시 기능을 구현하여 작업 지시자가 80% 더 정확한 위치에서의 작업을 지시할 수 있게 만들었으며, 이에 그치지 않고 실시간 알림 기능도 구현하여 현장 작업자가 20% 더 신속하게 작업을 수행할 수 있도록 만들었으며, 더 나아가 지시된 작업에 사진 ∙ 비디오를 첨부하는 기능을 추가하여 작업 지시자와 현장 작업자 간 소통을 1단계 더 효율적으로 만들었습니다.
+- 이러한 경험을 바탕으로, 항상 도전하는 자세로 고객이 겪고 있는 문제를 해결하며 높은 사용성에 기여하는 프론트엔드 개발자가 되겠습니다. 감사합니다.
 
-# Projects In Operation (Receiving Feedbacks And Bug Reports)
+# 대표 배포 프로젝트
 - [ViteMinesweeper](https://github.com/kuman514/ViteMinesweeper)
   - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel` `ChakraUI`
-  - A Minesweeper game implemented on my own ([Try it](https://vite-minesweeper.vercel.app/))
-- [ReactGomoku](https://github.com/kuman514/ReactGomoku)
-  - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel`
-  - A Gomoku-rule gomoku game ([Try it](https://react-gomoku-kuman514.vercel.app/))
-- [ViteReversi](https://github.com/kuman514/ViteReversi)
-  - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel` `ChakraUI`
-  - A local 2-player Reversi game ([Try it](https://vite-reversi.vercel.app/))
+  - React와 너비 우선 탐색 알고리즘을 활용하여 만든 Microsoft Minesweeper 스타일 지뢰찾기. ([플레이하기](https://vite-minesweeper.vercel.app/))
+  - 프로젝트 세팅, 최소 구현 조건 설정, 기능 구현, 테스트, 배포, 문서 및 업데이트 로그 작성, 유지보수를 담당.
+  - 번들러로 Vite를, 패키지 매니저로 Yarn Berry를 사용하여 직접 프로젝트 세팅.
+  - 상태 관리 라이브러리로 Zustand를 사용하여 각종 기능 구현.
+    - 지뢰찾기 게임: 클릭 후 빈 타일(8방향 주변의 지뢰의 개수가 0인 타일) 탐색에 BFS 알고리즘 사용
+    - BFS 알고리즘에 쓰인 큐를 개선함
+      - `Array.prototype.shift()` 방식의 큐에서 링크드 리스트 기반으로 직접 구현한 큐로 변경
+      - 큐의 `pop` 시간 복잡도를 `O(n)`에서 `O(1)`로 개선
+    - 보드 규격 설정: 너비, 높이, 지뢰 개수에 하한선과 상한선을 두어 Invalid한 설정을 방지함.
+    - 그 외: 리셋 기능, `persist`로 앱 페이지 재방문 이후에도 이어하기 등등.
+  - Vitest를 사용하여 스토어 테스트.
+  - Prettier를 설치 및 설정하여, 일관된 코드 스타일링 시스템 구축.
 - [ReactWordle](https://github.com/kuman514/ReactWordle)
   - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel` `Axios`
-  - A Wordle game implemented on my own ([Try it](https://react-wordle-kuman514.vercel.app/))
-
-<details>
-<summary><h1>Projects Closed</h1></summary>
-
-- [ReactNotepad](https://github.com/kuman514/ReactNotepad)
-  - `React`
-  - A simple notepad app that supports CSV file backup
-- [PaintJS](https://github.com/kuman514/PaintJS)
-  - `VanillaJS` `HTML5`
-  - A simple draw and erase app
-- [MovieJS](https://github.com/kuman514/MovieJS)
-  - `VanillaJS` `HTML5`
-  - A movie player that plays local/YouTube video and supports Repeat/Mirror
-- [ReactTicTacToe](https://github.com/kuman514/tictactoe-react)
-  - `React` `TypeScript`
-  - A simple Tic-Tac-Toe game
-- [ReactGoogleFilter](https://github.com/kuman514/ReactGoogleFilter)
-  - `React` `TypeScript` `Firebase` `Redux`
-  - Single-page quick Google search filter
-- [SvelteSudoku](https://github.com/kuman514/SvelteSudoku)
-  - `Svelte`
-  - A simple 9*9 Sudoku app
-</details>
-
-<details>
-<summary><h1>Toy Projects To Practice</h1></summary>
-
-- `VanillaJS`
-  - [Windows10Calculator](https://github.com/kuman514/CalculatorPage): `VanillaJS` Implementation of a standard calculator in Microsoft Windows 10 ([Visit](https://kuman514.github.io/CalculatorPage/))
-  - [AJAXShopping](https://github.com/kuman514/AJAXShopping): `VanillaJS` A simple virtual shopping page using AJAX ([Visit](https://kuman514.github.io/AJAXShopping/))
-  - [ApexGunShop](https://github.com/kuman514/ApexGunshop): `VanillaJS` A virtual gun purchase page ([Visit](https://kuman514.github.io/ApexGunshop/))
-  - [ModalMessage](https://github.com/kuman514/ModalMessage): `VanillaJS` A text area input that sends the content to a modal ([Visit](https://kuman514.github.io/ModalMessage/))
-  - [PseudoSignUp](https://github.com/kuman514/PseudoSignUp): `VanillaJS` A fake signup page ([Visit](https://kuman514.github.io/PseudoSignUp/))
-  - [PseudoMomentumJS](https://github.com/kuman514/PseudoMomentumJS/): `VanillaJS` A fake momentum using localStorage ([Visit](https://kuman514.github.io/PseudoMomentumJS/))
-  - [FakeMessengerJS](https://github.com/kuman514/FakeMessengerJS/): `VanillaJS` A fake chat app that makes fake users and fake chats using localStorage ([Visit](https://kuman514.github.io/FakeMessengerJS/))
-  - [WebpackTimer](https://github.com/kuman514/WebpackTimer): `VanillaJS` `Webpack` A simple timer app that supports clock, stopwatch, and countdown ([Visit](https://kuman514.github.io/WebpackTimer/))
-  - [PianoJS](https://github.com/kuman514/PianoJS): `VanillaJS` `Webpack` A simple 17-key piano using VanillaJS ([Visit](https://kuman514.github.io/PianoJS/))
-  - [MobileKeyboardJS](https://github.com/kuman514/MobileKeyboardJS): `VanillaJS` `Webpack` Simulated mobile keyboard in VanillaJS ([Visit](https://kuman514.github.io/MobileKeyboardJS/))
-- `React` `Vue` `TypeScript` `Redux` `Svelte`
-  - [LoginPracticeReact](https://github.com/kuman514/login-practice-react): `React` `TypeScript` `Firebase` A project for appropriate signup method ([Visit](https://kuman514.github.io/login-practice-react/))
-  - [VueMyShmupRecords](https://github.com/kuman514/VueMyShmupRecords): `Vue` Containing my shmup records, using hash routing ([Visit](https://kuman514.github.io/VueMyShmupRecords))
-  - [ReduxClock](https://github.com/kuman514/ReduxClock): `React` `Redux` An analog clock using Redux ([Visit](https://kuman514.github.io/ReduxClock/))
-  - [SvelteTodo](https://github.com/kuman514/SvelteTodo): `Svelte` A simple to do list app that supports CRUD ([Visit](https://kuman514.github.io/SvelteTodo/))
-- `React Native`
-  - [ReactNativeToDo](https://github.com/kuman514/ReactNativeToDo): `ReactNative` A simple to do list app that supports CRUD ([QR Code](https://expo.dev/@kuman514/ReactNativeToDo))
-  - [ReactNativePseudo1on1Chat](https://github.com/kuman514/ReactNativePseudo1on1Chat): `ReactNative` A psuedo 1-on-1 chat app using React Native ([QR Code](https://expo.dev/@kuman514/ReactNativePseudo1on1Chat))
-- `Others`
-  - [OurBabyKoishi](https://github.com/kuman514/BabyKoishiHTML): `jQuery` Koishi Komeiji introduction ([Visit](https://kuman514.github.io/BabyKoishiHTML/))
-</details>
+  - 수천 개 단어를 기반으로 하는, 한 단어를 무작위로 뽑아 플레이하며 새로고침으로 빠르게 재시작할 수 있는 Wordle 게임을 직접 구현한 앱. ([플레이하기](https://react-wordle-kuman514.vercel.app/))
+  - 레이아웃 설계, 기능 구현, 배포, 피드백 수용, 버그리포트 수용, 리팩토링, 업데이트 로그 작성, 유지보수 등등을 담당.
+  - 상태 관리 라이브러리를 사용하여, 입력 제출 조건 검사, 단어 제출 검사, 알파벳 별 제출 검사 기능 구현.
+  - Tab Focus나 키보드 타자에 대한 이벤트를 사용하여, 키보드로도 플레이할 수 있는 기능 구현.
+  - URL을 이용하여, 게임 결과를 트위터로 공유하는 기능 구현.
+  - 첫 방문(초기 로딩) 시 Axios를 사용한 API 호출로 단어 목록을 가져오는 기능 구현
+    - 통신 에러 시 보여줄 간단한 컴포넌트 구현.
+    - API 호출로 가져온 단어 목록과 통신 에러 여부를 리턴하는 커스텀 훅 구축.
+    - 단어 목록을 가져오는 동안 Loading 메시지만 있는 표시 → 스켈레톤 컴포넌트로 변경.
+  - Redux → Zustand로 이관하여 상태 관리 라이브러리 유지보수 비용 절감.
+  - JavaScript로 작성되었던 프로젝트에 TypeScript를 적용하여 타입 에러를 최소화함.
+  - CRA와 Redux를 걷어내고, Vite, Yarn Berry, Zustand를 설치하여, 프로젝트 성능 향상.
+    - Vite: 로딩 시간 30초에서 5초로 감소
+    - Yarn Berry
+      - 설치 속도가 npm보다 5배 빨라짐
+      - node_modules 폴더가 더 가벼워짐
+      - Zero-Install (설치 없이도 실행 가능)
+      - 의존성 관리가 용이해짐
+      - 패키지 중복 문제 해결
