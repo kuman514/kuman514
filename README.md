@@ -7,7 +7,7 @@
 ## Main Projects
 
 - [YSOShmupRecords](https://github.com/kuman514/YSOShmupRecords)
-  - `React` `TypeScript` `Vite` `Yarn Berry` `Vercel` `Axios` `Prettier` `Figma`
+  - `React` `TypeScript` `Vite` `Yarn Berry` `Vercel` `Axios` `Prettier` `Figma` `Lambda` `DynamoDB` `API Gateway` `Node.js`
   - 본인 YSO(kuman514)의 슈팅게임 기록을 열람하고 공유할 수 있게 만들기 위한 웹 사이트. ([방문하기](https://yso-shmup-records.vercel.app/))
 - [ViteMinesweeper](https://github.com/kuman514/ViteMinesweeper)
   - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel` `ChakraUI`
