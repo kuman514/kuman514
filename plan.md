@@ -1,0 +1,64 @@
+# 태스크 브레이크다운
+- 포트폴리오 페이지
+  - 페이지 구성
+    - 인트로 페이지 (`/`)
+    - 자기소개 (`/whoami`)
+    - 프로젝트 (`/projects`)
+      - 프로젝트에 나와야 할 내용
+        - 프로젝트 소개
+          - 프로젝트 명칭과 개요로 본인이 어떤 목적으로 이 프로젝트를 만들었는지,
+          - 그리고 이렇게 구현하게 된 배경은 무엇인지 등을 간략하게 설명.
+        - 개발 과정
+          - 프로젝트를 진행하면서 발생한 문제, 그리고 문제해결 포인트로 개발하는 과정에서 겪은 어려움,
+          - 해당 문제를 해결한 방법에 대한 구체적 내용을 작성
+        - 기술 스택
+          - 프로젝트에서 사용한 기술 스택
+          - 어떤 언어, 프레임워크, 라이브러리를 사용했는지
+          - 이때 특정 기능 구현 시 사용한 기술 스택을 상세히 작성
+        - 결과물
+          - 정리된 프로젝트의 결과물 (스크린샷, 링크) 등
+          - 실제로 개발한 서비스의 캡쳐 화면과 접속할 수 있는 링크를 포트폴리오에 남기기
+        - 인사이트
+          - 프로젝트를 진행하면서 얻은 개인적인 경험과 인사이트를 기록.
+          - 자신이 특히 노력했던 부분이나 발생한 문제들, 그리고 그것을 어떻게 극복했는지.
+        - 참고: https://www.codestates.com/blog/content/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%B7%A8%EC%97%85
+      - 어떤 프로젝트를 담을 것인가?
+        - 비공개 팀 프로젝트 (`/projects/private-team-project`)
+        - YSOShmupRecords (`/projects/yso-shmup-records`)
+        - ViteMinesweeper (`/projects/vite-minesweeper`)
+    - 연락처 (`/contact`)
+  - 컴포넌트
+    - 공유 (shared)
+      - 타이틀 (`Title`)
+      - 장문용 문단 텍스트 (`Paragraph`)
+      - 짧은 일반 텍스트 (`ShortText`)
+      - 강조용 텍스트 (`Emphasize`)
+      - 헤더 (`Header`)
+      - 서브헤더 (`Subheader`)
+      - 푸터 (`Footer`)
+      - 버튼 (`Button`)
+    - 엔티티 (entities)
+      - 인트로 관련
+        - 로고 (`Logo`)
+      - 자기소개 관련
+        - 자기소개에 관한 내용을 담은 글의 제목과 문단 (`WhoAmIContentTitleAndParagraph`)
+      - 프로젝트 관련
+        - 프로젝트 목록 아이템 (`ProjectListItem`)
+        - 프로젝트 개요 (`ProjectIntroduction`)
+        - 프로젝트에 관한 내용을 담은 글의 제목과 문단 (`ProjectContentTitleAndParagraph`)
+      - 연락처 관련
+        - 연락처 목록 아이템 (`ContactListItem`)
+    - 위젯 (widgets)
+      - 자기소개 관련
+        - 자기소개 아티클 (`WhoAmIArticle`)
+      - 프로젝트 관련
+        - 프로젝트 목록 (`ProjectList`)
+        - 프로젝트 아티클 (`ProjectArticle`)
+      - 연락처 관련
+        - 연락처 목록 (`ContactList`)
+    - 페이지 (pages)
+      - 인트로 페이지 (`IntroPage`)
+      - 자기소개 (`WhoAmIPage`)
+      - 프로젝트 목록 (`ProjectListPage`)
+      - 프로젝트 상세 (`ProjectArticlePage`)
+      - 연락처 (`ContactPage`)
