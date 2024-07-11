@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title should show as expected 1`] = `
+<h1
+  class="text-bold text-6xl undefined"
+>
+  If you win you are Maverick, if you lose you are Yasuo.
+</h1>
+`;
+
+exports[`Title should show as expected 2 1`] = `
+<h1
+  class="text-bold text-6xl text-black"
+>
+  Yasuo Maverick
+</h1>
+`;
