@@ -29,11 +29,11 @@
     - 연락처 (`/contact`)
   - 컴포넌트
     - 공유 (shared)
-      - 타이틀 (`Title`)
+      - ~~타이틀 (`Title`)~~ `완료`
       - 장문용 문단 텍스트 (`Paragraph`)
       - 짧은 일반 텍스트 (`ShortText`)
-      - 강조용 텍스트 (`Emphasize`)
-      - 헤더 (`Header`)
+      - ~~강조용 텍스트 (`Emphasize`)~~ `완료`
+      - ~~헤더 (`Header`)~~ `완료`
       - 서브헤더 (`Subheader`)
       - 푸터 (`Footer`)
       - 버튼 (`Button`)
