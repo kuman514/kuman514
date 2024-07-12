@@ -1,11 +1,9 @@
-import { ReactNode } from 'react';
+import { SecondaryTitleProps } from './types';
 
-interface Props {
-  customClassName?: string;
-  children?: ReactNode;
-}
-
-export default function SecondaryTitle({ customClassName, children }: Props) {
+export default function SecondaryTitle({
+  customClassName,
+  children,
+}: SecondaryTitleProps) {
   return (
     <h2 className={`text-bold text-4xl ${customClassName}`}>{children}</h2>
   );

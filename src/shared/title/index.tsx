@@ -1,11 +1,8 @@
 import { ReactNode } from 'react';
 
-interface Props {
-  customClassName?: string;
-  children?: ReactNode;
-}
+import { TitleProps } from './types';
 
-export default function Title({ customClassName, children }: Props) {
+export default function Title({ customClassName, children }: TitleProps) {
   return (
     <h1 className={`text-bold text-6xl ${customClassName}`}>{children}</h1>
   );
