@@ -1,5 +1,5 @@
-import Title from '^/shared/Title';
-import Emphasize from '^/shared/Emphasize';
+import Emphasize from '^/shared/emphasize';
+import Title from '^/shared/title';
 
 export default function IntroPage() {
   return (
