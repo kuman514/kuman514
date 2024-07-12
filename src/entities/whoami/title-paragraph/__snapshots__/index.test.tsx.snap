@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WhoAmIContentTitleAndParagraph should render as expected 1`] = `
+<div>
+  <h2
+    class="text-bold text-4xl undefined"
+  >
+    <span
+      class="text-green-600 first-letter:font-bold"
+    >
+      Lorem ipsum dolor sit amet
+    </span>
+    , consectetur adipiscing elit.
+  </h2>
+  <p
+    class="text-base font-normal indent-4 mb-4 first-letter:text-2xl first-letter:text-green-600 first-letter:font-bold"
+  >
+    Duis sodales ipsum odio, eu accumsan dui ullamcorper sit amet. Nulla tristique ornare cursus. Morbi egestas porta facilisis. Praesent ac ultricies nunc, pretium ullamcorper ipsum. Suspendisse placerat imperdiet ipsum, nec condimentum orci accumsan a. Nullam sollicitudin justo in ex ullamcorper posuere. Vestibulum finibus diam eu metus maximus lacinia. Praesent eleifend hendrerit libero quis egestas. Sed vitae venenatis ante.
+  </p>
+</div>
+`;
