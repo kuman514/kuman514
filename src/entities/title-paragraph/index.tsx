@@ -2,29 +2,27 @@ import { ReactNode } from 'react';
 
 import Paragraph from '^/shared/paragraph';
 import SecondaryTitle from '^/shared/secondary-title';
+import { ParagraphProps } from '^/shared/paragraph/types';
 
 interface Props {
   title: ReactNode;
   titleCustomClassName?: string;
-
-  paragraph: ReactNode;
-  paragraphCustomClassName?: string;
+  paragraphProps: ParagraphProps[];
 }
 
-export default function WhoAmIContentTitleAndParagraph({
+export default function TitleAndParagraph({
   title,
   titleCustomClassName,
-  paragraph,
-  paragraphCustomClassName,
+  paragraphProps,
 }: Props) {
   return (
     <>
       <SecondaryTitle customClassName={titleCustomClassName}>
         {title}
       </SecondaryTitle>
-      <Paragraph customClassName={paragraphCustomClassName}>
-        {paragraph}
-      </Paragraph>
+      {paragraphProps.map((props, index) => (
+        <Paragraph key={`paragraph-${index}`} {...props} />
+      ))}
     </>
   );
 }
