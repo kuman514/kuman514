@@ -17,12 +17,14 @@
       - ~~강조용 텍스트 (`Emphasize`)~~ `완료`
       - ~~헤더 (`Header`)~~ `완료`
     - 엔티티 (entities)
+      - 자기소개 및 프로젝트 목록 공통
+        - ~~제목과 문단 (`TitleAndParagraph`)~~ `완료`
       - 자기소개 관련
-        - 자기소개에 관한 내용을 담은 글의 제목과 문단 (`WhoAmIContentTitleAndParagraph`)
+        - ~~자기소개에 관한 내용을 담은 글의 제목과 문단 -> 자기소개 및 프로젝트 목록용으로 통합 ~~ `완료`
       - 프로젝트 관련
-        - 프로젝트 목록 아이템 (`ProjectListItem`)
-        - 프로젝트 개요 (`ProjectIntroduction`)
-        - 프로젝트에 관한 내용을 담은 글의 제목과 문단 (`ProjectContentTitleAndParagraph`)
+        - ~~프로젝트에 관한 내용을 담은 글의 제목과 문단 -> 자기소개 및 프로젝트 목록용으로 통합 ~~ `완료`
+        - ~~프로젝트 목록 아이템 (`ProjectListItem`)~~ `완료`
+        - 프로젝트 개요 (`ProjectContentIntroduction`)
       - 연락처 관련
         - 연락처 목록 아이템 (`ContactListItem`)
     - 위젯 (widgets)
