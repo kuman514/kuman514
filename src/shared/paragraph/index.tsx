@@ -1,11 +1,9 @@
-import { ReactNode } from 'react';
+import { ParagraphProps } from './types';
 
-interface Props {
-  customClassName?: string;
-  children?: ReactNode;
-}
-
-export default function Paragraph({ customClassName, children }: Props) {
+export default function Paragraph({
+  customClassName,
+  children,
+}: ParagraphProps) {
   return (
     <p className={`text-base font-normal indent-4 mb-4 ${customClassName}`}>
       {children}
