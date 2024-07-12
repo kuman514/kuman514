@@ -4,6 +4,11 @@ interface Props {
   };
 }
 
+/**
+ * @todo
+ * This is fake content. Change into real one.
+ */
+
 export default function ProjectArticlePage({ params: { projectName } }: Props) {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">

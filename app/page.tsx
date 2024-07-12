@@ -1,6 +1,11 @@
 import Emphasize from '^/shared/emphasize';
 import Title from '^/shared/title';
 
+/**
+ * @todo
+ * Add decorations.
+ */
+
 export default function IntroPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 gap-4">
