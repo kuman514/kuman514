@@ -15,6 +15,10 @@ const config: Config = {
         'emphasize-underline':
           'linear-gradient(180deg, var(--tw-gradient-stops))',
       },
+      aspectRatio: {
+        '4/3': '4 / 3',
+        '3/2': '3 / 2',
+      },
     },
   },
   plugins: [],
