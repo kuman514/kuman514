@@ -31,7 +31,7 @@
     - 공유 (shared)
       - ~~타이틀 (`Title`)~~ `완료`
       - ~~장문용 문단 텍스트 (`Paragraph`)~~ `완료`
-      - 짧은 일반 텍스트 (`ShortText`)
+      - ~~짧은 일반 텍스트 (`ShortText`) -> 태그 (`Tag`)로 바꿈~~ `완료`
       - ~~강조용 텍스트 (`Emphasize`)~~ `완료`
       - ~~헤더 (`Header`)~~ `완료`
       - 서브헤더 (`Subheader`)

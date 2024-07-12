@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag should show as expected 1`] = `
+<span
+  class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+>
+  If you win you are Maverick, if you lose you are Yasuo.
+</span>
+`;
+
+exports[`Tag should show as expected 2 1`] = `
+<span
+  class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded text-black"
+>
+  Yasuo Maverick
+</span>
+`;
