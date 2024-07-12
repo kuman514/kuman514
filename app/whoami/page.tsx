@@ -1,4 +1,4 @@
-import WhoAmIContentTitleAndParagraph from '^/entities/title-paragraph';
+import TitleAndParagraph from '^/entities/title-paragraph';
 import Emphasize from '^/shared/emphasize';
 import Title from '^/shared/title';
 
@@ -16,13 +16,15 @@ export default function WhoAmIPage() {
         one soon.
       </code>
       <Title>Lorem ipsum dolor sit amet.</Title>
-      <WhoAmIContentTitleAndParagraph
-        title={
-          <>
-            <Emphasize>Lorem ipsum dolor sit amet</Emphasize>, consectetur
-            adipiscing elit.
-          </>
-        }
+      <TitleAndParagraph
+        titleProp={{
+          children: (
+            <>
+              <Emphasize>Lorem ipsum dolor sit amet</Emphasize>, consectetur
+              adipiscing elit.
+            </>
+          ),
+        }}
         paragraphProps={[
           {
             children:
@@ -32,12 +34,14 @@ export default function WhoAmIPage() {
           },
         ]}
       />
-      <WhoAmIContentTitleAndParagraph
-        title={
-          <>
-            Class aptent <Emphasize>taciti sociosqu</Emphasize> ad.
-          </>
-        }
+      <TitleAndParagraph
+        titleProp={{
+          children: (
+            <>
+              Class aptent <Emphasize>taciti sociosqu</Emphasize> ad.
+            </>
+          ),
+        }}
         paragraphProps={[
           {
             children:
@@ -45,12 +49,14 @@ export default function WhoAmIPage() {
           },
         ]}
       />
-      <WhoAmIContentTitleAndParagraph
-        title={
-          <>
-            Vivamus <Emphasize>tempor rhoncus elit</Emphasize> ut posuere.
-          </>
-        }
+      <TitleAndParagraph
+        titleProp={{
+          children: (
+            <>
+              Vivamus <Emphasize>tempor rhoncus elit</Emphasize> ut posuere.
+            </>
+          ),
+        }}
         paragraphProps={[
           {
             children:

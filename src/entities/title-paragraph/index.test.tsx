@@ -6,14 +6,16 @@ describe('TitleAndParagraph', () => {
   it('should render as expected', () => {
     const { container } = render(
       <TitleAndParagraph
-        title={
-          <>
-            <span className="text-green-600 first-letter:font-bold">
-              Lorem ipsum dolor sit amet
-            </span>
-            , consectetur adipiscing elit.
-          </>
-        }
+        titleProp={{
+          children: (
+            <>
+              <span className="text-green-600 first-letter:font-bold">
+                Lorem ipsum dolor sit amet
+              </span>
+              , consectetur adipiscing elit.
+            </>
+          ),
+        }}
         paragraphProps={[
           {
             children:
