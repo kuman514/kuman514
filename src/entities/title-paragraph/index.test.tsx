@@ -15,6 +15,7 @@ describe('TitleAndParagraph', () => {
               , consectetur adipiscing elit.
             </>
           ),
+          customClassName: 'text-4xl',
         }}
         paragraphProps={[
           {

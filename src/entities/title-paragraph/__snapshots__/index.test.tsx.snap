@@ -3,7 +3,7 @@
 exports[`TitleAndParagraph should render as expected 1`] = `
 <div>
   <h2
-    class="text-bold text-4xl undefined"
+    class="text-bold text-4xl"
   >
     <span
       class="text-green-600 first-letter:font-bold"

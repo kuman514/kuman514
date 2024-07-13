@@ -5,7 +5,7 @@ import SecondaryTitle from '.';
 describe('SecondaryTitle', () => {
   it('should show as expected', () => {
     const { container } = render(
-      <SecondaryTitle>
+      <SecondaryTitle customClassName="text-4xl">
         If you win you are Maverick, if you lose you are Yasuo.
       </SecondaryTitle>
     );
@@ -14,7 +14,7 @@ describe('SecondaryTitle', () => {
 
   it('should show as expected 2', () => {
     const { container } = render(
-      <SecondaryTitle customClassName="text-black">
+      <SecondaryTitle customClassName="text-4xl text-black">
         Yasuo Maverick
       </SecondaryTitle>
     );

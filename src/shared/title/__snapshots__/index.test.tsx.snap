@@ -2,7 +2,7 @@
 
 exports[`Title should show as expected 1`] = `
 <h1
-  class="text-bold text-6xl undefined"
+  class="text-bold text-6xl"
 >
   If you win you are Maverick, if you lose you are Yasuo.
 </h1>

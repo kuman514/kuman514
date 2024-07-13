@@ -2,7 +2,7 @@
 
 exports[`SecondaryTitle should show as expected 1`] = `
 <h2
-  class="text-bold text-4xl undefined"
+  class="text-bold text-4xl"
 >
   If you win you are Maverick, if you lose you are Yasuo.
 </h2>
