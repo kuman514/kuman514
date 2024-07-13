@@ -13,7 +13,7 @@ export default function Header({ navNodes }: Props) {
         <Link
           aria-label="kuman514-logo"
           href="/"
-          className="px-4 py-3 font-semibold text-white transition hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]"
+          className="px-4 py-3 font-semibold text-white transition hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] hover:-translate-y-0.5"
         >
           kuman514
         </Link>
@@ -24,7 +24,7 @@ export default function Header({ navNodes }: Props) {
             <li key={id} id={id}>
               <Link
                 href={href}
-                className="h-full flex justify-center items-center px-4 py-3 font-semibold text-white transition hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)]"
+                className="h-full flex justify-center items-center px-4 py-3 font-semibold text-white transition hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] hover:-translate-y-0.5"
               >
                 {label}
               </Link>
