@@ -26,7 +26,7 @@
         - ~~프로젝트 목록 아이템 (`ProjectListItem`)~~ `완료`
         - 프로젝트 개요 (`ProjectContentIntroduction`)
       - 연락처 관련
-        - 연락처 목록 아이템 (`ContactListItem`)
+        - ~~연락처 목록 아이템 (`ContactListItem`) => 연락처 링크 버튼(`LinkButton`)으로 바꿈~~ `완료`
     - 위젯 (widgets)
       - 자기소개 관련
         - 자기소개 아티클 (`WhoAmIArticle`)
@@ -64,7 +64,7 @@
     - 공유 (shared)
       - 서브헤더 (`Subheader`)
       - 푸터 (`Footer`)
-      - 버튼 (`Button`)
+      - ~~버튼 (`Button`)~~ `완료`
     - 엔티티 (entities)
       - 인트로 관련
         - 로고 (`Logo`)
