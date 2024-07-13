@@ -9,13 +9,15 @@ import Title from '^/shared/title';
 
 export default function WhoAmIPage() {
   return (
-    <main className="flex min-h-screen flex-col justify-center px-8 py-24 gap-4 sm:px-24">
+    <main className="flex min-h-screen flex-col px-8 py-24 gap-4 sm:px-24">
       <code className="font-mono font-bold">app/whoami/page.tsx</code>
       <code className="font-mono font-bold">
         This is fake content for layouts. The content will be changed into real
         one soon.
       </code>
-      <Title>Lorem ipsum dolor sit amet.</Title>
+      <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
+        Lorem ipsum dolor sit amet.
+      </Title>
       <TitleAndParagraph
         titleProp={{
           children: (
@@ -24,6 +26,7 @@ export default function WhoAmIPage() {
               adipiscing elit.
             </>
           ),
+          customClassName: 'text-2xl sm:text-3xl md:text-4xl',
         }}
         paragraphProps={[
           {
@@ -41,6 +44,7 @@ export default function WhoAmIPage() {
               Class aptent <Emphasize>taciti sociosqu</Emphasize> ad.
             </>
           ),
+          customClassName: 'text-2xl sm:text-3xl md:text-4xl',
         }}
         paragraphProps={[
           {
@@ -56,6 +60,7 @@ export default function WhoAmIPage() {
               Vivamus <Emphasize>tempor rhoncus elit</Emphasize> ut posuere.
             </>
           ),
+          customClassName: 'text-2xl sm:text-3xl md:text-4xl',
         }}
         paragraphProps={[
           {

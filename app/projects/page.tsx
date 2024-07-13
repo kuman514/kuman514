@@ -8,9 +8,9 @@ import Title from '^/shared/title';
 
 export default function ProjectListPage() {
   return (
-    <main className="flex min-h-screen flex-col justify-center px-8 py-24 gap-4 sm:px-24">
+    <main className="flex min-h-screen flex-col px-8 py-24 gap-4 sm:px-24">
       <code className="font-mono font-bold">app/projects/page.tsx</code>
-      <Title customClassName="text-3xl sm:text-5xl md:text-6xl">
+      <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         프로젝트 목록
       </Title>
       <ul>
