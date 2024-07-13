@@ -7,7 +7,7 @@ import LinkButton from '^/features/link-button';
 
 export default function ContactPage() {
   return (
-    <main className="flex w-full min-h-screen flex-col justify-center items-center gap-4 p-24">
+    <main className="flex w-full min-h-screen flex-col justify-center items-center px-8 py-24 gap-4 sm:px-24">
       <code className="font-mono font-bold">app/contact/page.tsx</code>
       <LinkButton
         href="mailto:hadjadj0@gmail.com"
