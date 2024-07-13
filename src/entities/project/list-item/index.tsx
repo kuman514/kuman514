@@ -1,5 +1,5 @@
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 
 import Tag from '^/shared/tag';
 
@@ -13,15 +13,15 @@ export default function ProjectListItem({
   projectItem: { projectId, title, thumbnailUrl, description, techStackTags },
 }: Props) {
   return (
-    <li className="py-8 border-b last:border-b-0">
+    <li className="py-8 border-b border-b-gray-400 last:border-b-0">
       <Link
         href={`/projects/${projectId}`}
-        className="flex flex-col md:flex-row gap-4"
+        className="flex flex-col lg:grid lg:grid-cols-[360px_1fr] gap-4"
       >
         <Image
           src={thumbnailUrl}
           alt={`${title} - ${description}`}
-          className="w-full aspect-3/2 object-cover md:w-1/3 md:max-w-2xl"
+          className="w-full aspect-3/2 object-cover"
           width={300}
           height={300}
         />
