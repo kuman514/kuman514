@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnorderedBulletList should show as expected 1`] = `
+<ul
+  class="list-disc pl-8"
+>
+  <li>
+    Yasuo
+  </li>
+  <li>
+    Koishi
+  </li>
+  <li>
+    Hoshino
+  </li>
+</ul>
+`;
+
+exports[`UnorderedBulletList should show as expected 2 1`] = `
+<ul
+  class="list-disc pl-8"
+>
+  <li>
+    <a
+      href="yasuo-science.com"
+    >
+      Yasuo
+    </a>
+  </li>
+  <li>
+    <a
+      href="koishi.com"
+    >
+      Koishi
+    </a>
+  </li>
+  <li>
+    <a
+      href="hoshino.com"
+    >
+      Hoshino
+    </a>
+  </li>
+</ul>
+`;
