@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFoundPage should show as expected 1`] = `
+<main
+  class="flex min-h-screen flex-col justify-center items-center gap-4 text-center"
+>
+  <h1
+    class="text-bold text-4xl sm:text-5xl md:text-6xl"
+  >
+    404 Not Found
+  </h1>
+  <span>
+    요청하신 페이지를 찾을 수 없습니다.
+  </span>
+</main>
+`;
