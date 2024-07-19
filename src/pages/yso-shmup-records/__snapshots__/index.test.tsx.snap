@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`YSOShmupRecordsPage should show as expected 1`] = `
+<main
+  class="flex min-h-screen flex-col px-8 py-24 gap-4 sm:px-24"
+>
+  <h1
+    class="text-bold text-4xl sm:text-5xl md:text-6xl"
+  >
+    YSOShmupRecords
+  </h1>
+  <h2
+    class="text-bold text-4xl"
+  >
+    사용한 기술 스택
+  </h2>
+  <div
+    class="flex flex-row flex-wrap gap-2"
+  >
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      React
+    </span>
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      TypeScript
+    </span>
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      Vite
+    </span>
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      Yarn Berry
+    </span>
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      Vercel
+    </span>
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      Axios
+    </span>
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      Prettier
+    </span>
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      Figma
+    </span>
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      Lambda
+    </span>
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      DynamoDB
+    </span>
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      API Gateway
+    </span>
+    <span
+      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    >
+      Node.js
+    </span>
+  </div>
+  <h2
+    class="text-bold text-4xl"
+  >
+    개요
+  </h2>
+  <ul
+    class="list-disc pl-8"
+  >
+    <li>
+      개인 프로젝트
+    </li>
+    <li>
+      구현 내용
+      <ul
+        class="list-disc pl-8"
+      >
+        <li>
+          프로젝트 세팅, 태스크 브레이크다운, 디자인, 퍼블리싱, 기능 구현, 테스트, 배포, 문서 및 업데이트 로그 작성, 유지보수를 담당함.
+        </li>
+        <li>
+          react-router-dom과 Vercel Rewrite를 사용하여 각 페이지 라우팅.
+        </li>
+        <li>
+          기록 열람, 외부로 공유, 다크 모드 등등 각종 기능 구현.
+        </li>
+        <li>
+          Vite + Yarn Berry로 프로젝트를 세팅하여 Create React App 대비 로딩 시간 30초 → 5초로 감소, 설치 속도가 5배 빨라짐.
+        </li>
+        <li>
+          데이터를 가져오는 동안 UI가 멈춰있어 보이지 않기 위해 스켈레톤 컴포넌트 적용.
+        </li>
+        <li>
+          Lambda + DynamoDB + API Gateway + Node.js를 이용하여 기록 등의 데이터를 제공하고 관리하는 서버리스 백엔드 및 백오피스 구축.
+        </li>
+      </ul>
+    </li>
+  </ul>
+</main>
+`;
