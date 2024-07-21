@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExternalAnchor should have custom target & custom class name 1`] = `
+<a
+  class="text-blue-500 hover:text-purple-500 text-2xl underline"
+  href="https://yasuomaverick.kuman514.xyz/"
+  target="_parent"
+>
+  야스오매버릭 홈페이지로 가기
+</a>
+`;
+
+exports[`ExternalAnchor should show as expected 1`] = `
+<a
+  class="text-blue-500 hover:text-purple-500 undefined"
+  href="https://yasuomaverick.kuman514.xyz/"
+  target="_blank"
+>
+  야스오매버릭 홈페이지로 가기
+</a>
+`;
