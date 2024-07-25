@@ -1,7 +1,13 @@
+import Image from 'next/image';
+
+import Paragraph from '^/shared/paragraph';
 import SecondaryTitle from '^/shared/secondary-title';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
+
+import ExternalAnchor from '^/shared/external-anchor';
+import SkeletonPng from './assets/skeleton.png';
 
 export default function YSOShmupRecordsPage() {
   return (
@@ -9,7 +15,23 @@ export default function YSOShmupRecordsPage() {
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         YSOShmupRecords
       </Title>
-      <SecondaryTitle customClassName="text-4xl">
+
+      <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
+        방문하기
+      </SecondaryTitle>
+      <div className="flex flex-row flex-wrap gap-1">
+        [
+        <ExternalAnchor href="https://github.com/kuman514/YSOShmupRecords">
+          깃허브 저장소
+        </ExternalAnchor>
+        ] [
+        <ExternalAnchor href="https://yso-shmup-records.vercel.app/">
+          사이트
+        </ExternalAnchor>
+        ]
+      </div>
+
+      <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
         사용한 기술 스택
       </SecondaryTitle>
       <div className="flex flex-row flex-wrap gap-2">
@@ -26,7 +48,10 @@ export default function YSOShmupRecordsPage() {
         <Tag>API Gateway</Tag>
         <Tag>Node.js</Tag>
       </div>
-      <SecondaryTitle customClassName="text-4xl">개요</SecondaryTitle>
+
+      <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
+        개요
+      </SecondaryTitle>
       <UnorderedBulletList>
         <li>개인 프로젝트</li>
         <li>
@@ -55,6 +80,34 @@ export default function YSOShmupRecordsPage() {
           </UnorderedBulletList>
         </li>
       </UnorderedBulletList>
+
+      <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
+        스켈레톤 컴포넌트 적용
+      </SecondaryTitle>
+      <div className="flex justify-center items-center">
+        <Image
+          {...SkeletonPng}
+          alt="YSOShmupRecords의 기록 아티클 스켈레톤 컴포넌트"
+        />
+      </div>
+      <Paragraph customClassName="mb-0">
+        스켈레톤 컴포넌트는 데이터를 가져오는 동안 콘텐츠를 표시하는
+        컴포넌트입니다. 사용자는 콘텐츠를 기다리다가 쉽게 지치고 지루함을
+        느끼므로, 데이터를 가져오는 동안 단순히 빈 화면만 보여준다면 많은
+        사람들은 사이트를 떠나게 될 것입니다. 그래서 이를 방지하기 위해,
+        애니메이션 효과가 들어간 스켈레톤 컴포넌트를 직접 만들어, 기록 목록이나
+        기록 아티클 로딩 등에 적용하였습니다.
+      </Paragraph>
+
+      <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
+        서버리스 백엔드 구축 및 연동
+      </SecondaryTitle>
+      <Paragraph customClassName="mb-0">
+        기록 등의 데이터를 더욱 쉽게 관리하기 위해, Lambda + DynamoDB + API
+        Gateway를 이용하여 서버리스 백엔드와 백오피스를 구축하여 연동하였습니다.
+        기록 목록과 기록 아티클 등의 열람은 누구나 할 수 있지만 추가/편집/삭제는
+        관리자 로그인이 필요하도록 만들었습니다.
+      </Paragraph>
     </main>
   );
 }

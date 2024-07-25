@@ -10,7 +10,33 @@ exports[`YSOShmupRecordsPage should show as expected 1`] = `
     YSOShmupRecords
   </h1>
   <h2
-    class="text-bold text-4xl"
+    class="text-bold mt-4 text-2xl sm:text-3xl md:text-4xl"
+  >
+    방문하기
+  </h2>
+  <div
+    class="flex flex-row flex-wrap gap-1"
+  >
+    [
+    <a
+      class="text-blue-500 hover:text-purple-500 undefined"
+      href="https://github.com/kuman514/YSOShmupRecords"
+      target="_blank"
+    >
+      깃허브 저장소
+    </a>
+    ] [
+    <a
+      class="text-blue-500 hover:text-purple-500 undefined"
+      href="https://yso-shmup-records.vercel.app/"
+      target="_blank"
+    >
+      사이트
+    </a>
+    ]
+  </div>
+  <h2
+    class="text-bold mt-4 text-2xl sm:text-3xl md:text-4xl"
   >
     사용한 기술 스택
   </h2>
@@ -79,7 +105,7 @@ exports[`YSOShmupRecordsPage should show as expected 1`] = `
     </span>
   </div>
   <h2
-    class="text-bold text-4xl"
+    class="text-bold mt-4 text-2xl sm:text-3xl md:text-4xl"
   >
     개요
   </h2>
@@ -115,5 +141,40 @@ exports[`YSOShmupRecordsPage should show as expected 1`] = `
       </ul>
     </li>
   </ul>
+  <h2
+    class="text-bold mt-4 text-2xl sm:text-3xl md:text-4xl"
+  >
+    스켈레톤 컴포넌트 적용
+  </h2>
+  <div
+    class="flex justify-center items-center"
+  >
+    <img
+      alt="YSOShmupRecords의 기록 아티클 스켈레톤 컴포넌트"
+      data-nimg="1"
+      decoding="async"
+      height="40"
+      loading="lazy"
+      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+      style="color: transparent;"
+      width="40"
+    />
+  </div>
+  <p
+    class="text-base font-normal indent-4 mb-4 mb-0"
+  >
+    스켈레톤 컴포넌트는 데이터를 가져오는 동안 콘텐츠를 표시하는 컴포넌트입니다. 사용자는 콘텐츠를 기다리다가 쉽게 지치고 지루함을 느끼므로, 데이터를 가져오는 동안 단순히 빈 화면만 보여준다면 많은 사람들은 사이트를 떠나게 될 것입니다. 그래서 이를 방지하기 위해, 애니메이션 효과가 들어간 스켈레톤 컴포넌트를 직접 만들어, 기록 목록이나 기록 아티클 로딩 등에 적용하였습니다.
+  </p>
+  <h2
+    class="text-bold mt-4 text-2xl sm:text-3xl md:text-4xl"
+  >
+    서버리스 백엔드 구축 및 연동
+  </h2>
+  <p
+    class="text-base font-normal indent-4 mb-4 mb-0"
+  >
+    기록 등의 데이터를 더욱 쉽게 관리하기 위해, Lambda + DynamoDB + API Gateway를 이용하여 서버리스 백엔드와 백오피스를 구축하여 연동하였습니다. 기록 목록과 기록 아티클 등의 열람은 누구나 할 수 있지만 추가/편집/삭제는 관리자 로그인이 필요하도록 만들었습니다.
+  </p>
 </main>
 `;
