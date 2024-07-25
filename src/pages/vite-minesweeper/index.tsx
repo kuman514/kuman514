@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
+import ExternalAnchor from '^/shared/external-anchor';
 import Paragraph from '^/shared/paragraph';
 import SecondaryTitle from '^/shared/secondary-title';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
-import ExternalAnchor from '^/shared/external-anchor';
 
 import BfsPng from './assets/bfs.png';
 import QueuePopPng from './assets/queue-pop.png';
@@ -17,7 +17,9 @@ export default function ViteMinesweeperPage() {
         Vite 지뢰찾기 (ViteMinesweeper)
       </Title>
 
-      <SecondaryTitle customClassName="text-4xl">방문하기</SecondaryTitle>
+      <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
+        방문하기
+      </SecondaryTitle>
       <div className="flex flex-row flex-wrap gap-1">
         [
         <ExternalAnchor href="https://github.com/kuman514/ViteMinesweeper">
@@ -30,7 +32,7 @@ export default function ViteMinesweeperPage() {
         ]
       </div>
 
-      <SecondaryTitle customClassName="text-4xl">
+      <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
         사용한 기술 스택
       </SecondaryTitle>
       <div className="flex flex-row flex-wrap gap-2">
@@ -43,7 +45,9 @@ export default function ViteMinesweeperPage() {
         <Tag>ChakraUI</Tag>
       </div>
 
-      <SecondaryTitle customClassName="text-4xl">개요</SecondaryTitle>
+      <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
+        개요
+      </SecondaryTitle>
       <UnorderedBulletList>
         <li>개인 프로젝트</li>
         <li>

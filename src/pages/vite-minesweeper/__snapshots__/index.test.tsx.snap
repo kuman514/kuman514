@@ -10,7 +10,7 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
     Vite 지뢰찾기 (ViteMinesweeper)
   </h1>
   <h2
-    class="text-bold text-4xl"
+    class="text-bold mt-4 text-2xl sm:text-3xl md:text-4xl"
   >
     방문하기
   </h2>
@@ -36,7 +36,7 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
     ]
   </div>
   <h2
-    class="text-bold text-4xl"
+    class="text-bold mt-4 text-2xl sm:text-3xl md:text-4xl"
   >
     사용한 기술 스택
   </h2>
@@ -80,7 +80,7 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
     </span>
   </div>
   <h2
-    class="text-bold text-4xl"
+    class="text-bold mt-4 text-2xl sm:text-3xl md:text-4xl"
   >
     개요
   </h2>
