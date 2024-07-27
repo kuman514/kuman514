@@ -1,13 +1,15 @@
 import Image from 'next/image';
 
+import ExternalAnchor from '^/shared/external-anchor';
 import Paragraph from '^/shared/paragraph';
 import SecondaryTitle from '^/shared/secondary-title';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
-import ExternalAnchor from '^/shared/external-anchor';
 import SkeletonPng from './assets/skeleton.png';
+import Writronics1Png from './assets/writronics-1.png';
+import Writronics2Png from './assets/writronics-2.png';
 
 export default function YSOShmupRecordsPage() {
   return (
@@ -88,6 +90,7 @@ export default function YSOShmupRecordsPage() {
         <Image
           {...SkeletonPng}
           alt="YSOShmupRecords의 기록 아티클 스켈레톤 컴포넌트"
+          className="max-h-80 object-contain"
         />
       </div>
       <Paragraph customClassName="mb-0">
@@ -102,11 +105,24 @@ export default function YSOShmupRecordsPage() {
       <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
         서버리스 백엔드 구축 및 연동
       </SecondaryTitle>
+      <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
+        <Image
+          {...Writronics1Png}
+          alt="YSOShmupRecords의 백오피스 Writronics의 기록 아티클"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          {...Writronics2Png}
+          alt="YSOShmupRecords의 백오피스 Writronics의 기록 리스트"
+          className="w-fit max-h-80 object-contain"
+        />
+      </div>
       <Paragraph customClassName="mb-0">
         기록 등의 데이터를 더욱 쉽게 관리하기 위해, Lambda + DynamoDB + API
-        Gateway를 이용하여 서버리스 백엔드와 백오피스를 구축하여 연동하였습니다.
-        기록 목록과 기록 아티클 등의 열람은 누구나 할 수 있지만 추가/편집/삭제는
-        관리자 로그인이 필요하도록 만들었습니다.
+        Gateway를 이용하여 서버리스 백엔드를 구축하여, YSOShmupRecords와 그의
+        백오피스 Writronics와 연동하였습니다. 백엔드 상에서, 기록 목록과 기록
+        아티클 등의 열람은 누구나 할 수 있지만 추가/편집/삭제는 관리자 로그인이
+        필요하도록 만들었습니다.
       </Paragraph>
     </main>
   );
