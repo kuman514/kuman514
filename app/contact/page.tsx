@@ -1,14 +1,12 @@
 import LinkButton from '^/features/link-button';
-
-/**
- * @todo
- * This is fake content. Change into real one.
- */
+import Title from '^/shared/title';
 
 export default function ContactPage() {
   return (
     <main className="flex w-full min-h-screen flex-col justify-center items-center px-8 py-24 gap-4 sm:px-24">
-      <code className="font-mono font-bold">app/contact/page.tsx</code>
+      <Title customClassName="text-4xl sm:text-5xl md:text-6xl mb-6">
+        연락망
+      </Title>
       <LinkButton
         href="mailto:hadjadj0@gmail.com"
         customClassName="w-full max-w-2xl"
