@@ -1,74 +1,57 @@
-import TitleAndParagraph from '^/entities/title-paragraph';
-import Emphasize from '^/shared/emphasize';
+import ExternalAnchor from '^/shared/external-anchor';
+import Paragraph from '^/shared/paragraph';
+import SecondaryTitle from '^/shared/secondary-title';
+import Tag from '^/shared/tag';
 import Title from '^/shared/title';
-
-/**
- * @todo
- * This is fake content. Change into real one.
- */
 
 export default function WhoAmIPage() {
   return (
     <main className="flex min-h-screen flex-col px-8 py-24 gap-4 sm:px-24">
-      <code className="font-mono font-bold">app/whoami/page.tsx</code>
-      <code className="font-mono font-bold">
-        This is fake content for layouts. The content will be changed into real
-        one soon.
-      </code>
-      <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
-        Lorem ipsum dolor sit amet.
-      </Title>
-      <TitleAndParagraph
-        titleProp={{
-          children: (
-            <>
-              <Emphasize>Lorem ipsum dolor sit amet</Emphasize>, consectetur
-              adipiscing elit.
-            </>
-          ),
-          customClassName: 'text-2xl sm:text-3xl md:text-4xl',
-        }}
-        paragraphProps={[
-          {
-            children:
-              'Duis sodales ipsum odio, eu accumsan dui ullamcorper sit amet. Nulla tristique ornare cursus. Morbi egestas porta facilisis. Praesent ac ultricies nunc, pretium ullamcorper ipsum. Suspendisse placerat imperdiet ipsum, nec condimentum orci accumsan a. Nullam sollicitudin justo in ex ullamcorper posuere. Vestibulum finibus diam eu metus maximus lacinia. Praesent eleifend hendrerit libero quis egestas. Sed vitae venenatis ante.',
-            customClassName:
-              'first-letter:text-2xl first-letter:text-green-600 first-letter:font-bold',
-          },
-        ]}
-      />
-      <TitleAndParagraph
-        titleProp={{
-          children: (
-            <>
-              Class aptent <Emphasize>taciti sociosqu</Emphasize> ad.
-            </>
-          ),
-          customClassName: 'text-2xl sm:text-3xl md:text-4xl',
-        }}
-        paragraphProps={[
-          {
-            children:
-              'Curabitur ullamcorper, mi in tristique sagittis, diam lorem malesuada sapien, vitae dictum nibh lectus ac felis. Donec efficitur nulla libero, vel pretium erat malesuada non. Fusce vel lectus vel ipsum maximus iaculis. Fusce et eleifend nibh, scelerisque venenatis arcu. Nam mattis, lorem ac ultricies viverra, enim nulla convallis erat, id pretium mauris nibh in felis. Donec orci metus, ultricies nec mi id, vestibulum pulvinar ante. Nulla vel lectus erat. Praesent fermentum urna neque, quis condimentum orci ornare eget. Nullam quis magna a diam mattis bibendum eu at nulla. Vivamus nec dignissim augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam sagittis at nisi sit amet malesuada. Aenean vitae ligula sit amet erat auctor sagittis in a lacus.',
-          },
-        ]}
-      />
-      <TitleAndParagraph
-        titleProp={{
-          children: (
-            <>
-              Vivamus <Emphasize>tempor rhoncus elit</Emphasize> ut posuere.
-            </>
-          ),
-          customClassName: 'text-2xl sm:text-3xl md:text-4xl',
-        }}
-        paragraphProps={[
-          {
-            children:
-              'Fusce ultricies quis risus quis mattis. In volutpat nec mauris eget semper. Nam vel arcu quis sapien commodo cursus. Donec pellentesque mollis cursus. In hac habitasse platea dictumst. Nulla eget dapibus diam, in viverra mi. Aliquam erat volutpat. Nunc vitae est sed eros pulvinar lobortis. Morbi sit amet elementum quam. Sed dolor erat, imperdiet eget eleifend et, imperdiet quis mauris. In hac habitasse platea dictumst. Proin nec pellentesque lacus. Morbi convallis leo a dapibus lacinia.',
-          },
-        ]}
-      />
+      <Title customClassName="text-4xl sm:text-5xl md:text-6xl">kuman514</Title>
+
+      <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
+        자기소개
+      </SecondaryTitle>
+      <Paragraph customClassName="first-letter:text-2xl first-letter:text-green-600 first-letter:font-bold">
+        프론트엔드 엔지니어로서 React와 TypeScript를 다뤄왔으며, 이를 기반으로
+        고객이 겪고 있는 각종 문제를 해결해왔습니다. 이에 그치지 않고, Vite나
+        Next.js, React Native같은 기술 스택도 직접 연마하면서 비공개 팀
+        프로젝트나 YSOShmupRecords같은 개인 프로젝트에도 적용해나가고 있습니다.
+        더 나아가, 만든 앱의 안정성과 사용성을 향상시키기 위해, 사용자의
+        피드백을 반영하며 유지보수를 진행해오고 있습니다.
+      </Paragraph>
+      <Paragraph>
+        이러한 경험을 바탕으로, 항상 도전하는 자세로 안정성과 사용성에 기여하는
+        개발자가 되겠습니다. 감사합니다.
+      </Paragraph>
+
+      <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
+        현재 하고 있는 활동
+      </SecondaryTitle>
+      <Paragraph customClassName="first-letter:text-2xl first-letter:text-green-600 first-letter:font-bold">
+        Github에서 1일 1커밋 활동을 진행하고 있습니다. 1일 1커밋이란, 배운
+        내용이나 프로젝트 진행 등의 유의미한 커밋을 하루에 최소 1회 하는 활동을
+        말합니다. 저는 이러한 활동을 통해, 저의 개발 역량을 매일 조금씩이라도
+        꾸준히 향상시킬 수 있었습니다.
+      </Paragraph>
+      <Paragraph customClassName="first-letter:text-2xl first-letter:text-green-600 first-letter:font-bold">
+        [{' '}
+        <ExternalAnchor href={'https://github.com/kuman514'}>
+          kuman514의 Github 바로가기
+        </ExternalAnchor>{' '}
+        ]
+      </Paragraph>
+
+      <SecondaryTitle customClassName="mt-4 text-2xl sm:text-3xl md:text-4xl">
+        주력 기술 스택
+      </SecondaryTitle>
+      <div className="flex flex-row flex-wrap gap-2">
+        <Tag>React</Tag>
+        <Tag>TypeScript</Tag>
+        <Tag>JavaScript</Tag>
+        <Tag>HTML</Tag>
+        <Tag>CSS</Tag>
+      </div>
     </main>
   );
 }
