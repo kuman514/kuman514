@@ -9,10 +9,19 @@ import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
 import BfsPng from './assets/bfs.png';
 import QueuePopPng from './assets/queue-pop.png';
+import ViteMinesweeperPng from './assets/vite-minesweeper.png';
 
 export default function ViteMinesweeperPage() {
   return (
     <main className="flex min-h-screen flex-col px-8 py-24 gap-4 sm:px-24">
+      <div className="w-full flex flex-row flex-wrap justify-center items-center">
+        <Image
+          {...ViteMinesweeperPng}
+          alt="ViteMinesweeper Expert 단계 승리 장면"
+          className="w-fit max-h-80 object-contain"
+        />
+      </div>
+
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         Vite 지뢰찾기 (ViteMinesweeper)
       </Title>
