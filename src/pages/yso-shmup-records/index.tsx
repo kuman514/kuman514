@@ -8,12 +8,27 @@ import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
 import SkeletonPng from './assets/skeleton.png';
+import YSOShmupRecords1Png from './assets/yso-shmup-records-1.png';
+import YSOShmupRecords2Png from './assets/yso-shmup-records-2.png';
 import Writronics1Png from './assets/writronics-1.png';
 import Writronics2Png from './assets/writronics-2.png';
 
 export default function YSOShmupRecordsPage() {
   return (
     <main className="flex min-h-screen flex-col px-8 py-24 gap-4 sm:px-24">
+      <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
+        <Image
+          {...YSOShmupRecords2Png}
+          alt="YSOShmupRecords의 기록 리스트"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          {...YSOShmupRecords1Png}
+          alt="YSOShmupRecords의 기록 아티클"
+          className="w-fit max-h-80 object-contain"
+        />
+      </div>
+
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         YSOShmupRecords
       </Title>
