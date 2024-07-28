@@ -4,6 +4,22 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
 <main
   class="flex min-h-screen flex-col px-8 py-24 gap-4 sm:px-24"
 >
+  <div
+    class="w-full flex flex-row flex-wrap justify-center items-center"
+  >
+    <img
+      alt="ViteMinesweeper Expert 단계 승리 장면"
+      class="w-fit max-h-80 object-contain"
+      data-nimg="1"
+      decoding="async"
+      height="40"
+      loading="lazy"
+      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+      style="color: transparent;"
+      width="40"
+    />
+  </div>
   <h1
     class="text-bold text-4xl sm:text-5xl md:text-6xl"
   >
