@@ -2,140 +2,229 @@
 
 exports[`PrivateTeamProjectPage should show as expected 1`] = `
 <main
-  class="flex min-h-screen flex-col px-8 py-24 gap-4 sm:px-24"
+  class="flex min-h-screen flex-col px-8 py-24 gap-16 sm:px-24"
 >
   <h1
     class="text-bold mt-4 text-4xl sm:text-5xl md:text-6xl"
   >
     비공개 팀 프로젝트
   </h1>
-  <h2
-    class="text-bold mt-4 text-2xl sm:text-3xl md:text-4xl"
+  <section
+    class="flex flex-col gap-8 undefined"
   >
-    사용한 기술 스택
-  </h2>
-  <div
-    class="flex flex-row flex-wrap gap-2"
-  >
-    <span
-      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    <h2
+      class="text-bold text-2xl sm:text-3xl md:text-4xl"
     >
-      Expo
-    </span>
-    <span
-      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
-    >
-      React Native
-    </span>
-  </div>
-  <h2
-    class="text-bold mt-8 text-2xl sm:text-3xl md:text-4xl"
-  >
-    개요
-  </h2>
-  <ul
-    class="list-disc pl-8"
-  >
-    <li>
-      팀 구성: PM 1명, 기획자 1명, 디자이너 1명, 백엔드 2명, 프론트엔드 1명 (본인)
-    </li>
-    <li>
-      작업 내용
+      개요
+    </h2>
+    <section>
       <ul
         class="list-disc pl-8"
       >
         <li>
-          Expo로 React Native 프로젝트를 세팅하여, iOS + Android 타겟이면서도 MacOS뿐만 아니라 Windows로도 개발할 수 있게 만듦.
+          팀 구성: PM 1명, 기획자 1명, 디자이너 1명, 백엔드 2명, 프론트엔드 1명 (본인)
         </li>
         <li>
-          React Navigation의 Native Stack Navigator를 사용하여 스크린 라우팅.
-        </li>
-        <li>
-          Axios를 이용하여 게시물 등록/수정/삭제/열람과 이미지 업로드 등등, 백엔드 API와 연계된 각종 기능 구현.
-        </li>
-        <li>
-          Amazon Cognito Identity JS를 이용하여 회원가입, 로그인, 회원탈퇴, 비밀번호 초기화, 이메일 인증 등의 유저 관련 기능 구현.
-        </li>
-        <li>
-          각종 기능에 대해 로딩 여부, 에러 여부, 결과값을 담은 커스텀 훅을 구축.
-        </li>
-        <li>
-          expo-updates 패키지와 Expo Channel을 활용한 CI/CD를 구축하여, Expo 무료 플랜에서 월 30회(iOS 15회)까지만 할 수 있는 EAS Build를 절약함.
+          작업 내용
+          <ul
+            class="list-disc pl-8"
+          >
+            <li>
+              Expo로 React Native 프로젝트를 세팅하여, iOS + Android 타겟이면서도 MacOS뿐만 아니라 Windows로도 개발할 수 있게 만듦.
+            </li>
+            <li>
+              React Navigation의 Native Stack Navigator를 사용하여 스크린 라우팅.
+            </li>
+            <li>
+              Axios를 이용하여 게시물 등록/수정/삭제/열람과 이미지 업로드 등등, 백엔드 API와 연계된 각종 기능 구현.
+            </li>
+            <li>
+              Amazon Cognito Identity JS를 이용하여 회원가입, 로그인, 회원탈퇴, 비밀번호 초기화, 이메일 인증 등의 유저 관련 기능 구현.
+            </li>
+            <li>
+              각종 기능에 대해 로딩 여부, 에러 여부, 결과값을 담은 커스텀 훅을 구축.
+            </li>
+            <li>
+              expo-updates 패키지와 Expo Channel을 활용한 CI/CD를 구축하여, Expo 무료 플랜에서 월 30회(iOS 15회)까지만 할 수 있는 EAS Build를 절약함.
+            </li>
+          </ul>
         </li>
       </ul>
-    </li>
-  </ul>
-  <h2
-    class="text-bold mt-8 text-2xl sm:text-3xl md:text-4xl mb-1"
+    </section>
+  </section>
+  <section
+    class="flex flex-col gap-8 undefined"
   >
-    React Native 프로젝트를 Expo로 만든 이유?
-  </h2>
-  <p
-    class="text-base font-normal indent-4 mb-4 undefined"
+    <h2
+      class="text-bold text-2xl sm:text-3xl md:text-4xl"
+    >
+      사용한 기술 스택
+    </h2>
+    <section
+      class="flex flex-row flex-wrap gap-2"
+    >
+      <span
+        class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+      >
+        Expo
+      </span>
+      <span
+        class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+      >
+        React Native
+      </span>
+    </section>
+  </section>
+  <section
+    class="flex flex-col gap-8 undefined"
   >
-    해당 앱은 iOS + Android를 타겟으로 하는 모바일 앱이지만, MacOS 뿐만 아니라 Windows로도 개발하기 때문에, Expo를 사용하는 것이 유일한 선택지입니다. 실제 React Native 공식 문서에서도
-     
-    <a
-      class="text-blue-500 hover:text-purple-500 undefined"
-      href="https://reactnative.dev/docs/set-up-your-environment?platform=ios&os=windows#unsupported"
-      target="_blank"
+    <h2
+      class="text-bold text-2xl sm:text-3xl md:text-4xl"
     >
-      CLI 등을 통해 직접 세팅할 때 Windows로 iOS 앱을 만드는건 지원되지 않는다고 하며, 대체 방안으로 Expo와 Expo Go를 사용할 것을 안내합니다
-    </a>
-    . 그래서, Expo로 React Native 프로젝트를 세팅함으로써, iOS + Android 타겟인 이 앱을 MacOS뿐만 아니라 Windows로도 개발할 수 있게 만들었습니다.
-  </p>
-  <h2
-    class="text-bold mt-4 text-2xl sm:text-3xl md:text-4xl"
+      React Native 프로젝트를 Expo로 만든 이유?
+    </h2>
+    <section>
+      <p
+        class="text-base font-normal indent-4 undefined"
+      >
+        해당 앱은
+         
+        <strong
+          class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+        >
+          iOS + Android를 타겟으로 하는 모바일 앱
+        </strong>
+        이지만,
+         
+        <strong
+          class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+        >
+          MacOS 뿐만 아니라 Windows로도 개발
+        </strong>
+        하기 때문에,
+         
+        <strong
+          class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+        >
+          Expo를 사용하는 것이 유일한 선택지
+        </strong>
+        였습니다. 실제 React Native 공식 문서에서도
+         
+        <a
+          class="text-blue-500 hover:text-purple-500 undefined"
+          href="https://reactnative.dev/docs/set-up-your-environment?platform=ios&os=windows#unsupported"
+          target="_blank"
+        >
+          CLI 등을 통해 직접 세팅할 때 Windows로 iOS 앱을 만드는건 지원되지 않는다고 하며, 대체 방안으로 Expo와 Expo Go를 사용할 것을 안내합니다
+        </a>
+        . 그래서, Expo로 React Native 프로젝트를 세팅함으로써, iOS + Android 타겟인 이 앱을 MacOS뿐만 아니라 Windows로도 개발할 수 있게 만들었습니다.
+      </p>
+    </section>
+  </section>
+  <section
+    class="flex flex-col gap-8 undefined"
   >
-    진행 상황 공유 방법
-  </h2>
-  <p
-    class="text-base font-normal indent-4 mb-4 mb-0"
-  >
-    빌드 구축 전에는 Expo Go를 활용하였습니다. Expo Go는 개발 중인 앱을 따로 빌드하여 설치하지 않고도 QR 코드를 스캔하거나 
-    <span
-      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+    <h2
+      class="text-bold text-2xl sm:text-3xl md:text-4xl"
     >
-      exp://
-    </span>
-    로 시작하는 URL을 클릭하여 앱의 프리뷰를 볼 수 있게 해주는 앱입니다. 이 앱을 통해, 빌드를 따로 만들지 않고도 팀원들에게 신속하게 프리뷰를 제공할 수 있었습니다.
-  </p>
-  <p
-    class="text-base font-normal indent-4 mb-4 undefined"
-  >
-    <span
-      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+      진행 상황 공유 방법
+    </h2>
+    <section
+      class="flex flex-col gap-4"
     >
-      expo-updates
-    </span>
-     패키지와 Expo Channel을 활용하여, CI/CD가 가능한 빌드를 구축하였습니다. 
-    <span
-      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
-    >
-      eas.json
-    </span>
-    의
-     
-    <span
-      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
-    >
-      build.(프로파일명).channel
-    </span>
-    에 원하는 채널을 할당시키면, 그 빌드는 프로파일에 해당되는 채널의 업데이트를 따라갑니다. (
-    <a
-      class="text-blue-500 hover:text-purple-500 undefined"
-      href="https://docs.expo.dev/build/updates/"
-      target="_blank"
-    >
-      참고
-    </a>
-    ) 이를 통해 코드만 푸시해도 업데이트가 되는 빌드를 구축함으로써, 무료 플랜에서 월 최대 30회까지(Android 빌드 기준, iOS는 최대 15회)밖에 안 되는 
-    <span
-      class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
-    >
-      eas build
-    </span>
-    의 사용 횟수를 획기적으로 줄일 수 있었습니다.
-  </p>
+      <p
+        class="text-base font-normal indent-4 undefined"
+      >
+        빌드 구축 전에는
+         
+        <a
+          class="text-blue-500 hover:text-purple-500 undefined"
+          href="https://expo.dev/go"
+          target="_blank"
+        >
+          Expo Go
+        </a>
+        를 활용하였습니다. Expo Go는 개발 중인 앱을 따로 빌드하여 설치하지 않고도 QR 코드를 스캔하거나 
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+        >
+          exp://
+        </span>
+        로 시작하는 URL에 접속하여
+         
+        <strong
+          class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+        >
+          앱의 프리뷰를 볼 수 있게 해주는 앱
+        </strong>
+        입니다. 이 앱을 통해,
+         
+        <strong
+          class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+        >
+          빌드를 따로 만들지 않고도 팀원들에게 신속하게 프리뷰를 제공
+        </strong>
+        할 수 있었습니다.
+      </p>
+      <p
+        class="text-base font-normal indent-4 undefined"
+      >
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+        >
+          expo-updates
+        </span>
+         패키지와 Expo Channel을 활용하여,
+         
+        <strong
+          class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+        >
+          CI/CD가 가능한 빌드를 구축
+        </strong>
+        하였습니다.
+         
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+        >
+          eas.json
+        </span>
+        의 
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+        >
+          build.(프로파일명).channel
+        </span>
+        에 원하는 채널을 할당시키면, 그 빌드는 프로파일에 해당되는 채널의 업데이트를 따라갑니다. (
+        <a
+          class="text-blue-500 hover:text-purple-500 undefined"
+          href="https://docs.expo.dev/build/updates/"
+          target="_blank"
+        >
+          참고
+        </a>
+        ) 이를 통해
+         
+        <strong
+          class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+        >
+          코드만 푸시해도 업데이트가 되는 빌드를 구축
+        </strong>
+        함으로써,
+         
+        <strong
+          class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+        >
+          무료 플랜에서 월 최대 30회까지(Android 빌드 기준, iOS는 최대 15회)밖에 안 되는
+        </strong>
+         
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+        >
+          eas build
+        </span>
+        의 사용 횟수를 획기적으로 줄일 수 있었습니다.
+      </p>
+    </section>
+  </section>
 </main>
 `;
