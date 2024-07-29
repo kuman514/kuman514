@@ -8,7 +8,7 @@ interface Props {
 export default function Emphasize({ customClassName, children }: Props) {
   return (
     <strong
-      className={`bg-emphasize-underline from-transparent from-50% to-green-600 to-50% ${customClassName}`}
+      className={`bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% ${customClassName}`}
     >
       {children}
     </strong>

@@ -2,7 +2,7 @@
 
 exports[`Emphasize should show as expected 1`] = `
 <strong
-  class="bg-emphasize-underline from-transparent from-50% to-green-600 to-50% undefined"
+  class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
 >
   Koishi Komeiji
 </strong>
@@ -10,7 +10,7 @@ exports[`Emphasize should show as expected 1`] = `
 
 exports[`Emphasize should show as expected 2 1`] = `
 <strong
-  class="bg-emphasize-underline from-transparent from-50% to-green-600 to-50% to-pink-300"
+  class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% to-pink-300"
 >
   Hoshino Takanashi
 </strong>
