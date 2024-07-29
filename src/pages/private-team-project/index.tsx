@@ -9,7 +9,7 @@ import UnorderedBulletList from '^/shared/unordered-bullet-list';
 export default function PrivateTeamProjectPage() {
   return (
     <main className="flex min-h-screen flex-col px-8 py-24 gap-16 sm:px-24">
-      <Title customClassName="mt-4 text-4xl sm:text-5xl md:text-6xl">
+      <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         비공개 팀 프로젝트
       </Title>
 

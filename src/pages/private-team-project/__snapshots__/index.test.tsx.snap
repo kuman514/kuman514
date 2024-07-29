@@ -5,7 +5,7 @@ exports[`PrivateTeamProjectPage should show as expected 1`] = `
   class="flex min-h-screen flex-col px-8 py-24 gap-16 sm:px-24"
 >
   <h1
-    class="text-bold mt-4 text-4xl sm:text-5xl md:text-6xl"
+    class="text-bold text-4xl sm:text-5xl md:text-6xl"
   >
     비공개 팀 프로젝트
   </h1>
