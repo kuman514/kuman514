@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 import SecondaryTitle from '^/shared/secondary-title';
 
 interface Props {
-  mainSectionClassName?: string;
+  mainSectionCustomClassName?: string;
   subsectionClassName?: string;
 
   title: ReactNode;
@@ -11,13 +11,13 @@ interface Props {
 }
 
 export default function Section({
-  mainSectionClassName,
+  mainSectionCustomClassName,
   subsectionClassName,
   title,
   children,
 }: Props) {
   return (
-    <section className={mainSectionClassName}>
+    <section className={`flex flex-col gap-4 ${mainSectionCustomClassName}`}>
       <SecondaryTitle customClassName="text-2xl sm:text-3xl md:text-4xl">
         {title}
       </SecondaryTitle>
