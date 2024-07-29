@@ -3,7 +3,7 @@
 exports[`Section should render as expected 1`] = `
 <div>
   <section
-    class="flex flex-col gap-4 undefined"
+    class="flex flex-col gap-8 undefined"
   >
     <h2
       class="text-bold text-2xl sm:text-3xl md:text-4xl"

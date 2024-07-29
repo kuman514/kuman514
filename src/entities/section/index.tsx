@@ -17,7 +17,7 @@ export default function Section({
   children,
 }: Props) {
   return (
-    <section className={`flex flex-col gap-4 ${mainSectionCustomClassName}`}>
+    <section className={`flex flex-col gap-8 ${mainSectionCustomClassName}`}>
       <SecondaryTitle customClassName="text-2xl sm:text-3xl md:text-4xl">
         {title}
       </SecondaryTitle>
