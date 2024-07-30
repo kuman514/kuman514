@@ -13,10 +13,10 @@ export default function ProjectListItem({
   projectItem: { projectId, title, thumbnailUrl, description, techStackTags },
 }: Props) {
   return (
-    <li className="py-8 border-b border-b-gray-400 last:border-b-0">
+    <li className="border-b border-b-gray-400 last:border-b-0 transition hover:bg-green-400/[.5]">
       <Link
         href={`/projects/${projectId}`}
-        className="flex flex-col lg:grid lg:grid-cols-[360px_1fr] gap-4"
+        className="flex flex-col p-8 lg:grid lg:grid-cols-[360px_1fr] gap-4 transition hover:-translate-y-1"
       >
         <Image
           src={thumbnailUrl}
