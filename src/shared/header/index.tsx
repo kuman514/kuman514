@@ -8,7 +8,7 @@ interface Props {
 
 export default function Header({ navNodes }: Props) {
   return (
-    <header className="fixed inset-x-0 top-0 w-full h-16 flex flex-row justify-between items-center bg-green-500 sm:px-6 md:px-8">
+    <header className="fixed z-header inset-x-0 top-0 w-full h-16 flex flex-row justify-between items-center bg-green-500 sm:px-6 md:px-8">
       <div className="h-full hidden md:flex md:flex-row md:justify-center md:items-center">
         <Link
           aria-label="kuman514-logo"

@@ -19,6 +19,9 @@ const config: Config = {
         '4/3': '4 / 3',
         '3/2': '3 / 2',
       },
+      zIndex: {
+        header: '99999999',
+      },
     },
   },
   plugins: [],
