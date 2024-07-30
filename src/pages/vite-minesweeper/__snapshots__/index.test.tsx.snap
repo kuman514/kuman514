@@ -4,6 +4,11 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
 <main
   class="flex min-h-screen flex-col px-8 py-24 gap-16 sm:px-24"
 >
+  <h1
+    class="text-bold mt-24 text-4xl sm:text-5xl md:text-6xl"
+  >
+    Vite 지뢰찾기 (ViteMinesweeper)
+  </h1>
   <div
     class="w-full flex flex-row flex-wrap justify-center items-center"
   >
@@ -20,11 +25,6 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
       width="40"
     />
   </div>
-  <h1
-    class="text-bold text-4xl sm:text-5xl md:text-6xl"
-  >
-    Vite 지뢰찾기 (ViteMinesweeper)
-  </h1>
   <section
     class="flex flex-col gap-8 undefined"
   >

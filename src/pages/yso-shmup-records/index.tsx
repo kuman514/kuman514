@@ -17,6 +17,10 @@ import YSOShmupRecords2Png from './assets/yso-shmup-records-2.png';
 export default function YSOShmupRecordsPage() {
   return (
     <main className="flex min-h-screen flex-col px-8 py-24 gap-16 sm:px-24">
+      <Title customClassName="mt-24 text-4xl sm:text-5xl md:text-6xl">
+        YSOShmupRecords
+      </Title>
+
       <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
         <Image
           {...YSOShmupRecords2Png}
@@ -29,10 +33,6 @@ export default function YSOShmupRecordsPage() {
           className="w-fit max-h-80 object-contain"
         />
       </div>
-
-      <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
-        YSOShmupRecords
-      </Title>
 
       <Section title="개요">
         <UnorderedBulletList>

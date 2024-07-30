@@ -1,16 +1,17 @@
 import ProjectListItem from '^/entities/project/list-item';
 import Title from '^/shared/title';
 
+import ExpoLogoWordMark from '^/pages/project-list/assets/logo-wordmark.png';
 import ViteMinesweeperPng from '^/pages/vite-minesweeper/assets/vite-minesweeper.png';
 import YSOShmupRecords2Png from '^/pages/yso-shmup-records/assets/yso-shmup-records-2.png';
-import ExpoLogoWordMark from '^/pages/project-list/assets/logo-wordmark.png';
 
 export default function ProjectListPage() {
   return (
     <main className="flex min-h-screen flex-col px-8 py-24 gap-4 sm:px-24">
-      <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
+      <Title customClassName="mt-24 text-4xl sm:text-5xl md:text-6xl">
         프로젝트 목록
       </Title>
+
       <ul>
         <ProjectListItem
           projectItem={{
