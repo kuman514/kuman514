@@ -1,14 +1,14 @@
 # 태스크 브레이크다운
 - 포트폴리오 페이지 완성 전 필수 사항
   - 페이지 구성
-    - 인트로 페이지 (`/`)
-    - 자기소개 (`/whoami`)
-    - 프로젝트 (`/projects`)
+    - ~~인트로 페이지 (`/`)~~ `완료`
+    - ~~자기소개 (`/whoami`)~~ `완료`
+    - ~~프로젝트 (`/projects`)~~ `완료`
       - 어떤 프로젝트를 담을 것인가?
-        - 비공개 팀 프로젝트 (`/projects/private-team-project`)
-        - YSOShmupRecords (`/projects/yso-shmup-records`)
-        - ViteMinesweeper (`/projects/vite-minesweeper`)
-    - 연락처 (`/contact`)
+        - ~~비공개 팀 프로젝트 (`/projects/private-team-project`) -> `/projects/:projectName`으로 대체~~ `완료`
+        - ~~YSOShmupRecords (`/projects/yso-shmup-records`) -> `/projects/:projectName`으로 대체~~ `완료`
+        - ~~ViteMinesweeper (`/projects/vite-minesweeper`) -> `/projects/:projectName`으로 대체~~ `완료`
+    - ~~연락처 (`/contact`)~~ `완료`
   - 컴포넌트
     - 공유 (shared)
       - ~~타이틀 (`Title`)~~ `완료`
@@ -18,29 +18,29 @@
       - ~~헤더 (`Header`)~~ `완료`
     - 엔티티 (entities)
       - 자기소개 및 프로젝트 목록 공통
-        - ~~제목과 문단 (`TitleAndParagraph`)~~ `완료`
+        - ~~제목과 문단 (`TitleAndParagraph`) -> 자기소개 및 프로젝트 전용 섹션(`Section`)으로 변경~~ `완료`
       - 자기소개 관련
-        - ~~자기소개에 관한 내용을 담은 글의 제목과 문단 -> 자기소개 및 프로젝트 목록용으로 통합 ~~ `완료`
+        - ~~자기소개에 관한 내용을 담은 글의 제목과 문단 -> 자기소개 및 프로젝트 목록용으로 통합~~ `완료`
       - 프로젝트 관련
-        - ~~프로젝트에 관한 내용을 담은 글의 제목과 문단 -> 자기소개 및 프로젝트 목록용으로 통합 ~~ `완료`
+        - ~~프로젝트에 관한 내용을 담은 글의 제목과 문단 -> 자기소개 및 프로젝트 목록용으로 통합~~ `완료`
         - ~~프로젝트 목록 아이템 (`ProjectListItem`)~~ `완료`
-        - 프로젝트 개요 (`ProjectContentIntroduction`)
+        - ~~프로젝트 개요 (`ProjectContentIntroduction`) -> 섹션(`Section`) 완성으로 인해 필요없어짐~~ `폐지`
       - 연락처 관련
         - ~~연락처 목록 아이템 (`ContactListItem`) => 연락처 링크 버튼(`LinkButton`)으로 바꿈~~ `완료`
     - 위젯 (widgets)
       - 자기소개 관련
-        - 자기소개 아티클 (`WhoAmIArticle`)
+        - ~~자기소개 아티클 (`WhoAmIArticle`) -> 섹션(`Section`) 완성으로 인해 필요없어짐~~ `폐지`
       - 프로젝트 관련
-        - 프로젝트 목록 (`ProjectList`)
-        - 프로젝트 아티클 (`ProjectArticle`)
+        - ~~프로젝트 목록 (`ProjectList`) -> 섹션(`Section`) 완성으로 인해 필요없어짐~~ `폐지`
+        - ~~프로젝트 아티클 (`ProjectArticle`) -> 섹션(`Section`) 완성으로 인해 필요없어짐~~ `폐지`
       - 연락처 관련
-        - 연락처 목록 (`ContactList`)
+        - ~~연락처 목록 (`ContactList`) -> 섹션(`Section`) 완성으로 인해 필요없어짐~~ `폐지`
     - 페이지 (pages)
-      - 인트로 페이지 (`IntroPage`)
-      - 자기소개 (`WhoAmIPage`)
-      - 프로젝트 목록 (`ProjectListPage`)
-      - 프로젝트 상세 (`ProjectArticlePage`)
-      - 연락처 (`ContactPage`)
+      - ~~인트로 페이지 (`IntroPage`)~~ `완료`
+      - ~~자기소개 (`WhoAmIPage`)~~ `완료`
+      - ~~프로젝트 목록 (`ProjectListPage`)~~ `완료`
+      - ~~프로젝트 상세 (`ProjectArticlePage`)~~ `완료`
+      - ~~연락처 (`ContactPage`)~~ `완료`
 - 포트폴리오 페이지 완성 후 개선 사항
   - 프로젝트에 나와야 할 내용
     - 프로젝트 소개
