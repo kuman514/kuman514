@@ -60,7 +60,7 @@ export default function ViteMinesweeperPage() {
       <Section title="방문하기">
         [{' '}
         <ExternalAnchor href="https://github.com/kuman514/ViteMinesweeper">
-          Github 저장소
+          GitHub 저장소
         </ExternalAnchor>{' '}
         ] [{' '}
         <ExternalAnchor href="https://vite-minesweeper.vercel.app/">

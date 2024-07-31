@@ -39,7 +39,7 @@ export default function WhoAmIPage() {
         <section>
           [{' '}
           <ExternalAnchor href={'https://github.com/kuman514'}>
-            kuman514의 Github 바로가기
+            kuman514의 GitHub 바로가기
           </ExternalAnchor>{' '}
           ]
         </section>

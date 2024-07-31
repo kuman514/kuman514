@@ -17,7 +17,7 @@ export default function ContactPage() {
         href="https://github.com/kuman514"
         customClassName="w-full max-w-2xl"
       >
-        Github 페이지 방문
+        GitHub 페이지 방문
       </LinkButton>
       <LinkButton
         href="https://open.kakao.com/me/kuman514"
