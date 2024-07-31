@@ -68,7 +68,7 @@ export default function YSOShmupRecordsPage() {
       <Section title="방문하기">
         [{' '}
         <ExternalAnchor href="https://github.com/kuman514/YSOShmupRecords">
-          깃허브 저장소
+          GitHub 저장소
         </ExternalAnchor>{' '}
         ] [{' '}
         <ExternalAnchor href="https://yso-shmup-records.vercel.app/">
