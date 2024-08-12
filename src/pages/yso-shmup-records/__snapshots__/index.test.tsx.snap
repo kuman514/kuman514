@@ -11,9 +11,9 @@ exports[`YSOShmupRecordsPage should show as expected 1`] = `
     2024
     년
      
-    7
+    8
     월 
-    31
+    13
     일
   </div>
   <h1
@@ -280,11 +280,23 @@ exports[`YSOShmupRecordsPage should show as expected 1`] = `
           style="color: transparent;"
           width="40"
         />
+        <img
+          alt="YSOShmupRecords의 백오피스 Writronics의 기록 수정 화면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
       </div>
       <p
         class="text-base font-normal indent-4 undefined"
       >
-        기록 등의 데이터를 더욱 쉽게 관리하기 위해, Lambda + DynamoDB + API Gateway를 이용하여 서버리스 백엔드를 구축하여, YSOShmupRecords와 그의 백오피스 Writronics와 연동하였습니다. 백엔드 상에서, 기록 목록과 기록 아티클 등의 열람은 누구나 할 수 있지만 추가/편집/삭제는 관리자 로그인이 필요하도록 만들었습니다.
+        기록 등의 데이터를 더욱 쉽게 관리하기 위해, Lambda + DynamoDB + API Gateway를 이용하여 서버리스 백엔드를 구축하여, YSOShmupRecords와 그의 백오피스 Writronics와 연동하였습니다. 더 나아가, S3 퍼블릭 버킷을 추가적으로 구축하여, Writronics에서 이미지 파일 직접 업로드가 가능하게끔 만들었습니다. 백엔드 상에서, 기록 목록과 기록 아티클 등의 열람은 누구나 할 수 있지만 추가/편집/삭제는 관리자 로그인이 필요하도록 만들었습니다.
       </p>
     </section>
   </section>

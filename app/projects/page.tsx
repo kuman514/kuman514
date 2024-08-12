@@ -8,7 +8,7 @@ import ProjectPageTemplate from '^/entities/project/page-template';
 
 export default function ProjectListPage() {
   return (
-    <ProjectPageTemplate mostRecentlyEdited={new Date('2024-07-31')}>
+    <ProjectPageTemplate mostRecentlyEdited={new Date('2024-08-13')}>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         프로젝트 목록
       </Title>
