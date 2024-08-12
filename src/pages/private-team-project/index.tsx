@@ -9,7 +9,7 @@ import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
 export default function PrivateTeamProjectPage() {
   return (
-    <ProjectPageTemplate mostRecentlyEdited={new Date()}>
+    <ProjectPageTemplate mostRecentlyEdited={new Date('2024-07-30')}>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         비공개 팀 프로젝트
       </Title>

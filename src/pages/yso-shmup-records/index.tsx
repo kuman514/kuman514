@@ -9,6 +9,7 @@ import ProjectPageTemplate from '^/entities/project/page-template';
 
 import Section from '^/entities/section';
 import Emphasize from '^/shared/emphasize';
+
 import SkeletonPng from './assets/skeleton.png';
 import Writronics1Png from './assets/writronics-1.png';
 import Writronics2Png from './assets/writronics-2.png';
@@ -17,7 +18,7 @@ import YSOShmupRecords2Png from './assets/yso-shmup-records-2.png';
 
 export default function YSOShmupRecordsPage() {
   return (
-    <ProjectPageTemplate mostRecentlyEdited={new Date()}>
+    <ProjectPageTemplate mostRecentlyEdited={new Date('2024-07-31')}>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         YSOShmupRecords
       </Title>

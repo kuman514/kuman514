@@ -15,7 +15,7 @@ import ViteMinesweeperPng from './assets/vite-minesweeper.png';
 
 export default function ViteMinesweeperPage() {
   return (
-    <ProjectPageTemplate mostRecentlyEdited={new Date()}>
+    <ProjectPageTemplate mostRecentlyEdited={new Date('2024-07-31')}>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         Vite 지뢰찾기 (ViteMinesweeper)
       </Title>
