@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageTemplate should match the snapshot 1`] = `
+<main
+  class="min-h-screen flex flex-col mt-24 text-6xl"
+>
+  <div
+    class="w-full text-right"
+  >
+    최근 수정 일자: 
+    2024
+    년
+     
+    8
+    월 
+    13
+    일
+  </div>
+  Lorem ipsum dolor sit amet.
+</main>
+`;
