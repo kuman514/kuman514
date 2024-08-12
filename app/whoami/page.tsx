@@ -1,3 +1,4 @@
+import ProjectPageTemplate from '^/entities/project/page-template';
 import Section from '^/entities/section';
 import ExternalAnchor from '^/shared/external-anchor';
 import Paragraph from '^/shared/paragraph';
@@ -6,8 +7,8 @@ import Title from '^/shared/title';
 
 export default function WhoAmIPage() {
   return (
-    <main className="flex min-h-screen flex-col px-8 py-24 gap-16 sm:px-24">
-      <Title customClassName="mt-24 text-4xl sm:text-5xl md:text-6xl">
+    <ProjectPageTemplate mostRecentlyEdited={new Date()}>
+      <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         kuman514는...
       </Title>
 
@@ -55,6 +56,6 @@ export default function WhoAmIPage() {
         <Tag>HTML</Tag>
         <Tag>CSS</Tag>
       </Section>
-    </main>
+    </ProjectPageTemplate>
   );
 }
