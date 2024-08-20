@@ -56,6 +56,15 @@ export default function WhoAmIPage() {
         <Tag>HTML</Tag>
         <Tag>CSS</Tag>
       </Section>
+
+      <Section
+        title="연마 중인 기술 스택"
+        subsectionClassName="flex flex-row flex-wrap gap-2"
+      >
+        <Tag>Vite</Tag>
+        <Tag>React Native</Tag>
+        <Tag>Next.js</Tag>
+      </Section>
     </ProjectPageTemplate>
   );
 }

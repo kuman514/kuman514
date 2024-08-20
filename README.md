@@ -3,6 +3,9 @@
 ## Main Skills
 - Frontend, React, TypeScript, JavaScript, HTML, CSS
 
+## Training Skills
+- Vite, React Native, Next.js
+
 ## Main Projects
 - 비공개 팀 프로젝트
   - `React Native` `Expo`
