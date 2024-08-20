@@ -3,19 +3,12 @@ import { ReactNode } from 'react';
 import PageTemplate from '^/shared/page-template';
 
 interface Props {
-  mostRecentlyEdited: Date;
   children?: ReactNode;
 }
 
-export default function ProjectPageTemplate({
-  children,
-  mostRecentlyEdited,
-}: Props) {
+export default function ProjectPageTemplate({ children }: Props) {
   return (
-    <PageTemplate
-      mostRecentlyEdited={mostRecentlyEdited}
-      customClassName="px-8 py-24 gap-16 sm:px-24"
-    >
+    <PageTemplate customClassName="px-8 py-24 gap-16 sm:px-24 mt-24">
       {children}
     </PageTemplate>
   );

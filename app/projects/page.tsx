@@ -1,14 +1,14 @@
 import ProjectListItem from '^/entities/project/list-item';
 import Title from '^/shared/title';
 
+import ProjectPageTemplate from '^/entities/project/page-template';
 import ExpoLogoWordMark from '^/pages/project-list/assets/logo-wordmark.png';
 import ViteMinesweeperPng from '^/pages/vite-minesweeper/assets/vite-minesweeper.png';
 import YSOShmupRecords2Png from '^/pages/yso-shmup-records/assets/yso-shmup-records-2.png';
-import ProjectPageTemplate from '^/entities/project/page-template';
 
 export default function ProjectListPage() {
   return (
-    <ProjectPageTemplate mostRecentlyEdited={new Date('2024-08-13')}>
+    <ProjectPageTemplate>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         프로젝트 목록
       </Title>

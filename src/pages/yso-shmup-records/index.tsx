@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
+import ProjectPageTemplate from '^/entities/project/page-template';
 import ExternalAnchor from '^/shared/external-anchor';
 import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
-import ProjectPageTemplate from '^/entities/project/page-template';
 
 import Section from '^/entities/section';
 import Emphasize from '^/shared/emphasize';
@@ -19,7 +19,7 @@ import YSOShmupRecords2Png from './assets/yso-shmup-records-2.png';
 
 export default function YSOShmupRecordsPage() {
   return (
-    <ProjectPageTemplate mostRecentlyEdited={new Date('2024-08-13')}>
+    <ProjectPageTemplate>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         YSOShmupRecords
       </Title>

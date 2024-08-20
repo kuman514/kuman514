@@ -7,7 +7,7 @@ import Title from '^/shared/title';
 
 export default function WhoAmIPage() {
   return (
-    <ProjectPageTemplate mostRecentlyEdited={new Date('2024-07-31')}>
+    <ProjectPageTemplate>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         kuman514는...
       </Title>
