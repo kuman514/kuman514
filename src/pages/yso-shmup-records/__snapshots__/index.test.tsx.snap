@@ -2,7 +2,7 @@
 
 exports[`YSOShmupRecordsPage should show as expected 1`] = `
 <main
-  class="min-h-screen flex flex-col px-8 py-24 gap-16 sm:px-24"
+  class="min-h-screen flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl"
 >
   <div
     class="w-full text-right"
@@ -13,7 +13,7 @@ exports[`YSOShmupRecordsPage should show as expected 1`] = `
     8
     월
      
-    25
+    26
     일
   </div>
   <h1

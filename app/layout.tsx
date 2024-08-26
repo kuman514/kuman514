@@ -96,7 +96,9 @@ export default function RootLayout({
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <body className={`${inter.className} min-h-screen w-screen`}>
+      <body
+        className={`${inter.className} min-h-screen w-screen flex justify-center`}
+      >
         <Header navNodes={navNodes} />
         {children}
       </body>
