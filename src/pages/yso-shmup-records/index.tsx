@@ -16,6 +16,7 @@ import Writronics2Png from './assets/writronics-2.png';
 import Writronics3Png from './assets/writronics-3.png';
 import YSOShmupRecords1Png from './assets/yso-shmup-records-1.png';
 import YSOShmupRecords2Png from './assets/yso-shmup-records-2.png';
+import YSOShmupRecords3Png from './assets/yso-shmup-records-3.png';
 
 export default function YSOShmupRecordsPage() {
   return (
@@ -26,13 +27,18 @@ export default function YSOShmupRecordsPage() {
 
       <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
         <Image
-          {...YSOShmupRecords2Png}
+          {...YSOShmupRecords1Png}
           alt="YSOShmupRecords의 기록 리스트"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          {...YSOShmupRecords1Png}
+          {...YSOShmupRecords2Png}
           alt="YSOShmupRecords의 기록 아티클"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          {...YSOShmupRecords3Png}
+          alt="YSOShmupRecords의 아카트로닉스 오시는 길"
           className="w-fit max-h-80 object-contain"
         />
       </div>
