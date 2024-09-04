@@ -70,6 +70,44 @@ export default function ViteMinesweeperPage() {
         ]
       </Section>
 
+      <Section title="플레이 방법 (Windows Chrome 기준)">
+        <UnorderedBulletList>
+          <li>
+            게임의 룰은 Microsoft Windows 7까지의 기본 게임이었던 Microsoft
+            Minesweeper의 룰을 지향하고 있습니다.
+          </li>
+          <li>마우스 좌클릭으로 방문되지 않은 타일을 확인할 수 있습니다.</li>
+          <li>
+            마우스 우클릭으로 방문되지 않은 타일에 지뢰가 있다고 짐작하는
+            `마킹`을 남길 수 있습니다.
+          </li>
+          <li>
+            마우스 양쪽 클릭으로 주변에 지뢰가 있는지 확인할 수 있습니다.
+            <UnorderedBulletList>
+              <li>
+                숫자와 주변 마킹의 개수가 일치하지 않으면 작동하지 않습니다.
+              </li>
+            </UnorderedBulletList>
+          </li>
+          <li>지뢰를 건드리거나 모두 찾으면 게임이 종료됩니다.</li>
+          <li>
+            <Tag>Reset</Tag> 버튼으로 게임을 다시 시작할 수 있습니다.
+          </li>
+          <li>
+            <Tag>Config</Tag> 버튼으로 게임의 규격을 설정할 수 있습니다. 설정 시
+            진행 중인 게임은 초기화됩니다.
+          </li>
+          <li>
+            게임에서 설정할 수 있는 규격의 범위입니다.
+            <UnorderedBulletList>
+              <li>너비: 9 ~ 30칸</li>
+              <li>높이: 9 ~ 16칸</li>
+              <li>지뢰 개수: 10 ~ Floor(너비 * 높이 * 0.925)개</li>
+            </UnorderedBulletList>
+          </li>
+        </UnorderedBulletList>
+      </Section>
+
       <Section
         title="사용한 기술 스택"
         subsectionClassName="flex flex-row flex-wrap gap-2"
