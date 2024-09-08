@@ -61,6 +61,26 @@ export default function PrivateTeamProjectPage() {
         <Tag>React Native</Tag>
       </Section>
 
+      <Section title="협업 방법">
+        <Paragraph>
+          저희 팀은{' '}
+          <Emphasize>
+            Slack, Figma, Jira를 활용하여 정기 회의, 디자인 반영, 태스크
+            브레이크다운, 개발 일정 산정, 진행상황 및 요청사항 보고 등등의 소통
+          </Emphasize>
+          을 진행해왔습니다. 특히, 저는 프론트엔드 개발자로서 기획자분이랑
+          디자이너분과의 소통이 가장 활발했는데,{' '}
+          <Emphasize>
+            각종 컴포넌트나 스크린들이 어떤 화면에서 어떤 형태로 표시되어야
+            하며, 어떤 상호작용이 발생했을 때 또는 어떤 상태가 변할 때 어떤
+            변화가 있어야 하는지, 표시할 데이터가 비어있거나 에러가 발생할 경우
+            어떻게 표시해야 하는지{' '}
+          </Emphasize>
+          등등에 대한 논의가 주를 이뤘습니다. 이에 대한 논의가 결정되었을 때,
+          예상되는 개발 일정을 산정하고 구현을 시작합니다.
+        </Paragraph>
+      </Section>
+
       <Section title="React Native 프로젝트를 Expo로 만든 이유?">
         <Paragraph>
           해당 앱은{' '}
