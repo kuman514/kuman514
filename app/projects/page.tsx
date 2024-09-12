@@ -2,7 +2,7 @@ import ProjectListItem from '^/entities/project/list-item';
 import Title from '^/shared/title';
 
 import ProjectPageTemplate from '^/entities/project/page-template';
-import ExpoLogoWordMark from '^/pages/project-list/assets/logo-wordmark.png';
+import PrivateTeamProjectPng from '^/pages/project-list/assets/private-team-project.png';
 import ViteMinesweeperPng from '^/pages/vite-minesweeper/assets/vite-minesweeper.png';
 import YSOShmupRecordsPng from '^/pages/project-list/assets/yso-shmup-records.png';
 
@@ -18,7 +18,7 @@ export default function ProjectListPage() {
           projectItem={{
             projectId: 'PrivateTeamProject',
             title: '비공개 팀 프로젝트',
-            thumbnailUrl: ExpoLogoWordMark.src,
+            thumbnailUrl: PrivateTeamProjectPng.src,
             description: 'iOS + Android를 타겟으로 한 모바일 앱.',
             techStackTags: ['React Native', 'Expo'],
           }}
