@@ -4,7 +4,7 @@ import Title from '^/shared/title';
 import ProjectPageTemplate from '^/entities/project/page-template';
 import ExpoLogoWordMark from '^/pages/project-list/assets/logo-wordmark.png';
 import ViteMinesweeperPng from '^/pages/vite-minesweeper/assets/vite-minesweeper.png';
-import YSOShmupRecords2Png from '^/pages/yso-shmup-records/assets/yso-shmup-records-2.png';
+import YSOShmupRecordsPng from '^/pages/project-list/assets/yso-shmup-records.png';
 
 export default function ProjectListPage() {
   return (
@@ -27,7 +27,7 @@ export default function ProjectListPage() {
           projectItem={{
             projectId: 'YSOShmupRecords',
             title: 'YSOShmupRecords',
-            thumbnailUrl: YSOShmupRecords2Png.src,
+            thumbnailUrl: YSOShmupRecordsPng.src,
             description:
               '본인 YSO(kuman514)의 슈팅게임 기록을 열람하고 공유할 수 있게 만들기 위한 웹 사이트.',
             techStackTags: [
