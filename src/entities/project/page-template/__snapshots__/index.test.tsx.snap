@@ -2,20 +2,24 @@
 
 exports[`ProjectPageTemplate should match the snapshot 1`] = `
 <main
-  class="min-h-screen flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl"
+  class="min-h-screen flex flex-col w-full flex flex-col items-center"
 >
   <div
-    class="w-full text-right"
+    class="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl"
   >
-    최근 수정 일자: 
-    2024
-    년 
-    9
-    월
-     
-    19
-    일
+    <div
+      class="w-full text-right"
+    >
+      최근 수정 일자: 
+      2024
+      년 
+      9
+      월
+       
+      19
+      일
+    </div>
+    Lorem ipsum dolor sit amet.
   </div>
-  Lorem ipsum dolor sit amet.
 </main>
 `;

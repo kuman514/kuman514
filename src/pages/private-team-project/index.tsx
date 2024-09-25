@@ -7,9 +7,16 @@ import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
+import PrivateTeamProjectPng from './assets/private-team-project.png';
+
 export default function PrivateTeamProjectPage() {
   return (
-    <ProjectPageTemplate>
+    <ProjectPageTemplate
+      bannerImage={{
+        imageData: PrivateTeamProjectPng,
+        altText: '비공개 팀 프로젝트 배너 이미지',
+      }}
+    >
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         비공개 팀 프로젝트
       </Title>

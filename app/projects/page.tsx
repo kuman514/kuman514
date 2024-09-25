@@ -2,9 +2,9 @@ import ProjectListItem from '^/entities/project/list-item';
 import Title from '^/shared/title';
 
 import ProjectPageTemplate from '^/entities/project/page-template';
-import PrivateTeamProjectPng from '^/pages/project-list/assets/private-team-project.png';
+import PrivateTeamProjectPng from '^/pages/private-team-project/assets/private-team-project.png';
 import ViteMinesweeperPng from '^/pages/vite-minesweeper/assets/vite-minesweeper.png';
-import YSOShmupRecordsPng from '^/pages/project-list/assets/yso-shmup-records.png';
+import YSOShmupRecordsPng from '^/pages/yso-shmup-records/assets/yso-shmup-records.png';
 
 export default function ProjectListPage() {
   return (
