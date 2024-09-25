@@ -17,10 +17,16 @@ import Writronics3Png from './assets/writronics-3.png';
 import YSOShmupRecords1Png from './assets/yso-shmup-records-1.png';
 import YSOShmupRecords2Png from './assets/yso-shmup-records-2.png';
 import YSOShmupRecords3Png from './assets/yso-shmup-records-3.png';
+import YSOShmupRecordsPng from './assets/yso-shmup-records.png';
 
 export default function YSOShmupRecordsPage() {
   return (
-    <ProjectPageTemplate>
+    <ProjectPageTemplate
+      bannerImage={{
+        imageData: YSOShmupRecordsPng,
+        altText: 'YSOShmupRecords 배너 이미지',
+      }}
+    >
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         YSOShmupRecords
       </Title>
