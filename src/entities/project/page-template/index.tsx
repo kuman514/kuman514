@@ -10,9 +10,12 @@ interface Props {
 
 export default function ProjectPageTemplate({ children }: Props) {
   return (
-    <PageTemplate customClassName="px-8 py-24 gap-16 sm:px-24 max-w-6xl">
-      <MostRecentlyEdited editedDate={MOST_RECENTLY_EDITED_DATE} />
-      {children}
+    <PageTemplate customClassName="w-full flex flex-col items-center">
+      <div className="bg-red-500 w-full h-80"></div>
+      <div className="flex flex-col px-8 pb-24 gap-16 sm:px-24 max-w-6xl">
+        <MostRecentlyEdited editedDate={MOST_RECENTLY_EDITED_DATE} />
+        {children}
+      </div>
     </PageTemplate>
   );
 }
