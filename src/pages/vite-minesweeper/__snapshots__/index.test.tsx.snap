@@ -6,7 +6,7 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
 >
   <div
     aria-label="banner-image"
-    class="bg-red-500 w-full h-[50vh]"
+    class="pt-16 w-full h-[50vh]"
   >
     <img
       alt="ViteMinesweeper 배너 이미지"
@@ -33,7 +33,7 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
       9
       월
        
-      26
+      27
       일
     </div>
     <h1
