@@ -10,7 +10,8 @@ import UnorderedBulletList from '^/shared/unordered-bullet-list';
 import Section from '^/entities/section';
 import Emphasize from '^/shared/emphasize';
 
-import SkeletonPng from './assets/skeleton.png';
+import Skeleton1Png from './assets/skeleton-1.png';
+import Skeleton2Png from './assets/skeleton-2.png';
 import Writronics1Png from './assets/writronics-1.png';
 import Writronics2Png from './assets/writronics-2.png';
 import Writronics3Png from './assets/writronics-3.png';
@@ -128,9 +129,14 @@ export default function YSOShmupRecordsPage() {
         title="스켈레톤 컴포넌트 적용"
         subsectionClassName="flex flex-col gap-4"
       >
-        <div className="flex justify-center items-center">
+        <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
           <Image
-            {...SkeletonPng}
+            {...Skeleton1Png}
+            alt="YSOShmupRecords의 기록 목록 스켈레톤 컴포넌트"
+            className="max-h-80 object-contain"
+          />
+          <Image
+            {...Skeleton2Png}
             alt="YSOShmupRecords의 기록 아티클 스켈레톤 컴포넌트"
             className="max-h-80 object-contain"
           />

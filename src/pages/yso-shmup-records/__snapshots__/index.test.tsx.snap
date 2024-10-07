@@ -30,10 +30,10 @@ exports[`YSOShmupRecordsPage should show as expected 1`] = `
       최근 수정 일자: 
       2024
       년 
-      9
+      10
       월
        
-      27
+      7
       일
     </div>
     <h1
@@ -259,8 +259,20 @@ exports[`YSOShmupRecordsPage should show as expected 1`] = `
         class="flex flex-col gap-4"
       >
         <div
-          class="flex justify-center items-center"
+          class="w-full flex flex-row flex-wrap justify-center items-center gap-4"
         >
+          <img
+            alt="YSOShmupRecords의 기록 목록 스켈레톤 컴포넌트"
+            class="max-h-80 object-contain"
+            data-nimg="1"
+            decoding="async"
+            height="40"
+            loading="lazy"
+            src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+            srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+            style="color: transparent;"
+            width="40"
+          />
           <img
             alt="YSOShmupRecords의 기록 아티클 스켈레톤 컴포넌트"
             class="max-h-80 object-contain"
