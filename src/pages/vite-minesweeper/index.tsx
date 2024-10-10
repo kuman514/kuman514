@@ -11,13 +11,14 @@ import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
 import BfsPng from './assets/bfs.png';
 import QueuePopPng from './assets/queue-pop.png';
+import ViteMinesweeperBannerPng from './assets/vite-minesweeper-banner.png';
 import ViteMinesweeperPng from './assets/vite-minesweeper.png';
 
 export default function ViteMinesweeperPage() {
   return (
     <ProjectPageTemplate
       bannerImage={{
-        imageData: ViteMinesweeperPng,
+        imageData: ViteMinesweeperBannerPng,
         altText: 'ViteMinesweeper 배너 이미지',
       }}
     >

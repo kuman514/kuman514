@@ -3,7 +3,7 @@ import Title from '^/shared/title';
 
 import ProjectPageTemplate from '^/entities/project/page-template';
 import PrivateTeamProjectPng from '^/pages/private-team-project/assets/private-team-project.png';
-import ViteMinesweeperPng from '^/pages/vite-minesweeper/assets/vite-minesweeper.png';
+import ViteMinesweeperBannerPng from '^/pages/vite-minesweeper/assets/vite-minesweeper-banner.png';
 import YSOShmupRecordsPng from '^/pages/yso-shmup-records/assets/yso-shmup-records.png';
 
 export default function ProjectListPage() {
@@ -50,7 +50,7 @@ export default function ProjectListPage() {
           projectItem={{
             projectId: 'ViteMinesweeper',
             title: 'Vite 지뢰찾기 (ViteMinesweeper)',
-            thumbnailUrl: ViteMinesweeperPng.src,
+            thumbnailUrl: ViteMinesweeperBannerPng.src,
             description:
               'React와 너비 우선 탐색 알고리즘을 활용하여 만든 Microsoft Minesweeper 스타일 지뢰찾기.',
             techStackTags: [
