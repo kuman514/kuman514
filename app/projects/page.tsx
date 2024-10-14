@@ -20,7 +20,13 @@ export default function ProjectListPage() {
             title: '비공개 팀 프로젝트',
             thumbnailUrl: PrivateTeamProjectPng.src,
             description: 'iOS + Android를 타겟으로 한 모바일 앱.',
-            techStackTags: ['React Native', 'Expo'],
+            techStackTags: [
+              'React Native',
+              'Expo',
+              'TypeScript',
+              'Axios',
+              'Zustand',
+            ],
           }}
         />
         <ProjectListItem

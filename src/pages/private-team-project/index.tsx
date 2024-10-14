@@ -66,6 +66,9 @@ export default function PrivateTeamProjectPage() {
       >
         <Tag>Expo</Tag>
         <Tag>React Native</Tag>
+        <Tag>TypeScript</Tag>
+        <Tag>Axios</Tag>
+        <Tag>Zustand</Tag>
       </Section>
 
       <Section title="협업 방법">

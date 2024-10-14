@@ -33,7 +33,7 @@ exports[`PrivateTeamProjectPage should show as expected 1`] = `
       10
       월
        
-      11
+      15
       일
     </div>
     <h1
@@ -104,6 +104,21 @@ exports[`PrivateTeamProjectPage should show as expected 1`] = `
           class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
         >
           React Native
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+        >
+          TypeScript
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+        >
+          Axios
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+        >
+          Zustand
         </span>
       </section>
     </section>
