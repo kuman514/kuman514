@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import PrivateTeamProjectPage from '.';
+import HanmogmPage from '.';
 
-describe('PrivateTeamProjectPage', () => {
+describe('HanmogmPage', () => {
   it('should show as expected', () => {
-    const { container } = render(<PrivateTeamProjectPage />);
+    const { container } = render(<HanmogmPage />);
     expect(container.firstChild).toMatchSnapshot();
   });
 });

@@ -2,7 +2,7 @@ import ProjectListItem from '^/entities/project/list-item';
 import Title from '^/shared/title';
 
 import ProjectPageTemplate from '^/entities/project/page-template';
-import PrivateTeamProjectPng from '^/pages/private-team-project/assets/private-team-project.png';
+import HanmogmBannerPng from '^/pages/hanmogm/assets/hanmogm-banner.png';
 import ViteMinesweeperBannerPng from '^/pages/vite-minesweeper/assets/vite-minesweeper-banner.png';
 import YSOShmupRecordsPng from '^/pages/yso-shmup-records/assets/yso-shmup-records.png';
 
@@ -16,10 +16,11 @@ export default function ProjectListPage() {
       <ul>
         <ProjectListItem
           projectItem={{
-            projectId: 'PrivateTeamProject',
-            title: '비공개 팀 프로젝트',
-            thumbnailUrl: PrivateTeamProjectPng.src,
-            description: 'iOS + Android를 타겟으로 한 모바일 앱.',
+            projectId: 'Hanmogm',
+            title: '한모금 (Hanmogm)',
+            thumbnailUrl: HanmogmBannerPng.src,
+            description:
+              'iOS + Android를 타겟으로 한, 각종 주류 정보를 열람하고 시음기록을 작성할 수 있는 테이스팅 노트 앱.',
             techStackTags: [
               'React Native',
               'Expo',
