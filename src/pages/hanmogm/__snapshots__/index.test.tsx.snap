@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PrivateTeamProjectPage should show as expected 1`] = `
+exports[`HanmogmPage should show as expected 1`] = `
 <main
   class="min-h-screen flex flex-col w-full flex flex-col items-center"
 >

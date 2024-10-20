@@ -18,7 +18,7 @@ import Hanmogm6Png from './assets/hanmogm-6.png';
 import Hanmogm7Png from './assets/hanmogm-7.png';
 import HanmogmBannerPng from './assets/hanmogm-banner.png';
 
-export default function PrivateTeamProjectPage() {
+export default function HanmogmPage() {
   return (
     <ProjectPageTemplate
       bannerImage={{
