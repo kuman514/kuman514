@@ -19,7 +19,8 @@ export default function ProjectListPage() {
             projectId: 'Hanmogm',
             title: '한모금 (Hanmogm)',
             thumbnailUrl: HanmogmBannerPng.src,
-            description: 'iOS + Android를 타겟으로 한 모바일 앱.',
+            description:
+              'iOS + Android를 타겟으로 한, 각종 주류 정보를 열람하고 시음기록을 작성할 수 있는 테이스팅 노트 앱.',
             techStackTags: [
               'React Native',
               'Expo',
