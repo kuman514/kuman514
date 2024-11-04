@@ -13,10 +13,10 @@ exports[`ProjectListItem should have appearances that matches snapshot 1`] = `
         decoding="async"
         height="300"
         loading="lazy"
-        src="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1175746616545857538%2FJuT5t8dm.jpg&w=640&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1175746616545857538%2FJuT5t8dm.jpg&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1175746616545857538%2FJuT5t8dm.jpg&w=640&q=75 2x"
+        src="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1175746616545857538%2FJuT5t8dm.jpg&w=3840&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1175746616545857538%2FJuT5t8dm.jpg&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1175746616545857538%2FJuT5t8dm.jpg&w=3840&q=75 2x"
         style="color: transparent;"
-        width="300"
+        width="1500"
       />
       <div
         class="flex flex-col justify-center gap-1 md:py-3"
@@ -79,10 +79,10 @@ exports[`ProjectListItem should have appearances that matches snapshot 1`] = `
         decoding="async"
         height="300"
         loading="lazy"
-        src="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFtlqZPhaAAAnEqZ.jpg%3Fname%3Dorig&w=640&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFtlqZPhaAAAnEqZ.jpg%3Fname%3Dorig&w=384&q=75 1x, /_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFtlqZPhaAAAnEqZ.jpg%3Fname%3Dorig&w=640&q=75 2x"
+        src="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFtlqZPhaAAAnEqZ.jpg%3Fname%3Dorig&w=3840&q=75"
+        srcset="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFtlqZPhaAAAnEqZ.jpg%3Fname%3Dorig&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFtlqZPhaAAAnEqZ.jpg%3Fname%3Dorig&w=3840&q=75 2x"
         style="color: transparent;"
-        width="300"
+        width="1500"
       />
       <div
         class="flex flex-col justify-center gap-1 md:py-3"

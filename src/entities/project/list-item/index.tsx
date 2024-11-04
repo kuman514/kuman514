@@ -22,7 +22,7 @@ export default function ProjectListItem({
           src={thumbnailUrl}
           alt={`${title} - ${description}`}
           className="w-full aspect-3/2 object-cover"
-          width={300}
+          width={1500}
           height={300}
         />
         <div className="flex flex-col justify-center gap-1 md:py-3">
