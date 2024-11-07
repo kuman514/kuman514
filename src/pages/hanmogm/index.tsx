@@ -90,8 +90,8 @@ export default function HanmogmPage() {
                 라우팅.
               </li>
               <li>
-                Axios를 이용하여 게시물 등록/수정/삭제/열람과 이미지 업로드
-                등등, 백엔드 API와 연계된 각종 기능 구현.
+                Axios를 이용하여 시음기록 등록/수정/삭제/열람, 주류 요청, 이미지
+                업로드 등등 백엔드 API와 연계된 각종 기능 구현.
               </li>
               <li>
                 Amazon Cognito Identity JS를 이용하여 회원가입, 로그인,
@@ -117,6 +117,32 @@ export default function HanmogmPage() {
           iOS 다운로드
         </ExternalAnchor>{' '}
         ] [ Android 출시 준비 중 ]
+      </Section>
+
+      <Section
+        title="이 프로젝트가 시작된 계기"
+        subsectionClassName="flex flex-row flex-wrap gap-2"
+      >
+        <Paragraph>
+          친구가 초대해서 참석한 저녁 식사 중, 함께 참여한 PM님의 주도로 팀이
+          결성되었습니다.
+        </Paragraph>
+        <Paragraph>
+          요즘은 소주나 맥주보단 하이볼이나 와인같이 다양한 맛과 종류의 술을
+          즐기는 것이 트렌드입니다. 그러나 이 트렌드와는 맞지 않게,{' '}
+          <Emphasize>
+            찾고자 하는 주류의 정보는 여기저기 흩어져있어 찾기 힘들었으며,
+            기존에 있던 테이스팅 노트 앱들도 운영이 멈추었거나 기능이 부족하다는
+            문제점
+          </Emphasize>
+          이 있었습니다. 이러한 문제를 해결하기 위해,{' '}
+          <Emphasize>
+            주류 검색 및 시음기록 작성/관리를 더욱 쉽고 편리하게 해주는 테이스팅
+            노트 앱을 만들고자
+          </Emphasize>{' '}
+          하는 사람들을, 직접 대면이나 렛플 등의 팀 프로젝트 플랫폼을 통해
+          모집하여 개발을 시작했습니다.
+        </Paragraph>
       </Section>
 
       <Section
