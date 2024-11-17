@@ -15,7 +15,6 @@ import Hanmogm3Png from './assets/hanmogm-3.png';
 import Hanmogm4Png from './assets/hanmogm-4.png';
 import Hanmogm5Png from './assets/hanmogm-5.png';
 import Hanmogm6Png from './assets/hanmogm-6.png';
-import Hanmogm7Png from './assets/hanmogm-7.png';
 import HanmogmBannerPng from './assets/hanmogm-banner.png';
 
 export default function HanmogmPage() {
@@ -58,11 +57,6 @@ export default function HanmogmPage() {
         />
         <Image
           {...Hanmogm6Png}
-          alt=""
-          className="w-fit max-h-80 object-contain"
-        />
-        <Image
-          {...Hanmogm7Png}
           alt=""
           className="w-fit max-h-80 object-contain"
         />
@@ -116,7 +110,11 @@ export default function HanmogmPage() {
         <ExternalAnchor href="https://apps.apple.com/kr/app/%ED%95%9C%EB%AA%A8%EA%B8%88-hanmogm/id6502346193">
           iOS 다운로드
         </ExternalAnchor>{' '}
-        ] [ Android 출시 준비 중 ]
+        ] [{' '}
+        <ExternalAnchor href="https://play.google.com/store/apps/details?id=com.hanmogm.hanmogm">
+          Android 다운로드
+        </ExternalAnchor>{' '}
+        ]
       </Section>
 
       <Section
