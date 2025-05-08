@@ -18,7 +18,7 @@ export default function ProjectPageTemplate({ bannerImage, children }: Props) {
     <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
       <Image
         className="w-full h-full object-cover"
-        {...bannerImage.imageData}
+        src={bannerImage.imageData}
         alt={bannerImage.altText}
       />
     </div>

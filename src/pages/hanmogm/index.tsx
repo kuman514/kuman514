@@ -31,32 +31,32 @@ export default function HanmogmPage() {
 
       <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
         <Image
-          {...Hanmogm1Png}
+          src={Hanmogm1Png}
           alt=""
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          {...Hanmogm2Png}
+          src={Hanmogm2Png}
           alt=""
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          {...Hanmogm3Png}
+          src={Hanmogm3Png}
           alt=""
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          {...Hanmogm4Png}
+          src={Hanmogm4Png}
           alt=""
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          {...Hanmogm5Png}
+          src={Hanmogm5Png}
           alt=""
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          {...Hanmogm6Png}
+          src={Hanmogm6Png}
           alt=""
           className="w-fit max-h-80 object-contain"
         />

@@ -28,7 +28,7 @@ export default function ViteMinesweeperPage() {
 
       <div className="w-full flex flex-row flex-wrap justify-center items-center">
         <Image
-          {...ViteMinesweeperPng}
+          src={ViteMinesweeperPng}
           alt="ViteMinesweeper Expert 단계 승리 장면"
           className="w-fit max-h-80 object-contain"
         />
@@ -153,7 +153,10 @@ export default function ViteMinesweeperPage() {
         subsectionClassName="flex flex-col gap-4"
       >
         <div className="flex justify-center items-center">
-          <Image {...BfsPng} alt="ViteMinesweeper 구현에 쓰인 알고리즘인 BFS" />
+          <Image
+            src={BfsPng}
+            alt="ViteMinesweeper 구현에 쓰인 알고리즘인 BFS"
+          />
         </div>
         <Paragraph>
           지뢰찾기 게임에서, 어떤 타일을 눌렀을 때 또다른 숫자 타일이나
@@ -196,7 +199,7 @@ export default function ViteMinesweeperPage() {
         </Paragraph>
         <div className="flex justify-center items-center">
           <Image
-            {...QueuePopPng}
+            src={QueuePopPng}
             alt="Array.prototype.shift() 기반 pop과 링크드 리스트 기반 pop의 성능 비교"
           />
         </div>
