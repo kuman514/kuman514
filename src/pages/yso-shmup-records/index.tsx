@@ -34,17 +34,17 @@ export default function YSOShmupRecordsPage() {
 
       <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
         <Image
-          {...YSOShmupRecords1Png}
+          src={YSOShmupRecords1Png}
           alt="YSOShmupRecords의 기록 리스트"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          {...YSOShmupRecords2Png}
+          src={YSOShmupRecords2Png}
           alt="YSOShmupRecords의 기록 아티클"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          {...YSOShmupRecords3Png}
+          src={YSOShmupRecords3Png}
           alt="YSOShmupRecords의 아카트로닉스 오시는 길"
           className="w-fit max-h-80 object-contain"
         />
@@ -131,12 +131,12 @@ export default function YSOShmupRecordsPage() {
       >
         <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
           <Image
-            {...Skeleton1Png}
+            src={Skeleton1Png}
             alt="YSOShmupRecords의 기록 목록 스켈레톤 컴포넌트"
             className="max-h-80 object-contain"
           />
           <Image
-            {...Skeleton2Png}
+            src={Skeleton2Png}
             alt="YSOShmupRecords의 기록 아티클 스켈레톤 컴포넌트"
             className="max-h-80 object-contain"
           />
@@ -163,17 +163,17 @@ export default function YSOShmupRecordsPage() {
       >
         <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
           <Image
-            {...Writronics1Png}
+            src={Writronics1Png}
             alt="YSOShmupRecords의 백오피스 Writronics의 기록 아티클"
             className="w-fit max-h-80 object-contain"
           />
           <Image
-            {...Writronics2Png}
+            src={Writronics2Png}
             alt="YSOShmupRecords의 백오피스 Writronics의 기록 리스트"
             className="w-fit max-h-80 object-contain"
           />
           <Image
-            {...Writronics3Png}
+            src={Writronics3Png}
             alt="YSOShmupRecords의 백오피스 Writronics의 기록 수정 화면"
             className="w-fit max-h-80 object-contain"
           />

@@ -4,12 +4,14 @@ import ViteMinesweeperPage from '^/pages/vite-minesweeper';
 import YSOShmupRecordsPage from '^/pages/yso-shmup-records';
 
 interface Props {
-  params: {
+  params: Promise<{
     projectName: string;
-  };
+  }>;
 }
 
-export default function ProjectArticlePage({ params: { projectName } }: Props) {
+export default async function ProjectArticlePage({ params }: Props) {
+  const { projectName } = await params;
+
   switch (projectName) {
     case 'Hanmogm':
       return <HanmogmPage />;
