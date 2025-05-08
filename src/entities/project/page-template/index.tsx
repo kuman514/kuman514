@@ -14,7 +14,6 @@ interface Props {
 }
 
 export default function ProjectPageTemplate({ bannerImage, children }: Props) {
-  console.log(bannerImage);
   const renderBanner = bannerImage ? (
     <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
       <Image
