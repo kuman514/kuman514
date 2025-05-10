@@ -277,37 +277,6 @@ exports[`HanmogmPage should show as expected 1`] = `
       <h2
         class="text-bold text-2xl sm:text-3xl md:text-4xl"
       >
-        협업 방법
-      </h2>
-      <section>
-        <p
-          class="text-base font-normal indent-4 undefined"
-        >
-          저희 팀은
-           
-          <strong
-            class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
-          >
-            Slack, Figma, Jira를 활용하여 정기 회의, 디자인 반영, 태스크 브레이크다운, 개발 일정 산정, 진행상황 및 요청사항 보고 등등의 소통
-          </strong>
-          을 진행해왔습니다. 특히, 저는 프론트엔드 개발자로서 기획자분이랑 디자이너분과의 소통이 가장 활발했는데,
-           
-          <strong
-            class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
-          >
-            각종 컴포넌트나 스크린들이 어떤 화면에서 어떤 형태로 표시되어야 하며, 어떤 상호작용이 발생했을 때 또는 어떤 상태가 변할 때 어떤 변화가 있어야 하는지, 표시할 데이터가 비어있거나 에러가 발생할 경우 어떻게 표시해야 하는지
-             
-          </strong>
-          등등에 대한 논의가 주를 이뤘습니다. 이에 대한 논의가 결정되었을 때, 예상되는 개발 일정을 산정하고 구현을 시작합니다.
-        </p>
-      </section>
-    </section>
-    <section
-      class="flex flex-col gap-8 undefined"
-    >
-      <h2
-        class="text-bold text-2xl sm:text-3xl md:text-4xl"
-      >
         React Native 프로젝트를 Expo로 만든 이유?
       </h2>
       <section>
@@ -345,6 +314,37 @@ exports[`HanmogmPage should show as expected 1`] = `
             CLI 등을 통해 직접 세팅할 때 Windows로 iOS 앱을 만드는건 지원되지 않는다고 하며, 대체 방안으로 Expo와 Expo Go를 사용할 것을 안내합니다
           </a>
           . 그래서, Expo로 React Native 프로젝트를 세팅함으로써, iOS + Android 타겟인 이 앱을 MacOS뿐만 아니라 Windows로도 개발할 수 있게 만들었습니다.
+        </p>
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        협업 방법
+      </h2>
+      <section>
+        <p
+          class="text-base font-normal indent-4 undefined"
+        >
+          저희 팀은
+           
+          <strong
+            class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+          >
+            Slack, Figma, Jira를 활용하여 정기 회의, 디자인 반영, 태스크 브레이크다운, 개발 일정 산정, 진행상황 및 요청사항 보고 등등의 소통
+          </strong>
+          을 진행해왔습니다. 특히, 저는 프론트엔드 개발자로서 기획자분이랑 디자이너분과의 소통이 가장 활발했는데,
+           
+          <strong
+            class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+          >
+            각종 컴포넌트나 스크린들이 어떤 화면에서 어떤 형태로 표시되어야 하며, 어떤 상호작용이 발생했을 때 또는 어떤 상태가 변할 때 어떤 변화가 있어야 하는지, 표시할 데이터가 비어있거나 에러가 발생할 경우 어떻게 표시해야 하는지
+             
+          </strong>
+          등등에 대한 논의가 주를 이뤘습니다. 이에 대한 논의가 결정되었을 때, 예상되는 개발 일정을 산정하고 구현을 시작합니다.
         </p>
       </section>
     </section>

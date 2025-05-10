@@ -154,6 +154,23 @@ export default function HanmogmPage() {
         <Tag>Zustand</Tag>
       </Section>
 
+      <Section title="React Native 프로젝트를 Expo로 만든 이유?">
+        <Paragraph>
+          해당 앱은{' '}
+          <Emphasize>iOS + Android를 타겟으로 하는 모바일 앱</Emphasize>이지만,{' '}
+          <Emphasize>MacOS 뿐만 아니라 Windows로도 개발</Emphasize>하기 때문에,{' '}
+          <Emphasize>Expo를 사용하는 것이 유일한 선택지</Emphasize>였습니다.
+          실제 React Native 공식 문서에서도{' '}
+          <ExternalAnchor href="https://reactnative.dev/docs/set-up-your-environment?platform=ios&os=windows#unsupported">
+            CLI 등을 통해 직접 세팅할 때 Windows로 iOS 앱을 만드는건 지원되지
+            않는다고 하며, 대체 방안으로 Expo와 Expo Go를 사용할 것을 안내합니다
+          </ExternalAnchor>
+          . 그래서, Expo로 React Native 프로젝트를 세팅함으로써, iOS + Android
+          타겟인 이 앱을 MacOS뿐만 아니라 Windows로도 개발할 수 있게
+          만들었습니다.
+        </Paragraph>
+      </Section>
+
       <Section title="협업 방법">
         <Paragraph>
           저희 팀은{' '}
@@ -171,23 +188,6 @@ export default function HanmogmPage() {
           </Emphasize>
           등등에 대한 논의가 주를 이뤘습니다. 이에 대한 논의가 결정되었을 때,
           예상되는 개발 일정을 산정하고 구현을 시작합니다.
-        </Paragraph>
-      </Section>
-
-      <Section title="React Native 프로젝트를 Expo로 만든 이유?">
-        <Paragraph>
-          해당 앱은{' '}
-          <Emphasize>iOS + Android를 타겟으로 하는 모바일 앱</Emphasize>이지만,{' '}
-          <Emphasize>MacOS 뿐만 아니라 Windows로도 개발</Emphasize>하기 때문에,{' '}
-          <Emphasize>Expo를 사용하는 것이 유일한 선택지</Emphasize>였습니다.
-          실제 React Native 공식 문서에서도{' '}
-          <ExternalAnchor href="https://reactnative.dev/docs/set-up-your-environment?platform=ios&os=windows#unsupported">
-            CLI 등을 통해 직접 세팅할 때 Windows로 iOS 앱을 만드는건 지원되지
-            않는다고 하며, 대체 방안으로 Expo와 Expo Go를 사용할 것을 안내합니다
-          </ExternalAnchor>
-          . 그래서, Expo로 React Native 프로젝트를 세팅함으로써, iOS + Android
-          타겟인 이 앱을 MacOS뿐만 아니라 Windows로도 개발할 수 있게
-          만들었습니다.
         </Paragraph>
       </Section>
 
