@@ -15,6 +15,8 @@ import Hanmogm3Png from './assets/hanmogm-3.png';
 import Hanmogm4Png from './assets/hanmogm-4.png';
 import Hanmogm5Png from './assets/hanmogm-5.png';
 import Hanmogm6Png from './assets/hanmogm-6.png';
+import Hanmogm7Png from './assets/hanmogm-7.png';
+import Hanmogm8Png from './assets/hanmogm-8.png';
 import HanmogmBannerPng from './assets/hanmogm-banner.png';
 
 export default function HanmogmPage() {
@@ -60,6 +62,16 @@ export default function HanmogmPage() {
           alt=""
           className="w-fit max-h-80 object-contain"
         />
+        <Image
+          src={Hanmogm7Png}
+          alt=""
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={Hanmogm8Png}
+          alt=""
+          className="w-fit max-h-80 object-contain"
+        />
       </div>
 
       <Section title="개요">
@@ -70,10 +82,10 @@ export default function HanmogmPage() {
           </li>
           <li>
             팀 구성: PM 1명, 기획자 1명, 디자이너 1명, 백엔드 2명, 프론트엔드
-            1명 (본인)
+            2명 (본인(원년)과 최근 합류 1명)
           </li>
           <li>
-            작업 내용
+            담당한 작업 내용
             <UnorderedBulletList>
               <li>
                 Expo로 React Native 프로젝트를 세팅하여, iOS + Android
@@ -84,8 +96,9 @@ export default function HanmogmPage() {
                 라우팅.
               </li>
               <li>
-                Axios를 이용하여 시음기록 등록/수정/삭제/열람, 주류 요청, 이미지
-                업로드 등등 백엔드 API와 연계된 각종 기능 구현.
+                Axios를 이용하여 시음기록 등록/수정/삭제/열람, 주류 상세, 주류
+                요청, 이미지 업로드, 시음기록 모음집 등등 백엔드 API와 연계된
+                각종 기능 구현.
               </li>
               <li>
                 Amazon Cognito Identity JS를 이용하여 회원가입, 로그인,
@@ -99,6 +112,10 @@ export default function HanmogmPage() {
                 expo-updates 패키지와 Expo Channel을 활용한 CI/CD를 구축하여,
                 Expo 무료 플랜에서 월 30회(iOS 15회)까지만 할 수 있는 EAS
                 Build를 절약함.
+              </li>
+              <li>
+                App Store Connect와 Google Play Console을 통해 iOS와 Android 앱
+                릴리즈.
               </li>
             </UnorderedBulletList>
           </li>
@@ -184,8 +201,8 @@ export default function HanmogmPage() {
             각종 컴포넌트나 스크린들이 어떤 화면에서 어떤 형태로 표시되어야
             하며, 어떤 상호작용이 발생했을 때 또는 어떤 상태가 변할 때 어떤
             변화가 있어야 하는지, 표시할 데이터가 비어있거나 에러가 발생할 경우
-            어떻게 표시해야 하는지{' '}
-          </Emphasize>
+            어떻게 표시해야 하는지
+          </Emphasize>{' '}
           등등에 대한 논의가 주를 이뤘습니다. 이에 대한 논의가 결정되었을 때,
           예상되는 개발 일정을 산정하고 구현을 시작합니다.
         </Paragraph>
@@ -225,6 +242,14 @@ export default function HanmogmPage() {
           </Emphasize>{' '}
           <Tag>eas build</Tag>의 사용 횟수를 획기적으로 줄일 수 있었습니다.
         </Paragraph>
+      </Section>
+
+      <Section title="프로젝트가 받은 평가">
+        <Paragraph>.</Paragraph>
+      </Section>
+
+      <Section title="이 프로덱트를 통해 배운 점">
+        <Paragraph>.</Paragraph>
       </Section>
     </ProjectPageTemplate>
   );
