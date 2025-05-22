@@ -158,7 +158,7 @@ export default function YSOArcadeRecordsPage() {
       </Section>
 
       <Section
-        title="Supabase와 Server Actions 사용"
+        title="Supabase와 Server Actions, API Routes 사용"
         subsectionClassName="flex flex-col gap-4"
       >
         <Paragraph>
@@ -166,13 +166,45 @@ export default function YSOArcadeRecordsPage() {
           <ExternalAnchor href="https://supabase.com/pricing">
             무료 티어로도 API 무제한 호출이 가능한 Supabase
           </ExternalAnchor>
-          와 Server Actions을 이용해 데이터베이스와 퍼블릭 버킷을 연동하여,
-          하나의 프로젝트에서 기록/리뷰 열람/추가/편집/삭제는 물론 직접 이미지
-          업로드하는 것까지 모두 가능하게 만들었습니다. 기록과 리뷰 열람은
-          누구나 할 수 있지만 추가/편집/삭제는 관리자 로그인이 필요하도록
-          만들었습니다. 다만, 이미지는 서버 액션에 올리기에 용량이 너무 큰 탓에,
-          이미지 업로드는 API Routes를 통해 진행하였습니다.
+          와 Server Actions, 그리고 API Routes를 이용해 데이터베이스와 퍼블릭
+          버킷을 연동하여, 하나의 프로젝트에서 기록/리뷰 열람/추가/편집/삭제는
+          물론 직접 이미지 업로드하는 것까지 모두 가능하게 만들었습니다. 기록과
+          리뷰 열람은 누구나 할 수 있지만 추가/편집/삭제는 관리자 로그인이
+          필요하도록 만들었습니다. 이미지는 서버 액션에 올리기에 용량이 너무 큰
+          탓에, 이미지 업로드는 API Routes를 통해 진행하였습니다.
         </Paragraph>
+      </Section>
+
+      <Section
+        title="아케이드 기록 관련 기능 시연 영상"
+        subsectionClassName="flex flex-col gap-4"
+      >
+        <div className="w-full h-60 sm:h-80">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/Fh0yuBlXII8"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{
+              borderWidth: 0,
+            }}
+          />
+        </div>
+        <div className="w-full h-60 sm:h-80">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/m4y4TCb95c0"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{
+              borderWidth: 0,
+            }}
+          />
+        </div>
       </Section>
     </ProjectPageTemplate>
   );
