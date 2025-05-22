@@ -1,14 +1,20 @@
+import Image from 'next/image';
+
 import ProjectPageTemplate from '^/entities/project/page-template';
 import ExternalAnchor from '^/shared/external-anchor';
 import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
-
 import Section from '^/entities/section';
 import Emphasize from '^/shared/emphasize';
 
 import YSOArcadeRecordsPng from './assets/yso-arcade-records.png';
+import YSOArcadeRecordsRecordListPng from './assets/yso-arcade-records-record-list.png';
+import YSOArcadeRecordsRecordListSkeletonPng from './assets/yso-arcade-records-record-list-skeleton.png';
+import YSOArcadeRecordsRecordArticlePng from './assets/yso-arcade-records-record-article.png';
+import YSOArcadeRecordsCreateRecord1Png from './assets/yso-arcade-records-create-record-1.png';
+import YSOArcadeRecordsCreateRecord2Png from './assets/yso-arcade-records-create-record-2.png';
 
 export default function YSOArcadeRecordsPage() {
   return (
@@ -23,10 +29,26 @@ export default function YSOArcadeRecordsPage() {
       </Title>
 
       <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
-        {/**
-         * @todo
-         * Add record & review list, article, form images.
-         */}
+        <Image
+          src={YSOArcadeRecordsRecordListPng}
+          alt="YSOShmupRecords 각종 아케이드 기록 리스트"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={YSOArcadeRecordsRecordArticlePng}
+          alt="YSOShmupRecords 아케이드 기록 아티클"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={YSOArcadeRecordsCreateRecord1Png}
+          alt="YSOShmupRecords 기록 생성 상단 부분"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={YSOArcadeRecordsCreateRecord2Png}
+          alt="YSOShmupRecords 기록 생성 하단 부분"
+          className="w-fit max-h-80 object-contain"
+        />
       </div>
 
       <Section title="개요">
@@ -113,10 +135,11 @@ export default function YSOArcadeRecordsPage() {
         subsectionClassName="flex flex-col gap-4"
       >
         <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
-          {/**
-           * @todo
-           * Add images about skeleton
-           */}
+          <Image
+            src={YSOArcadeRecordsRecordListSkeletonPng}
+            alt="YSOShmupRecords에서 아케이드 기록 리스트를 불러오는 중에 나오는 스켈레톤 컴포넌트"
+            className="w-fit max-h-80 object-contain"
+          />
         </div>
         <Paragraph>
           <Emphasize>
@@ -138,7 +161,6 @@ export default function YSOArcadeRecordsPage() {
         title="Supabase와 Server Actions 사용"
         subsectionClassName="flex flex-col gap-4"
       >
-        <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4"></div>
         <Paragraph>
           기록과 리뷰 등의 데이터를 더욱 쉽게 관리하기 위해,{' '}
           <ExternalAnchor href="https://supabase.com/pricing">
