@@ -36,10 +36,21 @@ export default function YSOArcadeRecordsPage() {
             구현 내용
             <UnorderedBulletList>
               <li>
-                {/**
-                 * @todo
-                 * Add what I did
-                 */}
+                프로젝트 세팅, 태스크 브레이크다운, 퍼블리싱, 기능 구현, 배포,
+                문서 및 업데이트 로그 작성, 유지보수를 담당함.
+              </li>
+              <li>
+                Next.js의 App Router를 활용하여 파일 시스템 기반의 간단한 페이지
+                라우팅.
+              </li>
+              <li>기록 열람, 외부로 공유, 다크 모드 등등 각종 기능 구현.</li>
+              <li>
+                데이터를 가져오는 동안 UI가 멈춰있어 보이지 않기 위해 스켈레톤
+                컴포넌트 적용.
+              </li>
+              <li>
+                Supabase와 Server Actions, API Routes를 사용하여, 데이터
+                생성/열람/수정/삭제를 단 하나의 사이트에서 모두 할 수 있게 만듦.
               </li>
             </UnorderedBulletList>
           </li>
