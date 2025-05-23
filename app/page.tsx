@@ -5,7 +5,7 @@ import Title from '^/shared/title';
 
 /**
  * @todo
- * Add decorations.
+ * Activate Pixi.js application when back to intro page.
  */
 
 export default function IntroPage() {
