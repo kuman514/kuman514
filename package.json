@@ -11,7 +11,9 @@
     "test:watch": "NODE_ENV=test jest --watch"
   },
   "dependencies": {
+    "@pixi/react": "^8.0.2",
     "next": "^15.3.2",
+    "pixi.js": "^8.2.6",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
