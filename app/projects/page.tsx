@@ -4,7 +4,7 @@ import Title from '^/shared/title';
 import ProjectPageTemplate from '^/entities/project/page-template';
 import HanmogmBannerPng from '^/pages/hanmogm/assets/hanmogm-banner.png';
 import ViteMinesweeperBannerPng from '^/pages/vite-minesweeper/assets/vite-minesweeper-banner.png';
-import YSOShmupRecordsPng from '^/pages/yso-shmup-records/assets/yso-shmup-records.png';
+import YSOArcadeRecords from '^/pages/yso-arcade-records/assets/yso-arcade-records.png';
 
 export default function ProjectListPage() {
   return (
@@ -32,24 +32,19 @@ export default function ProjectListPage() {
         />
         <ProjectListItem
           projectItem={{
-            projectId: 'YSOShmupRecords',
-            title: 'YSOShmupRecords',
-            thumbnailUrl: YSOShmupRecordsPng.src,
+            projectId: 'YSOArcadeRecords',
+            title: 'YSOArcadeRecords',
+            thumbnailUrl: YSOArcadeRecords.src,
             description:
-              '본인 YSO(kuman514)의 슈팅게임 기록을 열람하고 공유할 수 있게 만들기 위한 웹 사이트.',
+              '본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.',
             techStackTags: [
+              'Next.js',
               'React',
               'TypeScript',
-              'Vite',
-              'Yarn Berry',
-              'Vercel',
               'Axios',
-              'Prettier',
-              'Figma',
-              'Lambda',
-              'DynamoDB',
-              'API Gateway',
-              'Node.js',
+              'Vercel',
+              'Supabase',
+              'Tailwind CSS',
             ],
           }}
         />

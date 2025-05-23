@@ -1,7 +1,8 @@
+import { notFound } from 'next/navigation';
+
 import HanmogmPage from '^/pages/hanmogm';
-import NotFoundPage from '^/pages/not-found';
 import ViteMinesweeperPage from '^/pages/vite-minesweeper';
-import YSOShmupRecordsPage from '^/pages/yso-shmup-records';
+import YSOArcadeRecordsPage from '^/pages/yso-arcade-records';
 
 interface Props {
   params: Promise<{
@@ -15,11 +16,11 @@ export default async function ProjectArticlePage({ params }: Props) {
   switch (projectName) {
     case 'Hanmogm':
       return <HanmogmPage />;
-    case 'YSOShmupRecords':
-      return <YSOShmupRecordsPage />;
+    case 'YSOArcadeRecords':
+      return <YSOArcadeRecordsPage />;
     case 'ViteMinesweeper':
       return <ViteMinesweeperPage />;
     default:
-      return <NotFoundPage />;
+      notFound();
   }
 }

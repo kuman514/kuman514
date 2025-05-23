@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import YSOShmupRecordsPage from '.';
+import YSOArcadeRecordsPage from '.';
 
-describe('YSOShmupRecordsPage', () => {
+describe('YSOArcadeRecordsPage', () => {
   it('should show as expected', () => {
-    const { container } = render(<YSOShmupRecordsPage />);
+    const { container } = render(<YSOArcadeRecordsPage />);
     expect(container.firstChild).toMatchSnapshot();
   });
 });
