@@ -1,11 +1,6 @@
 import Emphasize from '^/shared/emphasize';
-import PixiJsApp from '^/shared/pixi-js';
 import Title from '^/shared/title';
-
-/**
- * @todo
- * Activate Pixi.js application when back to intro page.
- */
+import PixiJsApp from '^/widgets/pixi-js';
 
 export default function IntroPage() {
   return (
