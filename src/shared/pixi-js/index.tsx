@@ -1,8 +1,10 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import { Application, Assets, Sprite } from 'pixi.js';
+import { Sprite } from 'pixi.js';
 import { useEffect, useRef } from 'react';
+
+import { PixiJsAppSingleton } from './instance';
 
 export default function PixiJsApp() {
   const parentRef = useRef<HTMLDivElement>(null);
@@ -13,34 +15,38 @@ export default function PixiJsApp() {
       return;
     }
 
-    const pixiJsApp = new Application();
     (async () => {
       if (!parentRef.current) {
         return;
       }
 
-      await pixiJsApp.init({
-        backgroundAlpha: 0,
-        resizeTo: parentRef.current,
-      });
-      parentRef.current.appendChild(pixiJsApp.canvas);
+      const pixiJsApp = await PixiJsAppSingleton.getPixiJsApp();
 
-      await Assets.load({
-        alias: 'bunny-sprite',
-        src: 'https://pixijs.com/assets/bunny.png',
-      });
-      const sprite = Sprite.from('bunny-sprite');
-      sprite.anchor.set(0.5);
-      sprite.x = 100;
-      sprite.y = 100;
-      pixiJsApp.stage.addChild(sprite);
+      try {
+        await pixiJsApp.init({
+          backgroundAlpha: 0,
+          resizeTo: parentRef.current,
+        });
+
+        const sprite = Sprite.from('koishi');
+        sprite.anchor.set(0.5);
+        sprite.x = 100 + Math.random() * 300;
+        sprite.y = 100 + Math.random() * 300;
+        pixiJsApp.stage.addChild(sprite);
+      } catch {}
+
+      parentRef.current.appendChild(pixiJsApp.canvas);
     })();
+
+    return () => {
+      if (pathName === '/') {
+        return;
+      }
+      PixiJsAppSingleton.destroyPixiJsApp();
+    };
   }, [pathName]);
 
   return (
-    <div
-      ref={parentRef}
-      className="fixed x-0 y-0 w-full h-full opacity-50"
-    ></div>
+    <div ref={parentRef} className="fixed x-0 y-0 w-full h-full opacity-50" />
   );
 }
