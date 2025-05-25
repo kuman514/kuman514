@@ -16,7 +16,7 @@ exports[`ProjectPageTemplate should match the snapshot 1`] = `
       5
       월
        
-      24
+      25
       일
     </div>
     Lorem ipsum dolor sit amet.
