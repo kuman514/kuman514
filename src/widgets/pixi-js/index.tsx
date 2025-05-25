@@ -24,7 +24,7 @@ export default function PixiJsApp() {
     <div
       ref={divRef}
       id="pixiJsArea"
-      className="fixed x-0 y-0 w-full h-full opacity-70"
+      className="fixed x-0 y-0 w-full h-full opacity-50"
     />
   );
 }
