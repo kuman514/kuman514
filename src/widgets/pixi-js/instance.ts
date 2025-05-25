@@ -1,15 +1,15 @@
 import { Application, Assets, Renderer } from 'pixi.js';
 
-import { generatePixiIcon } from '^/entities/intro/pixi-icon';
+import { generatePixiIcon } from '^/entities/pixi-icon';
 import { generateIconCloud } from '^/widgets/pixi-js/icon-cloud';
 import { generateIconTracker } from '^/widgets/pixi-js/icon-tracker';
 
-import HanmogmPng from './assets/hanmogm.png';
-import HoshinoPng from './assets/hoshino.png';
-import JavaScriptPng from './assets/javascript.png';
-import KoishiPng from './assets/koishi.png';
-import ReactPng from './assets/react.png';
-import TypeScriptPng from './assets/typescript.png';
+import HanmogmPng from '^/entities/pixi-icon/assets/hanmogm.png';
+import HoshinoPng from '^/entities/pixi-icon/assets/hoshino.png';
+import JavaScriptPng from '^/entities/pixi-icon/assets/javascript.png';
+import KoishiPng from '^/entities/pixi-icon/assets/koishi.png';
+import ReactPng from '^/entities/pixi-icon/assets/react.png';
+import TypeScriptPng from '^/entities/pixi-icon/assets/typescript.png';
 
 export class PixiJsAppSingleton {
   static #pixiJsApp: Application<Renderer> | null;
