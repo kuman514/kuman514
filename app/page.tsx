@@ -21,7 +21,7 @@ export default function IntroPage() {
             <Link
               key={id}
               href={href}
-              className="transition hover:text-green-500 hover:dark:text-green-300 hover:drop-shadow-[0_1px_8px_rgba(0,0,0,0.6)] hover:dark:drop-shadow-[0_1px_8px_rgb(255,255,255)] hover:-translate-y-0.5"
+              className="transition hover:text-green-500 dark:hover:text-green-300 hover:drop-shadow-[0_1px_8px_rgba(0,0,0,0.6)] dark:hover:drop-shadow-[0_1px_8px_rgb(255,255,255)] hover:-translate-y-0.5"
             >
               {label}
             </Link>

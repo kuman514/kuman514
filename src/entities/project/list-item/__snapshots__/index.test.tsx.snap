@@ -35,32 +35,32 @@ exports[`ProjectListItem should have appearances that matches snapshot 1`] = `
           class="flex flex-row flex-wrap gap-1"
         >
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             Touhou Project
           </span>
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             Subterranean Animism
           </span>
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             Hopeless Masquerade
           </span>
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             Moshi Moshi Meridesu
           </span>
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             Unconsciousness
           </span>
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             Hartmann No Youkai Shoujo
           </span>
@@ -101,27 +101,27 @@ exports[`ProjectListItem should have appearances that matches snapshot 1`] = `
           class="flex flex-row flex-wrap gap-1"
         >
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             Blue Archive
           </span>
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             Abydos High School
           </span>
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             Shot Gun
           </span>
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             Tank
           </span>
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             Foreclosure Task Force
           </span>

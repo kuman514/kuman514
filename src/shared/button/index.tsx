@@ -16,7 +16,7 @@ export default function Button({
   return (
     <button
       disabled={isDisabled}
-      className={`bg-green-600 hover:bg-green-400 text-white px-6 py-4 rounded-lg transition hover:-translate-y-1 hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] ${customClassName}`}
+      className={`bg-green-600 hover:bg-green-400 text-white px-6 py-4 rounded-lg transition hover:-translate-y-1 hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] cursor-pointer ${customClassName}`}
       onClick={onClick}
     >
       {children}

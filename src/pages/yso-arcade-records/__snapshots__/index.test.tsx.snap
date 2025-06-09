@@ -200,37 +200,37 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
         class="flex flex-row flex-wrap gap-2"
       >
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Next.js
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           React
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           TypeScript
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Axios
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Vercel
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Supabase
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Tailwind CSS
         </span>
@@ -267,13 +267,13 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
           class="text-base font-normal indent-4 undefined"
         >
           <strong
-            class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+            class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
           >
             스켈레톤 컴포넌트는 데이터를 가져오는 동안 임시 콘텐츠를 표시하는 컴포넌트
           </strong>
           입니다. 사용자는 콘텐츠를 기다리다가 쉽게 지치고 지루함을 느끼므로, 데이터를 가져오는 동안 단순히 빈 화면만 보여준다면 많은 사람들은 사이트를 떠나게 될 것입니다. 그래서 이를 방지하기 위해,
           <strong
-            class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+            class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
           >
             애니메이션 효과가 들어간 스켈레톤 컴포넌트를 직접 만들어, 기록 목록이나 기록 아티클 로딩 등에 적용
           </strong>
