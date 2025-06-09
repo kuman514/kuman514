@@ -200,37 +200,37 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
         class="flex flex-row flex-wrap gap-2"
       >
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Next.js
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           React
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           TypeScript
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Axios
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Vercel
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Supabase
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Tailwind CSS
         </span>

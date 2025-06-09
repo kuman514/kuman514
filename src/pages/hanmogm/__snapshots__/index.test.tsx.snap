@@ -272,27 +272,27 @@ exports[`HanmogmPage should show as expected 1`] = `
         class="flex flex-row flex-wrap gap-2"
       >
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Expo
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           React Native
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           TypeScript
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Axios
         </span>
         <span
-          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Zustand
         </span>
@@ -400,7 +400,7 @@ exports[`HanmogmPage should show as expected 1`] = `
           </a>
           를 활용하였습니다. Expo Go는 개발 중인 앱을 따로 빌드하여 설치하지 않고도 QR 코드를 스캔하거나 
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             exp://
           </span>
@@ -424,7 +424,7 @@ exports[`HanmogmPage should show as expected 1`] = `
           class="text-base font-normal indent-4 undefined"
         >
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             expo-updates
           </span>
@@ -438,13 +438,13 @@ exports[`HanmogmPage should show as expected 1`] = `
           하였습니다.
            
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             eas.json
           </span>
           의 
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             build.(프로파일명).channel
           </span>
@@ -472,7 +472,7 @@ exports[`HanmogmPage should show as expected 1`] = `
           </strong>
            
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded undefined"
+            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
           >
             eas build
           </span>
