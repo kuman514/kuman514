@@ -99,7 +99,7 @@ export class PixiJsAppSingleton {
 
       const cloudSpriteNames = ['react', 'hanmogm', 'javascript', 'typescript'];
       const iconCloud = await generateIconCloud({
-        initIcons: Array.from({ length: 40 }, (_, i) =>
+        initIcons: Array.from({ length: 20 }, (_, i) =>
           generatePixiIcon({
             spriteName: cloudSpriteNames[i % cloudSpriteNames.length],
             x: 0,

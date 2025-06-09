@@ -11,7 +11,7 @@ export async function generateIconCloud({ initIcons }: InitParams) {
   const container = new Container();
 
   const fov = 20;
-  const speed = 2500;
+  const speed = 1200;
 
   const icons: IconCloudIcon[] = initIcons.map((icon) => ({
     sprite: icon,
