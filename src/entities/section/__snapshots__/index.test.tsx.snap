@@ -10,7 +10,7 @@ exports[`Section should render as expected 1`] = `
     >
       Lorem 
       <strong
-        class="bg-emphasize-underline from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+        class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
       >
         Ipsum
       </strong>
