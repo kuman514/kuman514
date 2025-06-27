@@ -25,9 +25,9 @@ export async function generateIconTracker({
     const deltaMs = time.deltaMS;
 
     container.scale.set(Math.abs(Math.sin(container.rotation / 4)));
-    container.rotation -= (deltaMs / 1000) * 2 * Math.PI;
+    container.rotation -= (deltaMs / 1000) * 1.25 * Math.PI;
     container.children.forEach((icon) => {
-      icon.rotation += (deltaMs / 1000) * 3 * Math.PI;
+      icon.rotation += (deltaMs / 1000) * 1.25 * Math.PI;
     });
   });
 
