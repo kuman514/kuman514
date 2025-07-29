@@ -271,6 +271,18 @@ export default function HanmogmPage() {
         subsectionClassName="flex flex-col gap-4"
       >
         <Paragraph>
+          React Native를 통해 React의 지식만 가지고 모바일 앱을 제작할 수 있다는
+          점은 정말 매력적이었지만, 실제로 React Native 프로젝트를 진행하다 보니
+          플랫폼 별 의존성과 동작의 차이를 동시에 관리해야 한다는 현실과
+          마주해야 했습니다. 대표적으로, 동일한 패키지더라도 iOS에서와
+          Android에서의 UI 렌더링 방식이나 권한 처리 방식이 다르게 동작한다는
+          점, 빌드 후 앱을 App Store Connect와 Play Store Console에 제출하는
+          과정에서도 플랫폼별로 서로 다른 설정이나 대응이 필요하다는 점 등등이
+          있습니다. 이를 통해, 크로스 플랫폼이란 것은 단 한 번에 끝나는 개발이
+          아니라, 두 플랫폼을 동시에 고려한 정밀한 조율이라는 사실을
+          깨달았습니다.
+        </Paragraph>
+        <Paragraph>
           한모금 프로젝트는 사이드 프로젝트이자 소규모 팀 프로젝트인 만큼, 저를
           포함한 팀원 한 명 한 명에게 외부 일정은 큰 변수가 됩니다. 따라서, 야근
           등등의 외부 일정이나 기술적인 난제에 직면할 경우, 가능한 신속하고
