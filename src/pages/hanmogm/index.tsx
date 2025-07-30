@@ -9,14 +9,16 @@ import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
-import Hanmogm1Png from './assets/hanmogm-1.png';
-import Hanmogm2Png from './assets/hanmogm-2.png';
-import Hanmogm3Png from './assets/hanmogm-3.png';
-import Hanmogm4Png from './assets/hanmogm-4.png';
-import Hanmogm5Png from './assets/hanmogm-5.png';
-import Hanmogm6Png from './assets/hanmogm-6.png';
-import Hanmogm7Png from './assets/hanmogm-7.png';
-import Hanmogm8Png from './assets/hanmogm-8.png';
+import HanmogmHomePng from './assets/hanmogm-home.png';
+import HanmogmSearchPng from './assets/hanmogm-search.png';
+import HanmogmDrinkPng from './assets/hanmogm-drink.png';
+import HanmogmDrinkTastingPng from './assets/hanmogm-drink-tasting.png';
+import HanmogmTastingNotePng from './assets/hanmogm-tasting-note.png';
+import HanmogmTastingNoteFormPage1Png from './assets/hanmogm-tasting-note-form-page-1.png';
+import HanmogmTastingNoteFormPage2Png from './assets/hanmogm-tasting-note-form-page-2.png';
+import HanmogmTastingNoteListPng from './assets/hanmogm-tasting-note-list.png';
+import HanmogmCollectionListPng from './assets/hanmogm-collection-list.png';
+import HanmogmRequestStatusPng from './assets/hanmogm-request-status.png';
 import HanmogmBannerPng from './assets/hanmogm-banner.png';
 
 export default function HanmogmPage() {
@@ -33,43 +35,53 @@ export default function HanmogmPage() {
 
       <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
         <Image
-          src={Hanmogm1Png}
-          alt=""
+          src={HanmogmHomePng}
+          alt="한모금 홈 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm2Png}
-          alt=""
+          src={HanmogmSearchPng}
+          alt="한모금 검색 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm3Png}
-          alt=""
+          src={HanmogmDrinkPng}
+          alt="한모금 주류 상세 화면 상단"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm4Png}
-          alt=""
+          src={HanmogmDrinkTastingPng}
+          alt="한모금 주류 상세 화면 하단"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm5Png}
-          alt=""
+          src={HanmogmTastingNoteFormPage1Png}
+          alt="한모금 시음기록 작성 화면 1페이지"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm6Png}
-          alt=""
+          src={HanmogmTastingNoteFormPage2Png}
+          alt="한모금 시음기록 작성 화면 2페이지"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm7Png}
-          alt=""
+          src={HanmogmTastingNotePng}
+          alt="한모금 시음기록 상세 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm8Png}
-          alt=""
+          src={HanmogmTastingNoteListPng}
+          alt="한모금 나의 전체 시음기록 화면"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={HanmogmCollectionListPng}
+          alt="한모금 나의 시음기록 모음집 화면"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={HanmogmRequestStatusPng}
+          alt="한모금 내 주류 요청 현황 화면"
           className="w-fit max-h-80 object-contain"
         />
       </div>

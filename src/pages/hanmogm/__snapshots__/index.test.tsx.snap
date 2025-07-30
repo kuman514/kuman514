@@ -45,7 +45,7 @@ exports[`HanmogmPage should show as expected 1`] = `
       class="w-full flex flex-row flex-wrap justify-center items-center gap-4"
     >
       <img
-        alt=""
+        alt="한모금 홈 화면"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -57,7 +57,7 @@ exports[`HanmogmPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt=""
+        alt="한모금 검색 화면"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -69,7 +69,7 @@ exports[`HanmogmPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt=""
+        alt="한모금 주류 상세 화면 상단"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -81,7 +81,7 @@ exports[`HanmogmPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt=""
+        alt="한모금 주류 상세 화면 하단"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -93,7 +93,7 @@ exports[`HanmogmPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt=""
+        alt="한모금 시음기록 작성 화면 1페이지"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -105,7 +105,7 @@ exports[`HanmogmPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt=""
+        alt="한모금 시음기록 작성 화면 2페이지"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -117,7 +117,7 @@ exports[`HanmogmPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt=""
+        alt="한모금 시음기록 상세 화면"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -129,7 +129,31 @@ exports[`HanmogmPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt=""
+        alt="한모금 나의 전체 시음기록 화면"
+        class="w-fit max-h-80 object-contain"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="한모금 나의 시음기록 모음집 화면"
+        class="w-fit max-h-80 object-contain"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="한모금 내 주류 요청 현황 화면"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
