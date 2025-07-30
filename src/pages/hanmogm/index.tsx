@@ -9,14 +9,16 @@ import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
-import Hanmogm1Png from './assets/hanmogm-1.png';
-import Hanmogm2Png from './assets/hanmogm-2.png';
-import Hanmogm3Png from './assets/hanmogm-3.png';
-import Hanmogm4Png from './assets/hanmogm-4.png';
-import Hanmogm5Png from './assets/hanmogm-5.png';
-import Hanmogm6Png from './assets/hanmogm-6.png';
-import Hanmogm7Png from './assets/hanmogm-7.png';
-import Hanmogm8Png from './assets/hanmogm-8.png';
+import HanmogmHomePng from './assets/hanmogm-home.png';
+import HanmogmSearchPng from './assets/hanmogm-search.png';
+import HanmogmDrinkPng from './assets/hanmogm-drink.png';
+import HanmogmDrinkTastingPng from './assets/hanmogm-drink-tasting.png';
+import HanmogmTastingNotePng from './assets/hanmogm-tasting-note.png';
+import HanmogmTastingNoteFormPage1Png from './assets/hanmogm-tasting-note-form-page-1.png';
+import HanmogmTastingNoteFormPage2Png from './assets/hanmogm-tasting-note-form-page-2.png';
+import HanmogmTastingNoteListPng from './assets/hanmogm-tasting-note-list.png';
+import HanmogmCollectionListPng from './assets/hanmogm-collection-list.png';
+import HanmogmRequestStatusPng from './assets/hanmogm-request-status.png';
 import HanmogmBannerPng from './assets/hanmogm-banner.png';
 
 export default function HanmogmPage() {
@@ -33,43 +35,53 @@ export default function HanmogmPage() {
 
       <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
         <Image
-          src={Hanmogm1Png}
-          alt=""
+          src={HanmogmHomePng}
+          alt="한모금 홈 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm2Png}
-          alt=""
+          src={HanmogmSearchPng}
+          alt="한모금 검색 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm3Png}
-          alt=""
+          src={HanmogmDrinkPng}
+          alt="한모금 주류 상세 화면 상단"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm4Png}
-          alt=""
+          src={HanmogmDrinkTastingPng}
+          alt="한모금 주류 상세 화면 하단"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm5Png}
-          alt=""
+          src={HanmogmTastingNoteFormPage1Png}
+          alt="한모금 시음기록 작성 화면 1페이지"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm6Png}
-          alt=""
+          src={HanmogmTastingNoteFormPage2Png}
+          alt="한모금 시음기록 작성 화면 2페이지"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm7Png}
-          alt=""
+          src={HanmogmTastingNotePng}
+          alt="한모금 시음기록 상세 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={Hanmogm8Png}
-          alt=""
+          src={HanmogmTastingNoteListPng}
+          alt="한모금 나의 전체 시음기록 화면"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={HanmogmCollectionListPng}
+          alt="한모금 나의 시음기록 모음집 화면"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={HanmogmRequestStatusPng}
+          alt="한모금 내 주류 요청 현황 화면"
           className="w-fit max-h-80 object-contain"
         />
       </div>
@@ -245,53 +257,95 @@ export default function HanmogmPage() {
       </Section>
 
       <Section
-        title="프로젝트가 받은 피드백"
+        title="이 프로젝트가 받은 피드백"
         subsectionClassName="flex flex-col gap-4"
       >
         <Paragraph>
-          주류 찾기나 테이스팅 노트 작성 등, 주류 시음에 관한 각종 기능이 하나의
-          앱에 들어가있어 편리하다는 피드백이 있었습니다. 술을 이것저것 마시다
-          보면 어떤 맛의 술이었는지 헷갈리게 되어 테이스팅 노트나 술 블로그를
-          하셨던 고객께 유용하다는 평가를 받았습니다. 또한, 주류 구입 전에 술의
-          평가가 어떤지 알아보려고 비어레이트같은 사이트에 자주 방문하는
-          고객께도 술을 쉽게 검색할 수 있어 유용하다는 평가를 받았습니다.
+          주류 찾기나 테이스팅 노트 작성 등,{' '}
+          <Emphasize>
+            주류 시음에 관한 각종 기능이 하나의 앱에 들어가있어 편리하다
+          </Emphasize>
+          는 피드백이 있었습니다. 술을 이것저것 마시다 보면 어떤 맛의 술이었는지
+          헷갈리게 되어 테이스팅 노트나 술 블로그를 하셨던 고객께 유용하다는
+          평가를 받았습니다. 또한, 주류 구입 전에 술의 평가가 어떤지 알아보려고
+          비어레이트같은 사이트에 자주 방문하는 고객께도{' '}
+          <Emphasize>술을 쉽게 검색할 수 있어 유용하다</Emphasize>는 평가를
+          받았습니다.
         </Paragraph>
         <Paragraph>
-          하지만, 대소문자/숫자/특수문자 등등을 입력하는 비밀번호에서 회원가입을
-          잠시 머뭇거렸다는 피드백도 있었습니다. 현재 한모금은 이메일과
-          비밀번호를 입력하는 방식의 로그인밖에 지원하지 않는데, 이는 SNS 계정만
-          있으면 바로 가입 및 로그인이 되는 소셜 로그인에 비해 번거롭기
-          때문입니다. 따라서 해당 문제를 해결하기 위해, 로그인을 더욱 편리하게
-          만들기 위한 소셜 로그인 기능을 구축하는 중입니다.
+          하지만,{' '}
+          <Emphasize>
+            대소문자/숫자/특수문자 등등을 입력하는 비밀번호에서 회원가입을 잠시
+            머뭇거렸다
+          </Emphasize>
+          는 피드백도 있었습니다. 현재 한모금은 이메일과 비밀번호를 입력하는
+          방식의 로그인밖에 지원하지 않는데, 이는 SNS 계정만 있으면 바로 가입 및
+          로그인이 되는 소셜 로그인에 비해 번거롭기 때문입니다. 따라서 해당
+          문제를 해결하기 위해, 로그인을 더욱 편리하게 만들기 위한 소셜 로그인
+          기능을 구축하는 중입니다.
         </Paragraph>
       </Section>
 
       <Section
-        title="이 프로덱트를 통해 배운 점"
+        title="이 프로젝트를 통해 배운 점"
         subsectionClassName="flex flex-col gap-4"
       >
         <Paragraph>
-          한모금 프로젝트는 사이드 프로젝트이자 소규모 팀 프로젝트인 만큼, 저를
-          포함한 팀원 한 명 한 명에게 외부 일정은 큰 변수가 됩니다. 따라서, 야근
-          등등의 외부 일정이나 기술적인 난제에 직면할 경우, 가능한 신속하고
-          정확하게 팀원에게 보고해야 팀에 주는 영향을 최소화할 수 있고 직면한
-          문제에 대응하기 위한 방법을 떠올릴 시간을 확보할 수 있다는 사실을
-          배웠습니다.
+          React Native를 통해{' '}
+          <Emphasize>
+            React의 지식만 가지고 모바일 앱을 제작할 수 있다는 점은 정말 매력적
+          </Emphasize>
+          이었지만, 실제로 React Native 프로젝트를 진행하다 보니{' '}
+          <Emphasize>
+            플랫폼 별 의존성과 동작의 차이를 동시에 관리해야 한다
+          </Emphasize>
+          는 현실과 마주해야 했습니다. 대표적으로,{' '}
+          <Emphasize>
+            동일한 패키지더라도 iOS에서와 Android에서의 UI 렌더링 방식이나 권한
+            처리 방식이 다르게 동작한다는 점
+          </Emphasize>
+          , 빌드 후 App Store Connect와 Play Store Console에{' '}
+          <Emphasize>
+            앱을 제출하는 과정에서도 플랫폼별로 서로 다른 과정이나 대응이
+            필요하다는 점
+          </Emphasize>{' '}
+          등등이 있습니다. 이를 통해, 크로스 플랫폼이란 단 한 번에 끝나는 개발이
+          아니라, <Emphasize>두 플랫폼을 동시에 고려한 정밀한 조율</Emphasize>
+          이라는 사실을 깨달았습니다.
         </Paragraph>
         <Paragraph>
-          어떤 업무를 진핼할 땐, 할 것과 하지 말아야 할 것을 명확히 구분하고
-          진행해야 함을 배웠습니다. 완벽하게 진행하고 싶어 업무와 거리가 먼
-          것까지 진행하려고 하면, 결국 완벽은 커녕 핵심 업무의 완수까지 놓치게
-          됩니다. 따라서, 하고 있는 업무와 거리가 먼 것은 일단 백로그로 두어
-          여유를 확보하거나 다음 기회를 잡았을 때 진행하는 것이 좋습니다.
+          사이드 프로젝트는 소규모 팀으로 진행되기 때문에,{' '}
+          <Emphasize>
+            각자의 외부 일정이 프로젝트에 큰 영향을 줄 수 있습니다.
+          </Emphasize>{' '}
+          특히 야근, 급한 일정, 기술적 난관 등에 직면했을 때,{' '}
+          <Emphasize>
+            최대한 신속 정확하게 팀원에게 상황을 공유해야 팀 전체에 미치는
+            영향을 줄일 수 있고, 문제 해결을 위한 시간적 여유도 확보된다
+          </Emphasize>
+          는 점을 배웠습니다.
         </Paragraph>
         <Paragraph>
-          외부 패키지를 사용할 땐 수시로 깃허브 이슈를 통해 어떤 문제를 어떻게
-          해결되었거나 스스로 해결하는지, 체인지로그를 통해 어떤 변화가
-          발생하였는지, 또는 소스코드 등등을 통해 어떻게 작동하는지 파악해야
-          한다는 점을 배웠습니다. 예를 들어, Expo의 경우, 체인지로그를
-          지속적으로 확인하여 Expo Go를 통한 프리뷰 확인에 차질이 없는지, Expo
-          SDK 업그레이드로 어떤 부분이 영향을 받는지를 인지해야 합니다.
+          어떤 업무를 진행할 땐,{' '}
+          <Emphasize>
+            {'"'}할 것{'"'}과 {'"'}하지 말아야 할 것{'"'}을 명확히 구분하고
+            진행해야 함
+          </Emphasize>
+          을 배웠습니다. 완벽하게 진행하려고 하면, 결국 완벽은 커녕 핵심까지
+          놓치게 됩니다. 따라서,{' '}
+          <Emphasize>
+            핵심과 거리가 먼 것은 일단 백로그로 두어 여유가 있거나 다음 기회를
+            잡았을 때 진행
+          </Emphasize>
+          하는 것이 좋습니다.
+        </Paragraph>
+        <Paragraph>
+          외부 패키지를 사용할 때는 단순히 이용하면서 문서만 보는 것이 아니라,{' '}
+          <Emphasize>
+            GitHub 이슈, 체인지로그, 소스코드 등을 통해 패키지의 동작 방식과
+            잠재적인 문제를 주기적으로 확인해야 한다
+          </Emphasize>
+          는 점도 배웠습니다.
         </Paragraph>
       </Section>
     </ProjectPageTemplate>
