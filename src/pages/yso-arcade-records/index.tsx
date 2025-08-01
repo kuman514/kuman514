@@ -1,20 +1,25 @@
 import Image from 'next/image';
 
 import ProjectPageTemplate from '^/entities/project/page-template';
+import Section from '^/entities/section';
+import Emphasize from '^/shared/emphasize';
 import ExternalAnchor from '^/shared/external-anchor';
 import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
-import Section from '^/entities/section';
-import Emphasize from '^/shared/emphasize';
 
-import YSOArcadeRecordsPng from './assets/yso-arcade-records.png';
-import YSOArcadeRecordsRecordListPng from './assets/yso-arcade-records-record-list.png';
-import YSOArcadeRecordsRecordListSkeletonPng from './assets/yso-arcade-records-record-list-skeleton.png';
-import YSOArcadeRecordsRecordArticlePng from './assets/yso-arcade-records-record-article.png';
 import YSOArcadeRecordsCreateRecord1Png from './assets/yso-arcade-records-create-record-1.png';
 import YSOArcadeRecordsCreateRecord2Png from './assets/yso-arcade-records-create-record-2.png';
+import YSOArcadeRecordsImageViewerPng from './assets/yso-arcade-records-image-viewer.png';
+import YSOArcadeRecordsIntroPng from './assets/yso-arcade-records-intro.png';
+import YSOArcadeRecordsPostListSkeletonPng from './assets/yso-arcade-records-post-list-skeleton.png';
+import YSOArcadeRecordsRecordArticlePng from './assets/yso-arcade-records-record-article.png';
+import YSOArcadeRecordsRecordListPng from './assets/yso-arcade-records-record-list.png';
+import YSOArcadeRecordsReviewArticlePng from './assets/yso-arcade-records-review-article.png';
+import YSOArcadeRecordsReviewListPng from './assets/yso-arcade-records-review-list.png';
+import YSOArcadeRecordsSidebarPng from './assets/yso-arcade-records-sidebar.png';
+import YSOArcadeRecordsPng from './assets/yso-arcade-records.png';
 
 export default function YSOArcadeRecordsPage() {
   return (
@@ -29,6 +34,11 @@ export default function YSOArcadeRecordsPage() {
       </Title>
 
       <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
+        <Image
+          src={YSOArcadeRecordsIntroPng}
+          alt="YSOShmupRecords 인트로 페이지"
+          className="w-fit max-h-80 object-contain"
+        />
         <Image
           src={YSOArcadeRecordsRecordListPng}
           alt="YSOShmupRecords 각종 아케이드 기록 리스트"
@@ -47,6 +57,26 @@ export default function YSOArcadeRecordsPage() {
         <Image
           src={YSOArcadeRecordsCreateRecord2Png}
           alt="YSOShmupRecords 기록 생성 하단 부분"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={YSOArcadeRecordsReviewListPng}
+          alt="YSOShmupRecords 각종 리뷰 리스트"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={YSOArcadeRecordsReviewArticlePng}
+          alt="YSOShmupRecords 리뷰 아티클"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={YSOArcadeRecordsImageViewerPng}
+          alt="YSOShmupRecords 이미지 뷰어"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={YSOArcadeRecordsSidebarPng}
+          alt="YSOShmupRecords 이미지 뷰어"
           className="w-fit max-h-80 object-contain"
         />
       </div>
@@ -71,7 +101,7 @@ export default function YSOArcadeRecordsPage() {
                 컴포넌트 적용.
               </li>
               <li>
-                Supabase와 Server Actions, API Routes를 사용하여, 데이터
+                Supabase와 Server Actions, Route Handler를 사용하여, 데이터
                 생성/열람/수정/삭제를 단 하나의 사이트에서 모두 할 수 있게 만듦.
               </li>
             </UnorderedBulletList>
@@ -136,8 +166,8 @@ export default function YSOArcadeRecordsPage() {
       >
         <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
           <Image
-            src={YSOArcadeRecordsRecordListSkeletonPng}
-            alt="YSOShmupRecords에서 아케이드 기록 리스트를 불러오는 중에 나오는 스켈레톤 컴포넌트"
+            src={YSOArcadeRecordsPostListSkeletonPng}
+            alt="YSOShmupRecords에서 포스트 리스트를 불러오는 중에 나오는 스켈레톤 컴포넌트"
             className="w-fit max-h-80 object-contain"
           />
         </div>
@@ -158,7 +188,7 @@ export default function YSOArcadeRecordsPage() {
       </Section>
 
       <Section
-        title="Supabase와 Server Actions, API Routes 사용"
+        title="Supabase와 Server Actions, Route Handler 사용"
         subsectionClassName="flex flex-col gap-4"
       >
         <Paragraph>
@@ -166,12 +196,13 @@ export default function YSOArcadeRecordsPage() {
           <ExternalAnchor href="https://supabase.com/pricing">
             무료 티어로도 API 무제한 호출이 가능한 Supabase
           </ExternalAnchor>
-          와 Server Actions, 그리고 API Routes를 이용해 데이터베이스와 퍼블릭
+          와 Server Actions, 그리고 Route Handler를 이용해 데이터베이스와 퍼블릭
           버킷을 연동하여, 하나의 프로젝트에서 기록/리뷰 열람/추가/편집/삭제는
           물론 직접 이미지 업로드하는 것까지 모두 가능하게 만들었습니다. 기록과
           리뷰 열람은 누구나 할 수 있지만 추가/편집/삭제는 관리자 로그인이
           필요하도록 만들었습니다. 이미지는 서버 액션에 올리기에 용량이 너무 큰
-          탓에, 이미지 업로드는 API Routes를 통해 진행하였습니다.
+          탓에, 이미지 업로드와 포스트 생성 및 수정은 Route Handler를 통해
+          진행하였습니다.
         </Paragraph>
       </Section>
 
