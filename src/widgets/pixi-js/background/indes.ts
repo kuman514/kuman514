@@ -15,11 +15,17 @@ export async function generateBackground({ textureName }: InitParams) {
     width: pixiJsApp.screen.width,
     height: pixiJsApp.screen.height,
   });
+  tilingSprite.anchor.set(0.5);
 
   pixiJsApp.ticker.add((time) => {
     tilingSprite.width = pixiJsApp.renderer.width;
     tilingSprite.height = pixiJsApp.renderer.height;
     tilingSprite.tilePosition.y += 1 * time.deltaTime;
+
+    tilingSprite.position.set(
+      pixiJsApp.renderer.width / 2,
+      pixiJsApp.renderer.height / 2
+    );
   });
 
   return tilingSprite;
