@@ -9,7 +9,7 @@ import JavaScriptPng from '^/entities/pixi-icon/assets/javascript.png';
 import KoishiPng from '^/entities/pixi-icon/assets/koishi.png';
 import ReactPng from '^/entities/pixi-icon/assets/react.png';
 import TypeScriptPng from '^/entities/pixi-icon/assets/typescript.png';
-import { generateBackground } from './background/indes';
+import { generateBackground } from './background';
 
 export class PixiJsAppSingleton {
   static #pixiJsApp: Application<Renderer> | null;
