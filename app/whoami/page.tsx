@@ -40,13 +40,29 @@ export default function WhoAmIPage() {
         <Paragraph customClassName="first-letter:text-2xl first-letter:text-green-600 first-letter:font-bold">
           Github에서 1일 1커밋 활동을 진행하고 있습니다. 1일 1커밋이란, 배운
           내용이나 프로젝트 진행 등의 유의미한 커밋을 하루에 최소 1회 하는
-          활동을 말합니다. 저는 이러한 활동을 통해, 저의 개발 역량을 매일
-          조금씩이라도 꾸준히 향상시킬 수 있었습니다.
+          활동을 말합니다. 저는 이러한 활동을 통해, 저의 개발 역량을 꾸준히
+          향상시킬 수 있었습니다.
         </Paragraph>
         <section>
           [{' '}
           <ExternalAnchor href={'https://github.com/kuman514'}>
             kuman514의 GitHub 바로가기
+          </ExternalAnchor>{' '}
+          ]
+        </section>
+        <Paragraph>
+          또한,{' '}
+          <ExternalAnchor href="https://solved.ac">solved.ac</ExternalAnchor>
+          에서 1일 1솔브 활동도 진행하고 있습니다. 1일 1솔브란, solved.ac와
+          연계되는{' '}
+          <ExternalAnchor href="https://acmicpc.net">백준</ExternalAnchor>에서
+          알고리즘 문제를 하루에 1개 이상의 문제를 푸는 활동을 말합니다. 저는
+          이러한 활동을 통해, 문제 해결 능력을 꾸준히 키워나가고 있습니다.
+        </Paragraph>
+        <section>
+          [{' '}
+          <ExternalAnchor href={'https://solved.ac/kuman514'}>
+            kuman514의 solved.ac 프로필 바로가기
           </ExternalAnchor>{' '}
           ]
         </section>
