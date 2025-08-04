@@ -10,6 +10,7 @@ import KoishiPng from '^/entities/pixi-icon/assets/koishi.png';
 import ReactPng from '^/entities/pixi-icon/assets/react.png';
 import TypeScriptPng from '^/entities/pixi-icon/assets/typescript.png';
 import { generateBackground } from './background';
+import { IconComet } from './background/types';
 
 export class PixiJsAppSingleton {
   static #pixiJsApp: Application<Renderer> | null;
@@ -97,8 +98,21 @@ export class PixiJsAppSingleton {
         },
       });
 
+      const cloudSpriteNames = ['react', 'hanmogm', 'javascript', 'typescript'];
       const background = await generateBackground({
-        textureName: 'koishi',
+        icons: Array.from(
+          { length: 20 },
+          (_, i) =>
+            ({
+              sprite: generatePixiIcon({
+                spriteName: cloudSpriteNames[i % cloudSpriteNames.length],
+                x: 0,
+                y: 0,
+              }),
+              scale: 0.4 + 0.2 * Math.random(),
+              speed: 800 + 400 * Math.random(),
+            } satisfies IconComet)
+        ),
       });
       PixiJsAppSingleton.#pixiJsApp.stage.addChild(background);
       PixiJsAppSingleton.#pixiJsApp.stage.addChild(iconTracker);
