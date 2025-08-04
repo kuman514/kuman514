@@ -9,8 +9,8 @@ import JavaScriptPng from '^/entities/pixi-icon/assets/javascript.png';
 import KoishiPng from '^/entities/pixi-icon/assets/koishi.png';
 import ReactPng from '^/entities/pixi-icon/assets/react.png';
 import TypeScriptPng from '^/entities/pixi-icon/assets/typescript.png';
-import { generateBackground } from './background';
-import { IconComet } from './background/types';
+import { generateIconComet } from './icon-comet';
+import { IconComet } from './icon-comet/types';
 
 export class PixiJsAppSingleton {
   static #pixiJsApp: Application<Renderer> | null;
@@ -99,7 +99,7 @@ export class PixiJsAppSingleton {
       });
 
       const cloudSpriteNames = ['react', 'hanmogm', 'javascript', 'typescript'];
-      const background = await generateBackground({
+      const background = await generateIconComet({
         icons: Array.from(
           { length: 20 },
           (_, i) =>

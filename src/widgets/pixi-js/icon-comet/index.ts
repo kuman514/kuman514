@@ -8,7 +8,7 @@ interface InitParams {
   icons: IconComet[];
 }
 
-export async function generateBackground({ icons }: InitParams) {
+export async function generateIconComet({ icons }: InitParams) {
   const container = new Container();
   const pixiJsApp = await PixiJsAppSingleton.getPixiJsApp();
 
