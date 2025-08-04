@@ -1,7 +1,6 @@
 import { Application, Assets, Renderer } from 'pixi.js';
 
 import { generatePixiIcon } from '^/entities/pixi-icon';
-import { generateIconCloud } from '^/widgets/pixi-js/icon-cloud';
 import { generateIconTracker } from '^/widgets/pixi-js/icon-tracker';
 
 import HanmogmPng from '^/entities/pixi-icon/assets/hanmogm.png';
@@ -10,6 +9,8 @@ import JavaScriptPng from '^/entities/pixi-icon/assets/javascript.png';
 import KoishiPng from '^/entities/pixi-icon/assets/koishi.png';
 import ReactPng from '^/entities/pixi-icon/assets/react.png';
 import TypeScriptPng from '^/entities/pixi-icon/assets/typescript.png';
+import { generateIconComet } from './icon-comet';
+import { IconComet } from './icon-comet/types';
 
 export class PixiJsAppSingleton {
   static #pixiJsApp: Application<Renderer> | null;
@@ -98,16 +99,22 @@ export class PixiJsAppSingleton {
       });
 
       const cloudSpriteNames = ['react', 'hanmogm', 'javascript', 'typescript'];
-      const iconCloud = await generateIconCloud({
-        initIcons: Array.from({ length: 20 }, (_, i) =>
-          generatePixiIcon({
-            spriteName: cloudSpriteNames[i % cloudSpriteNames.length],
-            x: 0,
-            y: 0,
-          })
+      const background = await generateIconComet({
+        icons: Array.from(
+          { length: 20 },
+          (_, i) =>
+            ({
+              sprite: generatePixiIcon({
+                spriteName: cloudSpriteNames[i % cloudSpriteNames.length],
+                x: 0,
+                y: 0,
+              }),
+              scale: 0.4 + 0.2 * Math.random(),
+              speed: 800 + 400 * Math.random(),
+            } satisfies IconComet)
         ),
       });
-      PixiJsAppSingleton.#pixiJsApp.stage.addChild(iconCloud);
+      PixiJsAppSingleton.#pixiJsApp.stage.addChild(background);
       PixiJsAppSingleton.#pixiJsApp.stage.addChild(iconTracker);
     }
 
