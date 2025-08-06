@@ -25,12 +25,6 @@ export default function ContactPage() {
       >
         kuman514 카카오톡 오픈채팅
       </LinkButton>
-      <LinkButton
-        href="https://open.kakao.com/me/YSOShmupRecords"
-        customClassName="w-full max-w-2xl"
-      >
-        YSOShmupRecords 카카오톡 오픈채팅
-      </LinkButton>
     </main>
   );
 }
