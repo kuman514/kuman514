@@ -9,6 +9,8 @@ import JavaScriptPng from '^/entities/pixi-icon/assets/javascript.png';
 import KoishiPng from '^/entities/pixi-icon/assets/koishi.png';
 import ReactPng from '^/entities/pixi-icon/assets/react.png';
 import TypeScriptPng from '^/entities/pixi-icon/assets/typescript.png';
+import YsoPng from '^/entities/pixi-icon/assets/yso.png';
+
 import { generateIconComet } from './icon-comet';
 import { IconComet } from './icon-comet/types';
 
@@ -40,6 +42,10 @@ export class PixiJsAppSingleton {
       {
         alias: 'hanmogm',
         src: HanmogmPng.src,
+      },
+      {
+        alias: 'yso',
+        src: YsoPng.src,
       },
     ];
 
@@ -98,7 +104,13 @@ export class PixiJsAppSingleton {
         },
       });
 
-      const cloudSpriteNames = ['react', 'hanmogm', 'javascript', 'typescript'];
+      const cloudSpriteNames = [
+        'react',
+        'hanmogm',
+        'javascript',
+        'typescript',
+        'yso',
+      ];
       const background = await generateIconComet({
         icons: Array.from(
           { length: 20 },
