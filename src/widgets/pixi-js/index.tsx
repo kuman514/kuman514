@@ -62,6 +62,21 @@ export default function PixiJsApp() {
           },
         });
 
+        pixiJsApp.instance.ticker.add((time) => {
+          const deltaMs = time.deltaMS;
+          iconTracker.scale.set(Math.abs(Math.sin(iconTracker.rotation / 4)));
+          iconTracker.rotation += (deltaMs / 1000) * 1.25 * Math.PI;
+          iconTracker.children.forEach((icon) => {
+            icon.rotation -= (deltaMs / 1000) * 1.25 * Math.PI;
+          });
+        });
+        pixiJsApp.instance.stage.on('mousemove', (event) => {
+          iconTracker.position.copyFrom(event.global);
+        });
+        pixiJsApp.instance.stage.on('pointermove', (event) => {
+          iconTracker.position.copyFrom(event.global);
+        });
+
         const cloudSpriteNames = [
           'react',
           'hanmogm',
