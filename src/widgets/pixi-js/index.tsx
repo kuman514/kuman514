@@ -1,22 +1,15 @@
 'use client';
 
 import { usePathname } from 'next/navigation';
-import { Assets } from 'pixi.js';
 import { useEffect, useRef } from 'react';
 
-import HanmogmPng from '^/entities/pixi-icon/assets/hanmogm.png';
-import HoshinoPng from '^/entities/pixi-icon/assets/hoshino.png';
-import JavaScriptPng from '^/entities/pixi-icon/assets/javascript.png';
-import KoishiPng from '^/entities/pixi-icon/assets/koishi.png';
-import ReactPng from '^/entities/pixi-icon/assets/react.png';
-import TypeScriptPng from '^/entities/pixi-icon/assets/typescript.png';
-import YsoPng from '^/entities/pixi-icon/assets/yso.png';
-
 import { generatePixiIcon } from '^/entities/pixi-icon';
+
 import { generateIconComet } from './icon-comet';
 import { IconComet } from './icon-comet/types';
 import { generateIconTracker } from './icon-tracker';
 import { PixiJsAppSingleton } from './instance';
+import { preload } from './util/preload';
 
 export default function PixiJsApp() {
   const divRef = useRef<HTMLDivElement>(null);
@@ -30,39 +23,7 @@ export default function PixiJsApp() {
     (async () => {
       const pixiJsApp = await PixiJsAppSingleton.getPixiJsApp();
       if (pixiJsApp.isInit) {
-        const assets = [
-          {
-            alias: 'koishi',
-            src: KoishiPng.src,
-          },
-          {
-            alias: 'hoshino',
-            src: HoshinoPng.src,
-          },
-          {
-            alias: 'react',
-            src: ReactPng.src,
-          },
-          {
-            alias: 'javascript',
-            src: JavaScriptPng.src,
-          },
-          {
-            alias: 'typescript',
-            src: TypeScriptPng.src,
-          },
-          {
-            alias: 'hanmogm',
-            src: HanmogmPng.src,
-          },
-          {
-            alias: 'yso',
-            src: YsoPng.src,
-          },
-        ];
-
-        await Assets.load(assets);
-
+        await preload();
         await pixiJsApp.instance.init({
           backgroundAlpha: 0,
           resizeTo: divRef.current!,
