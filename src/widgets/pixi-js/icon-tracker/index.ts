@@ -20,7 +20,7 @@ export async function generateIconTracker({
 
   container.position.copyFrom(initPosition);
 
-  const pixiJsApp = await PixiJsAppSingleton.getPixiJsApp();
+  const pixiJsApp = (await PixiJsAppSingleton.getPixiJsApp()).instance;
   pixiJsApp.ticker.add((time) => {
     const deltaMs = time.deltaMS;
 

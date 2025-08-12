@@ -10,7 +10,7 @@ interface InitParams {
 
 export async function generateIconComet({ icons }: InitParams) {
   const container = new Container();
-  const pixiJsApp = await PixiJsAppSingleton.getPixiJsApp();
+  const pixiJsApp = (await PixiJsAppSingleton.getPixiJsApp()).instance;
 
   function randomize({
     icon,
