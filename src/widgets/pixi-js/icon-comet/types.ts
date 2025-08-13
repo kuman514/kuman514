@@ -5,3 +5,13 @@ export interface IconComet {
   scale: number;
   speed: number;
 }
+
+export interface CanvasSize {
+  canvasWidth: number;
+  canvasHeight: number;
+}
+
+export interface RandomizeIconCometPositionParams extends CanvasSize {
+  icon: IconComet;
+  isInitial: boolean;
+}

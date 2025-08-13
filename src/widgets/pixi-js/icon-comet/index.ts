@@ -1,9 +1,11 @@
 import { Container } from 'pixi.js';
 
-import { PixiJsAppSingleton } from '../instance';
-import { randomizeIconCometPosition } from '../util/icon-comet';
-import { COS_60_DEG, SIN_60_DEG } from './constants';
-import { IconComet } from './types';
+import { TAN_30_DEG } from './constants';
+import {
+  CanvasSize,
+  IconComet,
+  RandomizeIconCometPositionParams,
+} from './types';
 
 interface InitParams {
   icons: IconComet[];
@@ -11,38 +13,35 @@ interface InitParams {
 
 export async function generateIconComet({ icons }: InitParams) {
   const container = new Container();
-  const pixiJsApp = (await PixiJsAppSingleton.getPixiJsApp()).instance;
 
-  icons.forEach((icon) => {
-    randomizeIconCometPosition({
-      icon,
-      isInitial: true,
-      width: pixiJsApp.renderer.width,
-      height: pixiJsApp.renderer.height,
-    });
-  });
-  icons.sort((left, right) => left.sprite.scale.x - right.sprite.scale.x);
-  icons.forEach((icon) => {
-    container.addChild(icon.sprite);
-  });
+  function randomizeIconCometPosition({
+    icon,
+    canvasWidth,
+    canvasHeight,
+    isInitial,
+  }: RandomizeIconCometPositionParams) {
+    if (isInitial) {
+      icon.sprite.scale.set(icon.scale);
+    }
 
-  pixiJsApp.ticker.add((time) => {
+    icon.sprite.x = canvasHeight * TAN_30_DEG + canvasWidth * Math.random();
+    icon.sprite.y = -(0.1 + 1.4 * Math.random()) * canvasHeight;
+  }
+
+  function initializeIconComet({ canvasWidth, canvasHeight }: CanvasSize) {
     icons.forEach((icon) => {
-      if (icon.sprite.y > pixiJsApp.renderer.height * 1.3) {
-        randomizeIconCometPosition({
-          icon,
-          isInitial: false,
-          width: pixiJsApp.renderer.width,
-          height: pixiJsApp.renderer.height,
-        });
-      }
-      const moveAmount = (time.deltaMS / 1000) * icon.speed;
-      const moveX = moveAmount * COS_60_DEG;
-      const moveY = moveAmount * SIN_60_DEG;
-      icon.sprite.x -= moveX;
-      icon.sprite.y += moveY;
+      randomizeIconCometPosition({
+        icon,
+        isInitial: true,
+        canvasWidth,
+        canvasHeight,
+      });
     });
-  });
+    icons.sort((left, right) => left.sprite.scale.x - right.sprite.scale.x);
+    icons.forEach((icon) => {
+      container.addChild(icon.sprite);
+    });
+  }
 
-  return container;
+  return { container, randomizeIconCometPosition, initializeIconComet };
 }
