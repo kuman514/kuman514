@@ -95,7 +95,7 @@ export default function YSOArcadeRecordsPage() {
                 Next.js의 App Router를 활용하여 파일 시스템 기반의 간단한 페이지
                 라우팅.
               </li>
-              <li>기록 열람, 외부로 공유, 다크 모드 등등 각종 기능 구현.</li>
+              <li>기록 열람, 외부로 공유, 이미지 뷰어 등등 각종 기능 구현.</li>
               <li>
                 데이터를 가져오는 동안 UI가 멈춰있어 보이지 않기 위해 스켈레톤
                 컴포넌트 적용.
