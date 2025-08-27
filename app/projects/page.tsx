@@ -1,14 +1,16 @@
 import ProjectListItem from '^/entities/project/list-item';
 import Title from '^/shared/title';
 
-import ProjectPageTemplate from '^/entities/project/page-template';
 import HanmogmBannerPng from '^/pages/hanmogm/assets/hanmogm-banner.png';
 import ViteMinesweeperBannerPng from '^/pages/vite-minesweeper/assets/vite-minesweeper-banner.png';
 import YSOArcadeRecords from '^/pages/yso-arcade-records/assets/yso-arcade-records.png';
+import MostRecentlyEdited from '^/shared/most-recently-edited';
+import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
+import PageTemplate from '^/shared/page-template';
 
 export default function ProjectListPage() {
-  return (
-    <ProjectPageTemplate>
+  const renderContent = (
+    <>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         프로젝트 목록
       </Title>
@@ -67,6 +69,15 @@ export default function ProjectListPage() {
           }}
         />
       </ul>
-    </ProjectPageTemplate>
+    </>
+  );
+
+  return (
+    <PageTemplate customClassName="w-full flex flex-col items-center">
+      <div className="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl">
+        <MostRecentlyEdited editedDate={MOST_RECENTLY_EDITED_DATE} />
+        {renderContent}
+      </div>
+    </PageTemplate>
   );
 }

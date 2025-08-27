@@ -1,13 +1,15 @@
-import ProjectPageTemplate from '^/entities/project/page-template';
 import Section from '^/entities/section';
 import ExternalAnchor from '^/shared/external-anchor';
+import MostRecentlyEdited from '^/shared/most-recently-edited';
+import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
+import PageTemplate from '^/shared/page-template';
 import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 
 export default function WhoAmIPage() {
-  return (
-    <ProjectPageTemplate>
+  const renderContent = (
+    <>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         kuman514는...
       </Title>
@@ -87,6 +89,15 @@ export default function WhoAmIPage() {
         <Tag>React Native</Tag>
         <Tag>Next.js</Tag>
       </Section>
-    </ProjectPageTemplate>
+    </>
+  );
+
+  return (
+    <PageTemplate customClassName="w-full flex flex-col items-center">
+      <div className="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl">
+        <MostRecentlyEdited editedDate={MOST_RECENTLY_EDITED_DATE} />
+        {renderContent}
+      </div>
+    </PageTemplate>
   );
 }
