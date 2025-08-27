@@ -24,18 +24,6 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
   <div
     class="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl"
   >
-    <div
-      class="w-full text-right"
-    >
-      최근 수정 일자: 
-      2025
-      년 
-      8
-      월
-       
-      22
-      일
-    </div>
     <h1
       class="text-bold text-4xl sm:text-5xl md:text-6xl"
     >

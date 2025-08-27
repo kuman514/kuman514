@@ -1,6 +1,5 @@
 import Image from 'next/image';
 
-import ProjectPageTemplate from '^/entities/project/page-template';
 import Section from '^/entities/section';
 import Emphasize from '^/shared/emphasize';
 import ExternalAnchor from '^/shared/external-anchor';
@@ -9,26 +8,41 @@ import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
-import HanmogmHomePng from './assets/hanmogm-home.png';
-import HanmogmSearchPng from './assets/hanmogm-search.png';
-import HanmogmDrinkPng from './assets/hanmogm-drink.png';
+import MostRecentlyEdited from '^/shared/most-recently-edited';
+import PageTemplate from '^/shared/page-template';
+import HanmogmBannerPng from './assets/hanmogm-banner.png';
+import HanmogmCollectionListPng from './assets/hanmogm-collection-list.png';
 import HanmogmDrinkTastingPng from './assets/hanmogm-drink-tasting.png';
-import HanmogmTastingNotePng from './assets/hanmogm-tasting-note.png';
+import HanmogmDrinkPng from './assets/hanmogm-drink.png';
+import HanmogmHomePng from './assets/hanmogm-home.png';
+import HanmogmRequestStatusPng from './assets/hanmogm-request-status.png';
+import HanmogmSearchPng from './assets/hanmogm-search.png';
 import HanmogmTastingNoteFormPage1Png from './assets/hanmogm-tasting-note-form-page-1.png';
 import HanmogmTastingNoteFormPage2Png from './assets/hanmogm-tasting-note-form-page-2.png';
 import HanmogmTastingNoteListPng from './assets/hanmogm-tasting-note-list.png';
-import HanmogmCollectionListPng from './assets/hanmogm-collection-list.png';
-import HanmogmRequestStatusPng from './assets/hanmogm-request-status.png';
-import HanmogmBannerPng from './assets/hanmogm-banner.png';
+import HanmogmTastingNotePng from './assets/hanmogm-tasting-note.png';
 
-export default function HanmogmPage() {
-  return (
-    <ProjectPageTemplate
-      bannerImage={{
-        imageData: HanmogmBannerPng,
-        altText: '한모금 배너 이미지',
-      }}
-    >
+interface Props {
+  editedDate?: Date;
+}
+
+export default function HanmogmPage({ editedDate }: Props) {
+  const renderBanner = (
+    <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
+      <Image
+        className="w-full h-full object-cover"
+        src={HanmogmBannerPng}
+        alt="한모금 배너 이미지"
+      />
+    </div>
+  );
+
+  const renderEditedDate = editedDate ? (
+    <MostRecentlyEdited editedDate={editedDate} />
+  ) : null;
+
+  const renderContent = (
+    <>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         한모금 (Hanmogm)
       </Title>
@@ -348,6 +362,16 @@ export default function HanmogmPage() {
           는 점도 배웠습니다.
         </Paragraph>
       </Section>
-    </ProjectPageTemplate>
+    </>
+  );
+
+  return (
+    <PageTemplate customClassName="w-full flex flex-col items-center">
+      {renderBanner}
+      <div className="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl">
+        {renderEditedDate}
+        {renderContent}
+      </div>
+    </PageTemplate>
   );
 }
