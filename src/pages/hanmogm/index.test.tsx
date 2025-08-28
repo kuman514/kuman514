@@ -7,4 +7,11 @@ describe('HanmogmPage', () => {
     const { container } = render(<HanmogmPage />);
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('should show as expected with edited date', () => {
+    const { container } = render(
+      <HanmogmPage editedDate={new Date('2023-09-01')} />
+    );
+    expect(container.firstChild).toMatchSnapshot();
+  });
 });

@@ -7,4 +7,11 @@ describe('ViteMinesweeperPage', () => {
     const { container } = render(<ViteMinesweeperPage />);
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('should show as expected with edited date', () => {
+    const { container } = render(
+      <ViteMinesweeperPage editedDate={new Date('2023-05-29')} />
+    );
+    expect(container.firstChild).toMatchSnapshot();
+  });
 });
