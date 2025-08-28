@@ -1,6 +1,5 @@
 import Image from 'next/image';
 
-import ProjectPageTemplate from '^/entities/project/page-template';
 import Section from '^/entities/section';
 import Emphasize from '^/shared/emphasize';
 import ExternalAnchor from '^/shared/external-anchor';
@@ -9,19 +8,34 @@ import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
+import MostRecentlyEdited from '^/shared/most-recently-edited';
+import PageTemplate from '^/shared/page-template';
 import BfsPng from './assets/bfs.png';
 import QueuePopPng from './assets/queue-pop.png';
 import ViteMinesweeperBannerPng from './assets/vite-minesweeper-banner.png';
 import ViteMinesweeperPng from './assets/vite-minesweeper.png';
 
-export default function ViteMinesweeperPage() {
-  return (
-    <ProjectPageTemplate
-      bannerImage={{
-        imageData: ViteMinesweeperBannerPng,
-        altText: 'ViteMinesweeper 배너 이미지',
-      }}
-    >
+interface Props {
+  editedDate?: Date;
+}
+
+export default function ViteMinesweeperPage({ editedDate }: Props) {
+  const renderBanner = (
+    <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
+      <Image
+        className="w-full h-full object-cover"
+        src={ViteMinesweeperBannerPng}
+        alt="ViteMinesweeper 배너 이미지"
+      />
+    </div>
+  );
+
+  const renderEditedDate = editedDate ? (
+    <MostRecentlyEdited editedDate={editedDate} />
+  ) : null;
+
+  const renderContent = (
+    <>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         Vite 지뢰찾기 (ViteMinesweeper)
       </Title>
@@ -218,6 +232,16 @@ export default function ViteMinesweeperPage() {
           것을 알 수 있습니다.
         </Paragraph>
       </Section>
-    </ProjectPageTemplate>
+    </>
+  );
+
+  return (
+    <PageTemplate customClassName="w-full flex flex-col items-center">
+      {renderBanner}
+      <div className="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl">
+        {renderEditedDate}
+        {renderContent}
+      </div>
+    </PageTemplate>
   );
 }

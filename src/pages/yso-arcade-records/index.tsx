@@ -1,6 +1,5 @@
 import Image from 'next/image';
 
-import ProjectPageTemplate from '^/entities/project/page-template';
 import Section from '^/entities/section';
 import Emphasize from '^/shared/emphasize';
 import ExternalAnchor from '^/shared/external-anchor';
@@ -9,6 +8,8 @@ import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
+import MostRecentlyEdited from '^/shared/most-recently-edited';
+import PageTemplate from '^/shared/page-template';
 import YSOArcadeRecordsCreateRecord1Png from './assets/yso-arcade-records-create-record-1.png';
 import YSOArcadeRecordsCreateRecord2Png from './assets/yso-arcade-records-create-record-2.png';
 import YSOArcadeRecordsImageViewerPng from './assets/yso-arcade-records-image-viewer.png';
@@ -21,14 +22,27 @@ import YSOArcadeRecordsReviewListPng from './assets/yso-arcade-records-review-li
 import YSOArcadeRecordsSidebarPng from './assets/yso-arcade-records-sidebar.png';
 import YSOArcadeRecordsPng from './assets/yso-arcade-records.png';
 
-export default function YSOArcadeRecordsPage() {
-  return (
-    <ProjectPageTemplate
-      bannerImage={{
-        imageData: YSOArcadeRecordsPng,
-        altText: 'YSOArcadeRecordsPage 배너 이미지',
-      }}
-    >
+interface Props {
+  editedDate?: Date;
+}
+
+export default function YSOArcadeRecordsPage({ editedDate }: Props) {
+  const renderBanner = (
+    <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
+      <Image
+        className="w-full h-full object-cover"
+        src={YSOArcadeRecordsPng}
+        alt="YSOArcadeRecordsPage 배너 이미지"
+      />
+    </div>
+  );
+
+  const renderEditedDate = editedDate ? (
+    <MostRecentlyEdited editedDate={editedDate} />
+  ) : null;
+
+  const renderContent = (
+    <>
       <Title customClassName="text-4xl sm:text-5xl md:text-6xl">
         YSOArcadeRecords
       </Title>
@@ -252,6 +266,16 @@ export default function YSOArcadeRecordsPage() {
           />
         </div>
       </Section>
-    </ProjectPageTemplate>
+    </>
+  );
+
+  return (
+    <PageTemplate customClassName="w-full flex flex-col items-center">
+      {renderBanner}
+      <div className="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl">
+        {renderEditedDate}
+        {renderContent}
+      </div>
+    </PageTemplate>
   );
 }
