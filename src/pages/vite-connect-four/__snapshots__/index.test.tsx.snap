@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ViteConnectFourPage should show as expected 1`] = `
+<main
+  class="min-h-screen flex flex-col w-full flex flex-col items-center"
+>
+  <div
+    class="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl"
+  >
+    <h1
+      class="text-bold text-4xl sm:text-5xl md:text-6xl"
+    >
+      Vite 커넥트 포 (ViteConnectFour)
+    </h1>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        개요
+      </h2>
+      <section>
+        <ul
+          class="list-disc pl-8"
+        >
+          <li>
+            .
+          </li>
+          <li>
+            개인 프로젝트
+          </li>
+          <li>
+            구현 내용 요약
+            <ul
+              class="list-disc pl-8"
+            >
+              <li>
+                .
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        방문하기
+      </h2>
+      <section>
+        [
+         
+        <a
+          class="text-blue-500 hover:text-purple-500 undefined"
+          href="https://github.com/kuman514/ViteConnectFour"
+          target="_blank"
+        >
+          GitHub 저장소
+        </a>
+         
+        ] [
+         
+        <a
+          class="text-blue-500 hover:text-purple-500 undefined"
+          href="https://vite-connect-four.vercel.app/"
+          target="_blank"
+        >
+          게임 플레이
+        </a>
+         
+        ]
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        이 프로젝트를 만든 이유
+      </h2>
+      <section
+        class="flex flex-row flex-wrap gap-2"
+      >
+        <p
+          class="text-base font-normal indent-4 undefined"
+        >
+          .
+        </p>
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        플레이 방법 (Windows Chrome 기준)
+      </h2>
+      <section>
+        <ul
+          class="list-disc pl-8"
+        >
+          <li>
+            .
+          </li>
+        </ul>
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        사용한 기술 스택
+      </h2>
+      <section
+        class="flex flex-row flex-wrap gap-2"
+      >
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          React
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          TypeScript
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          Vite
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          Yarn Berry
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          Zustand
+        </span>
+      </section>
+    </section>
+  </div>
+</main>
+`;
+
+exports[`ViteConnectFourPage should show as expected with edited date 1`] = `
+<main
+  class="min-h-screen flex flex-col w-full flex flex-col items-center"
+>
+  <div
+    class="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl"
+  >
+    <div
+      class="w-full text-right"
+    >
+      최근 수정 일자: 
+      2023
+      년 
+      5
+      월
+       
+      29
+      일
+    </div>
+    <h1
+      class="text-bold text-4xl sm:text-5xl md:text-6xl"
+    >
+      Vite 커넥트 포 (ViteConnectFour)
+    </h1>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        개요
+      </h2>
+      <section>
+        <ul
+          class="list-disc pl-8"
+        >
+          <li>
+            .
+          </li>
+          <li>
+            개인 프로젝트
+          </li>
+          <li>
+            구현 내용 요약
+            <ul
+              class="list-disc pl-8"
+            >
+              <li>
+                .
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        방문하기
+      </h2>
+      <section>
+        [
+         
+        <a
+          class="text-blue-500 hover:text-purple-500 undefined"
+          href="https://github.com/kuman514/ViteConnectFour"
+          target="_blank"
+        >
+          GitHub 저장소
+        </a>
+         
+        ] [
+         
+        <a
+          class="text-blue-500 hover:text-purple-500 undefined"
+          href="https://vite-connect-four.vercel.app/"
+          target="_blank"
+        >
+          게임 플레이
+        </a>
+         
+        ]
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        이 프로젝트를 만든 이유
+      </h2>
+      <section
+        class="flex flex-row flex-wrap gap-2"
+      >
+        <p
+          class="text-base font-normal indent-4 undefined"
+        >
+          .
+        </p>
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        플레이 방법 (Windows Chrome 기준)
+      </h2>
+      <section>
+        <ul
+          class="list-disc pl-8"
+        >
+          <li>
+            .
+          </li>
+        </ul>
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        사용한 기술 스택
+      </h2>
+      <section
+        class="flex flex-row flex-wrap gap-2"
+      >
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          React
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          TypeScript
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          Vite
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          Yarn Berry
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          Zustand
+        </span>
+      </section>
+    </section>
+  </div>
+</main>
+`;
