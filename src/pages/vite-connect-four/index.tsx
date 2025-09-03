@@ -35,12 +35,23 @@ export default function ViteConnectFourPage({ editedDate }: Props) {
 
       <Section title="개요">
         <UnorderedBulletList>
-          <li>.</li>
+          <li>React + Vite + Zustand를 이용하여 만든, 커넥트 포 게임.</li>
           <li>개인 프로젝트</li>
           <li>
             구현 내용 요약
             <UnorderedBulletList>
-              <li>.</li>
+              <li>
+                프로젝트 세팅, 최소 구현 조건 설정, 태스크 브레이크다운, 기능
+                구현, 테스트, 배포, 문서 및 업데이트 로그 작성, 유지보수를
+                담당함.
+              </li>
+              <li>
+                커넥트 포 게임, 실행 취소 및 되돌리기 등등 각종 기능 구현.
+              </li>
+              <li>
+                Vite + Yarn Berry로 프로젝트를 세팅하여 Create React App 대비
+                로딩 시간 30초 → 5초로 감소, 설치 속도가 5배 빨라짐.
+              </li>
             </UnorderedBulletList>
           </li>
         </UnorderedBulletList>
@@ -67,7 +78,16 @@ export default function ViteConnectFourPage({ editedDate }: Props) {
 
       <Section title="플레이 방법 (Windows Chrome 기준)">
         <UnorderedBulletList>
-          <li>.</li>
+          <li>플레이어 1이 빨강, 플레이어 2가 노랑.</li>
+          <li>
+            빨강이 먼저 돌을 놓으며, 이후 두 플레이어가 번갈아가며 돌을
+            놓습니다.
+          </li>
+          <li>돌은 낙하하기 때문에 맨 아래에서부터 쌓입니다.</li>
+          <li>
+            가로, 세로, 대각선 중 아무 한 방향으로 돌을 4개 이상 연결한
+            플레이어가 승리합니다.
+          </li>
         </UnorderedBulletList>
       </Section>
 
