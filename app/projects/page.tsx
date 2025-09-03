@@ -7,6 +7,7 @@ import YSOArcadeRecords from '^/pages/yso-arcade-records/assets/yso-arcade-recor
 import MostRecentlyEdited from '^/shared/most-recently-edited';
 import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
 import PageTemplate from '^/shared/page-template';
+import ViteConnectFour from '^/pages/vite-connect-four/assets/vite-connect-four-banner.png';
 
 export default function ProjectListPage() {
   const renderContent = (
@@ -47,6 +48,22 @@ export default function ProjectListPage() {
               'Vercel',
               'Supabase',
               'Tailwind CSS',
+            ],
+          }}
+        />
+        <ProjectListItem
+          projectItem={{
+            projectId: 'ViteConnectFour',
+            title: 'Vite 커넥트 포 (ViteConnectFour)',
+            thumbnailUrl: ViteConnectFour.src,
+            description:
+              'React + Vite + Zustand를 이용하여 만든, 커넥트 포 게임.',
+            techStackTags: [
+              'React',
+              'TypeScript',
+              'Vite',
+              'Yarn Berry',
+              'Zustand',
             ],
           }}
         />
