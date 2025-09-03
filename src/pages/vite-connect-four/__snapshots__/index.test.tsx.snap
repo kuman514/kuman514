@@ -5,6 +5,23 @@ exports[`ViteConnectFourPage should show as expected 1`] = `
   class="min-h-screen flex flex-col w-full flex flex-col items-center"
 >
   <div
+    aria-label="banner-image"
+    class="pt-16 w-full h-[50vh]"
+  >
+    <img
+      alt="ViteConnectFour 배너 이미지"
+      class="w-full h-full object-cover"
+      data-nimg="1"
+      decoding="async"
+      height="40"
+      loading="lazy"
+      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+      style="color: transparent;"
+      width="40"
+    />
+  </div>
+  <div
     class="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl"
   >
     <h1
@@ -95,7 +112,7 @@ exports[`ViteConnectFourPage should show as expected 1`] = `
         <p
           class="text-base font-normal indent-4 undefined"
         >
-          .
+          가족들과 태블릿으로 커넥트 포 게임을 즐기고자 하는데, 가족이 쓰는 태블릿에는 커넥트 포 앱을 설치할 여유가 없었습니다. 그래서 가족들끼리 즐거움을 느끼면서도 태블릿의 저장용량도 아낄 수 있게 하고자, 웹 커넥트 포 앱을 직접 구현하게 되었습니다.
         </p>
       </section>
     </section>
@@ -172,6 +189,23 @@ exports[`ViteConnectFourPage should show as expected with edited date 1`] = `
 <main
   class="min-h-screen flex flex-col w-full flex flex-col items-center"
 >
+  <div
+    aria-label="banner-image"
+    class="pt-16 w-full h-[50vh]"
+  >
+    <img
+      alt="ViteConnectFour 배너 이미지"
+      class="w-full h-full object-cover"
+      data-nimg="1"
+      decoding="async"
+      height="40"
+      loading="lazy"
+      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+      srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+      style="color: transparent;"
+      width="40"
+    />
+  </div>
   <div
     class="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl"
   >
@@ -275,7 +309,7 @@ exports[`ViteConnectFourPage should show as expected with edited date 1`] = `
         <p
           class="text-base font-normal indent-4 undefined"
         >
-          .
+          가족들과 태블릿으로 커넥트 포 게임을 즐기고자 하는데, 가족이 쓰는 태블릿에는 커넥트 포 앱을 설치할 여유가 없었습니다. 그래서 가족들끼리 즐거움을 느끼면서도 태블릿의 저장용량도 아낄 수 있게 하고자, 웹 커넥트 포 앱을 직접 구현하게 되었습니다.
         </p>
       </section>
     </section>

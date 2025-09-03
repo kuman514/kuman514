@@ -1,27 +1,30 @@
+import Image from 'next/image';
+
 import Section from '^/entities/section';
 import ExternalAnchor from '^/shared/external-anchor';
 import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
-
 import MostRecentlyEdited from '^/shared/most-recently-edited';
 import PageTemplate from '^/shared/page-template';
+
+import ViteConnectFourBannerPng from './assets/vite-connect-four-banner.png';
 
 interface Props {
   editedDate?: Date;
 }
 
 export default function ViteConnectFourPage({ editedDate }: Props) {
-  // const renderBanner = (
-  //   <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
-  //     <Image
-  //       className="w-full h-full object-cover"
-  //       src={ViteConnectFourBannerPng}
-  //       alt="ViteConnectFour 배너 이미지"
-  //     />
-  //   </div>
-  // );
+  const renderBanner = (
+    <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
+      <Image
+        className="w-full h-full object-cover"
+        src={ViteConnectFourBannerPng}
+        alt="ViteConnectFour 배너 이미지"
+      />
+    </div>
+  );
 
   const renderEditedDate = editedDate ? (
     <MostRecentlyEdited editedDate={editedDate} />
@@ -73,7 +76,12 @@ export default function ViteConnectFourPage({ editedDate }: Props) {
         title="이 프로젝트를 만든 이유"
         subsectionClassName="flex flex-row flex-wrap gap-2"
       >
-        <Paragraph>.</Paragraph>
+        <Paragraph>
+          가족들과 태블릿으로 커넥트 포 게임을 즐기고자 하는데, 가족이 쓰는
+          태블릿에는 커넥트 포 앱을 설치할 여유가 없었습니다. 그래서 가족들끼리
+          즐거움을 느끼면서도 태블릿의 저장용량도 아낄 수 있게 하고자, 웹 커넥트
+          포 앱을 직접 구현하게 되었습니다.
+        </Paragraph>
       </Section>
 
       <Section title="플레이 방법 (Windows Chrome 기준)">
@@ -106,7 +114,7 @@ export default function ViteConnectFourPage({ editedDate }: Props) {
 
   return (
     <PageTemplate customClassName="w-full flex flex-col items-center">
-      {/* {renderBanner} */}
+      {renderBanner}
       <div className="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl">
         {renderEditedDate}
         {renderContent}
