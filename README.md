@@ -13,6 +13,9 @@
 - [YSOArcadeRecords](https://github.com/kuman514/YSOArcadeRecords)
   - `Next.js` `React` `TypeScript` `Axios` `Vercel` `Supabase` `Tailwind CSS`
   - 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트. ([방문하기](https://yso-arcade-records.vercel.app/))
+- [ViteConnectFour](https://github.com/kuman514/ViteConnectFour)
+  - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand`
+  - React + Vite + Zustand를 이용하여 만든, 커넥트 포 게임. ([플레이하기](https://vite-connect-four.vercel.app/))
 - [ViteMinesweeper](https://github.com/kuman514/ViteMinesweeper)
   - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel` `ChakraUI`
   - React와 너비 우선 탐색 알고리즘을 활용하여 만든 Microsoft Minesweeper 스타일 지뢰찾기. ([플레이하기](https://vite-minesweeper.vercel.app/))
