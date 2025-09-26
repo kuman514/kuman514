@@ -69,7 +69,7 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 기록 생성 상단 부분"
+        alt="YSOShmupRecords 기록 폼 상단 부분"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -81,19 +81,7 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 기록 생성 하단 부분"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="YSOShmupRecords 각종 리뷰 리스트"
+        alt="YSOShmupRecords 기록 폼 하단 부분"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -129,7 +117,31 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 이미지 뷰어"
+        alt="YSOShmupRecords 사이드바"
+        class="w-fit max-h-80 object-contain"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="YSOShmupRecords 갤러리 리스트"
+        class="w-fit max-h-80 object-contain"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="YSOShmupRecords 갤러리 아티클"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -530,7 +542,7 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 기록 생성 상단 부분"
+        alt="YSOShmupRecords 기록 폼 상단 부분"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -542,19 +554,7 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 기록 생성 하단 부분"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="YSOShmupRecords 각종 리뷰 리스트"
+        alt="YSOShmupRecords 기록 폼 하단 부분"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -590,7 +590,31 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 이미지 뷰어"
+        alt="YSOShmupRecords 사이드바"
+        class="w-fit max-h-80 object-contain"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="YSOShmupRecords 갤러리 리스트"
+        class="w-fit max-h-80 object-contain"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="YSOShmupRecords 갤러리 아티클"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
