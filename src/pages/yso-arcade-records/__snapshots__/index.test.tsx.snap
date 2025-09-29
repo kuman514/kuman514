@@ -335,6 +335,11 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
         >
           Tailwind CSS
         </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          TanStack Query
+        </span>
       </section>
     </section>
     <section
@@ -820,6 +825,11 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
           class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
         >
           Tailwind CSS
+        </span>
+        <span
+          class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+        >
+          TanStack Query
         </span>
       </section>
     </section>

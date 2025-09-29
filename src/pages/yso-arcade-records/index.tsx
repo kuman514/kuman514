@@ -190,6 +190,7 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
         <Tag>Vercel</Tag>
         <Tag>Supabase</Tag>
         <Tag>Tailwind CSS</Tag>
+        <Tag>TanStack Query</Tag>
       </Section>
 
       <Section
