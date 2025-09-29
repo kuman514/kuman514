@@ -245,11 +245,11 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
         title="아케이드 기록 관련 기능 시연 영상"
         subsectionClassName="flex flex-col gap-4"
       >
-        <div className="w-full h-60 sm:h-80">
+        <div className="w-full aspect-video">
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/Fh0yuBlXII8"
+            src="https://www.youtube.com/embed/NTL8DepnKlg"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -258,11 +258,24 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
             }}
           />
         </div>
-        <div className="w-full h-60 sm:h-80">
+        <div className="w-full aspect-video">
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/m4y4TCb95c0"
+            src="https://www.youtube.com/embed/P0qfr_UZoKI"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{
+              borderWidth: 0,
+            }}
+          />
+        </div>
+        <div className="w-full aspect-video">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/qMYLsSKmbyI"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
