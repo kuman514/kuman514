@@ -3,22 +3,23 @@ import Image from 'next/image';
 import Section from '^/entities/section';
 import Emphasize from '^/shared/emphasize';
 import ExternalAnchor from '^/shared/external-anchor';
+import MostRecentlyEdited from '^/shared/most-recently-edited';
+import PageTemplate from '^/shared/page-template';
 import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
-import MostRecentlyEdited from '^/shared/most-recently-edited';
-import PageTemplate from '^/shared/page-template';
-import YSOArcadeRecordsCreateRecord1Png from './assets/yso-arcade-records-create-record-1.png';
-import YSOArcadeRecordsCreateRecord2Png from './assets/yso-arcade-records-create-record-2.png';
+import YSOArcadeRecordsGalleryArticlePng from './assets/yso-arcade-records-gallery-article.png';
+import YSOArcadeRecordsGalleryListPng from './assets/yso-arcade-records-gallery-list.png';
 import YSOArcadeRecordsImageViewerPng from './assets/yso-arcade-records-image-viewer.png';
 import YSOArcadeRecordsIntroPng from './assets/yso-arcade-records-intro.png';
 import YSOArcadeRecordsPostListSkeletonPng from './assets/yso-arcade-records-post-list-skeleton.png';
 import YSOArcadeRecordsRecordArticlePng from './assets/yso-arcade-records-record-article.png';
+import YSOArcadeRecordsRecordForm1Png from './assets/yso-arcade-records-record-form-1.png';
+import YSOArcadeRecordsRecordForm2Png from './assets/yso-arcade-records-record-form-2.png';
 import YSOArcadeRecordsRecordListPng from './assets/yso-arcade-records-record-list.png';
 import YSOArcadeRecordsReviewArticlePng from './assets/yso-arcade-records-review-article.png';
-import YSOArcadeRecordsReviewListPng from './assets/yso-arcade-records-review-list.png';
 import YSOArcadeRecordsSidebarPng from './assets/yso-arcade-records-sidebar.png';
 import YSOArcadeRecordsPng from './assets/yso-arcade-records.png';
 
@@ -64,18 +65,13 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsCreateRecord1Png}
-          alt="YSOShmupRecords 기록 생성 상단 부분"
+          src={YSOArcadeRecordsRecordForm1Png}
+          alt="YSOShmupRecords 기록 폼 상단 부분"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsCreateRecord2Png}
-          alt="YSOShmupRecords 기록 생성 하단 부분"
-          className="w-fit max-h-80 object-contain"
-        />
-        <Image
-          src={YSOArcadeRecordsReviewListPng}
-          alt="YSOShmupRecords 각종 리뷰 리스트"
+          src={YSOArcadeRecordsRecordForm2Png}
+          alt="YSOShmupRecords 기록 폼 하단 부분"
           className="w-fit max-h-80 object-contain"
         />
         <Image
@@ -90,7 +86,17 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
         />
         <Image
           src={YSOArcadeRecordsSidebarPng}
-          alt="YSOShmupRecords 이미지 뷰어"
+          alt="YSOShmupRecords 사이드바"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={YSOArcadeRecordsGalleryListPng}
+          alt="YSOShmupRecords 갤러리 리스트"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={YSOArcadeRecordsGalleryArticlePng}
+          alt="YSOShmupRecords 갤러리 아티클"
           className="w-fit max-h-80 object-contain"
         />
       </div>
@@ -239,11 +245,11 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
         title="아케이드 기록 관련 기능 시연 영상"
         subsectionClassName="flex flex-col gap-4"
       >
-        <div className="w-full h-60 sm:h-80">
+        <div className="w-full aspect-video">
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/Fh0yuBlXII8"
+            src="https://www.youtube.com/embed/NTL8DepnKlg"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -252,11 +258,24 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
             }}
           />
         </div>
-        <div className="w-full h-60 sm:h-80">
+        <div className="w-full aspect-video">
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/m4y4TCb95c0"
+            src="https://www.youtube.com/embed/P0qfr_UZoKI"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{
+              borderWidth: 0,
+            }}
+          />
+        </div>
+        <div className="w-full aspect-video">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/qMYLsSKmbyI"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen

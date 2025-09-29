@@ -69,7 +69,7 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 기록 생성 상단 부분"
+        alt="YSOShmupRecords 기록 폼 상단 부분"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -81,19 +81,7 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 기록 생성 하단 부분"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="YSOShmupRecords 각종 리뷰 리스트"
+        alt="YSOShmupRecords 기록 폼 하단 부분"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -129,7 +117,31 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 이미지 뷰어"
+        alt="YSOShmupRecords 사이드바"
+        class="w-fit max-h-80 object-contain"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="YSOShmupRecords 갤러리 리스트"
+        class="w-fit max-h-80 object-contain"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="YSOShmupRecords 갤러리 아티클"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -418,26 +430,39 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
         class="flex flex-col gap-4"
       >
         <div
-          class="w-full h-60 sm:h-80"
+          class="w-full aspect-video"
         >
           <iframe
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen=""
             height="100%"
-            src="https://www.youtube.com/embed/Fh0yuBlXII8"
+            src="https://www.youtube.com/embed/NTL8DepnKlg"
             style="border-width: 0px;"
             title="YouTube video player"
             width="100%"
           />
         </div>
         <div
-          class="w-full h-60 sm:h-80"
+          class="w-full aspect-video"
         >
           <iframe
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen=""
             height="100%"
-            src="https://www.youtube.com/embed/m4y4TCb95c0"
+            src="https://www.youtube.com/embed/P0qfr_UZoKI"
+            style="border-width: 0px;"
+            title="YouTube video player"
+            width="100%"
+          />
+        </div>
+        <div
+          class="w-full aspect-video"
+        >
+          <iframe
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen=""
+            height="100%"
+            src="https://www.youtube.com/embed/qMYLsSKmbyI"
             style="border-width: 0px;"
             title="YouTube video player"
             width="100%"
@@ -530,7 +555,7 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 기록 생성 상단 부분"
+        alt="YSOShmupRecords 기록 폼 상단 부분"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -542,19 +567,7 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 기록 생성 하단 부분"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="YSOShmupRecords 각종 리뷰 리스트"
+        alt="YSOShmupRecords 기록 폼 하단 부분"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -590,7 +603,31 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
         width="40"
       />
       <img
-        alt="YSOShmupRecords 이미지 뷰어"
+        alt="YSOShmupRecords 사이드바"
+        class="w-fit max-h-80 object-contain"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="YSOShmupRecords 갤러리 리스트"
+        class="w-fit max-h-80 object-contain"
+        data-nimg="1"
+        decoding="async"
+        height="40"
+        loading="lazy"
+        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+        style="color: transparent;"
+        width="40"
+      />
+      <img
+        alt="YSOShmupRecords 갤러리 아티클"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"
@@ -879,26 +916,39 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
         class="flex flex-col gap-4"
       >
         <div
-          class="w-full h-60 sm:h-80"
+          class="w-full aspect-video"
         >
           <iframe
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen=""
             height="100%"
-            src="https://www.youtube.com/embed/Fh0yuBlXII8"
+            src="https://www.youtube.com/embed/NTL8DepnKlg"
             style="border-width: 0px;"
             title="YouTube video player"
             width="100%"
           />
         </div>
         <div
-          class="w-full h-60 sm:h-80"
+          class="w-full aspect-video"
         >
           <iframe
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen=""
             height="100%"
-            src="https://www.youtube.com/embed/m4y4TCb95c0"
+            src="https://www.youtube.com/embed/P0qfr_UZoKI"
+            style="border-width: 0px;"
+            title="YouTube video player"
+            width="100%"
+          />
+        </div>
+        <div
+          class="w-full aspect-video"
+        >
+          <iframe
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen=""
+            height="100%"
+            src="https://www.youtube.com/embed/qMYLsSKmbyI"
             style="border-width: 0px;"
             title="YouTube video player"
             width="100%"
