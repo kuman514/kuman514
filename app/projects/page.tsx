@@ -2,12 +2,12 @@ import ProjectListItem from '^/entities/project/list-item';
 import Title from '^/shared/title';
 
 import HanmogmBannerPng from '^/pages/hanmogm/assets/hanmogm-banner.png';
+import ViteConnectFour from '^/pages/vite-connect-four/assets/vite-connect-four-banner.png';
 import ViteMinesweeperBannerPng from '^/pages/vite-minesweeper/assets/vite-minesweeper-banner.png';
 import YSOArcadeRecords from '^/pages/yso-arcade-records/assets/yso-arcade-records.png';
 import MostRecentlyEdited from '^/shared/most-recently-edited';
 import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
 import PageTemplate from '^/shared/page-template';
-import ViteConnectFour from '^/pages/vite-connect-four/assets/vite-connect-four-banner.png';
 
 export default function ProjectListPage() {
   const renderContent = (
@@ -48,6 +48,7 @@ export default function ProjectListPage() {
               'Vercel',
               'Supabase',
               'Tailwind CSS',
+              'TanStack Query',
             ],
           }}
         />
