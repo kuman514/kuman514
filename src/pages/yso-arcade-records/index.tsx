@@ -115,7 +115,10 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
                 Next.js의 App Router를 활용하여 파일 시스템 기반의 간단한 페이지
                 라우팅.
               </li>
-              <li>기록 열람, 외부로 공유, 이미지 뷰어 등등 각종 기능 구현.</li>
+              <li>
+                아케이드 기록/리뷰/갤러리 등의 포스트 열람/생성/수정/삭제,
+                외부로 공유, 이미지 뷰어 등등 각종 기능 구현.
+              </li>
               <li>
                 데이터를 가져오는 동안 UI가 멈춰있어 보이지 않기 위해 스켈레톤
                 컴포넌트 적용.
@@ -123,6 +126,10 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
               <li>
                 Supabase와 Server Actions, Route Handler를 사용하여, 데이터
                 생성/열람/수정/삭제를 단 하나의 사이트에서 모두 할 수 있게 만듦.
+              </li>
+              <li>
+                TanStack Query를 이용하여 아케이드 기록/리뷰/갤러리 리스트의
+                무한 스크롤 시스템을 구축.
               </li>
             </UnorderedBulletList>
           </li>
