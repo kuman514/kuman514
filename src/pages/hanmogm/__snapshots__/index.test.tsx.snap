@@ -45,18 +45,6 @@ exports[`HanmogmPage should show as expected 1`] = `
         width="40"
       />
       <img
-        alt="한모금 검색 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
         alt="한모금 주류 상세 화면 상단"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
@@ -654,18 +642,6 @@ exports[`HanmogmPage should show as expected with edited date 1`] = `
     >
       <img
         alt="한모금 홈 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 검색 화면"
         class="w-fit max-h-80 object-contain"
         data-nimg="1"
         decoding="async"

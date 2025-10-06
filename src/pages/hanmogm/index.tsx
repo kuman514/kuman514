@@ -16,7 +16,6 @@ import HanmogmDrinkTastingPng from './assets/hanmogm-drink-tasting.png';
 import HanmogmDrinkPng from './assets/hanmogm-drink.png';
 import HanmogmHomePng from './assets/hanmogm-home.png';
 import HanmogmRequestStatusPng from './assets/hanmogm-request-status.png';
-import HanmogmSearchPng from './assets/hanmogm-search.png';
 import HanmogmTastingNoteFormPage1Png from './assets/hanmogm-tasting-note-form-page-1.png';
 import HanmogmTastingNoteFormPage2Png from './assets/hanmogm-tasting-note-form-page-2.png';
 import HanmogmTastingNoteListPng from './assets/hanmogm-tasting-note-list.png';
@@ -51,11 +50,6 @@ export default function HanmogmPage({ editedDate }: Props) {
         <Image
           src={HanmogmHomePng}
           alt="한모금 홈 화면"
-          className="w-fit max-h-80 object-contain"
-        />
-        <Image
-          src={HanmogmSearchPng}
-          alt="한모금 검색 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
