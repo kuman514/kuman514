@@ -498,50 +498,6 @@ exports[`HanmogmPage should show as expected 1`] = `
       <h2
         class="text-bold text-2xl sm:text-3xl md:text-4xl"
       >
-        이 프로젝트가 받은 피드백
-      </h2>
-      <section
-        class="flex flex-col gap-4"
-      >
-        <p
-          class="text-base font-normal indent-4 undefined"
-        >
-          주류 찾기나 테이스팅 노트 작성 등,
-           
-          <strong
-            class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
-          >
-            주류 시음에 관한 각종 기능이 하나의 앱에 들어가있어 편리하다
-          </strong>
-          는 피드백이 있었습니다. 술을 이것저것 마시다 보면 어떤 맛의 술이었는지 헷갈리게 되어 테이스팅 노트나 술 블로그를 하셨던 고객께 유용하다는 평가를 받았습니다. 또한, 주류 구입 전에 술의 평가가 어떤지 알아보려고 비어레이트같은 사이트에 자주 방문하는 고객께도
-           
-          <strong
-            class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
-          >
-            술을 쉽게 검색할 수 있어 유용하다
-          </strong>
-          는 평가를 받았습니다.
-        </p>
-        <p
-          class="text-base font-normal indent-4 undefined"
-        >
-          하지만,
-           
-          <strong
-            class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
-          >
-            대소문자/숫자/특수문자 등등을 입력하는 비밀번호에서 회원가입을 잠시 머뭇거렸다
-          </strong>
-          는 피드백도 있었습니다. 현재 한모금은 이메일과 비밀번호를 입력하는 방식의 로그인밖에 지원하지 않는데, 이는 SNS 계정만 있으면 바로 가입 및 로그인이 되는 소셜 로그인에 비해 번거롭기 때문입니다. 따라서 해당 문제를 해결하기 위해, 로그인을 더욱 편리하게 만들기 위한 소셜 로그인 기능을 구축하는 중입니다.
-        </p>
-      </section>
-    </section>
-    <section
-      class="flex flex-col gap-8 undefined"
-    >
-      <h2
-        class="text-bold text-2xl sm:text-3xl md:text-4xl"
-      >
         이 프로젝트를 통해 배운 점
       </h2>
       <section
@@ -579,7 +535,8 @@ exports[`HanmogmPage should show as expected 1`] = `
             앱을 제출하는 과정에서도 플랫폼별로 서로 다른 과정이나 대응이 필요하다는 점
           </strong>
            
-          등등이 있습니다. 이를 통해, 크로스 플랫폼이란 단 한 번에 끝나는 개발이 아니라, 
+          등등이 있습니다. 이를 통해, 크로스 플랫폼이란
+           
           <strong
             class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
           >
@@ -1161,50 +1118,6 @@ exports[`HanmogmPage should show as expected with edited date 1`] = `
       <h2
         class="text-bold text-2xl sm:text-3xl md:text-4xl"
       >
-        이 프로젝트가 받은 피드백
-      </h2>
-      <section
-        class="flex flex-col gap-4"
-      >
-        <p
-          class="text-base font-normal indent-4 undefined"
-        >
-          주류 찾기나 테이스팅 노트 작성 등,
-           
-          <strong
-            class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
-          >
-            주류 시음에 관한 각종 기능이 하나의 앱에 들어가있어 편리하다
-          </strong>
-          는 피드백이 있었습니다. 술을 이것저것 마시다 보면 어떤 맛의 술이었는지 헷갈리게 되어 테이스팅 노트나 술 블로그를 하셨던 고객께 유용하다는 평가를 받았습니다. 또한, 주류 구입 전에 술의 평가가 어떤지 알아보려고 비어레이트같은 사이트에 자주 방문하는 고객께도
-           
-          <strong
-            class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
-          >
-            술을 쉽게 검색할 수 있어 유용하다
-          </strong>
-          는 평가를 받았습니다.
-        </p>
-        <p
-          class="text-base font-normal indent-4 undefined"
-        >
-          하지만,
-           
-          <strong
-            class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
-          >
-            대소문자/숫자/특수문자 등등을 입력하는 비밀번호에서 회원가입을 잠시 머뭇거렸다
-          </strong>
-          는 피드백도 있었습니다. 현재 한모금은 이메일과 비밀번호를 입력하는 방식의 로그인밖에 지원하지 않는데, 이는 SNS 계정만 있으면 바로 가입 및 로그인이 되는 소셜 로그인에 비해 번거롭기 때문입니다. 따라서 해당 문제를 해결하기 위해, 로그인을 더욱 편리하게 만들기 위한 소셜 로그인 기능을 구축하는 중입니다.
-        </p>
-      </section>
-    </section>
-    <section
-      class="flex flex-col gap-8 undefined"
-    >
-      <h2
-        class="text-bold text-2xl sm:text-3xl md:text-4xl"
-      >
         이 프로젝트를 통해 배운 점
       </h2>
       <section
@@ -1242,7 +1155,8 @@ exports[`HanmogmPage should show as expected with edited date 1`] = `
             앱을 제출하는 과정에서도 플랫폼별로 서로 다른 과정이나 대응이 필요하다는 점
           </strong>
            
-          등등이 있습니다. 이를 통해, 크로스 플랫폼이란 단 한 번에 끝나는 개발이 아니라, 
+          등등이 있습니다. 이를 통해, 크로스 플랫폼이란
+           
           <strong
             class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
           >
