@@ -13,14 +13,12 @@ import UnorderedBulletList from '^/shared/unordered-bullet-list';
 import YSOArcadeRecordsGalleryArticlePng from './assets/yso-arcade-records-gallery-article.png';
 import YSOArcadeRecordsGalleryListPng from './assets/yso-arcade-records-gallery-list.png';
 import YSOArcadeRecordsImageViewerPng from './assets/yso-arcade-records-image-viewer.png';
-import YSOArcadeRecordsIntroPng from './assets/yso-arcade-records-intro.png';
 import YSOArcadeRecordsPostListSkeletonPng from './assets/yso-arcade-records-post-list-skeleton.png';
 import YSOArcadeRecordsRecordArticlePng from './assets/yso-arcade-records-record-article.png';
 import YSOArcadeRecordsRecordForm1Png from './assets/yso-arcade-records-record-form-1.png';
 import YSOArcadeRecordsRecordForm2Png from './assets/yso-arcade-records-record-form-2.png';
 import YSOArcadeRecordsRecordListPng from './assets/yso-arcade-records-record-list.png';
 import YSOArcadeRecordsReviewArticlePng from './assets/yso-arcade-records-review-article.png';
-import YSOArcadeRecordsSidebarPng from './assets/yso-arcade-records-sidebar.png';
 import YSOArcadeRecordsPng from './assets/yso-arcade-records.png';
 
 interface Props {
@@ -50,11 +48,6 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
 
       <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
         <Image
-          src={YSOArcadeRecordsIntroPng}
-          alt="YSOShmupRecords 인트로 페이지"
-          className="w-fit max-h-80 object-contain"
-        />
-        <Image
           src={YSOArcadeRecordsRecordListPng}
           alt="YSOShmupRecords 각종 아케이드 기록 리스트"
           className="w-fit max-h-80 object-contain"
@@ -82,11 +75,6 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
         <Image
           src={YSOArcadeRecordsImageViewerPng}
           alt="YSOShmupRecords 이미지 뷰어"
-          className="w-fit max-h-80 object-contain"
-        />
-        <Image
-          src={YSOArcadeRecordsSidebarPng}
-          alt="YSOShmupRecords 사이드바"
           className="w-fit max-h-80 object-contain"
         />
         <Image
