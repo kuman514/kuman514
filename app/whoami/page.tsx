@@ -18,8 +18,8 @@ export default function WhoAmIPage() {
         <Paragraph customClassName="first-letter:text-2xl first-letter:text-green-600 first-letter:font-bold">
           저는 React, Next.js, React Native를 비롯한 웹프론트엔드 기술들을
           배우고 있습니다. 이에 그치지 않고, 배워온 것들을 활용하여,
-          YSOArcadeRecords나 ViteConnectFour같은 개인 프로젝트를 직접 만들어
-          배포 후 유저들의 피드백을 반영하고 유지보수까지 진행해 왔습니다.
+          YSOArcadeRecords같은 개인 프로젝트를 직접 만들어 배포 후 유저들의
+          피드백을 반영하고 유지보수까지 진행해 왔습니다.
         </Paragraph>
         <Paragraph>
           또한, 저는 한모금 팀 프로젝트에서 React Native와 Expo를 활용하여 앱의
