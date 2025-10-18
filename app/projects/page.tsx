@@ -2,7 +2,6 @@ import ProjectListItem from '^/entities/project/list-item';
 import Title from '^/shared/title';
 
 import HanmogmBannerPng from '^/pages/hanmogm/assets/hanmogm-banner.png';
-import ViteConnectFour from '^/pages/vite-connect-four/assets/vite-connect-four-banner.png';
 import ViteMinesweeperBannerPng from '^/pages/vite-minesweeper/assets/vite-minesweeper-banner.png';
 import YSOArcadeRecords from '^/pages/yso-arcade-records/assets/yso-arcade-records.png';
 import MostRecentlyEdited from '^/shared/most-recently-edited';
@@ -49,22 +48,6 @@ export default function ProjectListPage() {
               'Supabase',
               'Tailwind CSS',
               'TanStack Query',
-            ],
-          }}
-        />
-        <ProjectListItem
-          projectItem={{
-            projectId: 'ViteConnectFour',
-            title: 'Vite 커넥트 포 (ViteConnectFour)',
-            thumbnailUrl: ViteConnectFour.src,
-            description:
-              'React + Vite + Zustand를 이용하여 만든, 커넥트 포 게임.',
-            techStackTags: [
-              'React',
-              'TypeScript',
-              'Vite',
-              'Yarn Berry',
-              'Zustand',
             ],
           }}
         />

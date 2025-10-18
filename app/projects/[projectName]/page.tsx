@@ -4,7 +4,6 @@ import HanmogmPage from '^/pages/hanmogm';
 import ViteMinesweeperPage from '^/pages/vite-minesweeper';
 import YSOArcadeRecordsPage from '^/pages/yso-arcade-records';
 import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
-import ViteConnectFourPage from '^/pages/vite-connect-four';
 
 interface Props {
   params: Promise<{
@@ -22,8 +21,6 @@ export default async function ProjectArticlePage({ params }: Props) {
       return <YSOArcadeRecordsPage editedDate={MOST_RECENTLY_EDITED_DATE} />;
     case 'ViteMinesweeper':
       return <ViteMinesweeperPage editedDate={MOST_RECENTLY_EDITED_DATE} />;
-    case 'ViteConnectFour':
-      return <ViteConnectFourPage editedDate={MOST_RECENTLY_EDITED_DATE} />;
     default:
       notFound();
   }
