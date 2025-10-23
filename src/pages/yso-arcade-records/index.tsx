@@ -12,6 +12,7 @@ import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
 import YSOArcadeRecordsGalleryArticlePng from './assets/yso-arcade-records-gallery-article.png';
 import YSOArcadeRecordsGalleryListPng from './assets/yso-arcade-records-gallery-list.png';
+import YSOArcadeRecordsHelathPng from './assets/yso-arcade-records-health.png';
 import YSOArcadeRecordsImageViewerPng from './assets/yso-arcade-records-image-viewer.png';
 import YSOArcadeRecordsPostListSkeletonPng from './assets/yso-arcade-records-post-list-skeleton.png';
 import YSOArcadeRecordsRecordArticlePng from './assets/yso-arcade-records-record-article.png';
@@ -116,8 +117,8 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
                 생성/열람/수정/삭제를 단 하나의 사이트에서 모두 할 수 있게 만듦.
               </li>
               <li>
-                TanStack Query를 이용하여 아케이드 기록/리뷰/갤러리 리스트의
-                무한 스크롤 시스템을 구축.
+                TanStack Query의 useInfiniteQuery를 이용하여 아케이드
+                기록/리뷰/갤러리 등등의 리스트에 대한 무한 스크롤 시스템을 구축.
               </li>
             </UnorderedBulletList>
           </li>
@@ -189,33 +190,6 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
       </Section>
 
       <Section
-        title="스켈레톤 컴포넌트 적용"
-        subsectionClassName="flex flex-col gap-4"
-      >
-        <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
-          <Image
-            src={YSOArcadeRecordsPostListSkeletonPng}
-            alt="YSOShmupRecords에서 포스트 리스트를 불러오는 중에 나오는 스켈레톤 컴포넌트"
-            className="w-fit max-h-80 object-contain"
-          />
-        </div>
-        <Paragraph>
-          <Emphasize>
-            스켈레톤 컴포넌트는 데이터를 가져오는 동안 임시 콘텐츠를 표시하는
-            컴포넌트
-          </Emphasize>
-          입니다. 사용자는 콘텐츠를 기다리다가 쉽게 지치고 지루함을 느끼므로,
-          데이터를 가져오는 동안 단순히 빈 화면만 보여준다면 많은 사람들은
-          사이트를 떠나게 될 것입니다. 그래서 이를 방지하기 위해,
-          <Emphasize>
-            애니메이션 효과가 들어간 스켈레톤 컴포넌트를 직접 만들어, 기록
-            목록이나 기록 아티클 로딩 등에 적용
-          </Emphasize>
-          하였습니다.
-        </Paragraph>
-      </Section>
-
-      <Section
         title="Supabase와 Server Actions, Route Handler 사용"
         subsectionClassName="flex flex-col gap-4"
       >
@@ -234,6 +208,52 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
           </ExternalAnchor>
           , 이미지 업로드와 포스트 생성 및 수정은 Route Handler를 통해
           진행하였습니다.
+        </Paragraph>
+      </Section>
+
+      <Section
+        title="이 프로젝트를 통해 배운 점"
+        subsectionClassName="flex flex-col gap-4"
+      >
+        <Paragraph>
+          데이터를 로딩하거나 서버에 문제가 발생하는 등 불가피한 상황에서도
+          사용자에게 앱이 멈췄다는 인상을 주지 않는 것이 중요함을 깨달았습니다.
+        </Paragraph>
+
+        <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
+          <Image
+            src={YSOArcadeRecordsPostListSkeletonPng}
+            alt="YSOArcadeRecords에서 포스트 리스트를 불러오는 중에 나오는 스켈레톤 컴포넌트"
+            className="w-fit max-h-80 object-contain"
+          />
+        </div>
+        <Paragraph>
+          <Emphasize>
+            스켈레톤 컴포넌트는 데이터를 가져오는 동안 임시 콘텐츠를 표시하는
+            컴포넌트
+          </Emphasize>
+          입니다. 사용자는 콘텐츠를 기다리다가 쉽게 지치고 지루함을 느끼므로,
+          데이터를 가져오는 동안 단순히 빈 화면만 보여준다면 많은 사람들은
+          사이트를 떠나게 될 것입니다. 그래서 이를 방지하기 위해,
+          <Emphasize>
+            애니메이션 효과가 들어간 스켈레톤 컴포넌트를 직접 만들어, 기록
+            목록이나 기록 아티클 로딩 등에 적용
+          </Emphasize>
+          하였습니다.
+        </Paragraph>
+
+        <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
+          <Image
+            src={YSOArcadeRecordsHelathPng}
+            alt="YSOArcadeRecords의 Supabase 데이터베이스 보안 업그레이드를 위해 일시적으로 서비스를 중단한 모습"
+            className="w-fit max-h-80 object-contain"
+          />
+        </div>
+        <Paragraph>
+          또한, Supabase 데이터베이스의 보안을 향상시키는 업그레이드 등등으로
+          인해 불가피하게 서비스를 중단해야 할 경우를 대비하여, Supabase Edge
+          Function을 호출하여 앱이 중단되었을 경우 사유, 문의창구와 함께 중단
+          안내를 표시하도록 만들었습니다.
         </Paragraph>
       </Section>
 
