@@ -300,6 +300,19 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
             }}
           />
         </div>
+        <div className="w-full aspect-video">
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/I8eVq1ksegE"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            style={{
+              borderWidth: 0,
+            }}
+          />
+        </div>
       </Section>
     </>
   );
