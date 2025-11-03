@@ -478,6 +478,19 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
             width="100%"
           />
         </div>
+        <div
+          class="w-full aspect-video"
+        >
+          <iframe
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen=""
+            height="100%"
+            src="https://www.youtube.com/embed/I8eVq1ksegE"
+            style="border-width: 0px;"
+            title="YouTube video player"
+            width="100%"
+          />
+        </div>
       </section>
     </section>
   </div>
@@ -969,6 +982,19 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
             allowfullscreen=""
             height="100%"
             src="https://www.youtube.com/embed/qMYLsSKmbyI"
+            style="border-width: 0px;"
+            title="YouTube video player"
+            width="100%"
+          />
+        </div>
+        <div
+          class="w-full aspect-video"
+        >
+          <iframe
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen=""
+            height="100%"
+            src="https://www.youtube.com/embed/I8eVq1ksegE"
             style="border-width: 0px;"
             title="YouTube video player"
             width="100%"
