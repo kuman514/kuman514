@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="kr">
       <head>
         <link
           rel="apple-touch-icon"
@@ -97,7 +97,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body
-        className={`${inter.className} min-h-screen w-screen flex justify-center`}
+        className={`${inter.className} min-h-screen w-screen flex justify-center overflow-x-hidden`}
       >
         <Header navNodes={navNodes} />
         {children}
