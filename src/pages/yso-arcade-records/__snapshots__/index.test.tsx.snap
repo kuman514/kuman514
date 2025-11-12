@@ -151,6 +151,9 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
           class="list-disc pl-8"
         >
           <li>
+            Next.js와 SQL을 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.
+          </li>
+          <li>
             개인 프로젝트
           </li>
           <li>
@@ -668,6 +671,9 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
         <ul
           class="list-disc pl-8"
         >
+          <li>
+            Next.js와 SQL을 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.
+          </li>
           <li>
             개인 프로젝트
           </li>
