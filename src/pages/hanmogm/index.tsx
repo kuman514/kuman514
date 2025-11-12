@@ -7,9 +7,9 @@ import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
-
 import MostRecentlyEdited from '^/shared/most-recently-edited';
 import PageTemplate from '^/shared/page-template';
+
 import HanmogmBannerPng from './assets/hanmogm-banner.png';
 import HanmogmCollectionListPng from './assets/hanmogm-collection-list.png';
 import HanmogmDrinkTastingPng from './assets/hanmogm-drink-tasting.png';
@@ -46,7 +46,10 @@ export default function HanmogmPage({ editedDate }: Props) {
         한모금 (Hanmogm)
       </Title>
 
-      <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
+      <Section
+        title="프리뷰"
+        subsectionClassName="w-full flex flex-row flex-wrap justify-center items-center gap-4"
+      >
         <Image
           src={HanmogmHomePng}
           alt="한모금 홈 화면"
@@ -92,7 +95,7 @@ export default function HanmogmPage({ editedDate }: Props) {
           alt="한모금 내 주류 요청 현황 화면"
           className="w-fit max-h-80 object-contain"
         />
-      </div>
+      </Section>
 
       <Section title="개요">
         <UnorderedBulletList>
@@ -159,7 +162,7 @@ export default function HanmogmPage({ editedDate }: Props) {
         subsectionClassName="flex flex-row flex-wrap gap-2"
       >
         <Paragraph>
-          친구가 초대해서 참석한 저녁 식사 중, 함께 참여한 PM님의 주도로 팀이
+          친구가 초대해서 참석한 저녁 식사에 함께 참여한 PM님의 주도로 팀이
           결성되었습니다.
         </Paragraph>
         <Paragraph>

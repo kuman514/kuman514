@@ -7,9 +7,9 @@ import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
-
 import MostRecentlyEdited from '^/shared/most-recently-edited';
 import PageTemplate from '^/shared/page-template';
+
 import BfsPng from './assets/bfs.png';
 import QueuePopPng from './assets/queue-pop.png';
 import ViteMinesweeperBannerPng from './assets/vite-minesweeper-banner.png';
@@ -40,13 +40,16 @@ export default function ViteMinesweeperPage({ editedDate }: Props) {
         Vite 지뢰찾기 (ViteMinesweeper)
       </Title>
 
-      <div className="w-full flex flex-row flex-wrap justify-center items-center">
+      <Section
+        title="프리뷰"
+        subsectionClassName="w-full flex flex-row flex-wrap justify-center items-center"
+      >
         <Image
           src={ViteMinesweeperPng}
           alt="ViteMinesweeper Expert 단계 승리 장면"
           className="w-fit max-h-80 object-contain"
         />
-      </div>
+      </Section>
 
       <Section title="개요">
         <UnorderedBulletList>
