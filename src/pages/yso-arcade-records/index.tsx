@@ -47,7 +47,10 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
         YSOArcadeRecords
       </Title>
 
-      <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
+      <Section
+        title="프리뷰"
+        subsectionClassName="w-full flex flex-row flex-wrap justify-center items-center gap-4"
+      >
         <Image
           src={YSOArcadeRecordsRecordListPng}
           alt="YSOShmupRecords 각종 아케이드 기록 리스트"
@@ -88,10 +91,14 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
           alt="YSOShmupRecords 갤러리 아티클"
           className="w-fit max-h-80 object-contain"
         />
-      </div>
+      </Section>
 
       <Section title="개요">
         <UnorderedBulletList>
+          <li>
+            Next.js와 SQL을 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록,
+            리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.
+          </li>
           <li>개인 프로젝트</li>
           <li>
             구현 내용
@@ -105,20 +112,20 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
                 라우팅.
               </li>
               <li>
+                Supabase, SQL, Server Actions, Route Handler를 사용하여, 데이터
+                생성/열람/수정/삭제를 단 하나의 사이트에서 모두 할 수 있게 만듦.
+              </li>
+              <li>
+                TanStack Query의 useInfiniteQuery를 이용하여 아케이드
+                기록/리뷰/갤러리 등등의 리스트에 대한 무한 스크롤 시스템을 구축.
+              </li>
+              <li>
                 아케이드 기록/리뷰/갤러리 등의 포스트 열람/생성/수정/삭제,
                 외부로 공유, 이미지 뷰어 등등 각종 기능 구현.
               </li>
               <li>
                 데이터를 가져오는 동안 UI가 멈춰있어 보이지 않기 위해 스켈레톤
                 컴포넌트 적용.
-              </li>
-              <li>
-                Supabase와 Server Actions, Route Handler를 사용하여, 데이터
-                생성/열람/수정/삭제를 단 하나의 사이트에서 모두 할 수 있게 만듦.
-              </li>
-              <li>
-                TanStack Query의 useInfiniteQuery를 이용하여 아케이드
-                기록/리뷰/갤러리 등등의 리스트에 대한 무한 스크롤 시스템을 구축.
               </li>
             </UnorderedBulletList>
           </li>
@@ -167,10 +174,10 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
           </Emphasize>
           , 그리고{' '}
           <Emphasize>
-            서버 사이드 렌더링을 통해 페이지의 로딩 시간을 감소
+            서버 사이드 렌더링을 통해 페이지 콘텐츠의 초기 로딩 시간을 감소
           </Emphasize>
           시킬 필요가 있었습니다. 이러한 목적에{' '}
-          <Emphasize>가장 적절한 방법이 Next.js 15를 사용하는 것</Emphasize>
+          <Emphasize>가장 적절한 방법이 Next.js를 사용하는 것</Emphasize>
           이었습니다.
         </Paragraph>
       </Section>

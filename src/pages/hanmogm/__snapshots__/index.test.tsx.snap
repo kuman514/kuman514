@@ -29,118 +29,127 @@ exports[`HanmogmPage should show as expected 1`] = `
     >
       한모금 (Hanmogm)
     </h1>
-    <div
-      class="w-full flex flex-row flex-wrap justify-center items-center gap-4"
+    <section
+      class="flex flex-col gap-8 undefined"
     >
-      <img
-        alt="한모금 홈 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 주류 상세 화면 상단"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 주류 상세 화면 하단"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 시음기록 작성 화면 1페이지"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 시음기록 작성 화면 2페이지"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 시음기록 상세 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 나의 전체 시음기록 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 나의 시음기록 모음집 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 내 주류 요청 현황 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-    </div>
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        프리뷰
+      </h2>
+      <section
+        class="w-full flex flex-row flex-wrap justify-center items-center gap-4"
+      >
+        <img
+          alt="한모금 홈 화면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 주류 상세 화면 상단"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 주류 상세 화면 하단"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 시음기록 작성 화면 1페이지"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 시음기록 작성 화면 2페이지"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 시음기록 상세 화면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 나의 전체 시음기록 화면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 나의 시음기록 모음집 화면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 내 주류 요청 현황 화면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </section>
+    </section>
     <section
       class="flex flex-col gap-8 undefined"
     >
@@ -236,7 +245,7 @@ exports[`HanmogmPage should show as expected 1`] = `
         <p
           class="text-base font-normal indent-4 undefined"
         >
-          친구가 초대해서 참석한 저녁 식사 중, 함께 참여한 PM님의 주도로 팀이 결성되었습니다.
+          친구가 초대해서 참석한 저녁 식사에 함께 참여한 PM님의 주도로 팀이 결성되었습니다.
         </p>
         <p
           class="text-base font-normal indent-4 undefined"
@@ -637,118 +646,127 @@ exports[`HanmogmPage should show as expected with edited date 1`] = `
     >
       한모금 (Hanmogm)
     </h1>
-    <div
-      class="w-full flex flex-row flex-wrap justify-center items-center gap-4"
+    <section
+      class="flex flex-col gap-8 undefined"
     >
-      <img
-        alt="한모금 홈 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 주류 상세 화면 상단"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 주류 상세 화면 하단"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 시음기록 작성 화면 1페이지"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 시음기록 작성 화면 2페이지"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 시음기록 상세 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 나의 전체 시음기록 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 나의 시음기록 모음집 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-      <img
-        alt="한모금 내 주류 요청 현황 화면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-    </div>
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        프리뷰
+      </h2>
+      <section
+        class="w-full flex flex-row flex-wrap justify-center items-center gap-4"
+      >
+        <img
+          alt="한모금 홈 화면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 주류 상세 화면 상단"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 주류 상세 화면 하단"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 시음기록 작성 화면 1페이지"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 시음기록 작성 화면 2페이지"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 시음기록 상세 화면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 나의 전체 시음기록 화면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 나의 시음기록 모음집 화면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+        <img
+          alt="한모금 내 주류 요청 현황 화면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </section>
+    </section>
     <section
       class="flex flex-col gap-8 undefined"
     >
@@ -844,7 +862,7 @@ exports[`HanmogmPage should show as expected with edited date 1`] = `
         <p
           class="text-base font-normal indent-4 undefined"
         >
-          친구가 초대해서 참석한 저녁 식사 중, 함께 참여한 PM님의 주도로 팀이 결성되었습니다.
+          친구가 초대해서 참석한 저녁 식사에 함께 참여한 PM님의 주도로 팀이 결성되었습니다.
         </p>
         <p
           class="text-base font-normal indent-4 undefined"

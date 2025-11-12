@@ -29,22 +29,31 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
     >
       Vite 지뢰찾기 (ViteMinesweeper)
     </h1>
-    <div
-      class="w-full flex flex-row flex-wrap justify-center items-center"
+    <section
+      class="flex flex-col gap-8 undefined"
     >
-      <img
-        alt="ViteMinesweeper Expert 단계 승리 장면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-    </div>
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        프리뷰
+      </h2>
+      <section
+        class="w-full flex flex-row flex-wrap justify-center items-center"
+      >
+        <img
+          alt="ViteMinesweeper Expert 단계 승리 장면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </section>
+    </section>
     <section
       class="flex flex-col gap-8 undefined"
     >
@@ -528,22 +537,31 @@ exports[`ViteMinesweeperPage should show as expected with edited date 1`] = `
     >
       Vite 지뢰찾기 (ViteMinesweeper)
     </h1>
-    <div
-      class="w-full flex flex-row flex-wrap justify-center items-center"
+    <section
+      class="flex flex-col gap-8 undefined"
     >
-      <img
-        alt="ViteMinesweeper Expert 단계 승리 장면"
-        class="w-fit max-h-80 object-contain"
-        data-nimg="1"
-        decoding="async"
-        height="40"
-        loading="lazy"
-        src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
-        srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
-        style="color: transparent;"
-        width="40"
-      />
-    </div>
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        프리뷰
+      </h2>
+      <section
+        class="w-full flex flex-row flex-wrap justify-center items-center"
+      >
+        <img
+          alt="ViteMinesweeper Expert 단계 승리 장면"
+          class="w-fit max-h-80 object-contain"
+          data-nimg="1"
+          decoding="async"
+          height="40"
+          loading="lazy"
+          src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+          srcset="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+          style="color: transparent;"
+          width="40"
+        />
+      </section>
+    </section>
     <section
       class="flex flex-col gap-8 undefined"
     >

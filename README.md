@@ -8,11 +8,14 @@
 
 ## Main Projects
 - 한모금 (Hanmogm)
+  - 팀 프로젝트
   - `React Native` `Expo` `TypeScript` `Axios` `Zustand`
   - iOS + Android를 타겟으로 한, 각종 주류 정보를 열람하고 시음기록을 작성할 수 있는 테이스팅 노트 앱. ([iOS 앱 다운로드](https://apps.apple.com/kr/app/%ED%95%9C%EB%AA%A8%EA%B8%88-hanmogm/id6502346193), [Android 앱 다운로드](https://play.google.com/store/apps/details?id=com.hanmogm.hanmogm))
 - [YSOArcadeRecords](https://github.com/kuman514/YSOArcadeRecords)
+  - 개인 프로젝트
   - `Next.js` `React` `TypeScript` `Axios` `Vercel` `Supabase` `Tailwind CSS` `TanStack Query`
-  - 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트. ([방문하기](https://yso-arcade-records.vercel.app/))
+  - Next.js와 SQL을 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트. ([방문하기](https://yso-arcade-records.vercel.app/))
 - [ViteMinesweeper](https://github.com/kuman514/ViteMinesweeper)
+  - 개인 프로젝트
   - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel` `ChakraUI`
   - React와 너비 우선 탐색 알고리즘을 활용하여 만든 Microsoft Minesweeper 스타일 지뢰찾기. ([플레이하기](https://vite-minesweeper.vercel.app/))
