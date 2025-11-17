@@ -38,7 +38,7 @@ export default function ProjectListPage() {
             title: 'YSOArcadeRecords',
             thumbnailUrl: YSOArcadeRecords.src,
             description:
-              '개인 프로젝트 / Next.js와 SQL을 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.',
+              '개인 프로젝트 / Next.js와 Supabase를 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.',
             techStackTags: [
               'Next.js',
               'React',

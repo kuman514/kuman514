@@ -96,8 +96,9 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
       <Section title="개요">
         <UnorderedBulletList>
           <li>
-            Next.js와 SQL을 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록,
-            리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.
+            Next.js와 Supabase를 활용하여 본인 YSO(kuman514)의 아케이드 게임
+            기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한
+            사이트.
           </li>
           <li>개인 프로젝트</li>
           <li>
@@ -112,7 +113,7 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
                 라우팅.
               </li>
               <li>
-                Supabase, SQL, Server Actions, Route Handler를 사용하여, 데이터
+                Supabase, Server Actions, Route Handler를 사용하여, 데이터
                 생성/열람/수정/삭제를 단 하나의 사이트에서 모두 할 수 있게 만듦.
               </li>
               <li>

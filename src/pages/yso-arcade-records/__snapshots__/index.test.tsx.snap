@@ -151,7 +151,7 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
           class="list-disc pl-8"
         >
           <li>
-            Next.js와 SQL을 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.
+            Next.js와 Supabase를 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.
           </li>
           <li>
             개인 프로젝트
@@ -168,7 +168,7 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
                 Next.js의 App Router를 활용하여 파일 시스템 기반의 간단한 페이지 라우팅.
               </li>
               <li>
-                Supabase, SQL, Server Actions, Route Handler를 사용하여, 데이터 생성/열람/수정/삭제를 단 하나의 사이트에서 모두 할 수 있게 만듦.
+                Supabase, Server Actions, Route Handler를 사용하여, 데이터 생성/열람/수정/삭제를 단 하나의 사이트에서 모두 할 수 있게 만듦.
               </li>
               <li>
                 TanStack Query의 useInfiniteQuery를 이용하여 아케이드 기록/리뷰/갤러리 등등의 리스트에 대한 무한 스크롤 시스템을 구축.
@@ -672,7 +672,7 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
           class="list-disc pl-8"
         >
           <li>
-            Next.js와 SQL을 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.
+            Next.js와 Supabase를 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.
           </li>
           <li>
             개인 프로젝트
@@ -689,7 +689,7 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
                 Next.js의 App Router를 활용하여 파일 시스템 기반의 간단한 페이지 라우팅.
               </li>
               <li>
-                Supabase, SQL, Server Actions, Route Handler를 사용하여, 데이터 생성/열람/수정/삭제를 단 하나의 사이트에서 모두 할 수 있게 만듦.
+                Supabase, Server Actions, Route Handler를 사용하여, 데이터 생성/열람/수정/삭제를 단 하나의 사이트에서 모두 할 수 있게 만듦.
               </li>
               <li>
                 TanStack Query의 useInfiniteQuery를 이용하여 아케이드 기록/리뷰/갤러리 등등의 리스트에 대한 무한 스크롤 시스템을 구축.

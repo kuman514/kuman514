@@ -14,7 +14,7 @@
 - [YSOArcadeRecords](https://github.com/kuman514/YSOArcadeRecords)
   - 개인 프로젝트
   - `Next.js` `React` `TypeScript` `Axios` `Vercel` `Supabase` `Tailwind CSS` `TanStack Query`
-  - Next.js와 SQL을 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트. ([방문하기](https://yso-arcade-records.vercel.app/))
+  - Next.js와 Supabase를 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트. ([방문하기](https://yso-arcade-records.vercel.app/))
 - [ViteMinesweeper](https://github.com/kuman514/ViteMinesweeper)
   - 개인 프로젝트
   - `React` `TypeScript` `Vite` `Yarn Berry` `Zustand` `Vercel` `ChakraUI`
