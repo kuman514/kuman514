@@ -273,7 +273,7 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/NTL8DepnKlg"
+            src="https://www.youtube.com/embed/W3deNEYC1Qk"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -286,33 +286,7 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/P0qfr_UZoKI"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-            style={{
-              borderWidth: 0,
-            }}
-          />
-        </div>
-        <div className="w-full aspect-video">
-          <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/qMYLsSKmbyI"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-            style={{
-              borderWidth: 0,
-            }}
-          />
-        </div>
-        <div className="w-full aspect-video">
-          <iframe
-            width="100%"
-            height="100%"
-            src="https://www.youtube.com/embed/I8eVq1ksegE"
+            src="https://www.youtube.com/embed/Gv1UgTBXzMI"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
