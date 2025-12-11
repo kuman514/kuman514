@@ -28,7 +28,7 @@ export default function PixiJsApp() {
         await preload();
         await pixiJsApp.instance.init({
           backgroundAlpha: 0,
-          resizeTo: divRef.current!,
+          resizeTo: window,
         });
 
         // This is needed for interaction
