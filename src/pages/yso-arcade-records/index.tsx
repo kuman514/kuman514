@@ -10,16 +10,17 @@ import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
-import YSOArcadeRecordsGalleryArticlePng from './assets/yso-arcade-records-gallery-article.png';
-import YSOArcadeRecordsGalleryListPng from './assets/yso-arcade-records-gallery-list.png';
+import YSOArcadeRecordsGalleryArticleJpg from './assets/yso-arcade-records-gallery-article.jpg';
+import YSOArcadeRecordsGalleryListJpg from './assets/yso-arcade-records-gallery-list.jpg';
 import YSOArcadeRecordsHelathPng from './assets/yso-arcade-records-health.png';
-import YSOArcadeRecordsImageViewerPng from './assets/yso-arcade-records-image-viewer.png';
+import YSOArcadeRecordsImageViewerJpg from './assets/yso-arcade-records-image-viewer.jpg';
 import YSOArcadeRecordsPostListSkeletonPng from './assets/yso-arcade-records-post-list-skeleton.png';
-import YSOArcadeRecordsRecordArticlePng from './assets/yso-arcade-records-record-article.png';
-import YSOArcadeRecordsRecordForm1Png from './assets/yso-arcade-records-record-form-1.png';
-import YSOArcadeRecordsRecordForm2Png from './assets/yso-arcade-records-record-form-2.png';
-import YSOArcadeRecordsRecordListPng from './assets/yso-arcade-records-record-list.png';
-import YSOArcadeRecordsReviewArticlePng from './assets/yso-arcade-records-review-article.png';
+import YSOArcadeRecordsRecordArticleJpg from './assets/yso-arcade-records-record-article.jpg';
+import YSOArcadeRecordsRecordForm1Jpg from './assets/yso-arcade-records-record-form-1.jpg';
+import YSOArcadeRecordsRecordForm2Jpg from './assets/yso-arcade-records-record-form-2.jpg';
+import YSOArcadeRecordsRecordListJpg from './assets/yso-arcade-records-record-list.jpg';
+import YSOArcadeRecordsReviewArticleJpg from './assets/yso-arcade-records-review-article.jpg';
+import YSOArcadeRecordsEditorJpg from './assets/yso-arcade-records-editor.jpg';
 import YSOArcadeRecordsPng from './assets/yso-arcade-records.png';
 
 interface Props {
@@ -52,43 +53,48 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
         subsectionClassName="w-full flex flex-row flex-wrap justify-center items-center gap-4"
       >
         <Image
-          src={YSOArcadeRecordsRecordListPng}
+          src={YSOArcadeRecordsRecordListJpg}
           alt="YSOShmupRecords 각종 아케이드 기록 리스트"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsRecordArticlePng}
+          src={YSOArcadeRecordsRecordArticleJpg}
           alt="YSOShmupRecords 아케이드 기록 아티클"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsRecordForm1Png}
+          src={YSOArcadeRecordsRecordForm1Jpg}
           alt="YSOShmupRecords 기록 폼 상단 부분"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsRecordForm2Png}
+          src={YSOArcadeRecordsRecordForm2Jpg}
           alt="YSOShmupRecords 기록 폼 하단 부분"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsReviewArticlePng}
+          src={YSOArcadeRecordsReviewArticleJpg}
           alt="YSOShmupRecords 리뷰 아티클"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsImageViewerPng}
+          src={YSOArcadeRecordsImageViewerJpg}
           alt="YSOShmupRecords 이미지 뷰어"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsGalleryListPng}
+          src={YSOArcadeRecordsGalleryListJpg}
           alt="YSOShmupRecords 갤러리 리스트"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsGalleryArticlePng}
+          src={YSOArcadeRecordsGalleryArticleJpg}
           alt="YSOShmupRecords 갤러리 아티클"
+          className="w-fit max-h-80 object-contain"
+        />
+        <Image
+          src={YSOArcadeRecordsEditorJpg}
+          alt="YSOShmupRecords 아케이드 정보 편집기"
           className="w-fit max-h-80 object-contain"
         />
       </Section>
