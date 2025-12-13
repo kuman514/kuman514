@@ -226,6 +226,20 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
       </Section>
 
       <Section
+        title="이 프로젝트에서 기술적으로 기뻤던 점"
+        subsectionClassName="flex flex-col gap-4"
+      >
+        <Paragraph>
+          {/**
+           * @todo
+           * 다음과 같은 내용을 넣기
+           * - 프론트엔드를 하면서 데이터베이스를 다룰 기회를 가져서 좋았다
+           * - 컴퓨터공학 지식 중 관계형 데이터베이스와 SQL을 활용할 수 있어서 좋았다
+           */}
+        </Paragraph>
+      </Section>
+
+      <Section
         title="이 프로젝트를 통해 배운 점"
         subsectionClassName="flex flex-col gap-4"
       >

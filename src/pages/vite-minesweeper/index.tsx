@@ -166,6 +166,19 @@ export default function ViteMinesweeperPage({ editedDate }: Props) {
       </Section>
 
       <Section
+        title="이 프로젝트에서 기술적으로 기뻤던 점"
+        subsectionClassName="flex flex-col gap-4"
+      >
+        <Paragraph>
+          {/**
+           * @todo
+           * 다음과 같은 내용을 넣기
+           * - 컴퓨터공학 지식 중 알고리즘(BFS(너비 우선 탐색))을 활용할 수 있어서 좋았다
+           */}
+        </Paragraph>
+      </Section>
+
+      <Section
         title="지뢰찾기 구현에 쓰인 알고리즘"
         subsectionClassName="flex flex-col gap-4"
       >
