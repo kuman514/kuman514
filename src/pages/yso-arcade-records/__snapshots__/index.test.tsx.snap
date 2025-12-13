@@ -387,6 +387,22 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
       <h2
         class="text-bold text-2xl sm:text-3xl md:text-4xl"
       >
+        이 프로젝트에서 기술적으로 기뻤던 점
+      </h2>
+      <section
+        class="flex flex-col gap-4"
+      >
+        <p
+          class="text-base font-normal indent-4 undefined"
+        />
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
         이 프로젝트를 통해 배운 점
       </h2>
       <section
@@ -886,6 +902,22 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
           </a>
           , 이미지 업로드와 포스트 생성 및 수정은 Route Handler를 통해 진행하였습니다.
         </p>
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        이 프로젝트에서 기술적으로 기뻤던 점
+      </h2>
+      <section
+        class="flex flex-col gap-4"
+      >
+        <p
+          class="text-base font-normal indent-4 undefined"
+        />
       </section>
     </section>
     <section

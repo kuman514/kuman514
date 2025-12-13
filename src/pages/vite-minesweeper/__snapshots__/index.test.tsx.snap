@@ -286,6 +286,22 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
       <h2
         class="text-bold text-2xl sm:text-3xl md:text-4xl"
       >
+        이 프로젝트에서 기술적으로 기뻤던 점
+      </h2>
+      <section
+        class="flex flex-col gap-4"
+      >
+        <p
+          class="text-base font-normal indent-4 undefined"
+        />
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
         지뢰찾기 구현에 쓰인 알고리즘
       </h2>
       <section
@@ -786,6 +802,22 @@ exports[`ViteMinesweeperPage should show as expected with edited date 1`] = `
         >
           ChakraUI
         </span>
+      </section>
+    </section>
+    <section
+      class="flex flex-col gap-8 undefined"
+    >
+      <h2
+        class="text-bold text-2xl sm:text-3xl md:text-4xl"
+      >
+        이 프로젝트에서 기술적으로 기뻤던 점
+      </h2>
+      <section
+        class="flex flex-col gap-4"
+      >
+        <p
+          class="text-base font-normal indent-4 undefined"
+        />
       </section>
     </section>
     <section
