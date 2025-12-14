@@ -286,23 +286,7 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
       <h2
         class="text-bold text-2xl sm:text-3xl md:text-4xl"
       >
-        이 프로젝트에서 기술적으로 기뻤던 점
-      </h2>
-      <section
-        class="flex flex-col gap-4"
-      >
-        <p
-          class="text-base font-normal indent-4 undefined"
-        />
-      </section>
-    </section>
-    <section
-      class="flex flex-col gap-8 undefined"
-    >
-      <h2
-        class="text-bold text-2xl sm:text-3xl md:text-4xl"
-      >
-        지뢰찾기 구현에 쓰인 알고리즘
+        이 프로젝트에서 기술적으로 기뻤던 점: 지뢰찾기 구현에 쓰인 알고리즘인 BFS(너비 우선 탐색) 활용
       </h2>
       <section
         class="flex flex-col gap-4"
@@ -325,21 +309,21 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
         <p
           class="text-base font-normal indent-4 undefined"
         >
-          지뢰찾기 게임에서, 어떤 타일을 눌렀을 때 또다른 숫자 타일이나 가장자리에 다다를 때까지
+          이전까진 각종 프로젝트를 진행하면서 컴퓨터공학 지식을 활용할 수 있는 곳이 없었으나, ViteMinesweeper를 계기로
            
           <strong
             class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
           >
-            주변 8방향으로 빈 타일 탐색
+            컴퓨터공학 지식 중 하나인 알고리즘 중 BFS(너비 우선 탐색)
           </strong>
-          을 수행하는데, 여기서 가장 효율적인 방법인
+          을 활용할 수 있어서 기뻤습니다. BFS는 지뢰찾기 게임에서 탐색되지 않은 어떤 타일을 눌렀을 때 또다른 숫자 타일이나 가장자리에 다다를 때까지
            
           <strong
             class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
           >
-            BFS(너비 우선 탐색) 알고리즘
+            주변 8방향으로의 빈 타일 탐색
           </strong>
-          을 적용하였습니다.
+          을 수행하는 과정에 적용하였습니다.
         </p>
       </section>
     </section>
@@ -349,7 +333,7 @@ exports[`ViteMinesweeperPage should show as expected 1`] = `
       <h2
         class="text-bold text-2xl sm:text-3xl md:text-4xl"
       >
-        큐의 Pop 호출 시간 복잡도 개선
+        BFS 큐의 Pop 호출 시간 복잡도 개선
       </h2>
       <section
         class="flex flex-col gap-4"
@@ -810,23 +794,7 @@ exports[`ViteMinesweeperPage should show as expected with edited date 1`] = `
       <h2
         class="text-bold text-2xl sm:text-3xl md:text-4xl"
       >
-        이 프로젝트에서 기술적으로 기뻤던 점
-      </h2>
-      <section
-        class="flex flex-col gap-4"
-      >
-        <p
-          class="text-base font-normal indent-4 undefined"
-        />
-      </section>
-    </section>
-    <section
-      class="flex flex-col gap-8 undefined"
-    >
-      <h2
-        class="text-bold text-2xl sm:text-3xl md:text-4xl"
-      >
-        지뢰찾기 구현에 쓰인 알고리즘
+        이 프로젝트에서 기술적으로 기뻤던 점: 지뢰찾기 구현에 쓰인 알고리즘인 BFS(너비 우선 탐색) 활용
       </h2>
       <section
         class="flex flex-col gap-4"
@@ -849,21 +817,21 @@ exports[`ViteMinesweeperPage should show as expected with edited date 1`] = `
         <p
           class="text-base font-normal indent-4 undefined"
         >
-          지뢰찾기 게임에서, 어떤 타일을 눌렀을 때 또다른 숫자 타일이나 가장자리에 다다를 때까지
+          이전까진 각종 프로젝트를 진행하면서 컴퓨터공학 지식을 활용할 수 있는 곳이 없었으나, ViteMinesweeper를 계기로
            
           <strong
             class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
           >
-            주변 8방향으로 빈 타일 탐색
+            컴퓨터공학 지식 중 하나인 알고리즘 중 BFS(너비 우선 탐색)
           </strong>
-          을 수행하는데, 여기서 가장 효율적인 방법인
+          을 활용할 수 있어서 기뻤습니다. BFS는 지뢰찾기 게임에서 탐색되지 않은 어떤 타일을 눌렀을 때 또다른 숫자 타일이나 가장자리에 다다를 때까지
            
           <strong
             class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
           >
-            BFS(너비 우선 탐색) 알고리즘
+            주변 8방향으로의 빈 타일 탐색
           </strong>
-          을 적용하였습니다.
+          을 수행하는 과정에 적용하였습니다.
         </p>
       </section>
     </section>
@@ -873,7 +841,7 @@ exports[`ViteMinesweeperPage should show as expected with edited date 1`] = `
       <h2
         class="text-bold text-2xl sm:text-3xl md:text-4xl"
       >
-        큐의 Pop 호출 시간 복잡도 개선
+        BFS 큐의 Pop 호출 시간 복잡도 개선
       </h2>
       <section
         class="flex flex-col gap-4"
