@@ -10,6 +10,7 @@ import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
+import YSOArcadeRecordsEditorJpg from './assets/yso-arcade-records-editor.jpg';
 import YSOArcadeRecordsGalleryArticleJpg from './assets/yso-arcade-records-gallery-article.jpg';
 import YSOArcadeRecordsGalleryListJpg from './assets/yso-arcade-records-gallery-list.jpg';
 import YSOArcadeRecordsHelathPng from './assets/yso-arcade-records-health.png';
@@ -20,7 +21,6 @@ import YSOArcadeRecordsRecordForm1Jpg from './assets/yso-arcade-records-record-f
 import YSOArcadeRecordsRecordForm2Jpg from './assets/yso-arcade-records-record-form-2.jpg';
 import YSOArcadeRecordsRecordListJpg from './assets/yso-arcade-records-record-list.jpg';
 import YSOArcadeRecordsReviewArticleJpg from './assets/yso-arcade-records-review-article.jpg';
-import YSOArcadeRecordsEditorJpg from './assets/yso-arcade-records-editor.jpg';
 import YSOArcadeRecordsPng from './assets/yso-arcade-records.png';
 
 interface Props {
@@ -233,9 +233,14 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
           {/**
            * @todo
            * 다음과 같은 내용을 넣기
-           * - 프론트엔드를 하면서 데이터베이스를 다룰 기회를 가져서 좋았다
-           * - 컴퓨터공학 지식 중 관계형 데이터베이스와 SQL을 활용할 수 있어서 좋았다
+           * - 관계형 데이터베이스와 SQL이 어디 쓰였는지 언급하기
            */}
+        </Paragraph>
+        <Paragraph>
+          이전까진 프론트엔드를 진행하면서 컴퓨터공학 지식 중 하나인
+          데이터베이스에 관한 지식을 활용할 수 있는 곳이 없었으나,
+          YSOArcadeRecords를 계기로 <Emphasize>데이터베이스와 SQL</Emphasize>을
+          활용할 수 있어서 기뻤습니다.
         </Paragraph>
       </Section>
 

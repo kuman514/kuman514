@@ -395,6 +395,17 @@ exports[`YSOArcadeRecordsPage should show as expected 1`] = `
         <p
           class="text-base font-normal indent-4 undefined"
         />
+        <p
+          class="text-base font-normal indent-4 undefined"
+        >
+          이전까진 프론트엔드를 진행하면서 컴퓨터공학 지식 중 하나인 데이터베이스에 관한 지식을 활용할 수 있는 곳이 없었으나, YSOArcadeRecords를 계기로 
+          <strong
+            class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+          >
+            데이터베이스와 SQL
+          </strong>
+          을 활용할 수 있어서 기뻤습니다.
+        </p>
       </section>
     </section>
     <section
@@ -918,6 +929,17 @@ exports[`YSOArcadeRecordsPage should show as expected with edited date 1`] = `
         <p
           class="text-base font-normal indent-4 undefined"
         />
+        <p
+          class="text-base font-normal indent-4 undefined"
+        >
+          이전까진 프론트엔드를 진행하면서 컴퓨터공학 지식 중 하나인 데이터베이스에 관한 지식을 활용할 수 있는 곳이 없었으나, YSOArcadeRecords를 계기로 
+          <strong
+            class="bg-linear-180 from-transparent from-70% to-green-500 dark:to-green-600 to-70% undefined"
+          >
+            데이터베이스와 SQL
+          </strong>
+          을 활용할 수 있어서 기뻤습니다.
+        </p>
       </section>
     </section>
     <section
