@@ -10,6 +10,7 @@ import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
+import YSOArcadeRecordsEditorJpg from './assets/yso-arcade-records-editor.jpg';
 import YSOArcadeRecordsGalleryArticleJpg from './assets/yso-arcade-records-gallery-article.jpg';
 import YSOArcadeRecordsGalleryListJpg from './assets/yso-arcade-records-gallery-list.jpg';
 import YSOArcadeRecordsHelathPng from './assets/yso-arcade-records-health.png';
@@ -20,7 +21,6 @@ import YSOArcadeRecordsRecordForm1Jpg from './assets/yso-arcade-records-record-f
 import YSOArcadeRecordsRecordForm2Jpg from './assets/yso-arcade-records-record-form-2.jpg';
 import YSOArcadeRecordsRecordListJpg from './assets/yso-arcade-records-record-list.jpg';
 import YSOArcadeRecordsReviewArticleJpg from './assets/yso-arcade-records-review-article.jpg';
-import YSOArcadeRecordsEditorJpg from './assets/yso-arcade-records-editor.jpg';
 import YSOArcadeRecordsPng from './assets/yso-arcade-records.png';
 
 interface Props {

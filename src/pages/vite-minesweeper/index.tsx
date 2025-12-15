@@ -3,12 +3,12 @@ import Image from 'next/image';
 import Section from '^/entities/section';
 import Emphasize from '^/shared/emphasize';
 import ExternalAnchor from '^/shared/external-anchor';
+import MostRecentlyEdited from '^/shared/most-recently-edited';
+import PageTemplate from '^/shared/page-template';
 import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
-import MostRecentlyEdited from '^/shared/most-recently-edited';
-import PageTemplate from '^/shared/page-template';
 
 import BfsPng from './assets/bfs.png';
 import QueuePopPng from './assets/queue-pop.png';
@@ -166,7 +166,7 @@ export default function ViteMinesweeperPage({ editedDate }: Props) {
       </Section>
 
       <Section
-        title="지뢰찾기 구현에 쓰인 알고리즘"
+        title="이 프로젝트에서 기술적으로 기뻤던 점: 지뢰찾기 구현에 쓰인 알고리즘인 BFS(너비 우선 탐색) 활용"
         subsectionClassName="flex flex-col gap-4"
       >
         <div className="flex justify-center items-center">
@@ -176,16 +176,20 @@ export default function ViteMinesweeperPage({ editedDate }: Props) {
           />
         </div>
         <Paragraph>
-          지뢰찾기 게임에서, 어떤 타일을 눌렀을 때 또다른 숫자 타일이나
-          가장자리에 다다를 때까지{' '}
-          <Emphasize>주변 8방향으로 빈 타일 탐색</Emphasize>을 수행하는데,
-          여기서 가장 효율적인 방법인{' '}
-          <Emphasize>BFS(너비 우선 탐색) 알고리즘</Emphasize>을 적용하였습니다.
+          이전까진 각종 프로젝트를 진행하면서 컴퓨터공학 지식을 활용할 수 있는
+          곳이 없었으나, ViteMinesweeper를 계기로{' '}
+          <Emphasize>
+            컴퓨터공학 지식 중 하나인 알고리즘 중 BFS(너비 우선 탐색)
+          </Emphasize>
+          을 활용할 수 있어서 기뻤습니다. BFS는 지뢰찾기 게임에서 탐색되지 않은
+          어떤 타일을 눌렀을 때 또다른 숫자 타일이나 가장자리에 다다를 때까지{' '}
+          <Emphasize>주변 8방향으로의 빈 타일 탐색</Emphasize>을 수행하는 과정에
+          적용하였습니다.
         </Paragraph>
       </Section>
 
       <Section
-        title="큐의 Pop 호출 시간 복잡도 개선"
+        title="BFS 큐의 Pop 호출 시간 복잡도 개선"
         subsectionClassName="flex flex-col gap-4"
       >
         <Paragraph>
