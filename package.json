@@ -4,17 +4,18 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "yarn lint && yarn test && next build",
+    "build": "npm run lint && npm run test && next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "test": "NODE_ENV=test jest",
     "test:watch": "NODE_ENV=test jest --watch"
   },
   "dependencies": {
-    "next": "15.4.8",
+    "next": "^16.1.1",
     "pixi.js": "^8.2.6",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.8",
@@ -33,6 +34,5 @@
     "tailwindcss": "^4.1.8",
     "ts-node": "^10.9.2",
     "typescript": "^5"
-  },
-  "packageManager": "yarn@4.3.1"
+  }
 }
