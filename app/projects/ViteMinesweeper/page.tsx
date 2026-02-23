@@ -9,17 +9,13 @@ import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
+import BfsPng from '^/pages/vite-minesweeper/assets/bfs.png';
+import QueuePopPng from '^/pages/vite-minesweeper/assets/queue-pop.png';
+import ViteMinesweeperBannerPng from '^/pages/vite-minesweeper/assets/vite-minesweeper-banner.png';
+import ViteMinesweeperPng from '^/pages/vite-minesweeper/assets/vite-minesweeper.png';
+import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
 
-import BfsPng from './assets/bfs.png';
-import QueuePopPng from './assets/queue-pop.png';
-import ViteMinesweeperBannerPng from './assets/vite-minesweeper-banner.png';
-import ViteMinesweeperPng from './assets/vite-minesweeper.png';
-
-interface Props {
-  editedDate?: Date;
-}
-
-export default function ViteMinesweeperPage({ editedDate }: Props) {
+export default function ViteMinesweeperPage() {
   const renderBanner = (
     <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
       <Image
@@ -29,10 +25,6 @@ export default function ViteMinesweeperPage({ editedDate }: Props) {
       />
     </div>
   );
-
-  const renderEditedDate = editedDate ? (
-    <MostRecentlyEdited editedDate={editedDate} />
-  ) : null;
 
   const renderContent = (
     <>
@@ -246,7 +238,7 @@ export default function ViteMinesweeperPage({ editedDate }: Props) {
     <PageTemplate customClassName="w-full flex flex-col items-center">
       {renderBanner}
       <div className="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl">
-        {renderEditedDate}
+        <MostRecentlyEdited editedDate={MOST_RECENTLY_EDITED_DATE} />
         {renderContent}
       </div>
     </PageTemplate>

@@ -1,31 +1,27 @@
 import Image from 'next/image';
 
 import Section from '^/entities/section';
+import HanmogmBannerPng from '^/pages/hanmogm/assets/hanmogm-banner.png';
+import AccpetedRequestDrinksJpg from '^/pages/hanmogm/assets/accepted-request-drinks.jpg';
+import AllTastingNotesJpg from '^/pages/hanmogm/assets/all-tasting-notes.jpg';
+import DrinkJpg from '^/pages/hanmogm/assets/drink.jpg';
+import Drink2Jpg from '^/pages/hanmogm/assets/drink-2.jpg';
+import HomeJpg from '^/pages/hanmogm/assets/home.jpg';
+import RecommendedTagsJpg from '^/pages/hanmogm/assets/recommended-tags.jpg';
+import TastingNoteForm1Jpg from '^/pages/hanmogm/assets/tasting-note-form-1.jpg';
+import TastingNoteForm2Jpg from '^/pages/hanmogm/assets/tasting-note-form-2.jpg';
+import TastingNoteJpg from '^/pages/hanmogm/assets/tasting-note.jpg';
 import Emphasize from '^/shared/emphasize';
 import ExternalAnchor from '^/shared/external-anchor';
+import MostRecentlyEdited from '^/shared/most-recently-edited';
+import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
+import PageTemplate from '^/shared/page-template';
 import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
-import MostRecentlyEdited from '^/shared/most-recently-edited';
-import PageTemplate from '^/shared/page-template';
 
-import HanmogmBannerPng from './assets/hanmogm-banner.png';
-import HanmogmCollectionListPng from './assets/hanmogm-collection-list.png';
-import HanmogmDrinkTastingPng from './assets/hanmogm-drink-tasting.png';
-import HanmogmDrinkPng from './assets/hanmogm-drink.png';
-import HanmogmHomePng from './assets/hanmogm-home.png';
-import HanmogmRequestStatusPng from './assets/hanmogm-request-status.png';
-import HanmogmTastingNoteFormPage1Png from './assets/hanmogm-tasting-note-form-page-1.png';
-import HanmogmTastingNoteFormPage2Png from './assets/hanmogm-tasting-note-form-page-2.png';
-import HanmogmTastingNoteListPng from './assets/hanmogm-tasting-note-list.png';
-import HanmogmTastingNotePng from './assets/hanmogm-tasting-note.png';
-
-interface Props {
-  editedDate?: Date;
-}
-
-export default function HanmogmPage({ editedDate }: Props) {
+export default function HanmogmPage() {
   const renderBanner = (
     <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
       <Image
@@ -35,10 +31,6 @@ export default function HanmogmPage({ editedDate }: Props) {
       />
     </div>
   );
-
-  const renderEditedDate = editedDate ? (
-    <MostRecentlyEdited editedDate={editedDate} />
-  ) : null;
 
   const renderContent = (
     <>
@@ -51,47 +43,42 @@ export default function HanmogmPage({ editedDate }: Props) {
         subsectionClassName="w-full flex flex-row flex-wrap justify-center items-center gap-4"
       >
         <Image
-          src={HanmogmHomePng}
+          src={HomeJpg}
           alt="한모금 홈 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmDrinkPng}
+          src={DrinkJpg}
           alt="한모금 주류 상세 화면 상단"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmDrinkTastingPng}
+          src={Drink2Jpg}
           alt="한모금 주류 상세 화면 하단"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmTastingNoteFormPage1Png}
+          src={TastingNoteForm1Jpg}
           alt="한모금 시음기록 작성 화면 1페이지"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmTastingNoteFormPage2Png}
+          src={TastingNoteForm2Jpg}
           alt="한모금 시음기록 작성 화면 2페이지"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmTastingNotePng}
+          src={TastingNoteJpg}
           alt="한모금 시음기록 상세 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmTastingNoteListPng}
+          src={AllTastingNotesJpg}
           alt="한모금 나의 전체 시음기록 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmCollectionListPng}
-          alt="한모금 나의 시음기록 모음집 화면"
-          className="w-fit max-h-80 object-contain"
-        />
-        <Image
-          src={HanmogmRequestStatusPng}
+          src={AccpetedRequestDrinksJpg}
           alt="한모금 내 주류 요청 현황 화면"
           className="w-fit max-h-80 object-contain"
         />
@@ -104,8 +91,8 @@ export default function HanmogmPage({ editedDate }: Props) {
             작성할 수 있는 테이스팅 노트 앱.
           </li>
           <li>
-            팀 구성: PM 1명, 기획자 1명, 디자이너 1명, 백엔드 2명, 프론트엔드
-            2명 (본인(원년)과 최근 합류 1명)
+            팀 구성: PM 1명, 기획자 1명, 디자이너 1명, 마케팅 1명, 백엔드 2명,
+            프론트엔드 2명 (본인(원년)과 최근 합류 1명)
           </li>
           <li>
             담당한 작업 내용
@@ -211,7 +198,7 @@ export default function HanmogmPage({ editedDate }: Props) {
         </Paragraph>
       </Section>
 
-      <Section title="협업 방법">
+      <Section title="협업 방법" subsectionClassName="flex flex-col gap-4">
         <Paragraph>
           저희 팀은{' '}
           <Emphasize>
@@ -228,6 +215,28 @@ export default function HanmogmPage({ editedDate }: Props) {
           </Emphasize>{' '}
           등등에 대한 논의가 주를 이뤘습니다. 이에 대한 논의가 결정되었을 때,
           예상되는 개발 일정을 산정하고 구현을 시작합니다.
+        </Paragraph>
+        <div className="flex justify-center items-center">
+          <Image
+            src={RecommendedTagsJpg}
+            alt="시음기록 폼의 향 태그 입력 화면"
+            className="w-fit max-h-80 object-contain"
+          />
+        </div>
+        <Paragraph>
+          혹시나 기획자분과 디자이너분이{' '}
+          <Emphasize>
+            미처 명세하지 못한 부분이 있다면, 제가 직접 가장 사용성이 높을
+            것이라 생각되는 방향으로 초안을 구현
+          </Emphasize>
+          해오기도 합니다. 예를 들어, 한모금 앱의 시음기록 폼 중 향 태그를
+          입력할 때 추천 향을 키보드 위에 표시하는 기능을 구현해야 했을 당시, 이
+          추천 향들을 표시하는 방법이 명세되지 않았습니다. 그래서 저는, 한 줄에
+          모든 추천 향 태그를 보여주는 스크롤뷰 방식, 고정 뷰에 추천 향 태그를
+          10개까지만 보여주는 방식, 이 두 가지를 생각했는데, 그 중 후자가
+          스크롤뷰 터치로 인한 키보드 블러 이벤트를 복잡하게 통제할 필요도
+          없었으며 사용자에게도 한 눈에 들어오고 조작 횟수가 최소화된
+          방식이었기에 실제 프로덕션으로 배포될 수 있었습니다.
         </Paragraph>
       </Section>
 
@@ -272,15 +281,16 @@ export default function HanmogmPage({ editedDate }: Props) {
         subsectionClassName="flex flex-col gap-4"
       >
         <Paragraph>
-          React Native를 통해{' '}
+          React Native는{' '}
           <Emphasize>
-            React의 지식만 가지고 모바일 앱을 제작할 수 있다는 점은 정말 매력적
+            React의 지식만 가지고 모바일 앱을 제작할 수 있다는 장점이 있지만
           </Emphasize>
-          이었지만, 실제로 React Native 프로젝트를 진행하다 보니{' '}
+          , 실제로 React Native 프로젝트를 진행할수록{' '}
           <Emphasize>
-            플랫폼 별 의존성과 동작의 차이를 동시에 관리해야 한다
+            플랫폼별로 필요한 의존성과 실제 수행하는 동작에 차이가 있어, 동일한
+            경험을 위해 플랫폼별로 로직을 달리해야 할 수도 있다
           </Emphasize>
-          는 현실과 마주해야 했습니다. 대표적으로,{' '}
+          는 점을 느꼈습니다. 대표적으로,{' '}
           <Emphasize>
             동일한 패키지더라도 iOS에서와 Android에서의 UI 렌더링 방식이나 권한
             처리 방식이 다르게 동작한다는 점
@@ -290,9 +300,7 @@ export default function HanmogmPage({ editedDate }: Props) {
             앱을 제출하는 과정에서도 플랫폼별로 서로 다른 과정이나 대응이
             필요하다는 점
           </Emphasize>{' '}
-          등등이 있습니다. 이를 통해, 크로스 플랫폼이란{' '}
-          <Emphasize>두 플랫폼을 동시에 고려한 정밀한 조율</Emphasize>
-          이라는 사실을 깨달았습니다.
+          등등이 있습니다.
         </Paragraph>
         <Paragraph>
           사이드 프로젝트는 소규모 팀으로 진행되기 때문에,{' '}
@@ -336,7 +344,7 @@ export default function HanmogmPage({ editedDate }: Props) {
     <PageTemplate customClassName="w-full flex flex-col items-center">
       {renderBanner}
       <div className="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl">
-        {renderEditedDate}
+        <MostRecentlyEdited editedDate={MOST_RECENTLY_EDITED_DATE} />
         {renderContent}
       </div>
     </PageTemplate>
