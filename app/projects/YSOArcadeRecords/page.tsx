@@ -9,18 +9,17 @@ import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
-import YSOArcadeRecordsEditorJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-editor.jpg';
-import YSOArcadeRecordsGalleryArticleJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-gallery-article.jpg';
-import YSOArcadeRecordsGalleryListJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-gallery-list.jpg';
 import YSOArcadeRecordsHelathPng from '^/pages/yso-arcade-records/assets/yso-arcade-records-health.png';
-import YSOArcadeRecordsImageViewerJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-image-viewer.jpg';
 import YSOArcadeRecordsPostListSkeletonPng from '^/pages/yso-arcade-records/assets/yso-arcade-records-post-list-skeleton.png';
-import YSOArcadeRecordsRecordArticleJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-record-article.jpg';
-import YSOArcadeRecordsRecordForm1Jpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-record-form-1.jpg';
-import YSOArcadeRecordsRecordForm2Jpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-record-form-2.jpg';
-import YSOArcadeRecordsRecordListJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-record-list.jpg';
-import YSOArcadeRecordsReviewArticleJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-review-article.jpg';
 import YSOArcadeRecordsPng from '^/pages/yso-arcade-records/assets/yso-arcade-records.png';
+import GalleryListJpg from '^/pages/yso-arcade-records/assets/gallery-list.jpg';
+import GalleryJpg from '^/pages/yso-arcade-records/assets/gallery.jpg';
+import ImageViewerJpg from '^/pages/yso-arcade-records/assets/image-viewer.jpg';
+import RecordForm1Jpg from '^/pages/yso-arcade-records/assets/record-form-1.jpg';
+import RecordForm2Jpg from '^/pages/yso-arcade-records/assets/record-form-2.jpg';
+import RecordListJpg from '^/pages/yso-arcade-records/assets/record-list.jpg';
+import RecordJpg from '^/pages/yso-arcade-records/assets/record.jpg';
+import ReviewJpg from '^/pages/yso-arcade-records/assets/review.jpg';
 import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
 
 export default function YSOArcadeRecordsPage() {
@@ -45,48 +44,43 @@ export default function YSOArcadeRecordsPage() {
         subsectionClassName="w-full flex flex-row flex-wrap justify-center items-center gap-4"
       >
         <Image
-          src={YSOArcadeRecordsRecordListJpg}
+          src={RecordListJpg}
           alt="YSOShmupRecords 각종 아케이드 기록 리스트"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsRecordArticleJpg}
+          src={RecordJpg}
           alt="YSOShmupRecords 아케이드 기록 아티클"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsRecordForm1Jpg}
+          src={RecordForm1Jpg}
           alt="YSOShmupRecords 기록 폼 상단 부분"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsRecordForm2Jpg}
+          src={RecordForm2Jpg}
           alt="YSOShmupRecords 기록 폼 하단 부분"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsReviewArticleJpg}
+          src={ReviewJpg}
           alt="YSOShmupRecords 리뷰 아티클"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsImageViewerJpg}
+          src={ImageViewerJpg}
           alt="YSOShmupRecords 이미지 뷰어"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsGalleryListJpg}
+          src={GalleryListJpg}
           alt="YSOShmupRecords 갤러리 리스트"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={YSOArcadeRecordsGalleryArticleJpg}
+          src={GalleryJpg}
           alt="YSOShmupRecords 갤러리 아티클"
-          className="w-fit max-h-80 object-contain"
-        />
-        <Image
-          src={YSOArcadeRecordsEditorJpg}
-          alt="YSOShmupRecords 아케이드 정보 편집기"
           className="w-fit max-h-80 object-contain"
         />
       </Section>
