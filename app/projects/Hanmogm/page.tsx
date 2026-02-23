@@ -1,14 +1,6 @@
 import Image from 'next/image';
 
 import Section from '^/entities/section';
-import Emphasize from '^/shared/emphasize';
-import ExternalAnchor from '^/shared/external-anchor';
-import Paragraph from '^/shared/paragraph';
-import Tag from '^/shared/tag';
-import Title from '^/shared/title';
-import UnorderedBulletList from '^/shared/unordered-bullet-list';
-import MostRecentlyEdited from '^/shared/most-recently-edited';
-import PageTemplate from '^/shared/page-template';
 import HanmogmBannerPng from '^/pages/hanmogm/assets/hanmogm-banner.png';
 import HanmogmCollectionListPng from '^/pages/hanmogm/assets/hanmogm-collection-list.png';
 import HanmogmDrinkTastingPng from '^/pages/hanmogm/assets/hanmogm-drink-tasting.png';
@@ -19,7 +11,15 @@ import HanmogmTastingNoteFormPage1Png from '^/pages/hanmogm/assets/hanmogm-tasti
 import HanmogmTastingNoteFormPage2Png from '^/pages/hanmogm/assets/hanmogm-tasting-note-form-page-2.png';
 import HanmogmTastingNoteListPng from '^/pages/hanmogm/assets/hanmogm-tasting-note-list.png';
 import HanmogmTastingNotePng from '^/pages/hanmogm/assets/hanmogm-tasting-note.png';
+import Emphasize from '^/shared/emphasize';
+import ExternalAnchor from '^/shared/external-anchor';
+import MostRecentlyEdited from '^/shared/most-recently-edited';
 import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
+import PageTemplate from '^/shared/page-template';
+import Paragraph from '^/shared/paragraph';
+import Tag from '^/shared/tag';
+import Title from '^/shared/title';
+import UnorderedBulletList from '^/shared/unordered-bullet-list';
 
 export default function HanmogmPage() {
   const renderBanner = (
@@ -221,6 +221,18 @@ export default function HanmogmPage() {
           등등에 대한 논의가 주를 이뤘습니다. 이에 대한 논의가 결정되었을 때,
           예상되는 개발 일정을 산정하고 구현을 시작합니다.
         </Paragraph>
+        <Paragraph>
+          혹시나 기획자분과 디자이너분이 미처 명세하지 못한 부분이 있다면, 제가
+          직접 가장 사용성이 높을 것이라 생각되는 방향으로 초안을 구현해오기도
+          합니다. 예를 들어, 한모금 앱의 시음기록 폼 중 향 태그를 입력할 때 추천
+          향을 키보드 위에 표시하는 기능을 구현해야 했을 당시, 이 추천 향들을
+          표시하는 방법이 명세되지 않았습니다. 그래서 저는, 한 줄에 모든 추천 향
+          태그를 보여주는 스크롤뷰 방식, 고정 뷰에 추천 향 태그를 10개까지만
+          보여주는 방식, 이 두 가지를 생각했는데, 그 중 후자가 스크롤뷰 터치로
+          인한 키보드 블러 이벤트를 복잡하게 통제할 필요도 없었으며 사용자에게도
+          한 눈에 들어오고 조작 횟수가 최소화된 방식이었기에 실제 프로덕션으로
+          배포될 수 있었습니다.
+        </Paragraph>
       </Section>
 
       <Section
@@ -264,15 +276,16 @@ export default function HanmogmPage() {
         subsectionClassName="flex flex-col gap-4"
       >
         <Paragraph>
-          React Native를 통해{' '}
+          React Native는{' '}
           <Emphasize>
-            React의 지식만 가지고 모바일 앱을 제작할 수 있다는 점은 정말 매력적
+            React의 지식만 가지고 모바일 앱을 제작할 수 있다는 장점이 있지만
           </Emphasize>
-          이었지만, 실제로 React Native 프로젝트를 진행하다 보니{' '}
+          , 실제로 React Native 프로젝트를 진행할수록{' '}
           <Emphasize>
-            플랫폼 별 의존성과 동작의 차이를 동시에 관리해야 한다
+            플랫폼별로 필요한 의존성과 실제 수행하는 동작에 차이가 있어, 동일한
+            경험을 위해 플랫폼별로 로직을 달리해야 할 수도 있다
           </Emphasize>
-          는 현실과 마주해야 했습니다. 대표적으로,{' '}
+          는 점을 느꼈습니다. 대표적으로,{' '}
           <Emphasize>
             동일한 패키지더라도 iOS에서와 Android에서의 UI 렌더링 방식이나 권한
             처리 방식이 다르게 동작한다는 점
@@ -282,9 +295,7 @@ export default function HanmogmPage() {
             앱을 제출하는 과정에서도 플랫폼별로 서로 다른 과정이나 대응이
             필요하다는 점
           </Emphasize>{' '}
-          등등이 있습니다. 이를 통해, 크로스 플랫폼이란{' '}
-          <Emphasize>두 플랫폼을 동시에 고려한 정밀한 조율</Emphasize>
-          이라는 사실을 깨달았습니다.
+          등등이 있습니다.
         </Paragraph>
         <Paragraph>
           사이드 프로젝트는 소규모 팀으로 진행되기 때문에,{' '}
