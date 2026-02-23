@@ -2,15 +2,15 @@ import Image from 'next/image';
 
 import Section from '^/entities/section';
 import HanmogmBannerPng from '^/pages/hanmogm/assets/hanmogm-banner.png';
-import HanmogmCollectionListPng from '^/pages/hanmogm/assets/hanmogm-collection-list.png';
-import HanmogmDrinkTastingPng from '^/pages/hanmogm/assets/hanmogm-drink-tasting.png';
-import HanmogmDrinkPng from '^/pages/hanmogm/assets/hanmogm-drink.png';
-import HanmogmHomePng from '^/pages/hanmogm/assets/hanmogm-home.png';
-import HanmogmRequestStatusPng from '^/pages/hanmogm/assets/hanmogm-request-status.png';
-import HanmogmTastingNoteFormPage1Png from '^/pages/hanmogm/assets/hanmogm-tasting-note-form-page-1.png';
-import HanmogmTastingNoteFormPage2Png from '^/pages/hanmogm/assets/hanmogm-tasting-note-form-page-2.png';
-import HanmogmTastingNoteListPng from '^/pages/hanmogm/assets/hanmogm-tasting-note-list.png';
-import HanmogmTastingNotePng from '^/pages/hanmogm/assets/hanmogm-tasting-note.png';
+import AccpetedRequestDrinksJpg from '^/pages/hanmogm/assets/accepted-request-drinks.jpg';
+import AllTastingNotesJpg from '^/pages/hanmogm/assets/all-tasting-notes.jpg';
+import DrinkJpg from '^/pages/hanmogm/assets/drink.jpg';
+import Drink2Jpg from '^/pages/hanmogm/assets/drink-2.jpg';
+import HomeJpg from '^/pages/hanmogm/assets/home.jpg';
+import RecommendedTagsJpg from '^/pages/hanmogm/assets/recommended-tags.jpg';
+import TastingNoteForm1Jpg from '^/pages/hanmogm/assets/tasting-note-form-1.jpg';
+import TastingNoteForm2Jpg from '^/pages/hanmogm/assets/tasting-note-form-2.jpg';
+import TastingNoteJpg from '^/pages/hanmogm/assets/tasting-note.jpg';
 import Emphasize from '^/shared/emphasize';
 import ExternalAnchor from '^/shared/external-anchor';
 import MostRecentlyEdited from '^/shared/most-recently-edited';
@@ -43,47 +43,42 @@ export default function HanmogmPage() {
         subsectionClassName="w-full flex flex-row flex-wrap justify-center items-center gap-4"
       >
         <Image
-          src={HanmogmHomePng}
+          src={HomeJpg}
           alt="한모금 홈 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmDrinkPng}
+          src={DrinkJpg}
           alt="한모금 주류 상세 화면 상단"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmDrinkTastingPng}
+          src={Drink2Jpg}
           alt="한모금 주류 상세 화면 하단"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmTastingNoteFormPage1Png}
+          src={TastingNoteForm1Jpg}
           alt="한모금 시음기록 작성 화면 1페이지"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmTastingNoteFormPage2Png}
+          src={TastingNoteForm2Jpg}
           alt="한모금 시음기록 작성 화면 2페이지"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmTastingNotePng}
+          src={TastingNoteJpg}
           alt="한모금 시음기록 상세 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmTastingNoteListPng}
+          src={AllTastingNotesJpg}
           alt="한모금 나의 전체 시음기록 화면"
           className="w-fit max-h-80 object-contain"
         />
         <Image
-          src={HanmogmCollectionListPng}
-          alt="한모금 나의 시음기록 모음집 화면"
-          className="w-fit max-h-80 object-contain"
-        />
-        <Image
-          src={HanmogmRequestStatusPng}
+          src={AccpetedRequestDrinksJpg}
           alt="한모금 내 주류 요청 현황 화면"
           className="w-fit max-h-80 object-contain"
         />
@@ -96,8 +91,8 @@ export default function HanmogmPage() {
             작성할 수 있는 테이스팅 노트 앱.
           </li>
           <li>
-            팀 구성: PM 1명, 기획자 1명, 디자이너 1명, 백엔드 2명, 프론트엔드
-            2명 (본인(원년)과 최근 합류 1명)
+            팀 구성: PM 1명, 기획자 1명, 디자이너 1명, 마케팅 1명, 백엔드 2명,
+            프론트엔드 2명 (본인(원년)과 최근 합류 1명)
           </li>
           <li>
             담당한 작업 내용
@@ -203,7 +198,7 @@ export default function HanmogmPage() {
         </Paragraph>
       </Section>
 
-      <Section title="협업 방법">
+      <Section title="협업 방법" subsectionClassName="flex flex-col gap-4">
         <Paragraph>
           저희 팀은{' '}
           <Emphasize>
@@ -221,6 +216,13 @@ export default function HanmogmPage() {
           등등에 대한 논의가 주를 이뤘습니다. 이에 대한 논의가 결정되었을 때,
           예상되는 개발 일정을 산정하고 구현을 시작합니다.
         </Paragraph>
+        <div className="flex justify-center items-center">
+          <Image
+            src={RecommendedTagsJpg}
+            alt="시음기록 폼의 향 태그 입력 화면"
+            className="w-fit max-h-80 object-contain"
+          />
+        </div>
         <Paragraph>
           혹시나 기획자분과 디자이너분이{' '}
           <Emphasize>
