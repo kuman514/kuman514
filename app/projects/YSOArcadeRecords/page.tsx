@@ -9,25 +9,21 @@ import Paragraph from '^/shared/paragraph';
 import Tag from '^/shared/tag';
 import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
+import YSOArcadeRecordsEditorJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-editor.jpg';
+import YSOArcadeRecordsGalleryArticleJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-gallery-article.jpg';
+import YSOArcadeRecordsGalleryListJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-gallery-list.jpg';
+import YSOArcadeRecordsHelathPng from '^/pages/yso-arcade-records/assets/yso-arcade-records-health.png';
+import YSOArcadeRecordsImageViewerJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-image-viewer.jpg';
+import YSOArcadeRecordsPostListSkeletonPng from '^/pages/yso-arcade-records/assets/yso-arcade-records-post-list-skeleton.png';
+import YSOArcadeRecordsRecordArticleJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-record-article.jpg';
+import YSOArcadeRecordsRecordForm1Jpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-record-form-1.jpg';
+import YSOArcadeRecordsRecordForm2Jpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-record-form-2.jpg';
+import YSOArcadeRecordsRecordListJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-record-list.jpg';
+import YSOArcadeRecordsReviewArticleJpg from '^/pages/yso-arcade-records/assets/yso-arcade-records-review-article.jpg';
+import YSOArcadeRecordsPng from '^/pages/yso-arcade-records/assets/yso-arcade-records.png';
+import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
 
-import YSOArcadeRecordsEditorJpg from './assets/yso-arcade-records-editor.jpg';
-import YSOArcadeRecordsGalleryArticleJpg from './assets/yso-arcade-records-gallery-article.jpg';
-import YSOArcadeRecordsGalleryListJpg from './assets/yso-arcade-records-gallery-list.jpg';
-import YSOArcadeRecordsHelathPng from './assets/yso-arcade-records-health.png';
-import YSOArcadeRecordsImageViewerJpg from './assets/yso-arcade-records-image-viewer.jpg';
-import YSOArcadeRecordsPostListSkeletonPng from './assets/yso-arcade-records-post-list-skeleton.png';
-import YSOArcadeRecordsRecordArticleJpg from './assets/yso-arcade-records-record-article.jpg';
-import YSOArcadeRecordsRecordForm1Jpg from './assets/yso-arcade-records-record-form-1.jpg';
-import YSOArcadeRecordsRecordForm2Jpg from './assets/yso-arcade-records-record-form-2.jpg';
-import YSOArcadeRecordsRecordListJpg from './assets/yso-arcade-records-record-list.jpg';
-import YSOArcadeRecordsReviewArticleJpg from './assets/yso-arcade-records-review-article.jpg';
-import YSOArcadeRecordsPng from './assets/yso-arcade-records.png';
-
-interface Props {
-  editedDate?: Date;
-}
-
-export default function YSOArcadeRecordsPage({ editedDate }: Props) {
+export default function YSOArcadeRecordsPage() {
   const renderBanner = (
     <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
       <Image
@@ -37,10 +33,6 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
       />
     </div>
   );
-
-  const renderEditedDate = editedDate ? (
-    <MostRecentlyEdited editedDate={editedDate} />
-  ) : null;
 
   const renderContent = (
     <>
@@ -309,7 +301,7 @@ export default function YSOArcadeRecordsPage({ editedDate }: Props) {
     <PageTemplate customClassName="w-full flex flex-col items-center">
       {renderBanner}
       <div className="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl">
-        {renderEditedDate}
+        <MostRecentlyEdited editedDate={MOST_RECENTLY_EDITED_DATE} />
         {renderContent}
       </div>
     </PageTemplate>

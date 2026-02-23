@@ -9,23 +9,19 @@ import Title from '^/shared/title';
 import UnorderedBulletList from '^/shared/unordered-bullet-list';
 import MostRecentlyEdited from '^/shared/most-recently-edited';
 import PageTemplate from '^/shared/page-template';
+import HanmogmBannerPng from '^/pages/hanmogm/assets/hanmogm-banner.png';
+import HanmogmCollectionListPng from '^/pages/hanmogm/assets/hanmogm-collection-list.png';
+import HanmogmDrinkTastingPng from '^/pages/hanmogm/assets/hanmogm-drink-tasting.png';
+import HanmogmDrinkPng from '^/pages/hanmogm/assets/hanmogm-drink.png';
+import HanmogmHomePng from '^/pages/hanmogm/assets/hanmogm-home.png';
+import HanmogmRequestStatusPng from '^/pages/hanmogm/assets/hanmogm-request-status.png';
+import HanmogmTastingNoteFormPage1Png from '^/pages/hanmogm/assets/hanmogm-tasting-note-form-page-1.png';
+import HanmogmTastingNoteFormPage2Png from '^/pages/hanmogm/assets/hanmogm-tasting-note-form-page-2.png';
+import HanmogmTastingNoteListPng from '^/pages/hanmogm/assets/hanmogm-tasting-note-list.png';
+import HanmogmTastingNotePng from '^/pages/hanmogm/assets/hanmogm-tasting-note.png';
+import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
 
-import HanmogmBannerPng from './assets/hanmogm-banner.png';
-import HanmogmCollectionListPng from './assets/hanmogm-collection-list.png';
-import HanmogmDrinkTastingPng from './assets/hanmogm-drink-tasting.png';
-import HanmogmDrinkPng from './assets/hanmogm-drink.png';
-import HanmogmHomePng from './assets/hanmogm-home.png';
-import HanmogmRequestStatusPng from './assets/hanmogm-request-status.png';
-import HanmogmTastingNoteFormPage1Png from './assets/hanmogm-tasting-note-form-page-1.png';
-import HanmogmTastingNoteFormPage2Png from './assets/hanmogm-tasting-note-form-page-2.png';
-import HanmogmTastingNoteListPng from './assets/hanmogm-tasting-note-list.png';
-import HanmogmTastingNotePng from './assets/hanmogm-tasting-note.png';
-
-interface Props {
-  editedDate?: Date;
-}
-
-export default function HanmogmPage({ editedDate }: Props) {
+export default function HanmogmPage() {
   const renderBanner = (
     <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
       <Image
@@ -35,10 +31,6 @@ export default function HanmogmPage({ editedDate }: Props) {
       />
     </div>
   );
-
-  const renderEditedDate = editedDate ? (
-    <MostRecentlyEdited editedDate={editedDate} />
-  ) : null;
 
   const renderContent = (
     <>
@@ -336,7 +328,7 @@ export default function HanmogmPage({ editedDate }: Props) {
     <PageTemplate customClassName="w-full flex flex-col items-center">
       {renderBanner}
       <div className="flex flex-col px-8 py-24 gap-16 sm:px-24 max-w-6xl">
-        {renderEditedDate}
+        <MostRecentlyEdited editedDate={MOST_RECENTLY_EDITED_DATE} />
         {renderContent}
       </div>
     </PageTemplate>
