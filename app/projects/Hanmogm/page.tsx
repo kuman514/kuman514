@@ -269,8 +269,7 @@ export default function HanmogmPage() {
           <Emphasize>코드만 푸시해도 업데이트가 되는 빌드를 구축</Emphasize>
           함으로써,{' '}
           <Emphasize>
-            무료 플랜에서 월 최대 30회까지(Android 빌드 기준, iOS는 최대
-            15회)밖에 안 되는
+            무료 플랜에서 iOS와 Android로 각각 15회까지밖에 안 되는
           </Emphasize>{' '}
           <Tag>eas build</Tag>의 사용 횟수를 획기적으로 줄일 수 있었습니다.
         </Paragraph>
