@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Section should render as expected 1`] = `
+exports[`Section > should render as expected 1`] = `
 <div>
   <section
     class="flex flex-col gap-8 undefined"

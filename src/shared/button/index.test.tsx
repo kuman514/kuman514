@@ -9,14 +9,14 @@ describe('Button', () => {
   });
 
   it('should be clickable when it is not disabled', async () => {
-    const mockFn = jest.fn();
+    const mockFn = vi.fn();
     render(<Button onClick={mockFn}>Yasuo</Button>);
     fireEvent.click(await screen.findByText(/Yasuo/i));
     expect(mockFn).toHaveBeenCalledTimes(1);
   });
 
   it('should not be clickable when it is disabled', async () => {
-    const mockFn = jest.fn();
+    const mockFn = vi.fn();
     render(
       <Button isDisabled onClick={mockFn}>
         Yasuo

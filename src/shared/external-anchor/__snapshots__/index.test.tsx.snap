@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ExternalAnchor should have custom target & custom class name 1`] = `
+exports[`ExternalAnchor > should have custom target & custom class name 1`] = `
 <a
   class="text-blue-500 hover:text-purple-500 text-2xl underline"
   href="https://yasuomaverick.kuman514.xyz/"
@@ -10,7 +10,7 @@ exports[`ExternalAnchor should have custom target & custom class name 1`] = `
 </a>
 `;
 
-exports[`ExternalAnchor should show as expected 1`] = `
+exports[`ExternalAnchor > should show as expected 1`] = `
 <a
   class="text-blue-500 hover:text-purple-500 undefined"
   href="https://yasuomaverick.kuman514.xyz/"

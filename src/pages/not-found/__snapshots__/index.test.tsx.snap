@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`NotFoundPage should show as expected 1`] = `
+exports[`NotFoundPage > should show as expected 1`] = `
 <main
   class="flex min-h-screen flex-col justify-center items-center gap-4 text-center"
 >

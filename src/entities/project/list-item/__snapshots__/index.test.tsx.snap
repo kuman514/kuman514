@@ -1,133 +1,133 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`ProjectListItem should have appearances that matches snapshot 1`] = `
+exports[`ProjectListItem > should have appearances that matches snapshot 1`] = `
 <div>
-  <li
-    class="border-b border-b-gray-400 last:border-b-0 transition hover:bg-green-400/[.5]"
-  >
-    <a>
-      <img
-        alt="Koishi Komeiji - A Youkai girl of unconsciousness from Touhou Project."
-        class="w-full aspect-3/2 object-cover"
-        data-nimg="1"
-        decoding="async"
-        height="300"
-        loading="lazy"
-        src="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1175746616545857538%2FJuT5t8dm.jpg&w=3840&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1175746616545857538%2FJuT5t8dm.jpg&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1175746616545857538%2FJuT5t8dm.jpg&w=3840&q=75 2x"
-        style="color: transparent;"
-        width="1500"
-      />
-      <div
-        class="flex flex-col justify-center gap-1 md:py-3"
+  <ul>
+    <li
+      class="border-b border-b-gray-400 last:border-b-0 transition hover:bg-green-400/[.5]"
+    >
+      <a
+        class="flex flex-col p-8 lg:grid lg:grid-cols-[360px_1fr] gap-4 transition hover:-translate-y-1"
+        data-discover="true"
+        href="/projects/Koishi"
       >
-        <span
-          class="font-bold text-2xl md:text-3xl"
-        >
-          Koishi Komeiji
-        </span>
-        <span
-          class="pb-3"
-        >
-          A Youkai girl of unconsciousness from Touhou Project.
-        </span>
+        <img
+          alt="Koishi Komeiji - A Youkai girl of unconsciousness from Touhou Project."
+          class="w-full aspect-3/2 object-cover"
+          height="300"
+          src="https://pbs.twimg.com/profile_images/1175746616545857538/JuT5t8dm.jpg"
+          width="1500"
+        />
         <div
-          class="flex flex-row flex-wrap gap-1"
+          class="flex flex-col justify-center gap-1 md:py-3"
         >
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            class="font-bold text-2xl md:text-3xl"
           >
-            Touhou Project
+            Koishi Komeiji
           </span>
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            class="pb-3"
           >
-            Subterranean Animism
+            A Youkai girl of unconsciousness from Touhou Project.
           </span>
-          <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+          <div
+            class="flex flex-row flex-wrap gap-1"
           >
-            Hopeless Masquerade
-          </span>
-          <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
-          >
-            Moshi Moshi Meridesu
-          </span>
-          <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
-          >
-            Unconsciousness
-          </span>
-          <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
-          >
-            Hartmann No Youkai Shoujo
-          </span>
+            <span
+              class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            >
+              Touhou Project
+            </span>
+            <span
+              class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            >
+              Subterranean Animism
+            </span>
+            <span
+              class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            >
+              Hopeless Masquerade
+            </span>
+            <span
+              class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            >
+              Moshi Moshi Meridesu
+            </span>
+            <span
+              class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            >
+              Unconsciousness
+            </span>
+            <span
+              class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            >
+              Hartmann No Youkai Shoujo
+            </span>
+          </div>
         </div>
-      </div>
-    </a>
-  </li>
-  <li
-    class="border-b border-b-gray-400 last:border-b-0 transition hover:bg-green-400/[.5]"
-  >
-    <a>
-      <img
-        alt="Hoshino Takanashi - A 3rd-grade high school student. Appears in Blue Archive."
-        class="w-full aspect-3/2 object-cover"
-        data-nimg="1"
-        decoding="async"
-        height="300"
-        loading="lazy"
-        src="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFtlqZPhaAAAnEqZ.jpg%3Fname%3Dorig&w=3840&q=75"
-        srcset="/_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFtlqZPhaAAAnEqZ.jpg%3Fname%3Dorig&w=1920&q=75 1x, /_next/image?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FFtlqZPhaAAAnEqZ.jpg%3Fname%3Dorig&w=3840&q=75 2x"
-        style="color: transparent;"
-        width="1500"
-      />
-      <div
-        class="flex flex-col justify-center gap-1 md:py-3"
+      </a>
+    </li>
+    <li
+      class="border-b border-b-gray-400 last:border-b-0 transition hover:bg-green-400/[.5]"
+    >
+      <a
+        class="flex flex-col p-8 lg:grid lg:grid-cols-[360px_1fr] gap-4 transition hover:-translate-y-1"
+        data-discover="true"
+        href="/projects/Hoshino"
       >
-        <span
-          class="font-bold text-2xl md:text-3xl"
-        >
-          Hoshino Takanashi
-        </span>
-        <span
-          class="pb-3"
-        >
-          A 3rd-grade high school student. Appears in Blue Archive.
-        </span>
+        <img
+          alt="Hoshino Takanashi - A 3rd-grade high school student. Appears in Blue Archive."
+          class="w-full aspect-3/2 object-cover"
+          height="300"
+          src="https://pbs.twimg.com/media/FtlqZPhaAAAnEqZ.jpg?name=orig"
+          width="1500"
+        />
         <div
-          class="flex flex-row flex-wrap gap-1"
+          class="flex flex-col justify-center gap-1 md:py-3"
         >
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            class="font-bold text-2xl md:text-3xl"
           >
-            Blue Archive
+            Hoshino Takanashi
           </span>
           <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            class="pb-3"
           >
-            Abydos High School
+            A 3rd-grade high school student. Appears in Blue Archive.
           </span>
-          <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+          <div
+            class="flex flex-row flex-wrap gap-1"
           >
-            Shot Gun
-          </span>
-          <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
-          >
-            Tank
-          </span>
-          <span
-            class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
-          >
-            Foreclosure Task Force
-          </span>
+            <span
+              class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            >
+              Blue Archive
+            </span>
+            <span
+              class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            >
+              Abydos High School
+            </span>
+            <span
+              class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            >
+              Shot Gun
+            </span>
+            <span
+              class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            >
+              Tank
+            </span>
+            <span
+              class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
+            >
+              Foreclosure Task Force
+            </span>
+          </div>
         </div>
-      </div>
-    </a>
-  </li>
+      </a>
+    </li>
+  </ul>
 </div>
 `;

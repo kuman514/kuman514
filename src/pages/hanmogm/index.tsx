@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import Section from '^/entities/section';
 import HanmogmBannerPng from '^/pages/hanmogm/assets/hanmogm-banner.png';
 import AccpetedRequestDrinksJpg from '^/pages/hanmogm/assets/accepted-request-drinks.jpg';
@@ -24,7 +22,7 @@ import UnorderedBulletList from '^/shared/unordered-bullet-list';
 export default function HanmogmPage() {
   const renderBanner = (
     <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
-      <Image
+      <img
         className="w-full h-full object-cover"
         src={HanmogmBannerPng}
         alt="한모금 배너 이미지"
@@ -42,42 +40,42 @@ export default function HanmogmPage() {
         title="프리뷰"
         subsectionClassName="w-full flex flex-row flex-wrap justify-center items-center gap-4"
       >
-        <Image
+        <img
           src={HomeJpg}
           alt="한모금 홈 화면"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={DrinkJpg}
           alt="한모금 주류 상세 화면 상단"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={Drink2Jpg}
           alt="한모금 주류 상세 화면 하단"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={TastingNoteForm1Jpg}
           alt="한모금 시음기록 작성 화면 1페이지"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={TastingNoteForm2Jpg}
           alt="한모금 시음기록 작성 화면 2페이지"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={TastingNoteJpg}
           alt="한모금 시음기록 상세 화면"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={AllTastingNotesJpg}
           alt="한모금 나의 전체 시음기록 화면"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={AccpetedRequestDrinksJpg}
           alt="한모금 내 주류 요청 현황 화면"
           className="w-fit max-h-80 object-contain"
@@ -217,7 +215,7 @@ export default function HanmogmPage() {
           예상되는 개발 일정을 산정하고 구현을 시작합니다.
         </Paragraph>
         <div className="flex justify-center items-center">
-          <Image
+          <img
             src={RecommendedTagsJpg}
             alt="시음기록 폼의 향 태그 입력 화면"
             className="w-fit max-h-80 object-contain"

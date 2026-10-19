@@ -4,7 +4,7 @@ import LinkButton from '.';
 
 describe('LinkButton', () => {
   beforeEach(() => {
-    global.open = jest.fn();
+    global.open = vi.fn();
   });
 
   it('should render as expected', () => {

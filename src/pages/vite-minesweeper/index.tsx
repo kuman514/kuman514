@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import Section from '^/entities/section';
 import Emphasize from '^/shared/emphasize';
 import ExternalAnchor from '^/shared/external-anchor';
@@ -18,7 +16,7 @@ import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
 export default function ViteMinesweeperPage() {
   const renderBanner = (
     <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
-      <Image
+      <img
         className="w-full h-full object-cover"
         src={ViteMinesweeperBannerPng}
         alt="ViteMinesweeper 배너 이미지"
@@ -36,7 +34,7 @@ export default function ViteMinesweeperPage() {
         title="프리뷰"
         subsectionClassName="w-full flex flex-row flex-wrap justify-center items-center"
       >
-        <Image
+        <img
           src={ViteMinesweeperPng}
           alt="ViteMinesweeper Expert 단계 승리 장면"
           className="w-fit max-h-80 object-contain"
@@ -162,7 +160,7 @@ export default function ViteMinesweeperPage() {
         subsectionClassName="flex flex-col gap-4"
       >
         <div className="flex justify-center items-center">
-          <Image
+          <img
             src={BfsPng}
             alt="ViteMinesweeper 구현에 쓰인 알고리즘인 BFS"
           />
@@ -211,7 +209,7 @@ export default function ViteMinesweeperPage() {
           <Emphasize>앱의 속도를 개선</Emphasize>했습니다.
         </Paragraph>
         <div className="flex justify-center items-center">
-          <Image
+          <img
             src={QueuePopPng}
             alt="Array.prototype.shift() 기반 pop과 링크드 리스트 기반 pop의 성능 비교"
           />

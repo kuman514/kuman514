@@ -3,7 +3,7 @@ import Emphasize from '^/shared/emphasize';
 import SecondaryTitle from '^/shared/secondary-title';
 import Title from '^/shared/title';
 import PixiJsApp from '^/widgets/pixi-js';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 
 export default function IntroPage() {
   return (
@@ -20,7 +20,7 @@ export default function IntroPage() {
           {navNodes.map(({ id, label, href }) => (
             <Link
               key={id}
-              href={href}
+              to={href}
               className="transition hover:text-green-500 dark:hover:text-green-300 hover:drop-shadow-[0_1px_8px_rgba(0,0,0,0.6)] dark:hover:drop-shadow-[0_1px_8px_rgb(255,255,255)] hover:-translate-y-0.5"
             >
               {label}

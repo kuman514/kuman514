@@ -55,6 +55,7 @@
   }
 
   body {
+    font-family: 'Inter', sans-serif;
     color: rgb(var(--foreground-rgb));
     background: linear-gradient(
         to bottom,
@@ -62,5 +63,14 @@
         rgb(var(--background-end-rgb))
       )
       rgb(var(--background-start-rgb));
+  }
+
+  /*
+    The React tree mounts into #root, but the original Next.js layout rendered
+    the header and pages as direct flex children of <body>. `display: contents`
+    keeps #root out of the layout so that body's flex/centering still applies.
+  */
+  #root {
+    display: contents;
   }
 }

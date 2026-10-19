@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Paragraph should show as expected 1`] = `
+exports[`Paragraph > should show as expected 1`] = `
 <section>
   <p
     class="text-base font-normal indent-4 first-letter:text-2xl first-letter:text-green-600 first-letter:font-bold"

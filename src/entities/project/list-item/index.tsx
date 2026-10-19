@@ -1,5 +1,4 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 
 import Tag from '^/shared/tag';
 
@@ -15,10 +14,10 @@ export default function ProjectListItem({
   return (
     <li className="border-b border-b-gray-400 last:border-b-0 transition hover:bg-green-400/[.5]">
       <Link
-        href={`/projects/${projectId}`}
+        to={`/projects/${projectId}`}
         className="flex flex-col p-8 lg:grid lg:grid-cols-[360px_1fr] gap-4 transition hover:-translate-y-1"
       >
-        <Image
+        <img
           src={thumbnailUrl}
           alt={`${title} - ${description}`}
           className="w-full aspect-3/2 object-cover"

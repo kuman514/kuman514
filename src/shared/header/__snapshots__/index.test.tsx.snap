@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Header should have appearances that matches snapshot 1`] = `
+exports[`Header > should have appearances that matches snapshot 1`] = `
 <header
   class="fixed z-header inset-x-0 top-0 w-full h-16 flex flex-row justify-between items-center bg-green-500 sm:px-6 md:px-8 text-sm sm:text-base"
 >
@@ -9,6 +9,9 @@ exports[`Header should have appearances that matches snapshot 1`] = `
   >
     <a
       aria-label="kuman514-logo"
+      class="px-4 py-3 font-semibold text-white transition hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] hover:-translate-y-0.5"
+      data-discover="true"
+      href="/"
     >
       kuman514
     </a>
@@ -22,21 +25,33 @@ exports[`Header should have appearances that matches snapshot 1`] = `
       <li
         id="yasuo"
       >
-        <a>
+        <a
+          class="h-full flex justify-center items-center px-2 sm:px-4 py-3 font-semibold text-white transition hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] hover:-translate-y-0.5"
+          data-discover="true"
+          href="/yasuo"
+        >
           Yasuo
         </a>
       </li>
       <li
         id="koishi"
       >
-        <a>
+        <a
+          class="h-full flex justify-center items-center px-2 sm:px-4 py-3 font-semibold text-white transition hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] hover:-translate-y-0.5"
+          data-discover="true"
+          href="/koishi"
+        >
           Koishi Komeiji
         </a>
       </li>
       <li
         id="hoshino"
       >
-        <a>
+        <a
+          class="h-full flex justify-center items-center px-2 sm:px-4 py-3 font-semibold text-white transition hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] hover:-translate-y-0.5"
+          data-discover="true"
+          href="/hoshino"
+        >
           Hoshino Takanashi
         </a>
       </li>

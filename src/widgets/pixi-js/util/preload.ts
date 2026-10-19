@@ -12,31 +12,31 @@ export async function preload() {
   const assets = [
     {
       alias: 'koishi',
-      src: KoishiPng.src,
+      src: KoishiPng,
     },
     {
       alias: 'hoshino',
-      src: HoshinoPng.src,
+      src: HoshinoPng,
     },
     {
       alias: 'react',
-      src: ReactPng.src,
+      src: ReactPng,
     },
     {
       alias: 'javascript',
-      src: JavaScriptPng.src,
+      src: JavaScriptPng,
     },
     {
       alias: 'typescript',
-      src: TypeScriptPng.src,
+      src: TypeScriptPng,
     },
     {
       alias: 'hanmogm',
-      src: HanmogmPng.src,
+      src: HanmogmPng,
     },
     {
       alias: 'yso',
-      src: YsoPng.src,
+      src: YsoPng,
     },
   ];
 

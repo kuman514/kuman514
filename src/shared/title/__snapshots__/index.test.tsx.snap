@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Title should show as expected 1`] = `
+exports[`Title > should show as expected 1`] = `
 <h1
   class="text-bold text-6xl"
 >
@@ -8,7 +8,7 @@ exports[`Title should show as expected 1`] = `
 </h1>
 `;
 
-exports[`Title should show as expected 2 1`] = `
+exports[`Title > should show as expected 2 1`] = `
 <h1
   class="text-bold text-6xl text-black"
 >
