@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import Section from '^/entities/section';
 import Emphasize from '^/shared/emphasize';
 import ExternalAnchor from '^/shared/external-anchor';
@@ -25,7 +23,7 @@ import { MOST_RECENTLY_EDITED_DATE } from '^/shared/most-recently-edited/date';
 export default function YSOArcadeRecordsPage() {
   const renderBanner = (
     <div aria-label="banner-image" className="pt-16 w-full h-[50vh]">
-      <Image
+      <img
         className="w-full h-full object-cover"
         src={YSOArcadeRecordsPng}
         alt="YSOArcadeRecordsPage 배너 이미지"
@@ -43,42 +41,42 @@ export default function YSOArcadeRecordsPage() {
         title="프리뷰"
         subsectionClassName="w-full flex flex-row flex-wrap justify-center items-center gap-4"
       >
-        <Image
+        <img
           src={RecordListJpg}
           alt="YSOShmupRecords 각종 아케이드 기록 리스트"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={RecordJpg}
           alt="YSOShmupRecords 아케이드 기록 아티클"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={RecordForm1Jpg}
           alt="YSOShmupRecords 기록 폼 상단 부분"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={RecordForm2Jpg}
           alt="YSOShmupRecords 기록 폼 하단 부분"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={ReviewJpg}
           alt="YSOShmupRecords 리뷰 아티클"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={ImageViewerJpg}
           alt="YSOShmupRecords 이미지 뷰어"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={GalleryListJpg}
           alt="YSOShmupRecords 갤러리 리스트"
           className="w-fit max-h-80 object-contain"
         />
-        <Image
+        <img
           src={GalleryJpg}
           alt="YSOShmupRecords 갤러리 아티클"
           className="w-fit max-h-80 object-contain"
@@ -221,7 +219,7 @@ export default function YSOArcadeRecordsPage() {
         </Paragraph>
 
         <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
-          <Image
+          <img
             src={YSOArcadeRecordsPostListSkeletonPng}
             alt="YSOArcadeRecords에서 포스트 리스트를 불러오는 중에 나오는 스켈레톤 컴포넌트"
             className="w-fit max-h-80 object-contain"
@@ -243,7 +241,7 @@ export default function YSOArcadeRecordsPage() {
         </Paragraph>
 
         <div className="w-full flex flex-row flex-wrap justify-center items-center gap-4">
-          <Image
+          <img
             src={YSOArcadeRecordsHelathPng}
             alt="YSOArcadeRecords의 Supabase 데이터베이스 보안 업그레이드를 위해 일시적으로 서비스를 중단한 모습"
             className="w-fit max-h-80 object-contain"

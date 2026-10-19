@@ -1,4 +1,5 @@
-import { fireEvent, render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 
 import Header from '.';
 import { NavNode } from './types';
@@ -21,46 +22,31 @@ const testNavNodes: NavNode[] = [
   },
 ];
 
-const mockFn = jest.fn();
-
-function MockedLink({
-  children,
-  href,
-  'aria-label': ariaLabel,
-}: React.AnchorHTMLAttributes<HTMLAnchorElement>) {
-  return (
-    <a
-      aria-label={ariaLabel}
-      onClick={() => {
-        mockFn(href);
-      }}
-    >
-      {children}
-    </a>
-  );
+function renderHeader() {
+  return render(<Header navNodes={testNavNodes} />, { wrapper: MemoryRouter });
 }
 
-jest.mock('next/link', () => MockedLink);
-
 describe('Header', () => {
-  it('should have appearances that matches snapshot', async () => {
-    const { container } = render(<Header navNodes={testNavNodes} />);
+  it('should have appearances that matches snapshot', () => {
+    const { container } = renderHeader();
     expect(container.firstChild).toMatchSnapshot();
   });
 
-  it('should have nodes that have working links', async () => {
-    render(<Header navNodes={testNavNodes} />);
+  it('should have nodes that link to the expected routes', () => {
+    renderHeader();
 
-    fireEvent.click(await screen.findByLabelText('kuman514-logo'));
-    expect(mockFn).toHaveBeenLastCalledWith('/');
-
-    fireEvent.click(await screen.findByText(/Yasuo/i));
-    expect(mockFn).toHaveBeenLastCalledWith('/yasuo');
-
-    fireEvent.click(await screen.findByText(/Koishi Komeiji/i));
-    expect(mockFn).toHaveBeenLastCalledWith('/koishi');
-
-    fireEvent.click(await screen.findByText(/Hoshino Takanashi/i));
-    expect(mockFn).toHaveBeenLastCalledWith('/hoshino');
+    expect(screen.getByLabelText('kuman514-logo')).toHaveAttribute('href', '/');
+    expect(screen.getByText(/Yasuo/i).closest('a')).toHaveAttribute(
+      'href',
+      '/yasuo'
+    );
+    expect(screen.getByText(/Koishi Komeiji/i).closest('a')).toHaveAttribute(
+      'href',
+      '/koishi'
+    );
+    expect(screen.getByText(/Hoshino Takanashi/i).closest('a')).toHaveAttribute(
+      'href',
+      '/hoshino'
+    );
   });
 });

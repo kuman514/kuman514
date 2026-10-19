@@ -1,7 +1,5 @@
-'use client';
-
-import { usePathname } from 'next/navigation';
 import { useEffect, useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 
 import { generatePixiIcon } from '^/entities/pixi-icon';
 
@@ -14,7 +12,7 @@ import { preload } from './util/preload';
 
 export default function PixiJsApp() {
   const divRef = useRef<HTMLDivElement>(null);
-  const pathName = usePathname();
+  const { pathname: pathName } = useLocation();
 
   useEffect(() => {
     if (pathName !== '/') {

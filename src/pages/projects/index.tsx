@@ -20,7 +20,7 @@ export default function ProjectListPage() {
           projectItem={{
             projectId: 'Hanmogm',
             title: '한모금(Hanmogm)',
-            thumbnailUrl: HanmogmBannerPng.src,
+            thumbnailUrl: HanmogmBannerPng,
             description:
               '팀 프로젝트 / iOS + Android를 타겟으로 한, 각종 주류 정보를 열람하고 시음기록을 작성할 수 있는 테이스팅 노트 앱.',
             techStackTags: [
@@ -36,7 +36,7 @@ export default function ProjectListPage() {
           projectItem={{
             projectId: 'YSOArcadeRecords',
             title: 'YSOArcadeRecords',
-            thumbnailUrl: YSOArcadeRecords.src,
+            thumbnailUrl: YSOArcadeRecords,
             description:
               '개인 프로젝트 / Next.js와 Supabase를 활용하여 본인 YSO(kuman514)의 아케이드 게임 기록, 리뷰, 사진 모음집을 열람하고 공유할 수 있게 만들기 위한 사이트.',
             techStackTags: [
@@ -55,7 +55,7 @@ export default function ProjectListPage() {
           projectItem={{
             projectId: 'ViteMinesweeper',
             title: 'Vite 지뢰찾기 (ViteMinesweeper)',
-            thumbnailUrl: ViteMinesweeperBannerPng.src,
+            thumbnailUrl: ViteMinesweeperBannerPng,
             description:
               '개인 프로젝트 / React와 너비 우선 탐색 알고리즘을 활용하여 만든 Microsoft Minesweeper 스타일 지뢰찾기.',
             techStackTags: [

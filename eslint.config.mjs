@@ -1,51 +1,30 @@
-import nextPlugin from '@next/eslint-plugin-next';
-import tsParser from '@typescript-eslint/parser';
-import tsPlugin from '@typescript-eslint/eslint-plugin';
+import js from '@eslint/js';
+import globals from 'globals';
+import reactHooks from 'eslint-plugin-react-hooks';
+import reactRefresh from 'eslint-plugin-react-refresh';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config([
+export default tseslint.config(
   {
-    ignores: [
-      '.next/**',
-      '.yarn/**',
-      'node_modules/**',
-      'coverage/**',
-      'dist/**',
-      'out/**',
-      'public/**',
-      '*.js',
-      '*.cjs',
-      '*.mjs',
-      '*.ts',
-      '*.jsx',
-      '*.tsx',
-    ],
+    ignores: ['dist/**', 'coverage/**', 'node_modules/**'],
   },
   {
-    files: ['app/**/*.{js.jsx}', 'src/**/*.{js.jsx}'],
-    plugins: {
-      '@next/next': nextPlugin,
-    },
-    rules: {
-      ...nextPlugin.configs.recommended.rules,
-      ...nextPlugin.configs['core-web-vitals'].rules,
-    },
-  },
-  {
-    files: ['app/**/*.{ts,tsx}', 'src/**/*.{ts,tsx}'],
+    files: ['src/**/*.{ts,tsx}'],
+    extends: [js.configs.recommended, ...tseslint.configs.recommended],
     languageOptions: {
-      parser: tsParser,
-      parserOptions: {
-        project: true,
-      },
+      ecmaVersion: 2022,
+      globals: globals.browser,
     },
     plugins: {
-      '@next/next': nextPlugin,
-      '@typescript-eslint': tsPlugin,
+      'react-hooks': reactHooks,
+      'react-refresh': reactRefresh,
     },
     rules: {
-      ...nextPlugin.configs.recommended.rules,
-      ...tsPlugin.configs.recommended.rules,
+      ...reactHooks.configs.recommended.rules,
+      'react-refresh/only-export-components': [
+        'warn',
+        { allowConstantExport: true },
+      ],
     },
-  },
-]);
+  }
+);

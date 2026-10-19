@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import { Link } from 'react-router-dom';
 
 import { NavNode } from './types';
 
@@ -12,7 +12,7 @@ export default function Header({ navNodes }: Props) {
       <div className="h-full flex flex-col justify-center">
         <Link
           aria-label="kuman514-logo"
-          href="/"
+          to="/"
           className="px-4 py-3 font-semibold text-white transition hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] hover:-translate-y-0.5"
         >
           kuman514
@@ -23,7 +23,7 @@ export default function Header({ navNodes }: Props) {
           {navNodes.map(({ id, label, href }) => (
             <li key={id} id={id}>
               <Link
-                href={href}
+                to={href}
                 className="h-full flex justify-center items-center px-2 sm:px-4 py-3 font-semibold text-white transition hover:drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] hover:-translate-y-0.5"
               >
                 {label}

@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`UnorderedBulletList should show as expected 1`] = `
+exports[`UnorderedBulletList > should show as expected 1`] = `
 <ul
   class="list-disc pl-8"
 >
@@ -16,7 +16,7 @@ exports[`UnorderedBulletList should show as expected 1`] = `
 </ul>
 `;
 
-exports[`UnorderedBulletList should show as expected 2 1`] = `
+exports[`UnorderedBulletList > should show as expected 2 1`] = `
 <ul
   class="list-disc pl-8"
 >

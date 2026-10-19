@@ -1,4 +1,5 @@
-import { fireEvent, render, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 
 import { ProjectItem } from '../types';
 import ProjectListItem from '.';
@@ -34,48 +35,33 @@ const testProjectItem: ProjectItem[] = [
   },
 ];
 
-const mockFn = jest.fn();
-
-function MockedLink({
-  children,
-  href,
-  'aria-label': ariaLabel,
-}: React.AnchorHTMLAttributes<HTMLAnchorElement>) {
-  return (
-    <a
-      aria-label={ariaLabel}
-      onClick={() => {
-        mockFn(href);
-      }}
-    >
-      {children}
-    </a>
+function renderList() {
+  return render(
+    <ul>
+      {testProjectItem.map((item) => (
+        <ProjectListItem key={`project-${item.projectId}`} projectItem={item} />
+      ))}
+    </ul>,
+    { wrapper: MemoryRouter }
   );
 }
 
-jest.mock('next/link', () => MockedLink);
-
 describe('ProjectListItem', () => {
   it('should have appearances that matches snapshot', () => {
-    const { container } = render(
-      testProjectItem.map((item) => (
-        <ProjectListItem key={`project-${item.projectId}`} projectItem={item} />
-      ))
-    );
+    const { container } = renderList();
     expect(container).toMatchSnapshot();
   });
 
-  it('should have nodes that have working links which takes you to /projects/:projectId', async () => {
-    render(
-      testProjectItem.map((item) => (
-        <ProjectListItem key={`project-${item.projectId}`} projectItem={item} />
-      ))
+  it('should have nodes that link to /projects/:projectId', () => {
+    renderList();
+
+    expect(screen.getByText(/Koishi Komeiji/i).closest('a')).toHaveAttribute(
+      'href',
+      '/projects/Koishi'
     );
-
-    fireEvent.click(await screen.findByText(/Koishi Komeiji/i));
-    expect(mockFn).toHaveBeenLastCalledWith('/projects/Koishi');
-
-    fireEvent.click(await screen.findByText(/Hoshino Takanashi/i));
-    expect(mockFn).toHaveBeenLastCalledWith('/projects/Hoshino');
+    expect(screen.getByText(/Hoshino Takanashi/i).closest('a')).toHaveAttribute(
+      'href',
+      '/projects/Hoshino'
+    );
   });
 });

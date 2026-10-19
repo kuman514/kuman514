@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Tag should show as expected 1`] = `
+exports[`Tag > should show as expected 1`] = `
 <span
   class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm undefined"
 >
@@ -8,7 +8,7 @@ exports[`Tag should show as expected 1`] = `
 </span>
 `;
 
-exports[`Tag should show as expected 2 1`] = `
+exports[`Tag > should show as expected 2 1`] = `
 <span
   class="font-mono bg-gray-300 text-red-700 text-sm px-1 py-0.5 rounded-sm text-black"
 >
